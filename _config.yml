@@ -21,7 +21,7 @@ name                     : &name "Liming Wang"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-#  avatar           : "profile.png"
+  avatar           : "profile.png"
   name             : "Liming Wang"
 #  pronouns         : # example: "she/her"  
   bio              : "Signal processing, MIMO radar, Atmospheric radar"
