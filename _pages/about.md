@@ -9,4 +9,11 @@ redirect_from:
 
 Welcome to my research page, for different purpose please check the related pages
 
-Students looking for research experience, check internship
+- Undergraduates
+  * looking for research experience, check internship
+  * looking for curriculum capability improvement, check teaching
+  * looking for opportunity to be my graduate student, check internship, publication
+- Graduates
+  * looking for
+- Researchers
+  * looking for
