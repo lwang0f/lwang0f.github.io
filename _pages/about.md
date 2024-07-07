@@ -1,10 +1,12 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "L. Wang's research page"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-test
+Welcome to my research page, for different purpose please check the related pages
+
+Students looking for research experience, check internship
