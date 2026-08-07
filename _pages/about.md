@@ -1,18 +1,23 @@
 ---
 permalink: /
-title: "Guide"
+title:
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-- Undergraduates
-  * looking for research experience, check internship
-  * looking for curriculum capability improvement, check teaching
-  * looking for opportunities to be my graduate student, check internship, publication
-- Graduates
-  * looking for
-- Researchers
-  * looking for
-  * looking for
+<section class="home-introduction">
+  <h1>L. Wang's Homepage</h1>
+  <div class="home-profile">
+    <img class="home-profile__photo" src="{{ base_path }}/images/liming-wang.jpg" alt="Portrait of L. Wang">
+    <div class="home-profile__details">
+      <!-- Biography to be added. -->
+    </div>
+  </div>
+</section>
+
+<section class="home-updates" aria-labelledby="news-title">
+  <h2 id="news-title">News and Updates</h2>
+  <!-- News items to be added. -->
+</section>

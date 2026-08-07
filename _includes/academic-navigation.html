@@ -6,7 +6,7 @@
     <p class="academic-nav__bio">{{ site.author.bio }}</p>
   {% endif %}
 
-  {% assign nav_groups = "Navigation,Research,Updates" | split: "," %}
+  {% assign nav_groups = "Home,Teach,Research" | split: "," %}
   <nav class="academic-nav__links">
     {% for group in nav_groups %}
       {% assign links_in_group = site.data.navigation.main | where: "group", group %}

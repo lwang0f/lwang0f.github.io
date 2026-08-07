@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Liming Wang / Research Page"
+title                    : "L. Wang's Homepage"
 title_separator          : "-"
-name                     : &name "Liming Wang"
+name                     : &name "L. Wang"
 # description              : &description "test"
 # url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -21,10 +21,10 @@ name                     : &name "Liming Wang"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Liming Wang"
+  avatar           : "liming-wang.jpg"
+  name             : "L. Wang"
 #  pronouns         : # example: "she/her"  
-  bio              : "Signal processing, MIMO radar, Atmospheric radar"
+  bio              :
 #  location         : "Earth"
 #  employer         : "Red Brick University"
 #  uri              : # URL
