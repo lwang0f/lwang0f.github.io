@@ -1,4 +1,4 @@
-// A compact, document-oriented academic layout inspired by the selected reference site.
+/* Compact, document-oriented academic layout. */
 
 .academic-site {
   background: #ffffff;
@@ -102,7 +102,7 @@
   max-width: 1080px;
 }
 
-// Reset the inherited Minimal Mistakes grid, which expects a separate sidebar.
+/* Reset the inherited Minimal Mistakes grid, which expects a separate sidebar. */
 .academic-main .page,
 .academic-main .archive {
   float: none;
