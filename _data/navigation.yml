@@ -2,21 +2,28 @@
 main:
   - title: "Publications"
     url: /publications/
+    group: "Research"
 
   - title: "Talks"
     url: /talks/    
+    group: "Research"
 
   - title: "Teaching"
     url: /teaching/    
+    group: "Navigation"
     
   - title: "Portfolio"
     url: /portfolio/
+    group: "Research"
         
   - title: "Blog Posts"
     url: /year-archive/
+    group: "Updates"
     
   - title: "CV"
     url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+    group: "Navigation"
+
+  - title: "Home"
+    url: /
+    group: "Navigation"

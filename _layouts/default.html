@@ -11,21 +11,19 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
-
+  <body class="academic-site">
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+    <div class="academic-shell">
+      {% include academic-navigation.html %}
+      <main class="academic-main" id="main-content" role="main">
+        {{ content }}
+        <footer class="academic-footer">
+          © {{ site.time | date: "%Y" }} {{ site.name }}
+        </footer>
+      </main>
     </div>
 
     {% include scripts.html %}
-
   </body>
 </html>

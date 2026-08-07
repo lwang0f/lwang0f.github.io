@@ -1,0 +1,269 @@
+// A compact, document-oriented academic layout inspired by the selected reference site.
+
+.academic-site {
+  background: #ffffff;
+  color: #20262c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.academic-site *,
+.academic-site *::before,
+.academic-site *::after {
+  box-sizing: border-box;
+}
+
+.academic-shell {
+  display: grid;
+  grid-template-columns: minmax(210px, 240px) minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.academic-nav {
+  align-self: start;
+  background: #f3f3ef;
+  border-right: 1px solid #c9cbc7;
+  min-height: 100vh;
+  padding: 30px 18px;
+  position: sticky;
+  top: 0;
+}
+
+.academic-nav__name {
+  color: #263e57;
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 9px;
+  text-decoration: none;
+}
+
+.academic-nav__name:hover,
+.academic-nav__name:focus {
+  color: #8b3d32;
+  text-decoration: underline;
+}
+
+.academic-nav__bio {
+  color: #4b555c;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0 0 26px;
+}
+
+.academic-nav__group {
+  margin: 0 0 24px;
+}
+
+.academic-nav__group h2 {
+  border-bottom: 1px solid #999d9b;
+  color: #20262c;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 6px;
+  padding-bottom: 4px;
+}
+
+.academic-nav__group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.academic-nav__group li {
+  margin: 0;
+}
+
+.academic-nav__group a {
+  color: #52739a;
+  display: block;
+  font-size: 16px;
+  line-height: 1.35;
+  padding: 3px 0;
+  text-decoration: none;
+}
+
+.academic-nav__group a:hover,
+.academic-nav__group a:focus,
+.academic-nav__group a[aria-current="page"] {
+  color: #8b3d32;
+  text-decoration: underline;
+}
+
+.academic-main {
+  min-width: 0;
+  padding: 38px clamp(24px, 5vw, 72px) 30px;
+}
+
+.academic-article {
+  max-width: 1080px;
+}
+
+// Reset the inherited Minimal Mistakes grid, which expects a separate sidebar.
+.academic-main .page,
+.academic-main .archive {
+  float: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+.academic-main .list__item {
+  padding-right: 0;
+}
+
+.academic-article h1,
+.academic-article .page__title {
+  border-bottom: 3px solid #9fa3a2;
+  color: #52739a;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 24px;
+  padding: 0 0 5px;
+}
+
+.academic-article h2 {
+  border-bottom: 1px solid #aeb2af;
+  color: #52739a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 30px 0 13px;
+  padding-bottom: 4px;
+}
+
+.academic-article h3 {
+  color: #2d4e70;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 24px 0 8px;
+}
+
+.academic-article p,
+.academic-article li {
+  font-size: 17px;
+}
+
+.academic-article p {
+  margin: 0 0 13px;
+}
+
+.academic-article ul,
+.academic-article ol {
+  margin: 0 0 16px 1.5em;
+  padding: 0;
+}
+
+.academic-article li + li {
+  margin-top: 5px;
+}
+
+.academic-article a {
+  color: #52739a;
+  text-decoration: none;
+}
+
+.academic-article a:hover,
+.academic-article a:focus {
+  color: #8b3d32;
+  text-decoration: underline;
+}
+
+.academic-article .page__meta,
+.academic-article .page__date {
+  color: #5b646a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: -15px 0 20px;
+}
+
+.academic-article .archive__item {
+  border-bottom: 1px solid #d2d4d0;
+  margin: 0;
+  padding: 0 0 19px;
+}
+
+.academic-article .list__item {
+  margin: 0 0 20px;
+}
+
+.academic-article .archive__item-title {
+  border: 0;
+  font-size: 19px;
+  line-height: 1.32;
+  margin: 0 0 5px;
+  padding: 0;
+}
+
+.academic-article .archive__item-excerpt {
+  color: #3d464d;
+  font-size: 16px;
+}
+
+.academic-footer {
+  border-top: 1px solid #d2d4d0;
+  color: #697278;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin-top: 48px;
+  max-width: 1080px;
+  padding-top: 12px;
+}
+
+@media screen and (max-width: 760px) {
+  .academic-shell {
+    display: block;
+  }
+
+  .academic-nav {
+    border-bottom: 1px solid #c9cbc7;
+    border-right: 0;
+    min-height: auto;
+    padding: 20px;
+    position: static;
+  }
+
+  .academic-nav__bio {
+    margin-bottom: 17px;
+  }
+
+  .academic-nav__links {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .academic-nav__group {
+    margin: 0;
+  }
+
+  .academic-main {
+    padding: 28px 20px 24px;
+  }
+
+  .academic-article h1,
+  .academic-article .page__title {
+    font-size: 29px;
+    margin-bottom: 20px;
+  }
+
+  .academic-article h2 {
+    font-size: 21px;
+  }
+
+  .academic-article p,
+  .academic-article li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .academic-nav__links {
+    grid-template-columns: 1fr;
+  }
+}
