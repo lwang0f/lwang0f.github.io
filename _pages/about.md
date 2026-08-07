@@ -12,10 +12,11 @@ redirect_from:
   <div class="home-profile">
     <img class="home-profile__photo" src="{{ base_path }}/images/liming-wang.jpg" alt="Portrait of L. Wang">
     <div class="home-profile__details">
-      <p class="home-profile__name">Liming Wang, Ph.D</p>
+      <p class="home-profile__name">Liming Wang, <span class="home-profile__degree">Ph.D.</span></p>
       <p>
         Lecturer<br>
-        School of Physics and Electronic Information, GXMZU<br>
+        School of Physics and Electronic Information<br>
+        Guangxi Minzu University<br>
         Room 208, Bo Shi Building (Please make an appointment in advance)<br>
         lwang at gxmzu dot cn
       </p>

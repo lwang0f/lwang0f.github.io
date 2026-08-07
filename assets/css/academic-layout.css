@@ -227,7 +227,7 @@
   aspect-ratio: 1 / 1;
   display: block;
   object-fit: cover;
-  object-position: center 38%;
+  object-position: center top;
   width: 100%;
 }
 
@@ -241,6 +241,10 @@
 
 .home-profile__details .home-profile__name {
   font-weight: 700;
+}
+
+.home-profile__degree {
+  font-weight: 400;
 }
 
 .home-updates > h2 {
