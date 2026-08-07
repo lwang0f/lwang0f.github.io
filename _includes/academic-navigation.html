@@ -1,32 +1,21 @@
 {% include base_path %}
 
 <aside class="academic-nav" aria-label="Primary navigation">
-  <a class="academic-nav__name" href="{{ base_path }}/">{{ site.name }}</a>
-  {% if site.author.bio %}
-    <p class="academic-nav__bio">{{ site.author.bio }}</p>
-  {% endif %}
-
-  {% assign nav_groups = "Home,Teach,Research" | split: "," %}
   <nav class="academic-nav__links">
-    {% for group in nav_groups %}
-      {% assign links_in_group = site.data.navigation.main | where: "group", group %}
-      {% if links_in_group.size > 0 %}
-        <section class="academic-nav__group" aria-labelledby="nav-{{ group | slugify }}">
-          <h2 id="nav-{{ group | slugify }}">{{ group }}</h2>
-          <ul>
-            {% for link in links_in_group %}
-              {% if link.url contains 'http' %}
-                {% assign domain = '' %}
-              {% else %}
-                {% assign domain = base_path %}
-              {% endif %}
-              <li>
-                <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </section>
-      {% endif %}
-    {% endfor %}
+    <section class="academic-nav__group" aria-labelledby="nav-navigation">
+      <h2 id="nav-navigation">Navigation</h2>
+      <ul>
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = base_path %}
+          {% endif %}
+          <li>
+            <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
   </nav>
 </aside>

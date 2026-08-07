@@ -235,6 +235,14 @@
   min-height: 256px;
 }
 
+.home-profile__details p {
+  margin: 0 0 17px;
+}
+
+.home-profile__details .home-profile__name {
+  font-weight: 700;
+}
+
 .home-updates > h2 {
   border-bottom: 1px solid #aeb2af;
   color: #52739a;

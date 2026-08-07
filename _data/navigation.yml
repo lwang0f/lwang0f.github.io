@@ -2,24 +2,9 @@
 main:
   - title: "Home"
     url: /
-    group: "Home"
-
-  - title: "CV"
-    url: /cv/
-    group: "Home"
-
-  - title: "Teaching"
+  - title: "Teach"
     url: /teaching/
-    group: "Teach"
-
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
-    group: "Research"
-
-  - title: "Talks"
-    url: /talks/
-    group: "Research"
-
-  - title: "Portfolio"
-    url: /portfolio/
-    group: "Research"
+  - title: "Alumni"
+    url: /alumni/
