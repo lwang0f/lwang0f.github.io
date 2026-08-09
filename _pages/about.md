@@ -26,6 +26,12 @@ redirect_from:
 </section>
 
 <section class="home-updates" aria-labelledby="news-title">
-  <h2 id="news-title">News and Updates</h2>
-  <!-- News items to be added. -->
+  <h2 id="news-title">News</h2>
+  <h3><time datetime="2026-07">July 2026</time></h3>
+  <ul>
+    <li>Yuan Li, a 2025 M.S. graduate, was admitted to the Ph.D. program at the University of Science and Technology of China.</li>
+    <li>Zhan-Zhuo Zou, a 2025 M.S. graduate, was admitted to the Ph.D. program at North China Electric Power University.</li>
+    <li>Hongpan An, a 2025 B.S. graduate, was admitted to the M.S. program at the Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, through recommendation-based admission.</li>
+    <li>Qiyin Lao, a 2025 B.S. graduate, received the First Prize for an Outstanding Undergraduate Thesis at the university level.</li>
+  </ul>
 </section>
