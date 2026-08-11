@@ -33,5 +33,13 @@ redirect_from:
     <li>Zhanzhuo Zou, a 2025 M.S. graduate, was admitted to the Ph.D. program at North China Electric Power University.</li>
     <li>Hongpan An, a 2025 B.S. graduate, was admitted to the M.S. program at the Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, through recommendation-based admission.</li>
     <li>Qiyin Lao, a 2025 B.S. graduate, received the First Prize for an Outstanding Undergraduate Thesis at the university level.</li>
+    <li>Yihao Pan, a 2026 B.S. graduate, was admitted to the M.S. program at Hong Kong Baptist University.</li>
   </ul>
+
+  <h3>Admissions</h3>
+  <h4>Master's Students</h4>
+  <p>I plan to recruit one master's student each year. I am looking for a self-motivated student with excellent performance in mathematics and English, as well as a clear plan to pursue a Ph.D. If you are interested, please contact me by email at lwang at gxmzu dot cn.</p>
+
+  <h4>Undergraduate Students</h4>
+  <p>Applicants should rank in the top three of their year group in each of the following courses: Calculus, Linear Algebra, Probability Theory, and Signals and Systems. They should also be interested in theoretical research and have a clear plan for preparing and publishing a research paper, including specific milestones and a realistic timeline. If you are interested, please contact me by email at lwang at gxmzu dot cn.</p>
 </section>
