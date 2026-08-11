@@ -12,20 +12,26 @@
             {% assign domain = base_path %}
           {% endif %}
           <li class="academic-nav__item{% if link.children %} academic-nav__item--parent{% endif %}">
-            <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
             {% if link.children %}
-              <ul class="academic-nav__subnav">
-                {% for child in link.children %}
-                  {% if child.url contains 'http' %}
-                    {% assign child_domain = '' %}
-                  {% else %}
-                    {% assign child_domain = base_path %}
-                  {% endif %}
-                  <li>
-                    <a href="{{ child_domain }}{{ child.url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a>
-                  </li>
-                {% endfor %}
-              </ul>
+              <details class="academic-nav__disclosure"{% if page.url == link.url or page.url contains link.url %} open{% endif %}>
+                <summary>
+                  <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+                </summary>
+                <ul class="academic-nav__subnav">
+                  {% for child in link.children %}
+                    {% if child.url contains 'http' %}
+                      {% assign child_domain = '' %}
+                    {% else %}
+                      {% assign child_domain = base_path %}
+                    {% endif %}
+                    <li>
+                      <a href="{{ child_domain }}{{ child.url }}"{% if page.url == child.url %} aria-current="page"{% endif %}>{{ child.title }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </details>
+            {% else %}
+              <a href="{{ domain }}{{ link.url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
             {% endif %}
           </li>
         {% endfor %}

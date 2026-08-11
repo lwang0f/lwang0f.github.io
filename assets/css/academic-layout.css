@@ -92,6 +92,33 @@
   padding: 3px 0;
 }
 
+.academic-nav__disclosure summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.academic-nav__disclosure summary::-webkit-details-marker {
+  display: none;
+}
+
+.academic-nav__disclosure summary::after {
+  color: #52739a;
+  content: "+";
+  float: right;
+  font-size: 18px;
+  line-height: 1.2;
+  padding-left: 8px;
+}
+
+.academic-nav__disclosure[open] summary::after {
+  content: "-";
+}
+
+.academic-nav__disclosure summary:focus-visible {
+  outline: 2px solid #8b3d32;
+  outline-offset: 2px;
+}
+
 .academic-nav__group a {
   color: #52739a;
   display: block;
