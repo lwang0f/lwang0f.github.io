@@ -207,6 +207,21 @@
   font-size: 16px;
 }
 
+.research-publications {
+  margin-top: 40px;
+}
+
+.research-publications .publication-entry {
+  line-height: 1.45;
+  margin: 0 0 11px;
+}
+
+.research-publications .publication-label {
+  color: #20262c;
+  display: inline-block;
+  min-width: 42px;
+}
+
 .home-introduction > h1 {
   border-bottom: 3px solid #9fa3a2;
   color: #52739a;
