@@ -18,7 +18,7 @@ redirect_from:
         School of Physics and Electronic Information<br>
         Guangxi Minzu University<br>
         Room 208, Bo Shi Building (Please make an appointment in advance)<br>
-        lwang at gxmzu dot cn
+        lwang (at) gxmzu (dot) edu (dot) cn
       </p>
       <p>Radar signal processing and its application on remote sensing</p>
     </div>
