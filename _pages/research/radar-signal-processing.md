@@ -12,3 +12,7 @@ Passive and cooperative MIMO radar systems must estimate target location, veloci
 ## Brief Description
 
 My work develops maximum-likelihood estimators and performance bounds, including the Cramer-Rao bound and Ziv-Zakai bound, for passive MIMO radar parameter estimation. I also study coherent processing, multi-target estimation, and the effects of signal non-orthogonality and correlated disturbances. For cooperative radar-communications systems, I formulate joint transmitter-selection and receiver-placement problems and develop approximate optimization methods that reduce receiver-processing complexity while preserving estimation performance.
+
+## Related Publications
+
+[J1](/research/#J1), [J2](/research/#J2), [J3](/research/#J3), [c1](/research/#c1), [c2](/research/#c2), [c3](/research/#c3)

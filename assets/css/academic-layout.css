@@ -216,6 +216,14 @@
   margin: 0 0 11px;
 }
 
+.research-publications .publication-group-title {
+  border-bottom: 1px solid #d2d4d0;
+  color: #2d4e70;
+  font-size: 18px;
+  margin: 22px 0 12px;
+  padding-bottom: 3px;
+}
+
 .research-publications .publication-label {
   color: #20262c;
   display: inline-block;

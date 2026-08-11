@@ -12,3 +12,7 @@ Medium-frequency (MF) radar provides continuous observations of horizontal winds
 ## Brief Description
 
 I study signal-processing methods for MF radar full-correlation analysis, meteor-radar observations, and atmospheric-wind retrieval. The work includes median-filtering-based delay-correlation parameter estimation and antenna-contribution-based indicators for identifying and correcting short-term distortions. The goal is to improve retrieval accuracy in low signal-to-noise conditions while keeping the resulting wind fields consistent with the physical behavior of the middle and upper atmosphere.
+
+## Related Publications
+
+[J7](/research/#J7), [J8](/research/#J8), [J9](/research/#J9), [J10](/research/#J10)

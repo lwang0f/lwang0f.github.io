@@ -12,3 +12,7 @@ Ionospheric computerized tomography (CIT) is an ill-posed inverse problem becaus
 ## Brief Description
 
 This research combines GPS/GNSS TEC, spaceborne full-polarimetric SAR measurements, geomagnetic-field models, and empirical ionospheric models. The methods use PolSAR/PALSAR-derived ionospheric information to supplement missing observation rays and refine the initial electron-density background field. Numerical and measured-data experiments in Alaska show that the integrated approach can improve three-dimensional reconstruction accuracy and provide a practical way to sense the ionosphere without relying only on dense ground-receiver networks.
+
+## Related Publications
+
+[J4](/research/#J4), [J5](/research/#J5), [J6](/research/#J6), [J11](/research/#J11)
