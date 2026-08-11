@@ -12,7 +12,7 @@ redirect_from:
   <div class="home-profile">
     <img class="home-profile__photo" src="{{ base_path }}/images/liming-wang.jpg" alt="Portrait of L. Wang">
     <div class="home-profile__details">
-      <p class="home-profile__name">Liming Wang, <span class="home-profile__degree">Ph.D.</span></p>
+      <p class="home-profile__name">L. Wang, <span class="home-profile__degree">Ph.D.</span></p>
       <p>
         Lecturer<br>
         School of Physics and Electronic Information<br>
