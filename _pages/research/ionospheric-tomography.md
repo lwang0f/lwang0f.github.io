@@ -5,13 +5,15 @@ permalink: /research/ionospheric-tomography/
 author_profile: true
 ---
 
-## Research Problem
+## Overview
 
-Ionospheric computerized tomography (CIT) is an ill-posed inverse problem because observation rays are sparse, unevenly distributed, and often insufficient to resolve the three-dimensional electron-density structure. Ground-based GPS/GNSS measurements provide valuable total electron content information, while spaceborne PolSAR/PALSAR observations offer complementary high-resolution and all-weather measurements. The research problem is to combine these data sources and improve the initial constraints and reconstruction accuracy of CIT, especially in data-sparse regions and for small-scale ionospheric anomalies.
+The ionosphere is the electrically charged part of the upper atmosphere. Its electron density affects radio signals used for communication, navigation, and remote sensing. Ionospheric tomography aims to reconstruct a three-dimensional map of this electron density, much like medical CT reconstructs a body from many measurements. The purpose is to understand ionospheric structure and improve radio-system performance.
 
-## Brief Description
+Ground GPS/GNSS receivers measure total electron content (TEC) along the paths from satellites to the ground. These measurements provide integrated information along each ray, not a direct value at every point. Spaceborne PolSAR/PALSAR, which uses radar from satellites, can provide complementary information over wide areas and in conditions where ground measurements are sparse. Geomagnetic-field and empirical ionospheric models can provide an initial background for the reconstruction.
 
-This research combines GPS/GNSS TEC, spaceborne full-polarimetric SAR measurements, geomagnetic-field models, and empirical ionospheric models. The methods use PolSAR/PALSAR-derived ionospheric information to supplement missing observation rays and refine the initial electron-density background field. Numerical and measured-data experiments in Alaska show that the integrated approach can improve three-dimensional reconstruction accuracy and provide a practical way to sense the ionosphere without relying only on dense ground-receiver networks.
+The inverse problem is difficult because the available rays are sparse, unevenly distributed, and often insufficient to resolve small structures. Satellite and ground data have different resolutions and errors, and an inaccurate initial model can bias the result. The challenge is to combine the measurements and models without creating artificial features, especially in data-sparse regions and during small-scale anomalies.
+
+My research combines GPS/GNSS TEC, PolSAR/PALSAR measurements, geomagnetic models, and empirical ionospheric models. I use SAR-derived ionospheric information to add missing constraints and improve the initial electron-density field. My publications study PolSAR and E-CHAIM fusion, SAR-based electron-density reconstruction in Alaska, GPS/PALSAR computerized tomography, and GNSS-TEC-driven E-CHAIM.
 
 ## Related Publications
 
