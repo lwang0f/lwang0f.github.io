@@ -5,13 +5,13 @@ permalink: /research/
 author_profile: true
 ---
 
-My research interests are in radar signal processing and remote sensing. I develop statistical and computational methods for passive and medium-frequency radar systems, and use radar and satellite observations to sense the middle and upper atmosphere and reconstruct ionospheric electron density. My work connects radar parameter estimation, robust atmospheric-wind retrieval, radar system design, and data-constrained ionospheric tomography.
+I use radar and satellite measurements to study the atmosphere and the ionosphere. My work turns noisy signals into information about target motion, atmospheric winds, and ionospheric electron density.
 
 ## Research Directions
 
-- [Radar Signal Processing](/research/radar-signal-processing/): Statistical estimation, performance bounds, and joint system design for passive MIMO radar and cooperative radar-communications systems.
-- [Atmospheric Sensing](/research/middle-upper-atmosphere/): Signal processing methods for medium-frequency and meteor radar observations, including robust correlation-parameter estimation, denoising, and atmospheric-wind retrieval.
-- [Ionospheric Tomography](/research/ionospheric-tomography/): Three-dimensional electron-density reconstruction using GPS/GNSS measurements and spaceborne PolSAR/PALSAR observations.
+- [Radar Signal Processing](/research/radar-signal-processing/): I estimate target position and motion from radar echoes and design efficient passive radar systems.
+- [Atmospheric Sensing](/research/middle-upper-atmosphere/): I process medium-frequency and meteor radar echoes to estimate winds in the middle and upper atmosphere.
+- [Ionospheric Tomography](/research/ionospheric-tomography/): I combine GPS/GNSS and satellite radar data to build three-dimensional maps of the ionosphere.
 
 <section id="publications" class="research-publications" aria-labelledby="research-publications-title">
   <h2 id="research-publications-title">Accepted/Published papers</h2>
