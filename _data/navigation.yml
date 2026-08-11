@@ -7,9 +7,9 @@ main:
   - title: "Research"
     url: /research/
     children:
-      - title: "Radar Signal Processing Theory"
+      - title: "Radar Signal Processing"
         url: /research/radar-signal-processing/
-      - title: "Atmospheric Remote Sensing"
+      - title: "Atmospheric Sensing"
         url: /research/middle-upper-atmosphere/
       - title: "Ionospheric Tomography"
         url: /research/ionospheric-tomography/

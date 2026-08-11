@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Atmospheric Remote Sensing"
+title: "Atmospheric Sensing"
 permalink: /research/middle-upper-atmosphere/
 author_profile: true
 ---

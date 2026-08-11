@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Radar Signal Processing Theory"
+title: "Radar Signal Processing"
 permalink: /research/radar-signal-processing/
 author_profile: true
 ---
