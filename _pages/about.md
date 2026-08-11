@@ -28,10 +28,10 @@ redirect_from:
 <section class="home-updates" aria-labelledby="admissions-title">
   <h2 id="admissions-title">Admissions</h2>
   <h3>Master's Students</h3>
-  <p>I plan to recruit one master's student each year. I am looking for a self-motivated student with excellent performance in mathematics and English, as well as a clear plan to pursue a Ph.D. If you are interested, please contact me by email at lwang at gxmzu dot cn.</p>
+  <p>I plan to recruit one master's student each year. I am looking for a self-motivated student with excellent performance in mathematics and English, as well as a clear plan to pursue a Ph.D. If you are interested, please contact me by email.</p>
 
   <h3>Undergraduate Students</h3>
-  <p>Applicants should rank in the top three of their year group in each of the following courses: Calculus, Linear Algebra, Probability Theory, and Signals and Systems. They should also be interested in theoretical research and have a clear plan for preparing and publishing a research paper, including specific milestones and a realistic timeline. If you are interested, please contact me by email at lwang at gxmzu dot cn.</p>
+  <p>Applicants should rank in the top three of their year group in each of the following courses: Calculus, Linear Algebra, Probability Theory, and Signals and Systems. They should also be interested in theoretical research and have a clear plan for preparing and publishing a research paper, including specific milestones and a realistic timeline. If you are interested, please contact me by email.</p>
 </section>
 
 <section class="home-updates" aria-labelledby="news-title">
