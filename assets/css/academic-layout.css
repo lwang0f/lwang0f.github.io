@@ -79,6 +79,19 @@
   margin: 0;
 }
 
+.academic-nav__subnav {
+  border-left: 1px solid #c9cbc7;
+  list-style: none;
+  margin: 2px 0 6px 10px !important;
+  padding: 0 0 0 12px !important;
+}
+
+.academic-nav__subnav a {
+  font-size: 14px;
+  line-height: 1.3;
+  padding: 3px 0;
+}
+
 .academic-nav__group a {
   color: #52739a;
   display: block;

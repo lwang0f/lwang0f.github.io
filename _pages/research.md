@@ -10,7 +10,7 @@ My research interests are in radar signal processing and remote sensing. I devel
 ## Research Directions
 
 - [Radar Signal Processing Theory](/research/radar-signal-processing/): Statistical estimation, performance bounds, and joint system design for passive MIMO radar and cooperative radar-communications systems.
-- [Middle and Upper Atmosphere Remote Sensing](/research/middle-upper-atmosphere/): Signal processing methods for medium-frequency and meteor radar observations, including robust correlation-parameter estimation, denoising, and atmospheric-wind retrieval.
+- [Atmospheric Remote Sensing](/research/middle-upper-atmosphere/): Signal processing methods for medium-frequency and meteor radar observations, including robust correlation-parameter estimation, denoising, and atmospheric-wind retrieval.
 - [Ionospheric Tomography](/research/ionospheric-tomography/): Three-dimensional electron-density reconstruction using GPS/GNSS measurements and spaceborne PolSAR/PALSAR observations.
 
 <section id="publications" class="research-publications" aria-labelledby="research-publications-title">
