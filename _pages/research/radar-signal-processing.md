@@ -17,4 +17,4 @@ My research develops statistical estimators and standard accuracy bounds, includ
 
 ## Related Publications
 
-[J1](/research/#J1), [J2](/research/#J2), [J3](/research/#J3), [c1](/research/#c1), [c2](/research/#c2), [c3](/research/#c3)
+[J1](/research/#J1), [J2](/research/#J2), [J3](/research/#J3), [C1](/research/#C1), [C2](/research/#C2), [C3](/research/#C3)
