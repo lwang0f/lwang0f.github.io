@@ -254,6 +254,8 @@
 .academic-article .research-figure {
   display: block;
   margin: 28px auto;
+  max-width: 860px;
+  width: 100%;
 }
 
 .academic-article .research-figure img {
@@ -283,27 +285,9 @@
   text-align: left;
 }
 
-.academic-article .research-figure--tomography {
-  width: 84%;
-}
-
-.academic-article .research-figure--space-weather {
-  width: 92%;
-}
-
-.academic-article .research-figure--ionosphere-hole {
-  width: 100%;
-}
-
-.academic-article .research-figure--jet-stream {
-  width: 100%;
-}
-
 @media (max-width: 700px) {
-  .academic-article .research-figure--tomography,
-  .academic-article .research-figure--space-weather,
-  .academic-article .research-figure--ionosphere-hole,
-  .academic-article .research-figure--jet-stream {
+  .academic-article .research-figure {
+    max-width: none;
     width: 100%;
   }
 }
