@@ -20,7 +20,7 @@ Reconstructing the three-dimensional map from these indirect measurements is dif
 
 Reconstruction methods therefore combine measurements with different resolutions, error characteristics, and sampling geometries without introducing artificial structures. Regularization, model-based constraints, and multisource data fusion determine the balance between fitting observations and preserving physically plausible structure. GPS/GNSS TEC, PolSAR/PALSAR observations, geomagnetic models, and empirical models such as E-CHAIM can add missing constraints and improve the electron-density field, particularly in data-sparse regions and during localized anomalies. Independent observations and sensitivity to the chosen prior provide essential tests of resolution, bias, and theoretical validity.
 
-<figure class="research-figure">
+<figure class="research-figure research-figure--tomography">
   <img src="/images/ionospheric-tomography-reconstruction.png" alt="Three-dimensional reconstruction of ionospheric electron density across latitude, longitude, and altitude" loading="lazy">
   <figcaption>Example three-dimensional reconstruction of ionospheric electron density.</figcaption>
 </figure>
