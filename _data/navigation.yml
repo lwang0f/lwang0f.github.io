@@ -9,7 +9,7 @@ main:
     children:
       - title: "Estimation theory"
         url: /research/radar-signal-processing/
-      - title: "Atmospheric Sensing"
+      - title: "Atmospheric wind-field sensing"
         url: /research/middle-upper-atmosphere/
       - title: "Ionospheric Tomography"
         url: /research/ionospheric-tomography/

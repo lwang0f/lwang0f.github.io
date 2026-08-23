@@ -5,11 +5,13 @@ permalink: /research/
 author_profile: true
 ---
 
-Radar and satellite observations provide complementary measurements of target motion, atmospheric dynamics, and ionospheric electron density. A central scientific challenge is to recover meaningful physical parameters from measurements that are indirect, noisy, incomplete, and constrained by sensing geometry and system resources. Three main research directions address this challenge:
+Radar and satellite observations provide complementary measurements of target motion, atmospheric dynamics, and ionospheric electron density. A central scientific challenge is to recover meaningful physical parameters from measurements that are indirect, noisy, incomplete, and constrained by sensing geometry and system resources. The research program is organized around one methodological direction and two application directions:
 
-- [Target parameter estimation](/research/radar-signal-processing/)
-- [Atmospheric Sensing](/research/middle-upper-atmosphere/)
+- [Estimation theory](/research/radar-signal-processing/)
+- [Atmospheric wind-field sensing](/research/middle-upper-atmosphere/)
 - [Ionospheric Tomography](/research/ionospheric-tomography/)
+
+Estimation theory provides the common foundation: performance bounds describe identifiability and attainable accuracy, while estimator algorithms turn observations into estimates under specified models and constraints. Atmospheric wind-field sensing and ionospheric tomography place these tools in two different physical settings, where measurement geometry, environmental variability, and instrument limitations determine which assumptions remain valid. Discrepancies between theoretical predictions and observations therefore motivate new models, bounds, and algorithms, while the application problems provide concrete tests of theoretical claims.
 
 <section id="publications" class="research-publications" aria-labelledby="research-publications-title">
   <h2 id="research-publications-title">Accepted/Published papers</h2>

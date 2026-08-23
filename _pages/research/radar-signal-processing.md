@@ -1,20 +1,20 @@
 ---
 layout: single
-title: "Target parameter estimation"
+title: "Estimation theory"
 permalink: /research/radar-signal-processing/
 author_profile: true
 ---
 
 ## Overview
 
-Target parameter estimation concerns the recovery of target position, velocity, and other motion parameters from radar echoes. The central problem is to determine how accurately these quantities can be inferred when illuminators and receivers are limited, signals overlap, and noise, clutter, or model mismatch are present.
+Estimation theory provides the methodological foundation for recovering physical parameters from noisy observations. In radar and remote sensing, two questions are closely linked: what accuracy and identifiability are supported by a measurement model, and which estimator algorithm can approach that limit under practical constraints.
 
-Passive radar uses existing communication or broadcast transmitters as illuminators rather than transmitting its own signal. Coherent processing, illuminator selection, and receiver deployment therefore determine the information available for estimation. Multiple transmitters and receivers provide additional geometric diversity, but also introduce coupling among sensing configuration, signal association, and computational cost.
+Performance bounds, including the Cramer-Rao, Ziv-Zakai, and Bayesian or posterior Cramer-Rao bounds, quantify the information available for estimating target position, velocity, and related parameters. Estimator algorithms, including maximum-likelihood, Bayesian, and regularized methods, determine how that information is converted into estimates when signals overlap or the model is incomplete.
 
-Real radar echoes can contain overlapping signals, clutter, noise, multiple targets, and model mismatch. These effects make estimation sensitive to both sensing geometry and computational constraints. Maximum-likelihood estimators and accuracy bounds, including the Cramer-Rao and Ziv-Zakai bounds, provide a framework for quantifying attainable performance and guiding algorithm design.
+In passive MIMO and cooperative radar-communications systems, illuminator selection, transmitter selection, and receiver deployment change the Fisher information and therefore the attainable accuracy. Bound-based design connects statistical theory with sensing geometry and resource allocation, while lower-complexity algorithms address the resulting mixed-integer and non-convex design problems.
 
-For cooperative radar-communications, the key design question is how transmitter selection and receiver placement can preserve estimation quality under complexity and deployment constraints. Lower-complexity joint-design methods connect estimator performance, sensing geometry, and resource allocation.
+Theoretical results are conditional on assumptions about propagation, noise, target dynamics, and data quality. Atmospheric wind retrieval and ionospheric tomography provide demanding test cases: systematic errors, incomplete observations, and model mismatch reveal where a bound is too optimistic or an estimator is insufficiently robust. These application-driven failures feed back into model formulation, performance analysis, and algorithm design.
 
 ## Related Publications
 
-[J1](/research/#J1), [J2](/research/#J2), [J3](/research/#J3), [C1](/research/#C1), [C2](/research/#C2), [C3](/research/#C3)
+[J1](/research/#J1), [J3](/research/#J3), [C1](/research/#C1), [C2](/research/#C2), [C3](/research/#C3), [C4](/research/#C4)
