@@ -27,7 +27,7 @@ The inverse problem remains underdetermined because the available rays are spars
 
 <figure class="research-figure research-figure--tomography">
   <img src="/images/ionospheric-tomography-reconstruction.png" alt="Three-dimensional reconstruction of ionospheric electron density across latitude, longitude, and altitude" loading="lazy">
-  <figcaption>Example three-dimensional reconstruction of ionospheric electron density. Credit: Liming Wang, reproduced from the supplied <code>fig2c.pdf</code> source figure.</figcaption>
+  <figcaption>Example three-dimensional reconstruction of ionospheric electron density. Source: <a href="/research/#J6">J6</a>. Credit: adapted from C. Wang et al., J6.</figcaption>
 </figure>
 
 ## Related publications
