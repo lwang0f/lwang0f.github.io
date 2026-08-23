@@ -7,13 +7,13 @@ author_profile: true
 
 ## Overview
 
-The ionosphere is the electrically charged part of the upper atmosphere. Its electron density affects radio signals used for communication, navigation, and remote sensing. Ionospheric tomography aims to reconstruct a three-dimensional map of this electron density, much like medical CT reconstructs a body from many measurements. The purpose is to understand ionospheric structure and improve radio-system performance.
+The ionosphere is the electrically charged part of the upper atmosphere, and its electron density controls the propagation of radio signals used for communication, navigation, and remote sensing. Ionospheric tomography addresses the inverse problem of reconstructing a three-dimensional electron-density field from path-integrated and remotely sensed observations.
 
-Ground GPS/GNSS receivers measure total electron content (TEC), the total number of free electrons along the path from a satellite to the ground. These measurements provide integrated information along each ray, not a direct value at every point. Spaceborne PolSAR/PALSAR, or polarimetric radar carried by satellites, can provide complementary information over wide areas and in conditions where ground measurements are sparse. Geomagnetic-field and empirical ionospheric models can provide an initial background for the reconstruction.
+Ground GPS/GNSS receivers measure total electron content (TEC), the number of free electrons integrated along each satellite-to-ground ray. Spaceborne PolSAR/PALSAR provides complementary information over wide areas, including regions where ground measurements are sparse. Geomagnetic-field and empirical ionospheric models provide background constraints for the reconstruction.
 
 Reconstructing the three-dimensional map from these indirect measurements is difficult because the available rays are sparse, unevenly distributed, and often insufficient to resolve small structures. Satellite and ground data have different resolutions and errors, and an inaccurate initial model can bias the result. The challenge is to combine the measurements and models without creating artificial features, especially in data-sparse regions and during small-scale anomalies.
 
-My research combines GPS/GNSS TEC, PolSAR/PALSAR measurements, geomagnetic models, and empirical ionospheric models such as E-CHAIM. I use SAR-derived ionospheric information to add missing constraints and improve the initial electron-density field. My publications study PolSAR and E-CHAIM fusion, SAR-based electron-density reconstruction in Alaska, GPS/PALSAR computerized tomography, and GNSS-TEC-driven E-CHAIM.
+Reconstruction methods therefore combine measurements with different resolutions, error characteristics, and sampling geometries without introducing artificial structures. GPS/GNSS TEC, PolSAR/PALSAR observations, geomagnetic models, and empirical models such as E-CHAIM can be fused to add missing constraints and improve the electron-density field, particularly in data-sparse regions and during localized anomalies. Related studies address PolSAR-E-CHAIM fusion, SAR-based reconstruction in Alaska, GPS/PALSAR computerized tomography, and GNSS-TEC-driven E-CHAIM.
 
 ## Related Publications
 

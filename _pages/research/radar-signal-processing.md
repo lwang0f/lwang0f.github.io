@@ -7,13 +7,13 @@ author_profile: true
 
 ## Overview
 
-Target parameter estimation extracts a target's position, velocity, and other motion parameters from radar echoes. My research develops statistical methods for passive MIMO radar and cooperative radar-communications systems, with an emphasis on accurate estimation under limited sensing resources.
+Target parameter estimation concerns the recovery of target position, velocity, and other motion parameters from radar echoes. The central problem is to determine how accurately these quantities can be inferred when illuminators and receivers are limited, signals overlap, and noise, clutter, or model mismatch are present.
 
-Passive radar uses existing communication or broadcast transmitters as illuminators rather than transmitting its own signal. I study how coherent processing, illuminator selection, and receiver deployment affect the information available for target estimation, and how multiple transmitters and receivers can be used effectively.
+Passive radar uses existing communication or broadcast transmitters as illuminators rather than transmitting its own signal. Coherent processing, illuminator selection, and receiver deployment therefore determine the information available for estimation. Multiple transmitters and receivers provide additional geometric diversity, but also introduce coupling among sensing configuration, signal association, and computational cost.
 
-Real radar echoes can contain overlapping signals, clutter, noise, multiple targets, and model mismatch. These effects make estimation sensitive to both sensing geometry and computational constraints. I use maximum-likelihood estimators and accuracy bounds, including the Cramer-Rao and Ziv-Zakai bounds, to quantify attainable performance and guide algorithm design.
+Real radar echoes can contain overlapping signals, clutter, noise, multiple targets, and model mismatch. These effects make estimation sensitive to both sensing geometry and computational constraints. Maximum-likelihood estimators and accuracy bounds, including the Cramer-Rao and Ziv-Zakai bounds, provide a framework for quantifying attainable performance and guiding algorithm design.
 
-For cooperative radar-communications, I develop lower-complexity transmitter-selection and receiver-placement methods that preserve estimation quality while respecting system constraints. This work connects estimator design, sensing geometry, and resource allocation.
+For cooperative radar-communications, the key design question is how transmitter selection and receiver placement can preserve estimation quality under complexity and deployment constraints. Lower-complexity joint-design methods connect estimator performance, sensing geometry, and resource allocation.
 
 ## Related Publications
 
