@@ -274,21 +274,21 @@
 }
 
 .academic-article .research-figure--tomography {
-  width: 78%;
+  width: 84%;
 }
 
 .academic-article .research-figure--space-weather {
   width: 92%;
 }
 
-.academic-article .research-figure--gold {
-  width: 92%;
+.academic-article .research-figure--ionosphere-hole {
+  width: 100%;
 }
 
 @media (max-width: 700px) {
   .academic-article .research-figure--tomography,
   .academic-article .research-figure--space-weather,
-  .academic-article .research-figure--gold {
+  .academic-article .research-figure--ionosphere-hole {
     width: 100%;
   }
 }
