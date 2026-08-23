@@ -7,7 +7,7 @@ main:
   - title: "Research"
     url: /research/
     children:
-      - title: "Radar Signal Processing"
+      - title: "Estimation theory"
         url: /research/radar-signal-processing/
       - title: "Atmospheric Sensing"
         url: /research/middle-upper-atmosphere/

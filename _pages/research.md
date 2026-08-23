@@ -5,13 +5,11 @@ permalink: /research/
 author_profile: true
 ---
 
-I use radar and satellite measurements to study the atmosphere and the ionosphere. My work turns noisy signals into information about target motion, atmospheric winds, and ionospheric electron density.
+I use radar and satellite measurements to study the atmosphere and the ionosphere. My work turns noisy signals into information about target motion, atmospheric winds, and ionospheric electron density. My work focuses on three main research directions:
 
-## Research Directions
-
-- [Radar Signal Processing](/research/radar-signal-processing/): I estimate target position and motion from radar echoes and design efficient passive radar systems.
-- [Atmospheric Sensing](/research/middle-upper-atmosphere/): I process medium-frequency and meteor radar echoes to estimate winds in the middle and upper atmosphere.
-- [Ionospheric Tomography](/research/ionospheric-tomography/): I combine GPS/GNSS and satellite radar data to build three-dimensional maps of the ionosphere.
+- [Radar Signal Processing](/research/radar-signal-processing/)
+- [Atmospheric Sensing](/research/middle-upper-atmosphere/)
+- [Ionospheric Tomography](/research/ionospheric-tomography/)
 
 <section id="publications" class="research-publications" aria-labelledby="research-publications-title">
   <h2 id="research-publications-title">Accepted/Published papers</h2>
