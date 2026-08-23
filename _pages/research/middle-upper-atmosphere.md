@@ -9,6 +9,14 @@ author_profile: true
 
 The middle and upper atmosphere link the lower atmosphere to the near-space environment through large-scale winds, waves, and transport processes. A key scientific problem is to resolve the spatial and temporal structure of these motions and determine how energy and momentum are transferred across atmospheric regions. Radar remote sensing provides long-duration observations of this dynamical system.
 
+<figure class="research-figure research-figure--jet-stream">
+  <video autoplay loop muted playsinline controls preload="metadata" poster="/images/european-jet-stream.jpg">
+    <source src="/assets/media/european-jet-stream.webm" type="video/webm">
+    Your browser does not support embedded video. <a href="/assets/media/european-jet-stream.webm">View the European jet-stream animation</a>.
+  </video>
+  <figcaption>Evolution of the Northern Hemisphere polar jet stream over Europe. The animation illustrates how a fast westerly flow develops troughs, ridges, and propagating disturbances that redistribute heat and momentum across the mid-latitudes. Source: <a href="https://svs.gsfc.nasa.gov/4171/">NASA Scientific Visualization Studio, European Jet Stream</a>, based on NASA MERRA observations. Credit: NASA Scientific Visualization Studio / Trent L. Schindler.</figcaption>
+</figure>
+
 Medium-frequency (MF) radar measures atmospheric echoes, while meteor radar uses scattering from short-lived meteor trails. For MF radar, full-correlation analysis compares signals received by multiple antennas at different time delays to estimate horizontal wind speed and direction. Meteor-radar echoes provide complementary observations of atmospheric motion at higher altitudes and different temporal scales.
 
 The echoes can be weak and are easily affected by environmental interference, system noise, hardware instability, and short-lived distortions. These effects can change the shape of correlation curves and lead to unstable or inaccurate wind estimates. The central retrieval problem is to remove unwanted effects without suppressing genuine atmospheric variability.

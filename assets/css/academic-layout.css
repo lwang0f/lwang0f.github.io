@@ -264,6 +264,16 @@
   width: 100%;
 }
 
+.academic-article .research-figure video {
+  aspect-ratio: 16 / 9;
+  background: #111;
+  display: block;
+  height: auto;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
 .academic-article .research-figure figcaption {
   color: #5b646a;
   font-family: Arial, Helvetica, sans-serif;
@@ -285,10 +295,15 @@
   width: 100%;
 }
 
+.academic-article .research-figure--jet-stream {
+  width: 100%;
+}
+
 @media (max-width: 700px) {
   .academic-article .research-figure--tomography,
   .academic-article .research-figure--space-weather,
-  .academic-article .research-figure--ionosphere-hole {
+  .academic-article .research-figure--ionosphere-hole,
+  .academic-article .research-figure--jet-stream {
     width: 100%;
   }
 }
