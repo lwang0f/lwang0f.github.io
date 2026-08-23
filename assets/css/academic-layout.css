@@ -251,6 +251,28 @@
   margin-top: 40px;
 }
 
+.academic-article .research-figure {
+  display: block;
+  margin: 28px auto;
+}
+
+.academic-article .research-figure img {
+  display: block;
+  height: auto;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.academic-article .research-figure figcaption {
+  color: #5b646a;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  margin: 0;
+  text-align: left;
+}
+
 .research-publications .publication-entry {
   line-height: 1.45;
   margin: 0 0 11px;
