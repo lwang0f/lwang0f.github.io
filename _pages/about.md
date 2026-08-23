@@ -31,17 +31,17 @@ redirect_from:
   <p>I plan to recruit one master's student each year. I am looking for a self-motivated student with excellent performance in mathematics and English, as well as a clear plan to pursue a Ph.D. If you are interested, please contact me by email.</p>
 
   <h3>Undergraduate Students</h3>
-  <p>I can provide one to two years of structured research training for undergraduate students. Up to two undergraduate students will be accepted each year. Applicants should rank in the top three of their year group in each of the following courses: Advanced Mathematics, Linear Algebra, Probability and Statistics, and Signals and Systems. They should be interested in deriving formulas and conducting theoretical research. If you are interested, please contact me by email.</p>
+  <p>I can provide one to two years of structured research training for undergraduate students. Up to two undergraduate students will be accepted each year. Applicants should place among the top three according to their total scores in the final examinations for each of the following courses: Advanced Mathematics, Linear Algebra, Probability and Statistics, and Signals and Systems. They should be interested in deriving formulas and conducting theoretical research. If you are interested, please contact me by email.</p>
 </section>
 
 <section class="home-updates" aria-labelledby="news-title">
   <h2 id="news-title">News</h2>
   <h3><time datetime="2026-07">July 2026</time></h3>
   <ul>
-    <li>Yuan Li, a 2025 M.S. graduate, was admitted to the Ph.D. program at the University of Science and Technology of China.</li>
-    <li>Zhanzhuo Zou, a 2025 M.S. graduate, was admitted to the Ph.D. program at North China Electric Power University.</li>
-    <li>Hongpan An, a 2025 B.S. graduate, was admitted to the M.S. program at the Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, through recommendation-based admission.</li>
-    <li>Qiyin Lao, a 2025 B.S. graduate, received the First Prize for an Outstanding Undergraduate Thesis at the university level.</li>
-    <li>Yihao Pan, a 2026 B.S. graduate, was admitted to the M.S. program at Hong Kong Baptist University.</li>
+    <li>-- Yuan Li (李媛, 2025 M.S.) was admitted to the Ph.D. program at the University of Science and Technology of China.</li>
+    <li>-- Zhanzhuo Zou (邹展卓, 2025 M.S.) was admitted to the Ph.D. program at North China Electric Power University.</li>
+    <li>-- Hongpan An (安洪盼, 2025 B.S.) was admitted to the M.S. program at the Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, through recommendation-based admission.</li>
+    <li>-- Qiyin Lao (劳琪茵, 2025 B.S.) received the First Prize for an Outstanding Undergraduate Thesis at the university level.</li>
+    <li>-- Yihao Pan (潘毅豪, 2026 B.S.) was admitted to the M.S. program at Hong Kong Baptist University.</li>
   </ul>
 </section>
