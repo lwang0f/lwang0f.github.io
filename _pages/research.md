@@ -7,7 +7,7 @@ author_profile: true
 
 I use radar and satellite measurements to study the atmosphere and the ionosphere. My work turns noisy signals into information about target motion, atmospheric winds, and ionospheric electron density. My work focuses on three main research directions:
 
-- [Radar Signal Processing](/research/radar-signal-processing/)
+- [Target parameter estimation](/research/radar-signal-processing/)
 - [Atmospheric Sensing](/research/middle-upper-atmosphere/)
 - [Ionospheric Tomography](/research/ionospheric-tomography/)
 

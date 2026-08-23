@@ -1,19 +1,19 @@
 ---
 layout: single
-title: "Radar Signal Processing"
+title: "Target parameter estimation"
 permalink: /research/radar-signal-processing/
 author_profile: true
 ---
 
 ## Overview
 
-Radar is a remote-sensing tool that uses radio waves to learn about objects without touching them. The goal of radar signal processing is to turn received echoes into useful estimates, such as a target's position, speed, and other motion parameters. In my work, this goal is studied for passive MIMO radar and cooperative radar-communications systems.
+Target parameter estimation extracts a target's position, velocity, and other motion parameters from radar echoes. My research develops statistical methods for passive MIMO radar and cooperative radar-communications systems, with an emphasis on accurate estimation under limited sensing resources.
 
-A passive radar listens to signals that already exist, such as signals from communication or broadcast transmitters, instead of using its own transmitter. MIMO radar uses several transmitting and receiving antennas to observe a scene from different viewpoints. To make these measurements useful, the system must separate overlapping signals and estimate target parameters from noisy data. Cooperative radar-communications systems also need to choose useful transmitters and place receivers in suitable locations.
+Passive radar uses existing communication or broadcast transmitters as illuminators rather than transmitting its own signal. I study how coherent processing, illuminator selection, and receiver deployment affect the information available for target estimation, and how multiple transmitters and receivers can be used effectively.
 
-These tasks are difficult because signals may overlap, clutter and noise can be strong, several targets can appear at once, and hardware and computation are limited. A good method must be accurate, robust, and efficient.
+Real radar echoes can contain overlapping signals, clutter, noise, multiple targets, and model mismatch. These effects make estimation sensitive to both sensing geometry and computational constraints. I use maximum-likelihood estimators and accuracy bounds, including the Cramer-Rao and Ziv-Zakai bounds, to quantify attainable performance and guide algorithm design.
 
-My research develops statistical estimators and standard accuracy bounds, including the Cramer-Rao and Ziv-Zakai bounds, which describe how accurate an estimate can be for passive MIMO radar. I study coherent processing and multi-target estimation, and I examine how overlapping signals and related noise affect performance. For cooperative radar-communications, I develop lower-complexity methods for joint transmitter selection and receiver deployment while preserving estimation quality.
+For cooperative radar-communications, I develop lower-complexity transmitter-selection and receiver-placement methods that preserve estimation quality while respecting system constraints. This work connects estimator design, sensing geometry, and resource allocation.
 
 ## Related Publications
 
