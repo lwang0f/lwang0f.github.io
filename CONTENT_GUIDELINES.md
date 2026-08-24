@@ -68,3 +68,7 @@ The intended audience includes undergraduate and graduate students who may be en
 6. End with a short list of related publications.
 
 Prefer objective scientific language over repeated `I` or `we` statements. Technical terms are welcome after the reader has been given an intuitive explanation. The three research pages should share the same section names, figure classes, left-alignment behavior, and restrained caption style.
+
+## Course Tables
+
+For a large course table, keep the source CSV in `files/` with an ASCII filename and embed the complete data in a `<div class="teaching-grade-table-wrapper">`. Use the `teaching-grade-table` class so the table remains readable on desktop and can scroll horizontally on mobile. Preserve multi-row headers and original cell values; do not squeeze a wide grade sheet into a narrow responsive layout.

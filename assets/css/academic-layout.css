@@ -418,6 +418,55 @@
   width: 100%;
 }
 
+.teaching-grade-table-wrapper {
+  border: 1px solid #d2d4d0;
+  margin: 28px 0;
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 0;
+}
+
+.academic-article .teaching-grade-table {
+  border-collapse: collapse;
+  font-size: 12px;
+  margin: 0;
+  min-width: 1800px;
+  width: max-content;
+}
+
+.teaching-grade-table caption {
+  background: #f2f4f2;
+  border-bottom: 1px solid #d2d4d0;
+  color: #2d4e70;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 12px;
+  text-align: left;
+}
+
+.teaching-grade-table th,
+.teaching-grade-table td {
+  border: 1px solid #d2d4d0;
+  padding: 4px 6px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.teaching-grade-table thead th {
+  background: #e8ecea;
+  color: #20262c;
+  font-weight: 700;
+}
+
+.teaching-grade-table tbody tr:nth-child(even) td {
+  background: #f7f8f7;
+}
+
+.teaching-grade-table .teaching-grade-table__identity {
+  text-align: left;
+}
+
 .academic-footer {
   border-top: 1px solid #d2d4d0;
   color: #697278;
