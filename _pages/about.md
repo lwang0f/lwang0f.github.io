@@ -64,6 +64,13 @@ redirect_from:
     </li>
   </ul>
 
+  <h3><time datetime="2025-08">August 2025</time></h3>
+  <ul class="home-news-list">
+    <li class="home-news-item">
+      <p class="home-news-item__text">Yuan Li's (李媛, 2026 M.S.) paper was published in <em>China Communications</em>. The paper presents statistical information on the channel characteristics of meteor-burst communications in Yunnan Province. For more information, please see <a href="/research/#J9"><strong>J9</strong></a>.</p>
+    </li>
+  </ul>
+
   <h3><time datetime="2025-07">July 2025</time></h3>
   <ul class="home-news-list">
     <li class="home-news-item">
