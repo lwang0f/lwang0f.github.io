@@ -419,52 +419,111 @@
 }
 
 .teaching-grade-table-wrapper {
-  border: 1px solid #d2d4d0;
+  -webkit-overflow-scrolling: touch;
+  background: #ffffff;
+  border: 1px solid #cfd5d2;
   margin: 28px 0;
   max-width: 100%;
   overflow-x: auto;
+  overscroll-behavior-inline: contain;
   padding: 0;
 }
 
 .academic-article .teaching-grade-table {
-  border-collapse: collapse;
-  font-size: 12px;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 11px;
+  line-height: 1.2;
   margin: 0;
-  min-width: 1800px;
+  min-width: 1500px;
   width: max-content;
 }
 
 .teaching-grade-table caption {
   background: #f2f4f2;
-  border-bottom: 1px solid #d2d4d0;
+  border-bottom: 1px solid #cfd5d2;
   color: #2d4e70;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
-  padding: 10px 12px;
+  padding: 9px 11px;
   text-align: left;
+}
+
+.teaching-grade-table__note {
+  color: #697278;
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+.teaching-grade-table__note a {
+  color: #2d4e70;
 }
 
 .teaching-grade-table th,
 .teaching-grade-table td {
-  border: 1px solid #d2d4d0;
-  padding: 4px 6px;
-  text-align: center;
+  border-bottom: 1px solid #dfe4e1;
+  border-right: 1px solid #e7ebe8;
+  padding: 4px 5px;
   vertical-align: middle;
-  white-space: nowrap;
 }
 
 .teaching-grade-table thead th {
-  background: #e8ecea;
+  background: #edf1ef;
   color: #20262c;
   font-weight: 700;
+  line-height: 1.15;
+  max-width: 105px;
+  min-width: 32px;
+  text-align: center;
+  white-space: normal;
+}
+
+.teaching-grade-table thead tr:first-child th {
+  background: #dce6e4;
+  border-top: 1px solid #cfd5d2;
+}
+
+.teaching-grade-table thead tr:nth-child(2) th {
+  background: #e6ece9;
+}
+
+.teaching-grade-table thead tr:nth-child(3) th {
+  background: #f3f5f3;
+  font-size: 10px;
+}
+
+.teaching-grade-table tbody td {
+  text-align: right;
+  white-space: nowrap;
 }
 
 .teaching-grade-table tbody tr:nth-child(even) td {
-  background: #f7f8f7;
+  background: #f7f9f8;
 }
 
 .teaching-grade-table .teaching-grade-table__identity {
   text-align: left;
+}
+
+.teaching-grade-table .teaching-grade-table__identity:nth-child(1) {
+  min-width: 38px;
+}
+
+.teaching-grade-table .teaching-grade-table__identity:nth-child(2) {
+  min-width: 116px;
+}
+
+.teaching-grade-table .teaching-grade-table__identity:nth-child(3) {
+  min-width: 54px;
+}
+
+.teaching-grade-table .teaching-grade-table__identity:nth-child(4) {
+  min-width: 40px;
+}
+
+.teaching-grade-table .teaching-grade-table__identity:nth-child(5) {
+  min-width: 46px;
 }
 
 .academic-footer {
@@ -554,5 +613,26 @@
 
   .home-profile__details {
     display: none;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .teaching-grade-table-wrapper {
+    margin: 22px 0;
+  }
+
+  .academic-article .teaching-grade-table {
+    font-size: 10px;
+    min-width: 1320px;
+  }
+
+  .teaching-grade-table caption {
+    font-size: 14px;
+  }
+
+  .teaching-grade-table__note {
+    display: block;
+    font-size: 10px;
+    margin: 4px 0 0;
   }
 }
