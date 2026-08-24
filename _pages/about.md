@@ -36,6 +36,16 @@ redirect_from:
 
 <section class="home-updates" aria-labelledby="news-title">
   <h2 id="news-title">News</h2>
+  <h3><time datetime="2025-08">August 2025</time></h3>
+  <ul class="home-news-list">
+    <li class="home-news-item">
+      <p class="home-news-item__text">Yuan Li (李媛, 2026 M.S.) published a paper in <em>China Communications</em>. The paper presents statistical information on the channel characteristics of meteor-burst communications in Yunnan Province. For more information, please see <a href="/research/#J9"><strong>J9</strong></a>.</p>
+      <figure class="home-news-photo">
+        <img src="{{ base_path }}/images/yuan-li-china-communications-statistics.png" alt="Statistical distributions of meteor-burst communication channel characteristics in Yunnan Province" loading="lazy">
+      </figure>
+    </li>
+  </ul>
+
   <h3><time datetime="2026-07">July 2026</time></h3>
   <ul class="home-news-list">
     <li class="home-news-item">
@@ -61,13 +71,6 @@ redirect_from:
     </li>
     <li class="home-news-item">
       <p class="home-news-item__text">Yihao Pan (潘毅豪, 2026 B.S.) was admitted to the M.S. program at Hong Kong Baptist University.</p>
-    </li>
-  </ul>
-
-  <h3><time datetime="2025-08">August 2025</time></h3>
-  <ul class="home-news-list">
-    <li class="home-news-item">
-      <p class="home-news-item__text">Yuan Li's (李媛, 2026 M.S.) paper was published in <em>China Communications</em>. The paper presents statistical information on the channel characteristics of meteor-burst communications in Yunnan Province. For more information, please see <a href="/research/#J9"><strong>J9</strong></a>.</p>
     </li>
   </ul>
 
