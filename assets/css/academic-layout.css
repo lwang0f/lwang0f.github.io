@@ -361,13 +361,19 @@
 }
 
 .home-news-list {
-  list-style: disc;
-  margin: 0;
-  padding-left: 1.35em;
+  list-style-type: disc !important;
+  margin: 0 0 16px !important;
+  padding-left: 1.35em !important;
 }
 
 .home-news-item {
+  display: list-item;
   margin: 0 0 28px;
+}
+
+.home-news-item::marker {
+  color: #52739a;
+  font-size: 0.85em;
 }
 
 .home-news-item:last-child {
@@ -380,7 +386,7 @@
 
 .home-news-photo {
   margin: 12px 0 0;
-  max-width: 680px;
+  max-width: 340px;
 }
 
 .home-news-photo img {
