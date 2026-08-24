@@ -28,20 +28,39 @@ redirect_from:
 <section class="home-updates" aria-labelledby="admissions-title">
   <h2 id="admissions-title">Admissions</h2>
   <h3>Master's Students</h3>
-  <p>I plan to recruit one master's student each year. I am looking for a self-motivated student with excellent performance in mathematics and English, as well as a clear plan to pursue a Ph.D. If you are interested, please contact me by email.</p>
+  <p>One master's student is normally admitted each year. Strong candidates combine sound preparation in mathematics and English with self-directed research habits and a clear intention to pursue doctoral study. Prospective applicants are welcome to inquire by email.</p>
 
   <h3>Undergraduate Students</h3>
-  <p>I can provide one to two years of structured research training for undergraduate students. Up to two undergraduate students will be accepted each year. Applicants should place among the top three according to their total scores in the final examinations for each of the following courses: Advanced Mathematics, Linear Algebra, Probability and Statistics, and Signals and Systems. They should be interested in deriving formulas and conducting theoretical research. If you are interested, please contact me by email.</p>
+  <p>Up to two undergraduate students are selected each year for one to two years of structured research training. Applicants should have placed among the top three in cumulative final-examination scores across Advanced Mathematics, Linear Algebra, Probability and Statistics, and Signals and Systems, and should be interested in mathematical derivation and theoretical research. Prospective applicants are welcome to inquire by email.</p>
 </section>
 
 <section class="home-updates" aria-labelledby="news-title">
   <h2 id="news-title">News</h2>
   <h3><time datetime="2026-07">July 2026</time></h3>
-  <ul>
-    <li>-- Yuan Li (李媛, 2025 M.S.) was admitted to the Ph.D. program at the University of Science and Technology of China.</li>
-    <li>-- Zhanzhuo Zou (邹展卓, 2025 M.S.) was admitted to the Ph.D. program at North China Electric Power University.</li>
-    <li>-- Hongpan An (安洪盼, 2025 B.S.) was admitted to the M.S. program at the Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, through recommendation-based admission.</li>
-    <li>-- Qiyin Lao (劳琪茵, 2025 B.S.) received the First Prize for an Outstanding Undergraduate Thesis at the university level.</li>
-    <li>-- Yihao Pan (潘毅豪, 2026 B.S.) was admitted to the M.S. program at Hong Kong Baptist University.</li>
+  <ul class="home-news-list">
+    <li class="home-news-item">
+      <p class="home-news-item__text">Yuan Li (李媛, 2025 M.S.) was admitted to the Ph.D. program at the University of Science and Technology of China.</p>
+      <figure class="home-news-photo">
+        <img src="{{ base_path }}/images/yuan-li-ustc-admission.jpg" alt="Doctoral admission notice from the University of Science and Technology of China" loading="lazy">
+      </figure>
+    </li>
+    <li class="home-news-item">
+      <p class="home-news-item__text">Zhanzhuo Zou (邹展卓, 2025 M.S.) was admitted to the Ph.D. program at North China Electric Power University.</p>
+      <figure class="home-news-photo">
+        <img src="{{ base_path }}/images/zhanzhuo-zou-ncepu-admission.jpg" alt="Doctoral admission notice from North China Electric Power University" loading="lazy">
+      </figure>
+    </li>
+    <li class="home-news-item">
+      <p class="home-news-item__text">Hongpan An (安洪盼, 2025 B.S.) was admitted to the M.S. program at the Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, through recommendation-based admission.</p>
+    </li>
+    <li class="home-news-item">
+      <p class="home-news-item__text">Qiyin Lao (劳琪茵, 2025 B.S.) received the First Prize for an Outstanding Undergraduate Thesis at the university level.</p>
+      <figure class="home-news-photo">
+        <img src="{{ base_path }}/images/qiyin-lao-thesis-award.png" alt="First-prize certificate for an outstanding undergraduate thesis" loading="lazy">
+      </figure>
+    </li>
+    <li class="home-news-item">
+      <p class="home-news-item__text">Yihao Pan (潘毅豪, 2026 B.S.) was admitted to the M.S. program at Hong Kong Baptist University.</p>
+    </li>
   </ul>
 </section>

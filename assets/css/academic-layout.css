@@ -360,6 +360,37 @@
   margin-top: 36px;
 }
 
+.home-news-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-news-item {
+  margin: 0 0 28px;
+  padding: 0;
+}
+
+.home-news-item:last-child {
+  margin-bottom: 0;
+}
+
+.home-news-item__text {
+  margin: 0;
+}
+
+.home-news-photo {
+  margin: 12px 0 0;
+  max-width: 680px;
+}
+
+.home-news-photo img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
 .academic-footer {
   border-top: 1px solid #d2d4d0;
   color: #697278;
