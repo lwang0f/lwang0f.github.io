@@ -429,6 +429,41 @@
   padding: 0;
 }
 
+.teaching-grade-overview h2 {
+  font-size: 21px;
+  margin: 0 0 14px;
+}
+
+.teaching-grade-table-details {
+  border-top: 1px solid #cfd5d2;
+  margin: 26px 0 0;
+}
+
+.teaching-grade-table-details > summary {
+  color: #2d4e70;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  list-style: none;
+  padding: 12px 2px;
+}
+
+.teaching-grade-table-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.teaching-grade-table-details > summary::after {
+  content: "+";
+  float: right;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.teaching-grade-table-details[open] > summary::after {
+  content: "−";
+}
+
 .academic-article .teaching-grade-table {
   border-collapse: separate;
   border-spacing: 0;
@@ -502,6 +537,11 @@
   background: #f7f9f8;
 }
 
+.teaching-grade-table--summary tbody tr:nth-child(even) .teaching-grade-table__summary-sticky-number,
+.teaching-grade-table--summary tbody tr:nth-child(even) .teaching-grade-table__summary-sticky-name {
+  background: #f7f9f8;
+}
+
 .teaching-grade-table .teaching-grade-table__identity {
   text-align: left;
 }
@@ -524,6 +564,70 @@
 
 .teaching-grade-table .teaching-grade-table__identity:nth-child(5) {
   min-width: 46px;
+}
+
+.academic-article .teaching-grade-table--summary {
+  min-width: 980px;
+}
+
+.teaching-grade-table--summary th,
+.teaching-grade-table--summary td {
+  min-width: 48px;
+}
+
+.teaching-grade-table--summary th:nth-child(2),
+.teaching-grade-table--summary td:nth-child(2) {
+  min-width: 116px;
+}
+
+.teaching-grade-table--summary th:nth-child(3),
+.teaching-grade-table--summary td:nth-child(3) {
+  min-width: 58px;
+}
+
+.teaching-grade-table--summary th:nth-child(12),
+.teaching-grade-table--summary td:nth-child(12),
+.teaching-grade-table--summary th:nth-child(14),
+.teaching-grade-table--summary td:nth-child(14),
+.teaching-grade-table--summary th:nth-child(15),
+.teaching-grade-table--summary td:nth-child(15),
+.teaching-grade-table--summary th:nth-child(16),
+.teaching-grade-table--summary td:nth-child(16) {
+  min-width: 82px;
+}
+
+.teaching-grade-table--summary .teaching-grade-table__summary-sticky-number,
+.teaching-grade-table--summary .teaching-grade-table__summary-sticky-name {
+  background: #ffffff;
+  position: sticky;
+  z-index: 2;
+}
+
+.teaching-grade-table--summary thead .teaching-grade-table__summary-sticky-number,
+.teaching-grade-table--summary thead .teaching-grade-table__summary-sticky-name {
+  background: #dce6e4;
+  z-index: 3;
+}
+
+.teaching-grade-table--summary .teaching-grade-table__summary-sticky-number {
+  left: 0;
+  min-width: 38px;
+}
+
+.teaching-grade-table--summary .teaching-grade-table__summary-sticky-name {
+  left: 38px;
+  box-shadow: 2px 0 0 #cfd5d2;
+}
+
+.teaching-grade-table--summary thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.teaching-grade-table--summary thead .teaching-grade-table__summary-sticky-number,
+.teaching-grade-table--summary thead .teaching-grade-table__summary-sticky-name {
+  z-index: 4;
 }
 
 .academic-footer {
@@ -634,5 +738,60 @@
     display: block;
     font-size: 10px;
     margin: 4px 0 0;
+  }
+
+  .teaching-grade-overview h2 {
+    font-size: 19px;
+  }
+
+  .teaching-grade-table-details > summary {
+    font-size: 14px;
+  }
+
+  .academic-article .teaching-grade-table--summary {
+    min-width: 700px;
+  }
+
+  .teaching-grade-table--summary th:nth-child(2),
+  .teaching-grade-table--summary td:nth-child(2),
+  .teaching-grade-table--summary th:nth-child(5),
+  .teaching-grade-table--summary td:nth-child(5) {
+    display: none;
+  }
+
+  .teaching-grade-table--summary .teaching-grade-table__summary-sticky-name {
+    left: 38px;
+  }
+
+  .teaching-grade-table--summary th,
+  .teaching-grade-table--summary td {
+    min-width: 40px;
+    padding: 3px 4px;
+  }
+
+  .teaching-grade-table--summary th:nth-child(3),
+  .teaching-grade-table--summary td:nth-child(3) {
+    min-width: 58px;
+  }
+
+  .teaching-grade-table--summary th:nth-child(4),
+  .teaching-grade-table--summary td:nth-child(4) {
+    min-width: 42px;
+  }
+
+  .teaching-grade-table--summary th:nth-child(11),
+  .teaching-grade-table--summary td:nth-child(11),
+  .teaching-grade-table--summary th:nth-child(12),
+  .teaching-grade-table--summary td:nth-child(12) {
+    min-width: 60px;
+  }
+
+  .teaching-grade-table--summary th:nth-child(14),
+  .teaching-grade-table--summary td:nth-child(14),
+  .teaching-grade-table--summary th:nth-child(15),
+  .teaching-grade-table--summary td:nth-child(15),
+  .teaching-grade-table--summary th:nth-child(16),
+  .teaching-grade-table--summary td:nth-child(16) {
+    min-width: 62px;
   }
 }

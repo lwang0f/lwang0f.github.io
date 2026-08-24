@@ -6,414 +6,826 @@ date: 2026-09-01
 show_teaching_meta: false
 ---
 
-<div class="teaching-grade-table-wrapper" role="region" aria-label="Communication Principles continuous assessment table" tabindex="0">
-<table class="teaching-grade-table">
-  <caption>Continuous assessment record for Communication Principles <span class="teaching-grade-table__note">Scores are displayed as rounded integers; the original precision is retained in the <a href="/files/communication-principles-grades.csv">CSV source</a>.</span></caption>
-  <thead>
-    <tr>
-      <th class="teaching-grade-table__identity">序号</th><th class="teaching-grade-table__identity">学号</th><th class="teaching-grade-table__identity">姓名</th><th class="teaching-grade-table__identity">分组</th><th class="teaching-grade-table__identity">编号</th><th>Pre（75%）</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th>作业 (5%)</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th>实验 (10%)</th><th></th><th></th><th></th><th>段考<br>（20%）</th><th>大作业<br>（20%）</th><th>考勤<br>(5%)</th><th>平时总分<br>（占期末50%）</th><th>加分</th><th>加分后的平时总分</th><th>折算成期末的总分</th><th>期末考多少分才不挂科</th>
-    </tr>
-    <tr>
-      <th class="teaching-grade-table__identity"></th><th class="teaching-grade-table__identity"></th><th class="teaching-grade-table__identity"></th><th class="teaching-grade-table__identity"></th><th class="teaching-grade-table__identity"></th><th>讲述<br>(25%)</th><th>最佳<br>讲述</th><th>同评<br>(25%)</th><th>提问(50%)</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th>总</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
-    </tr>
-    <tr>
-      <th class="teaching-grade-table__identity"></th><th class="teaching-grade-table__identity"></th><th class="teaching-grade-table__identity"></th><th class="teaching-grade-table__identity"></th><th class="teaching-grade-table__identity"></th><th></th><th></th><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>∑</th><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>∑</th><th>1</th><th>2</th><th>3</th><th>∑</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="teaching-grade-table__identity">1</td><td class="teaching-grade-table__identity">202313141300005</td><td class="teaching-grade-table__identity">李永健</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A8</td><td>92</td><td>0</td><td>85</td><td>94</td><td>91</td><td>92</td><td>91</td><td>84</td><td>95</td><td>96</td><td>90</td><td>97</td><td>98</td><td>93</td><td>91</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>92</td><td>93</td><td>30</td><td>95</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">2</td><td class="teaching-grade-table__identity">202313141300008</td><td class="teaching-grade-table__identity">廖瑞隆</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B1</td><td>92</td><td>100</td><td>94</td><td>95</td><td>91</td><td>96</td><td>96</td><td>85</td><td>97</td><td>100</td><td>0</td><td>92</td><td>0</td><td>75</td><td>84</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>95</td><td>94</td><td>95</td><td>95</td><td>33</td><td>91</td><td>100</td><td>77</td><td>4</td><td>85</td><td>43</td><td>35</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">3</td><td class="teaching-grade-table__identity">202313141300011</td><td class="teaching-grade-table__identity">赖冬冬</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B10</td><td>92</td><td>0</td><td>94</td><td>95</td><td>91</td><td>90</td><td>91</td><td>89</td><td>0</td><td>0</td><td>94</td><td>89</td><td>95</td><td>73</td><td>83</td><td>97</td><td>0</td><td>0</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>56</td><td>95</td><td>93</td><td>93</td><td>94</td><td>26</td><td>90</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">4</td><td class="teaching-grade-table__identity">202313141300024</td><td class="teaching-grade-table__identity">周桂宇</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B5</td><td>90</td><td>0</td><td>94</td><td>0</td><td>88</td><td>85</td><td>91</td><td>89</td><td>92</td><td>0</td><td>89</td><td>0</td><td>92</td><td>63</td><td>77</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>93</td><td>93</td><td>23</td><td>94</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">5</td><td class="teaching-grade-table__identity">202313141300028</td><td class="teaching-grade-table__identity">李德深</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B7</td><td>86</td><td>0</td><td>94</td><td>0</td><td>93</td><td>93</td><td>91</td><td>83</td><td>92</td><td>0</td><td>0</td><td>0</td><td>97</td><td>55</td><td>72</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>96</td><td>94</td><td>95</td><td>20</td><td>95</td><td>100</td><td>71</td><td>2</td><td>75</td><td>38</td><td>45</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">6</td><td class="teaching-grade-table__identity">202313141300031</td><td class="teaching-grade-table__identity">梁海洁</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A6</td><td>95</td><td>0</td><td>85</td><td>92</td><td>94</td><td>0</td><td>0</td><td>86</td><td>0</td><td>96</td><td>0</td><td>0</td><td>0</td><td>37</td><td>63</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>95</td><td>94</td><td>50</td><td>92</td><td>100</td><td>73</td><td>0</td><td>73</td><td>37</td><td>47</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">7</td><td class="teaching-grade-table__identity">202313141300039</td><td class="teaching-grade-table__identity">梁婉仪</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B8</td><td>90</td><td>0</td><td>94</td><td>95</td><td>90</td><td>92</td><td>90</td><td>82</td><td>90</td><td>100</td><td>91</td><td>91</td><td>98</td><td>92</td><td>92</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>95</td><td>92</td><td>94</td><td>58</td><td>95</td><td>100</td><td>87</td><td>2</td><td>91</td><td>45</td><td>29</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">8</td><td class="teaching-grade-table__identity">202313141300040</td><td class="teaching-grade-table__identity">綦若同</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I8</td><td>90</td><td>100</td><td>80</td><td>85</td><td>90</td><td>0</td><td>95</td><td>0</td><td>92</td><td>98</td><td>98</td><td>97</td><td>91</td><td>75</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>93</td><td>94</td><td>74</td><td>93</td><td>100</td><td>85</td><td>4</td><td>93</td><td>46</td><td>27</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">9</td><td class="teaching-grade-table__identity">202313141300043</td><td class="teaching-grade-table__identity">葛定康</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B4</td><td>90</td><td>0</td><td>94</td><td>95</td><td>91</td><td>92</td><td>92</td><td>82</td><td>93</td><td>0</td><td>91</td><td>0</td><td>0</td><td>64</td><td>78</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>93</td><td>92</td><td>93</td><td>36</td><td>90</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">10</td><td class="teaching-grade-table__identity">202313141300044</td><td class="teaching-grade-table__identity">罗志杰</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B3</td><td>93</td><td>0</td><td>94</td><td>92</td><td>89</td><td>0</td><td>0</td><td>0</td><td>95</td><td>0</td><td>0</td><td>0</td><td>0</td><td>28</td><td>61</td><td>97</td><td>0</td><td>0</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>56</td><td>95</td><td>94</td><td>96</td><td>95</td><td>57</td><td>90</td><td>100</td><td>71</td><td>0</td><td>71</td><td>35</td><td>49</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">11</td><td class="teaching-grade-table__identity">202313141300046</td><td class="teaching-grade-table__identity">奚佳贤</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B9</td><td>91</td><td>0</td><td>94</td><td>92</td><td>91</td><td>90</td><td>92</td><td>84</td><td>93</td><td>0</td><td>89</td><td>91</td><td>90</td><td>81</td><td>87</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>95</td><td>93</td><td>94</td><td>65</td><td>94</td><td>100</td><td>86</td><td>0</td><td>86</td><td>43</td><td>34</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">12</td><td class="teaching-grade-table__identity">202313141300054</td><td class="teaching-grade-table__identity">黄瑶</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A13</td><td>94</td><td>0</td><td>85</td><td>93</td><td>96</td><td>100</td><td>96</td><td>86</td><td>98</td><td>0</td><td>89</td><td>93</td><td>91</td><td>84</td><td>87</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>96</td><td>94</td><td>48</td><td>95</td><td>100</td><td>83</td><td>2</td><td>87</td><td>43</td><td>33</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">13</td><td class="teaching-grade-table__identity">202313141300058</td><td class="teaching-grade-table__identity">肖淑仪</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B11</td><td>93</td><td>0</td><td>94</td><td>96</td><td>91</td><td>97</td><td>93</td><td>87</td><td>93</td><td>98</td><td>93</td><td>93</td><td>92</td><td>93</td><td>93</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>93</td><td>95</td><td>94</td><td>44</td><td>95</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">14</td><td class="teaching-grade-table__identity">202313141300062</td><td class="teaching-grade-table__identity">陈锡满</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A7</td><td>90</td><td>0</td><td>85</td><td>95</td><td>91</td><td>90</td><td>94</td><td>83</td><td>92</td><td>96</td><td>92</td><td>98</td><td>97</td><td>93</td><td>90</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>92</td><td>93</td><td>41</td><td>92</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">15</td><td class="teaching-grade-table__identity">202313141300065</td><td class="teaching-grade-table__identity">李铭辉</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A5</td><td>92</td><td>0</td><td>85</td><td>93</td><td>92</td><td>92</td><td>92</td><td>0</td><td>92</td><td>96</td><td>92</td><td>97</td><td>89</td><td>84</td><td>86</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>92</td><td>93</td><td>93</td><td>62</td><td>92</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">16</td><td class="teaching-grade-table__identity">202313141300069</td><td class="teaching-grade-table__identity">许雨晴</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B13</td><td>93</td><td>0</td><td>94</td><td>95</td><td>91</td><td>90</td><td>92</td><td>85</td><td>92</td><td>98</td><td>91</td><td>94</td><td>93</td><td>92</td><td>93</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>94</td><td>93</td><td>54</td><td>94</td><td>100</td><td>86</td><td>2</td><td>90</td><td>45</td><td>30</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">17</td><td class="teaching-grade-table__identity">202313141300072</td><td class="teaching-grade-table__identity">叶娟</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B12</td><td>93</td><td>0</td><td>94</td><td>95</td><td>91</td><td>90</td><td>92</td><td>85</td><td>92</td><td>98</td><td>93</td><td>94</td><td>98</td><td>93</td><td>93</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>0</td><td>98</td><td>83</td><td>93</td><td>92</td><td>96</td><td>94</td><td>49</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">18</td><td class="teaching-grade-table__identity">202313141300079</td><td class="teaching-grade-table__identity">梁得桂</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B6</td><td>93</td><td>0</td><td>94</td><td>91</td><td>91</td><td>90</td><td>92</td><td>0</td><td>88</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>69</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>94</td><td>92</td><td>94</td><td>32</td><td>94</td><td>100</td><td>72</td><td>0</td><td>72</td><td>36</td><td>48</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">19</td><td class="teaching-grade-table__identity">202313141300083</td><td class="teaching-grade-table__identity">韦信明</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A3</td><td>90</td><td>0</td><td>85</td><td>93</td><td>92</td><td>95</td><td>95</td><td>0</td><td>94</td><td>96</td><td>0</td><td>0</td><td>0</td><td>56</td><td>72</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>94</td><td>92</td><td>93</td><td>61</td><td>90</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">20</td><td class="teaching-grade-table__identity">202313141300102</td><td class="teaching-grade-table__identity">黄焕梅</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B14</td><td>92</td><td>0</td><td>94</td><td>93</td><td>91</td><td>93</td><td>91</td><td>85</td><td>96</td><td>94</td><td>98</td><td>97</td><td>92</td><td>93</td><td>93</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>94</td><td>95</td><td>95</td><td>53</td><td>92</td><td>100</td><td>86</td><td>2</td><td>90</td><td>45</td><td>30</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">21</td><td class="teaching-grade-table__identity">202313141300105</td><td class="teaching-grade-table__identity">韦钟宝</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A4</td><td>93</td><td>0</td><td>85</td><td>92</td><td>93</td><td>92</td><td>92</td><td>85</td><td>95</td><td>100</td><td>92</td><td>97</td><td>93</td><td>93</td><td>91</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>83</td><td>95</td><td>92</td><td>96</td><td>94</td><td>38</td><td>90</td><td>100</td><td>81</td><td>2</td><td>85</td><td>42</td><td>35</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">22</td><td class="teaching-grade-table__identity">202313141300110</td><td class="teaching-grade-table__identity">董馨</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I9</td><td>90</td><td>0</td><td>80</td><td>84</td><td>91</td><td>93</td><td>91</td><td>82</td><td>91</td><td>0</td><td>93</td><td>0</td><td>98</td><td>72</td><td>79</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>92</td><td>93</td><td>60</td><td>94</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">23</td><td class="teaching-grade-table__identity">202313141300119</td><td class="teaching-grade-table__identity">叶俣彤</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A11</td><td>94</td><td>0</td><td>85</td><td>92</td><td>0</td><td>93</td><td>94</td><td>86</td><td>88</td><td>0</td><td>90</td><td>91</td><td>0</td><td>63</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>93</td><td>93</td><td>53</td><td>90</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">24</td><td class="teaching-grade-table__identity">202313141300129</td><td class="teaching-grade-table__identity">苏庆玉</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A12</td><td>93</td><td>0</td><td>85</td><td>0</td><td>91</td><td>91</td><td>91</td><td>84</td><td>91</td><td>0</td><td>89</td><td>100</td><td>0</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>93</td><td>94</td><td>41</td><td>90</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">25</td><td class="teaching-grade-table__identity">202313141300130</td><td class="teaching-grade-table__identity">卢松燕</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A10</td><td>93</td><td>0</td><td>85</td><td>92</td><td>88</td><td>0</td><td>95</td><td>85</td><td>92</td><td>100</td><td>93</td><td>92</td><td>90</td><td>83</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>96</td><td>94</td><td>43</td><td>90</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">26</td><td class="teaching-grade-table__identity">202313141300131</td><td class="teaching-grade-table__identity">黄震</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A1</td><td>94</td><td>100</td><td>85</td><td>0</td><td>96</td><td>93</td><td>98</td><td>98</td><td>97</td><td>0</td><td>92</td><td>0</td><td>90</td><td>66</td><td>78</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>96</td><td>92</td><td>94</td><td>55</td><td>91</td><td>100</td><td>80</td><td>4</td><td>88</td><td>44</td><td>32</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">27</td><td class="teaching-grade-table__identity">202313141300141</td><td class="teaching-grade-table__identity">黄华标</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A9</td><td>94</td><td>0</td><td>85</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>0</td><td>98</td><td>0</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>56</td><td>92</td><td>96</td><td>92</td><td>93</td><td>20</td><td>91</td><td>100</td><td>57</td><td>0</td><td>57</td><td>29</td><td>63</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">28</td><td class="teaching-grade-table__identity">202313141300142</td><td class="teaching-grade-table__identity">吴福恒</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A2</td><td>95</td><td>0</td><td>85</td><td>95</td><td>91</td><td>91</td><td>0</td><td>82</td><td>100</td><td>95</td><td>89</td><td>94</td><td>89</td><td>83</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>92</td><td>93</td><td>50</td><td>91</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">29</td><td class="teaching-grade-table__identity">202313141300143</td><td class="teaching-grade-table__identity">晏波</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I10</td><td>90</td><td>0</td><td>80</td><td>86</td><td>0</td><td>93</td><td>91</td><td>0</td><td>94</td><td>0</td><td>89</td><td>0</td><td>92</td><td>55</td><td>70</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>95</td><td>96</td><td>96</td><td>38</td><td>90</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">30</td><td class="teaching-grade-table__identity">202313141300169</td><td class="teaching-grade-table__identity">黄云龙</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B2</td><td>93</td><td>0</td><td>94</td><td>0</td><td>93</td><td>0</td><td>0</td><td>89</td><td>0</td><td>0</td><td>0</td><td>0</td><td>97</td><td>28</td><td>61</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>83</td><td>94</td><td>95</td><td>92</td><td>94</td><td>20</td><td>95</td><td>100</td><td>66</td><td>2</td><td>70</td><td>35</td><td>50</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">31</td><td class="teaching-grade-table__identity">202313140500213</td><td class="teaching-grade-table__identity">黄露淇</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D13</td><td>90</td><td>0</td><td>79</td><td>92</td><td>91</td><td>92</td><td>92</td><td>0</td><td>93</td><td>100</td><td>93</td><td>97</td><td>97</td><td>85</td><td>85</td><td>0</td><td>98</td><td>98</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>95</td><td>93</td><td>94</td><td>51</td><td>93</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">32</td><td class="teaching-grade-table__identity">202313141300154</td><td class="teaching-grade-table__identity">贲廖银</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G5</td><td>92</td><td>0</td><td>83</td><td>91</td><td>91</td><td>92</td><td>0</td><td>0</td><td>0</td><td>0</td><td>94</td><td>0</td><td>92</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>95</td><td>94</td><td>55</td><td>94</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">33</td><td class="teaching-grade-table__identity">202313141300155</td><td class="teaching-grade-table__identity">周子莉</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E7</td><td>90</td><td>0</td><td>83</td><td>93</td><td>91</td><td>91</td><td>91</td><td>0</td><td>94</td><td>0</td><td>90</td><td>97</td><td>0</td><td>65</td><td>76</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>92</td><td>94</td><td>93</td><td>59</td><td>92</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">34</td><td class="teaching-grade-table__identity">202313141300156</td><td class="teaching-grade-table__identity">颜文博</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I12</td><td>90</td><td>0</td><td>80</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>96</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>96</td><td>95</td><td>96</td><td>96</td><td>0</td><td>0</td><td>100</td><td>15</td><td>0</td><td>15</td><td>8</td><td>105</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">35</td><td class="teaching-grade-table__identity">202313141300157</td><td class="teaching-grade-table__identity">刘兰香</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E9</td><td>91</td><td>0</td><td>83</td><td>95</td><td>90</td><td>91</td><td>90</td><td>83</td><td>93</td><td>0</td><td>88</td><td>97</td><td>97</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>96</td><td>95</td><td>96</td><td>31</td><td>90</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">36</td><td class="teaching-grade-table__identity">202313141300158</td><td class="teaching-grade-table__identity">李松凝</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C12</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>92</td><td>83</td><td>92</td><td>0</td><td>0</td><td>97</td><td>94</td><td>46</td><td>66</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>94</td><td>94</td><td>94</td><td>22</td><td>91</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">37</td><td class="teaching-grade-table__identity">202313141300159</td><td class="teaching-grade-table__identity">赵玲慧</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E5</td><td>94</td><td>0</td><td>83</td><td>88</td><td>96</td><td>92</td><td>91</td><td>85</td><td>95</td><td>96</td><td>88</td><td>0</td><td>97</td><td>83</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>96</td><td>93</td><td>94</td><td>50</td><td>94</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">38</td><td class="teaching-grade-table__identity">202313141300160</td><td class="teaching-grade-table__identity">刘丰铭</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G13</td><td>91</td><td>0</td><td>83</td><td>83</td><td>91</td><td>91</td><td>93</td><td>87</td><td>92</td><td>94</td><td>0</td><td>90</td><td>90</td><td>81</td><td>84</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>95</td><td>96</td><td>95</td><td>62</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">39</td><td class="teaching-grade-table__identity">202313141300161</td><td class="teaching-grade-table__identity">黄忠恒</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G4</td><td>90</td><td>0</td><td>83</td><td>85</td><td>91</td><td>0</td><td>91</td><td>83</td><td>0</td><td>0</td><td>93</td><td>0</td><td>90</td><td>53</td><td>70</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>92</td><td>93</td><td>56</td><td>92</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">40</td><td class="teaching-grade-table__identity">202313141300162</td><td class="teaching-grade-table__identity">陆佳</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E6</td><td>94</td><td>0</td><td>83</td><td>92</td><td>91</td><td>93</td><td>90</td><td>97</td><td>95</td><td>0</td><td>89</td><td>0</td><td>0</td><td>65</td><td>77</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>95</td><td>93</td><td>92</td><td>93</td><td>64</td><td>90</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">41</td><td class="teaching-grade-table__identity">202313141300163</td><td class="teaching-grade-table__identity">吕泽贵</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C8</td><td>91</td><td>0</td><td>83</td><td>0</td><td>93</td><td>90</td><td>93</td><td>96</td><td>94</td><td>94</td><td>94</td><td>97</td><td>95</td><td>85</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>92</td><td>93</td><td>29</td><td>92</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">42</td><td class="teaching-grade-table__identity">202313141300164</td><td class="teaching-grade-table__identity">徐秋燕</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J8</td><td>93</td><td>0</td><td>83</td><td>85</td><td>91</td><td>91</td><td>90</td><td>87</td><td>95</td><td>0</td><td>89</td><td>91</td><td>0</td><td>72</td><td>80</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>0</td><td>84</td><td>93</td><td>93</td><td>92</td><td>93</td><td>27</td><td>90</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">43</td><td class="teaching-grade-table__identity">202313141300165</td><td class="teaching-grade-table__identity">卢俊池</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G2</td><td>91</td><td>0</td><td>83</td><td>90</td><td>94</td><td>92</td><td>90</td><td>88</td><td>89</td><td>96</td><td>93</td><td>0</td><td>93</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>93</td><td>96</td><td>95</td><td>61</td><td>90</td><td>100</td><td>83</td><td>0</td><td>83</td><td>42</td><td>37</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">44</td><td class="teaching-grade-table__identity">202313141300166</td><td class="teaching-grade-table__identity">林秋娜</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E11</td><td>91</td><td>0</td><td>83</td><td>85</td><td>92</td><td>92</td><td>92</td><td>82</td><td>95</td><td>0</td><td>92</td><td>0</td><td>97</td><td>73</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>93</td><td>94</td><td>93</td><td>37</td><td>93</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">45</td><td class="teaching-grade-table__identity">202313141300167</td><td class="teaching-grade-table__identity">田诗婷</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D11</td><td>91</td><td>0</td><td>79</td><td>90</td><td>91</td><td>92</td><td>93</td><td>95</td><td>90</td><td>0</td><td>91</td><td>0</td><td>0</td><td>64</td><td>75</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>96</td><td>92</td><td>95</td><td>32</td><td>90</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">46</td><td class="teaching-grade-table__identity">202313141300168</td><td class="teaching-grade-table__identity">杨雨晨</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J7</td><td>93</td><td>0</td><td>83</td><td>0</td><td>90</td><td>0</td><td>95</td><td>87</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>58</td><td>0</td><td>0</td><td>96</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>56</td><td>96</td><td>92</td><td>94</td><td>94</td><td>36</td><td>93</td><td>100</td><td>66</td><td>0</td><td>66</td><td>33</td><td>54</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">47</td><td class="teaching-grade-table__identity">202313141300170</td><td class="teaching-grade-table__identity">罗荣祥</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J11</td><td>93</td><td>0</td><td>83</td><td>86</td><td>0</td><td>96</td><td>91</td><td>84</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>66</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>92</td><td>93</td><td>93</td><td>54</td><td>95</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">48</td><td class="teaching-grade-table__identity">202313141300171</td><td class="teaching-grade-table__identity">粟建杰</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C13</td><td>91</td><td>0</td><td>83</td><td>83</td><td>91</td><td>91</td><td>95</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>95</td><td>46</td><td>66</td><td>97</td><td>98</td><td>96</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>83</td><td>92</td><td>96</td><td>95</td><td>94</td><td>38</td><td>95</td><td>100</td><td>72</td><td>0</td><td>72</td><td>36</td><td>48</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">49</td><td class="teaching-grade-table__identity">202313141300172</td><td class="teaching-grade-table__identity">李玲玲</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E4</td><td>93</td><td>0</td><td>83</td><td>85</td><td>92</td><td>93</td><td>92</td><td>89</td><td>95</td><td>0</td><td>89</td><td>94</td><td>93</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>93</td><td>96</td><td>94</td><td>60</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">50</td><td class="teaching-grade-table__identity">202313141300173</td><td class="teaching-grade-table__identity">覃诗奕</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J5</td><td>93</td><td>0</td><td>83</td><td>0</td><td>0</td><td>93</td><td>0</td><td>89</td><td>94</td><td>0</td><td>90</td><td>0</td><td>93</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>96</td><td>94</td><td>78</td><td>95</td><td>100</td><td>81</td><td>0</td><td>81</td><td>40</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">51</td><td class="teaching-grade-table__identity">202313141300174</td><td class="teaching-grade-table__identity">盛鹏</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J10</td><td>93</td><td>0</td><td>83</td><td>85</td><td>91</td><td>97</td><td>92</td><td>0</td><td>95</td><td>95</td><td>88</td><td>90</td><td>92</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>92</td><td>92</td><td>93</td><td>62</td><td>94</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">52</td><td class="teaching-grade-table__identity">202313141300175</td><td class="teaching-grade-table__identity">曾诗婷</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J6</td><td>93</td><td>100</td><td>83</td><td>93</td><td>91</td><td>91</td><td>94</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>93</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>95</td><td>94</td><td>37</td><td>94</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">53</td><td class="teaching-grade-table__identity">202313141300176</td><td class="teaching-grade-table__identity">欧海玲</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D12</td><td>90</td><td>0</td><td>79</td><td>0</td><td>91</td><td>0</td><td>93</td><td>84</td><td>100</td><td>0</td><td>91</td><td>0</td><td>90</td><td>55</td><td>70</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>92</td><td>96</td><td>95</td><td>42</td><td>93</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">54</td><td class="teaching-grade-table__identity">202313141300177</td><td class="teaching-grade-table__identity">罗雅方</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E12</td><td>90</td><td>100</td><td>83</td><td>90</td><td>91</td><td>92</td><td>90</td><td>85</td><td>95</td><td>0</td><td>88</td><td>0</td><td>0</td><td>63</td><td>75</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>95</td><td>95</td><td>95</td><td>47</td><td>93</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">55</td><td class="teaching-grade-table__identity">202313141300178</td><td class="teaching-grade-table__identity">覃双豪</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J12</td><td>93</td><td>0</td><td>83</td><td>89</td><td>91</td><td>0</td><td>0</td><td>0</td><td>90</td><td>0</td><td>93</td><td>0</td><td>92</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>94</td><td>93</td><td>94</td><td>54</td><td>94</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">56</td><td class="teaching-grade-table__identity">202313141300179</td><td class="teaching-grade-table__identity">黄惠炀</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J9</td><td>93</td><td>0</td><td>83</td><td>93</td><td>91</td><td>92</td><td>90</td><td>88</td><td>0</td><td>0</td><td>90</td><td>0</td><td>0</td><td>54</td><td>71</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>92</td><td>92</td><td>92</td><td>12</td><td>95</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">57</td><td class="teaching-grade-table__identity">202313141300180</td><td class="teaching-grade-table__identity">陈勇烨</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G10</td><td>92</td><td>0</td><td>83</td><td>92</td><td>91</td><td>91</td><td>92</td><td>82</td><td>92</td><td>0</td><td>93</td><td>89</td><td>97</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>92</td><td>92</td><td>48</td><td>92</td><td>100</td><td>81</td><td>2</td><td>85</td><td>42</td><td>35</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">58</td><td class="teaching-grade-table__identity">202313141300181</td><td class="teaching-grade-table__identity">邓灼林</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J13</td><td>93</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>97</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>67</td><td>94</td><td>100</td><td>38</td><td>0</td><td>38</td><td>19</td><td>82</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">59</td><td class="teaching-grade-table__identity">202313141300182</td><td class="teaching-grade-table__identity">廖利成</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G3</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>92</td><td>85</td><td>88</td><td>0</td><td>91</td><td>0</td><td>0</td><td>36</td><td>61</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>95</td><td>94</td><td>39</td><td>90</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">60</td><td class="teaching-grade-table__identity">202313141300183</td><td class="teaching-grade-table__identity">韦慧灵</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J4</td><td>93</td><td>0</td><td>83</td><td>0</td><td>0</td><td>94</td><td>0</td><td>0</td><td>0</td><td>93</td><td>0</td><td>0</td><td>97</td><td>28</td><td>58</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>96</td><td>94</td><td>94</td><td>51</td><td>95</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">61</td><td class="teaching-grade-table__identity">202313141300184</td><td class="teaching-grade-table__identity">李志强</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G1</td><td>90</td><td>100</td><td>83</td><td>97</td><td>94</td><td>94</td><td>92</td><td>95</td><td>100</td><td>98</td><td>91</td><td>0</td><td>0</td><td>76</td><td>81</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>96</td><td>92</td><td>94</td><td>47</td><td>95</td><td>100</td><td>80</td><td>4</td><td>88</td><td>44</td><td>32</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">62</td><td class="teaching-grade-table__identity">202313141300185</td><td class="teaching-grade-table__identity">黄彩婷</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J2</td><td>93</td><td>0</td><td>83</td><td>89</td><td>91</td><td>91</td><td>92</td><td>88</td><td>93</td><td>0</td><td>0</td><td>98</td><td>0</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>93</td><td>94</td><td>94</td><td>40</td><td>94</td><td>100</td><td>77</td><td>2</td><td>81</td><td>40</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">63</td><td class="teaching-grade-table__identity">202313141300186</td><td class="teaching-grade-table__identity">朱桂珍</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E10</td><td>94</td><td>0</td><td>83</td><td>0</td><td>91</td><td>92</td><td>92</td><td>86</td><td>95</td><td>94</td><td>93</td><td>90</td><td>97</td><td>83</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>96</td><td>96</td><td>96</td><td>45</td><td>93</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">64</td><td class="teaching-grade-table__identity">202313141300187</td><td class="teaching-grade-table__identity">李发海</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G9</td><td>91</td><td>0</td><td>83</td><td>91</td><td>91</td><td>0</td><td>91</td><td>0</td><td>91</td><td>0</td><td>93</td><td>93</td><td>93</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>92</td><td>93</td><td>94</td><td>54</td><td>94</td><td>100</td><td>79</td><td>0</td><td>79</td><td>40</td><td>41</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">65</td><td class="teaching-grade-table__identity">202313141300188</td><td class="teaching-grade-table__identity">钟豨娟</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E13</td><td>90</td><td>0</td><td>83</td><td>90</td><td>91</td><td>91</td><td>96</td><td>93</td><td>95</td><td>0</td><td>0</td><td>0</td><td>0</td><td>56</td><td>71</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>95</td><td>92</td><td>93</td><td>50</td><td>94</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">66</td><td class="teaching-grade-table__identity">202313141300189</td><td class="teaching-grade-table__identity">覃豪</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G6</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>94</td><td>0</td><td>0</td><td>93</td><td>0</td><td>91</td><td>28</td><td>57</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>93</td><td>94</td><td>40</td><td>92</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">67</td><td class="teaching-grade-table__identity">202313141300190</td><td class="teaching-grade-table__identity">何婧雯</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J3</td><td>93</td><td>0</td><td>83</td><td>96</td><td>93</td><td>93</td><td>94</td><td>0</td><td>94</td><td>0</td><td>89</td><td>93</td><td>0</td><td>65</td><td>77</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>95</td><td>95</td><td>95</td><td>43</td><td>90</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">68</td><td class="teaching-grade-table__identity">202313141300191</td><td class="teaching-grade-table__identity">莫林军</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G7</td><td>92</td><td>0</td><td>83</td><td>90</td><td>91</td><td>92</td><td>93</td><td>81</td><td>90</td><td>0</td><td>93</td><td>0</td><td>92</td><td>72</td><td>80</td><td>97</td><td>98</td><td>0</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>70</td><td>93</td><td>92</td><td>93</td><td>93</td><td>52</td><td>95</td><td>100</td><td>79</td><td>0</td><td>79</td><td>40</td><td>41</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">69</td><td class="teaching-grade-table__identity">202313141300192</td><td class="teaching-grade-table__identity">陈苏颖</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E1</td><td>94</td><td>0</td><td>83</td><td>85</td><td>92</td><td>90</td><td>91</td><td>95</td><td>95</td><td>0</td><td>90</td><td>92</td><td>0</td><td>73</td><td>81</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>92</td><td>92</td><td>95</td><td>93</td><td>56</td><td>91</td><td>100</td><td>80</td><td>0</td><td>80</td><td>40</td><td>40</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">70</td><td class="teaching-grade-table__identity">202313141300193</td><td class="teaching-grade-table__identity">张万鹏</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G11</td><td>0</td><td>0</td><td>83</td><td>0</td><td>92</td><td>0</td><td>0</td><td>82</td><td>0</td><td>0</td><td>93</td><td>0</td><td>93</td><td>36</td><td>39</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>95</td><td>95</td><td>95</td><td>47</td><td>90</td><td>100</td><td>62</td><td>0</td><td>62</td><td>31</td><td>58</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">71</td><td class="teaching-grade-table__identity">202313141300194</td><td class="teaching-grade-table__identity">孟祥坤</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C11</td><td>91</td><td>0</td><td>83</td><td>86</td><td>88</td><td>0</td><td>91</td><td>84</td><td>91</td><td>94</td><td>88</td><td>0</td><td>95</td><td>72</td><td>79</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>83</td><td>94</td><td>96</td><td>95</td><td>95</td><td>38</td><td>95</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">72</td><td class="teaching-grade-table__identity">202313141300195</td><td class="teaching-grade-table__identity">卜双浩</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C10</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>91</td><td>0</td><td>0</td><td>92</td><td>98</td><td>28</td><td>58</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>95</td><td>92</td><td>93</td><td>36</td><td>95</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">73</td><td class="teaching-grade-table__identity">202313141300196</td><td class="teaching-grade-table__identity">刘婵</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E14</td><td>91</td><td>0</td><td>83</td><td>0</td><td>91</td><td>91</td><td>0</td><td>94</td><td>95</td><td>0</td><td>92</td><td>0</td><td>0</td><td>46</td><td>67</td><td>97</td><td>0</td><td>0</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>56</td><td>92</td><td>92</td><td>0</td><td>61</td><td>44</td><td>95</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">74</td><td class="teaching-grade-table__identity">202313141300197</td><td class="teaching-grade-table__identity">姚心蕊</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E3</td><td>91</td><td>0</td><td>83</td><td>83</td><td>91</td><td>95</td><td>90</td><td>96</td><td>93</td><td>0</td><td>92</td><td>97</td><td>90</td><td>83</td><td>85</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>93</td><td>94</td><td>94</td><td>41</td><td>95</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">75</td><td class="teaching-grade-table__identity">202313141300198</td><td class="teaching-grade-table__identity">陆辉华</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G12</td><td>90</td><td>0</td><td>83</td><td>90</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>93</td><td>94</td><td>90</td><td>37</td><td>62</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>92</td><td>93</td><td>60</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">76</td><td class="teaching-grade-table__identity">202313141300199</td><td class="teaching-grade-table__identity">宋宇晨</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J1</td><td>93</td><td>0</td><td>83</td><td>0</td><td>0</td><td>92</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>49</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>0</td><td>98</td><td>83</td><td>92</td><td>95</td><td>95</td><td>94</td><td>36</td><td>92</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">77</td><td class="teaching-grade-table__identity">202313141300200</td><td class="teaching-grade-table__identity">李佳尧</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E2</td><td>93</td><td>0</td><td>83</td><td>87</td><td>92</td><td>94</td><td>94</td><td>87</td><td>95</td><td>95</td><td>98</td><td>93</td><td>97</td><td>93</td><td>91</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>94</td><td>93</td><td>94</td><td>78</td><td>92</td><td>100</td><td>90</td><td>2</td><td>94</td><td>47</td><td>26</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">78</td><td class="teaching-grade-table__identity">202313141300202</td><td class="teaching-grade-table__identity">黄肖静</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E8</td><td>90</td><td>0</td><td>83</td><td>85</td><td>91</td><td>90</td><td>90</td><td>96</td><td>94</td><td>0</td><td>93</td><td>0</td><td>0</td><td>64</td><td>75</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>0</td><td>84</td><td>95</td><td>94</td><td>93</td><td>94</td><td>49</td><td>95</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">79</td><td class="teaching-grade-table__identity">202313141300203</td><td class="teaching-grade-table__identity">吴树悠</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C9</td><td>91</td><td>0</td><td>83</td><td>93</td><td>91</td><td>90</td><td>92</td><td>95</td><td>94</td><td>0</td><td>0</td><td>0</td><td>93</td><td>65</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>96</td><td>94</td><td>94</td><td>53</td><td>90</td><td>100</td><td>78</td><td>0</td><td>78</td><td>39</td><td>42</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">80</td><td class="teaching-grade-table__identity">202313141300204</td><td class="teaching-grade-table__identity">钟昊铭</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G8</td><td>91</td><td>0</td><td>83</td><td>90</td><td>91</td><td>0</td><td>92</td><td>82</td><td>95</td><td>0</td><td>93</td><td>0</td><td>97</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>95</td><td>95</td><td>94</td><td>50</td><td>90</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">81</td><td class="teaching-grade-table__identity">202313141500377</td><td class="teaching-grade-table__identity">李光华</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J14</td><td>93</td><td></td><td>83</td><td>0</td><td>0</td><td>93</td><td>92</td><td>89</td><td>97</td><td>0</td><td>0</td><td>97</td><td>0</td><td>47</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>95</td><td>94</td><td>95</td><td>53</td><td>93</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">82</td><td class="teaching-grade-table__identity">202313141300205</td><td class="teaching-grade-table__identity">凌雅奎</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H3</td><td>92</td><td>0</td><td>83</td><td>93</td><td>91</td><td>90</td><td>93</td><td>0</td><td>91</td><td>0</td><td>89</td><td>95</td><td>0</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>96</td><td>96</td><td>95</td><td>31</td><td>95</td><td>100</td><td>75</td><td>0</td><td>75</td><td>37</td><td>45</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">83</td><td class="teaching-grade-table__identity">202313141300206</td><td class="teaching-grade-table__identity">蔡艾彤</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F10</td><td>94</td><td>0</td><td>85</td><td>90</td><td>94</td><td>90</td><td>92</td><td>0</td><td>92</td><td>0</td><td>89</td><td>0</td><td>89</td><td>64</td><td>77</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>0</td><td>98</td><td>0</td><td>83</td><td>96</td><td>92</td><td>95</td><td>94</td><td>43</td><td>92</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">84</td><td class="teaching-grade-table__identity">202313141300207</td><td class="teaching-grade-table__identity">何慧颖</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H11</td><td>92</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>93</td><td>0</td><td>0</td><td>0</td><td>98</td><td>95</td><td>97</td><td>38</td><td>63</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>95</td><td>92</td><td>96</td><td>94</td><td>62</td><td>94</td><td>100</td><td>75</td><td>2</td><td>79</td><td>39</td><td>41</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">85</td><td class="teaching-grade-table__identity">202313141300208</td><td class="teaching-grade-table__identity">唐阳州</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F11</td><td>91</td><td>0</td><td>85</td><td>0</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>49</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>0</td><td>98</td><td>98</td><td>69</td><td>92</td><td>95</td><td>93</td><td>93</td><td>42</td><td>94</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">86</td><td class="teaching-grade-table__identity">202313141300209</td><td class="teaching-grade-table__identity">莫钧友</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F7</td><td>91</td><td>0</td><td>85</td><td>88</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>53</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>92</td><td>94</td><td>93</td><td>48</td><td>93</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">87</td><td class="teaching-grade-table__identity">202313141300210</td><td class="teaching-grade-table__identity">谢福轩</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C4</td><td>91</td><td>0</td><td>83</td><td>94</td><td>89</td><td>90</td><td>92</td><td>86</td><td>89</td><td>98</td><td>92</td><td>0</td><td>95</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>93</td><td>94</td><td>94</td><td>37</td><td>94</td><td>100</td><td>79</td><td>2</td><td>83</td><td>42</td><td>37</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">88</td><td class="teaching-grade-table__identity">202313141300211</td><td class="teaching-grade-table__identity">李思欣</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H1</td><td>92</td><td>0</td><td>83</td><td>92</td><td>0</td><td>90</td><td>93</td><td>81</td><td>95</td><td>98</td><td>89</td><td>93</td><td>97</td><td>83</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>94</td><td>92</td><td>94</td><td>43</td><td>91</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">89</td><td class="teaching-grade-table__identity">202313141300212</td><td class="teaching-grade-table__identity">戚锦东</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C6</td><td>91</td><td>0</td><td>83</td><td>85</td><td>91</td><td>91</td><td>90</td><td>85</td><td>92</td><td>92</td><td>88</td><td>90</td><td>95</td><td>90</td><td>88</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>95</td><td>92</td><td>94</td><td>54</td><td>95</td><td>100</td><td>84</td><td>0</td><td>84</td><td>42</td><td>36</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">90</td><td class="teaching-grade-table__identity">202313141300213</td><td class="teaching-grade-table__identity">陆丽庄</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D3</td><td>91</td><td>0</td><td>79</td><td>0</td><td>0</td><td>86</td><td>93</td><td>0</td><td>93</td><td>0</td><td>92</td><td>90</td><td>0</td><td>45</td><td>65</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>96</td><td>92</td><td>94</td><td>16</td><td>94</td><td>100</td><td>67</td><td>0</td><td>67</td><td>33</td><td>53</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">91</td><td class="teaching-grade-table__identity">202313141300214</td><td class="teaching-grade-table__identity">覃健</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I2</td><td>90</td><td>0</td><td>80</td><td>0</td><td>91</td><td>92</td><td>91</td><td>0</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>36</td><td>61</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>94</td><td>92</td><td>94</td><td>41</td><td>90</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">92</td><td class="teaching-grade-table__identity">202313141300215</td><td class="teaching-grade-table__identity">梁寿林</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F9</td><td>92</td><td>0</td><td>85</td><td>86</td><td>91</td><td>100</td><td>92</td><td>84</td><td>93</td><td>0</td><td>0</td><td>0</td><td>0</td><td>55</td><td>72</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>93</td><td>95</td><td>94</td><td>32</td><td>95</td><td>100</td><td>73</td><td>2</td><td>77</td><td>39</td><td>43</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">93</td><td class="teaching-grade-table__identity">202313141300216</td><td class="teaching-grade-table__identity">徐耀前</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I7</td><td>90</td><td>0</td><td>80</td><td>0</td><td>91</td><td>94</td><td>91</td><td>0</td><td>0</td><td>0</td><td>93</td><td>0</td><td>0</td><td>37</td><td>61</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>95</td><td>92</td><td>93</td><td>32</td><td>92</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">94</td><td class="teaching-grade-table__identity">202313141300217</td><td class="teaching-grade-table__identity">邹海龙</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F3</td><td>93</td><td>0</td><td>85</td><td>93</td><td>93</td><td>88</td><td>92</td><td>0</td><td>92</td><td>0</td><td>0</td><td>92</td><td>0</td><td>55</td><td>72</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>96</td><td>96</td><td>95</td><td>35</td><td>90</td><td>100</td><td>73</td><td>2</td><td>77</td><td>39</td><td>43</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">95</td><td class="teaching-grade-table__identity">202313141300218</td><td class="teaching-grade-table__identity">欧晓玲</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H6</td><td>92</td><td>0</td><td>83</td><td>0</td><td>0</td><td>91</td><td>94</td><td>85</td><td>0</td><td>0</td><td>95</td><td>95</td><td>90</td><td>55</td><td>71</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>93</td><td>94</td><td>46</td><td>91</td><td>100</td><td>75</td><td>0</td><td>75</td><td>38</td><td>45</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">96</td><td class="teaching-grade-table__identity">202313141300219</td><td class="teaching-grade-table__identity">唐春</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D4</td><td>90</td><td>0</td><td>79</td><td>90</td><td>0</td><td>90</td><td>93</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>56</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>96</td><td>94</td><td>94</td><td>40</td><td>94</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">97</td><td class="teaching-grade-table__identity">202313141300220</td><td class="teaching-grade-table__identity">江雨凤</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D10</td><td>91</td><td>100</td><td>79</td><td>86</td><td>91</td><td>0</td><td>94</td><td>0</td><td>95</td><td>93</td><td>91</td><td>97</td><td>97</td><td>74</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>93</td><td>93</td><td>94</td><td>46</td><td>95</td><td>100</td><td>79</td><td>4</td><td>87</td><td>44</td><td>33</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">98</td><td class="teaching-grade-table__identity">202313141300221</td><td class="teaching-grade-table__identity">张继源</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I1</td><td>92</td><td>0</td><td>80</td><td>0</td><td>91</td><td>93</td><td>96</td><td>83</td><td>0</td><td>94</td><td>90</td><td>0</td><td>98</td><td>64</td><td>75</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>92</td><td>96</td><td>95</td><td>46</td><td>94</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">99</td><td class="teaching-grade-table__identity">202313141300222</td><td class="teaching-grade-table__identity">罗茜芡</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H5</td><td>92</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>88</td><td>92</td><td>0</td><td>0</td><td>93</td><td>93</td><td>37</td><td>62</td><td>97</td><td>0</td><td>0</td><td>0</td><td>98</td><td>97</td><td>98</td><td>0</td><td>56</td><td>96</td><td>92</td><td>95</td><td>94</td><td>38</td><td>94</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">100</td><td class="teaching-grade-table__identity">202313141300223</td><td class="teaching-grade-table__identity">黄文龙</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F1</td><td>93</td><td>0</td><td>85</td><td>93</td><td>92</td><td>92</td><td>96</td><td>0</td><td>85</td><td>100</td><td>93</td><td>92</td><td>95</td><td>84</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>92</td><td>93</td><td>93</td><td>34</td><td>91</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">101</td><td class="teaching-grade-table__identity">202313141300224</td><td class="teaching-grade-table__identity">韦晓楠</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H13</td><td>92</td><td>100</td><td>83</td><td>0</td><td>91</td><td>0</td><td>0</td><td>0</td><td>92</td><td>0</td><td>0</td><td>93</td><td>0</td><td>28</td><td>58</td><td>0</td><td>98</td><td>0</td><td>97</td><td>98</td><td>0</td><td>98</td><td>98</td><td>56</td><td>95</td><td>96</td><td>93</td><td>95</td><td>54</td><td>90</td><td>100</td><td>69</td><td>2</td><td>73</td><td>37</td><td>47</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">102</td><td class="teaching-grade-table__identity">202313141300225</td><td class="teaching-grade-table__identity">陆佳怡</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H12</td><td>92</td><td>0</td><td>83</td><td>0</td><td>90</td><td>91</td><td>92</td><td>83</td><td>97</td><td>0</td><td>88</td><td>92</td><td>90</td><td>72</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>92</td><td>93</td><td>92</td><td>41</td><td>95</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">103</td><td class="teaching-grade-table__identity">202313141300226</td><td class="teaching-grade-table__identity">王亚敏</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D2</td><td>90</td><td>0</td><td>79</td><td>0</td><td>0</td><td>92</td><td>92</td><td>87</td><td>93</td><td>0</td><td>0</td><td>93</td><td>92</td><td>55</td><td>70</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>94</td><td>95</td><td>94</td><td>45</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">104</td><td class="teaching-grade-table__identity">202313141300227</td><td class="teaching-grade-table__identity">韦富宏</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F5</td><td>94</td><td>0</td><td>85</td><td>0</td><td>93</td><td>92</td><td>93</td><td>0</td><td>95</td><td>94</td><td>91</td><td>0</td><td>0</td><td>56</td><td>73</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>83</td><td>94</td><td>96</td><td>95</td><td>95</td><td>34</td><td>91</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">105</td><td class="teaching-grade-table__identity">202313141300228</td><td class="teaching-grade-table__identity">谢蕙鸿</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C3</td><td>91</td><td>0</td><td>83</td><td>90</td><td>96</td><td>90</td><td>90</td><td>91</td><td>0</td><td>98</td><td>88</td><td>0</td><td>95</td><td>74</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>93</td><td>93</td><td>94</td><td>37</td><td>92</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">106</td><td class="teaching-grade-table__identity">202313141300229</td><td class="teaching-grade-table__identity">李聪</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C1</td><td>91</td><td>100</td><td>83</td><td>93</td><td>91</td><td>91</td><td>95</td><td>87</td><td>95</td><td>100</td><td>89</td><td>92</td><td>95</td><td>93</td><td>90</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>96</td><td>93</td><td>94</td><td>69</td><td>92</td><td>100</td><td>87</td><td>4</td><td>95</td><td>48</td><td>25</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">107</td><td class="teaching-grade-table__identity">202313141300230</td><td class="teaching-grade-table__identity">刘世源</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C7</td><td>91</td><td>0</td><td>83</td><td>82</td><td>91</td><td>91</td><td>92</td><td>83</td><td>92</td><td>0</td><td>92</td><td>0</td><td>94</td><td>72</td><td>79</td><td>97</td><td>0</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>70</td><td>92</td><td>93</td><td>94</td><td>93</td><td>44</td><td>93</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">108</td><td class="teaching-grade-table__identity">202313141300231</td><td class="teaching-grade-table__identity">陈万芊</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H7</td><td>92</td><td>0</td><td>83</td><td>93</td><td>0</td><td>96</td><td>92</td><td>0</td><td>93</td><td>0</td><td>90</td><td>95</td><td>97</td><td>66</td><td>77</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>0</td><td>98</td><td>98</td><td>83</td><td>94</td><td>96</td><td>94</td><td>95</td><td>54</td><td>91</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">109</td><td class="teaching-grade-table__identity">202313141300232</td><td class="teaching-grade-table__identity">郭耀康</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I6</td><td>90</td><td>0</td><td>80</td><td>0</td><td>0</td><td>93</td><td>93</td><td>81</td><td>90</td><td>0</td><td>92</td><td>0</td><td>0</td><td>45</td><td>65</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>94</td><td>92</td><td>93</td><td>67</td><td>93</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">110</td><td class="teaching-grade-table__identity">202313141300233</td><td class="teaching-grade-table__identity">莫祖胜</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I5</td><td>90</td><td>0</td><td>80</td><td>92</td><td>91</td><td>93</td><td>96</td><td>0</td><td>0</td><td>100</td><td>89</td><td>0</td><td>97</td><td>66</td><td>75</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>92</td><td>95</td><td>93</td><td>50</td><td>91</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">111</td><td class="teaching-grade-table__identity">202313141300234</td><td class="teaching-grade-table__identity">谢晓芸</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D5</td><td>90</td><td>0</td><td>79</td><td>95</td><td>89</td><td>90</td><td>93</td><td>0</td><td>93</td><td>0</td><td>0</td><td>0</td><td>92</td><td>55</td><td>70</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>95</td><td>93</td><td>92</td><td>93</td><td>29</td><td>91</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">112</td><td class="teaching-grade-table__identity">202313141300235</td><td class="teaching-grade-table__identity">潘林娇</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D7</td><td>91</td><td>0</td><td>79</td><td>93</td><td>0</td><td>96</td><td>93</td><td>0</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>37</td><td>61</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>92</td><td>94</td><td>96</td><td>94</td><td>24</td><td>94</td><td>100</td><td>67</td><td>2</td><td>71</td><td>35</td><td>49</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">113</td><td class="teaching-grade-table__identity">202313141300236</td><td class="teaching-grade-table__identity">周泽莲</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D9</td><td>90</td><td>0</td><td>79</td><td>96</td><td>88</td><td>91</td><td>92</td><td>0</td><td>95</td><td>0</td><td>93</td><td>97</td><td>89</td><td>74</td><td>79</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>96</td><td>94</td><td>46</td><td>94</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">114</td><td class="teaching-grade-table__identity">202313141300237</td><td class="teaching-grade-table__identity">古丽柯孜·居麦</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H10</td><td>92</td><td>0</td><td>83</td><td>0</td><td>93</td><td>0</td><td>0</td><td>0</td><td>91</td><td>0</td><td>0</td><td>95</td><td>0</td><td>28</td><td>58</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>95</td><td>94</td><td>30</td><td>90</td><td>100</td><td>66</td><td>0</td><td>66</td><td>33</td><td>54</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">115</td><td class="teaching-grade-table__identity">202313141300238</td><td class="teaching-grade-table__identity">黄施涛</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F6</td><td>94</td><td>0</td><td>85</td><td>84</td><td>94</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>90</td><td>36</td><td>63</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>93</td><td>96</td><td>94</td><td>31</td><td>92</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">116</td><td class="teaching-grade-table__identity">202313141300239</td><td class="teaching-grade-table__identity">敖浩</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F8</td><td>97</td><td>100</td><td>85</td><td>0</td><td>93</td><td>92</td><td>92</td><td>81</td><td>93</td><td>94</td><td>89</td><td>89</td><td>92</td><td>82</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>0</td><td>98</td><td>83</td><td>96</td><td>93</td><td>94</td><td>94</td><td>44</td><td>94</td><td>100</td><td>81</td><td>0</td><td>81</td><td>40</td><td>39</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">117</td><td class="teaching-grade-table__identity">202313141300240</td><td class="teaching-grade-table__identity">梁书僮</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F4</td><td>94</td><td>0</td><td>85</td><td>90</td><td>92</td><td>91</td><td>91</td><td>0</td><td>93</td><td>0</td><td>88</td><td>94</td><td>97</td><td>74</td><td>82</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>93</td><td>94</td><td>94</td><td>43</td><td>92</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">118</td><td class="teaching-grade-table__identity">202313141300241</td><td class="teaching-grade-table__identity">陈治先</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C2</td><td>91</td><td>0</td><td>83</td><td>93</td><td>96</td><td>95</td><td>91</td><td>95</td><td>93</td><td>0</td><td>0</td><td>0</td><td>95</td><td>66</td><td>92</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>0</td><td>98</td><td>69</td><td>94</td><td>95</td><td>93</td><td>94</td><td>62</td><td>94</td><td>100</td><td>86</td><td>0</td><td>86</td><td>43</td><td>34</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">119</td><td class="teaching-grade-table__identity">202313141300242</td><td class="teaching-grade-table__identity">杨宗霖</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F2</td><td>91</td><td>0</td><td>85</td><td>88</td><td>92</td><td>86</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>97</td><td>45</td><td>67</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>95</td><td>96</td><td>96</td><td>38</td><td>90</td><td>100</td><td>71</td><td>2</td><td>75</td><td>38</td><td>45</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">120</td><td class="teaching-grade-table__identity">202313141300243</td><td class="teaching-grade-table__identity">陆禹辰</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F12</td><td>94</td><td>0</td><td>85</td><td>85</td><td>93</td><td>0</td><td>92</td><td>0</td><td>90</td><td>0</td><td>0</td><td>0</td><td>0</td><td>39</td><td>64</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>94</td><td>94</td><td>56</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">121</td><td class="teaching-grade-table__identity">202313141300244</td><td class="teaching-grade-table__identity">吴荣琦</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I4</td><td>90</td><td>0</td><td>80</td><td>95</td><td>0</td><td>93</td><td>0</td><td>0</td><td>92</td><td>0</td><td>0</td><td>0</td><td>0</td><td>28</td><td>56</td><td>97</td><td>0</td><td>96</td><td>0</td><td>98</td><td>0</td><td>98</td><td>0</td><td>56</td><td>96</td><td>94</td><td>95</td><td>95</td><td>29</td><td>92</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">122</td><td class="teaching-grade-table__identity">202313141300245</td><td class="teaching-grade-table__identity">何耀杰</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C5</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>90</td><td>93</td><td>0</td><td>0</td><td>93</td><td>88</td><td>0</td><td>93</td><td>46</td><td>66</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>96</td><td>93</td><td>94</td><td>23</td><td>90</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">123</td><td class="teaching-grade-table__identity">202313141300246</td><td class="teaching-grade-table__identity">何健清</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D1</td><td>91</td><td>0</td><td>79</td><td>92</td><td>91</td><td>91</td><td>93</td><td>0</td><td>94</td><td>0</td><td>88</td><td>0</td><td>97</td><td>65</td><td>75</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>92</td><td>96</td><td>95</td><td>28</td><td>94</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">124</td><td class="teaching-grade-table__identity">202313141300247</td><td class="teaching-grade-table__identity">罗仕芳</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D6</td><td>90</td><td>0</td><td>79</td><td>0</td><td>91</td><td>93</td><td>93</td><td>0</td><td>91</td><td>0</td><td>0</td><td>90</td><td>0</td><td>46</td><td>65</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>92</td><td>95</td><td>93</td><td>29</td><td>91</td><td>100</td><td>69</td><td>0</td><td>69</td><td>35</td><td>51</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">125</td><td class="teaching-grade-table__identity">202313141300248</td><td class="teaching-grade-table__identity">潘朵拉</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D8</td><td>90</td><td>0</td><td>79</td><td>0</td><td>88</td><td>0</td><td>93</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>97</td><td>28</td><td>56</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>95</td><td>96</td><td>95</td><td>21</td><td>91</td><td>100</td><td>64</td><td>2</td><td>68</td><td>34</td><td>52</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">126</td><td class="teaching-grade-table__identity">202313141300249</td><td class="teaching-grade-table__identity">何柯林</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H4</td><td>92</td><td>0</td><td>83</td><td>91</td><td>90</td><td>90</td><td>90</td><td>86</td><td>90</td><td>94</td><td>0</td><td>95</td><td>0</td><td>73</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>96</td><td>94</td><td>34</td><td>91</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">127</td><td class="teaching-grade-table__identity">202313141300250</td><td class="teaching-grade-table__identity">欧阳斯淇</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H8</td><td>92</td><td>0</td><td>83</td><td>0</td><td>90</td><td>93</td><td>0</td><td>0</td><td>90</td><td>0</td><td>0</td><td>94</td><td>0</td><td>37</td><td>62</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>94</td><td>96</td><td>94</td><td>51</td><td>93</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">128</td><td class="teaching-grade-table__identity">202313141300251</td><td class="teaching-grade-table__identity">陈丹</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H2</td><td>92</td><td>0</td><td>83</td><td>0</td><td>88</td><td>0</td><td>90</td><td>0</td><td>96</td><td>0</td><td>92</td><td>95</td><td>0</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>92</td><td>92</td><td>40</td><td>93</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">129</td><td class="teaching-grade-table__identity">202313141300252</td><td class="teaching-grade-table__identity">王丽婷</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H9</td><td>92</td><td>0</td><td>83</td><td>0</td><td>91</td><td>93</td><td>93</td><td>87</td><td>90</td><td>94</td><td>93</td><td>94</td><td>94</td><td>83</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>95</td><td>94</td><td>37</td><td>91</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">130</td><td class="teaching-grade-table__identity">202313141300253</td><td class="teaching-grade-table__identity">黄仕锦</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>120</td>
-    </tr>
-    <tr>
-      <td class="teaching-grade-table__identity">131</td><td class="teaching-grade-table__identity">202313141300254</td><td class="teaching-grade-table__identity">熊茂焜</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I3</td><td>90</td><td>0</td><td>80</td><td>0</td><td>92</td><td>94</td><td>91</td><td>82</td><td>96</td><td>0</td><td>92</td><td>0</td><td>93</td><td>64</td><td>74</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>94</td><td>94</td><td>51</td><td>93</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<section class="teaching-grade-overview" aria-labelledby="communication-principles-summary">
+  <h2 id="communication-principles-summary">Continuous assessment summary</h2>
+  <div class="teaching-grade-table-wrapper" role="region" aria-label="Communication Principles continuous assessment summary" tabindex="0">
+  <table class="teaching-grade-table teaching-grade-table--summary">
+    <caption><span class="teaching-grade-table__note">Scores are displayed as rounded integers; the original precision is retained in the <a href="/files/communication-principles-grades.csv">CSV source</a>.</span></caption>
+    <thead>
+      <tr>
+        <th class="teaching-grade-table__summary-sticky-number">序号</th><th>学号</th><th class="teaching-grade-table__summary-sticky-name">姓名</th><th>分组</th><th>编号</th><th title="Pre（75%）总分">Pre</th><th title="作业总分">作业</th><th title="实验总分">实验</th><th title="段考（20%）">段考</th><th title="大作业（20%）">大作业</th><th title="考勤（5%）">考勤</th><th title="平时总分（占期末50%）">平时</th><th title="加分">加分</th><th title="加分后的平时总分">加分后</th><th title="折算成期末的总分">折算期末</th><th title="期末考多少分才不挂科">最低及格</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">1</td><td>202313141300005</td><td class="teaching-grade-table__summary-sticky-name">李永健</td><td>A</td><td>A8</td><td>91</td><td>97</td><td>93</td><td>30</td><td>95</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">2</td><td>202313141300008</td><td class="teaching-grade-table__summary-sticky-name">廖瑞隆</td><td>B</td><td>B1</td><td>84</td><td>84</td><td>95</td><td>33</td><td>91</td><td>100</td><td>77</td><td>4</td><td>85</td><td>43</td><td>35</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">3</td><td>202313141300011</td><td class="teaching-grade-table__summary-sticky-name">赖冬冬</td><td>B</td><td>B10</td><td>83</td><td>56</td><td>94</td><td>26</td><td>90</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">4</td><td>202313141300024</td><td class="teaching-grade-table__summary-sticky-name">周桂宇</td><td>B</td><td>B5</td><td>77</td><td>97</td><td>93</td><td>23</td><td>94</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">5</td><td>202313141300028</td><td class="teaching-grade-table__summary-sticky-name">李德深</td><td>B</td><td>B7</td><td>72</td><td>97</td><td>95</td><td>20</td><td>95</td><td>100</td><td>71</td><td>2</td><td>75</td><td>38</td><td>45</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">6</td><td>202313141300031</td><td class="teaching-grade-table__summary-sticky-name">梁海洁</td><td>A</td><td>A6</td><td>63</td><td>97</td><td>94</td><td>50</td><td>92</td><td>100</td><td>73</td><td>0</td><td>73</td><td>37</td><td>47</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">7</td><td>202313141300039</td><td class="teaching-grade-table__summary-sticky-name">梁婉仪</td><td>B</td><td>B8</td><td>92</td><td>97</td><td>94</td><td>58</td><td>95</td><td>100</td><td>87</td><td>2</td><td>91</td><td>45</td><td>29</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">8</td><td>202313141300040</td><td class="teaching-grade-table__summary-sticky-name">綦若同</td><td>I</td><td>I8</td><td>80</td><td>97</td><td>94</td><td>74</td><td>93</td><td>100</td><td>85</td><td>4</td><td>93</td><td>46</td><td>27</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">9</td><td>202313141300043</td><td class="teaching-grade-table__summary-sticky-name">葛定康</td><td>B</td><td>B4</td><td>78</td><td>97</td><td>93</td><td>36</td><td>90</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">10</td><td>202313141300044</td><td class="teaching-grade-table__summary-sticky-name">罗志杰</td><td>B</td><td>B3</td><td>61</td><td>56</td><td>95</td><td>57</td><td>90</td><td>100</td><td>71</td><td>0</td><td>71</td><td>35</td><td>49</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">11</td><td>202313141300046</td><td class="teaching-grade-table__summary-sticky-name">奚佳贤</td><td>B</td><td>B9</td><td>87</td><td>97</td><td>94</td><td>65</td><td>94</td><td>100</td><td>86</td><td>0</td><td>86</td><td>43</td><td>34</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">12</td><td>202313141300054</td><td class="teaching-grade-table__summary-sticky-name">黄瑶</td><td>A</td><td>A13</td><td>87</td><td>97</td><td>94</td><td>48</td><td>95</td><td>100</td><td>83</td><td>2</td><td>87</td><td>43</td><td>33</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">13</td><td>202313141300058</td><td class="teaching-grade-table__summary-sticky-name">肖淑仪</td><td>B</td><td>B11</td><td>93</td><td>84</td><td>94</td><td>44</td><td>95</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">14</td><td>202313141300062</td><td class="teaching-grade-table__summary-sticky-name">陈锡满</td><td>A</td><td>A7</td><td>90</td><td>97</td><td>93</td><td>41</td><td>92</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">15</td><td>202313141300065</td><td class="teaching-grade-table__summary-sticky-name">李铭辉</td><td>A</td><td>A5</td><td>86</td><td>84</td><td>93</td><td>62</td><td>92</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">16</td><td>202313141300069</td><td class="teaching-grade-table__summary-sticky-name">许雨晴</td><td>B</td><td>B13</td><td>93</td><td>97</td><td>93</td><td>54</td><td>94</td><td>100</td><td>86</td><td>2</td><td>90</td><td>45</td><td>30</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">17</td><td>202313141300072</td><td class="teaching-grade-table__summary-sticky-name">叶娟</td><td>B</td><td>B12</td><td>93</td><td>83</td><td>94</td><td>49</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">18</td><td>202313141300079</td><td class="teaching-grade-table__summary-sticky-name">梁得桂</td><td>B</td><td>B6</td><td>69</td><td>97</td><td>94</td><td>32</td><td>94</td><td>100</td><td>72</td><td>0</td><td>72</td><td>36</td><td>48</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">19</td><td>202313141300083</td><td class="teaching-grade-table__summary-sticky-name">韦信明</td><td>A</td><td>A3</td><td>72</td><td>84</td><td>93</td><td>61</td><td>90</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">20</td><td>202313141300102</td><td class="teaching-grade-table__summary-sticky-name">黄焕梅</td><td>B</td><td>B14</td><td>93</td><td>97</td><td>95</td><td>53</td><td>92</td><td>100</td><td>86</td><td>2</td><td>90</td><td>45</td><td>30</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">21</td><td>202313141300105</td><td class="teaching-grade-table__summary-sticky-name">韦钟宝</td><td>A</td><td>A4</td><td>91</td><td>83</td><td>94</td><td>38</td><td>90</td><td>100</td><td>81</td><td>2</td><td>85</td><td>42</td><td>35</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">22</td><td>202313141300110</td><td class="teaching-grade-table__summary-sticky-name">董馨</td><td>I</td><td>I9</td><td>79</td><td>97</td><td>93</td><td>60</td><td>94</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">23</td><td>202313141300119</td><td class="teaching-grade-table__summary-sticky-name">叶俣彤</td><td>A</td><td>A11</td><td>76</td><td>97</td><td>93</td><td>53</td><td>90</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">24</td><td>202313141300129</td><td class="teaching-grade-table__summary-sticky-name">苏庆玉</td><td>A</td><td>A12</td><td>76</td><td>97</td><td>94</td><td>41</td><td>90</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">25</td><td>202313141300130</td><td class="teaching-grade-table__summary-sticky-name">卢松燕</td><td>A</td><td>A10</td><td>86</td><td>97</td><td>94</td><td>43</td><td>90</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">26</td><td>202313141300131</td><td class="teaching-grade-table__summary-sticky-name">黄震</td><td>A</td><td>A1</td><td>78</td><td>97</td><td>94</td><td>55</td><td>91</td><td>100</td><td>80</td><td>4</td><td>88</td><td>44</td><td>32</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">27</td><td>202313141300141</td><td class="teaching-grade-table__summary-sticky-name">黄华标</td><td>A</td><td>A9</td><td>45</td><td>56</td><td>93</td><td>20</td><td>91</td><td>100</td><td>57</td><td>0</td><td>57</td><td>29</td><td>63</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">28</td><td>202313141300142</td><td class="teaching-grade-table__summary-sticky-name">吴福恒</td><td>A</td><td>A2</td><td>86</td><td>97</td><td>93</td><td>50</td><td>91</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">29</td><td>202313141300143</td><td class="teaching-grade-table__summary-sticky-name">晏波</td><td>I</td><td>I10</td><td>70</td><td>97</td><td>96</td><td>38</td><td>90</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">30</td><td>202313141300169</td><td class="teaching-grade-table__summary-sticky-name">黄云龙</td><td>B</td><td>B2</td><td>61</td><td>83</td><td>94</td><td>20</td><td>95</td><td>100</td><td>66</td><td>2</td><td>70</td><td>35</td><td>50</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">31</td><td>202313140500213</td><td class="teaching-grade-table__summary-sticky-name">黄露淇</td><td>D</td><td>D13</td><td>85</td><td>84</td><td>94</td><td>51</td><td>93</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">32</td><td>202313141300154</td><td class="teaching-grade-table__summary-sticky-name">贲廖银</td><td>G</td><td>G5</td><td>67</td><td>97</td><td>94</td><td>55</td><td>94</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">33</td><td>202313141300155</td><td class="teaching-grade-table__summary-sticky-name">周子莉</td><td>E</td><td>E7</td><td>76</td><td>84</td><td>93</td><td>59</td><td>92</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">34</td><td>202313141300156</td><td class="teaching-grade-table__summary-sticky-name">颜文博</td><td>I</td><td>I12</td><td>0</td><td>14</td><td>96</td><td>0</td><td>0</td><td>100</td><td>15</td><td>0</td><td>15</td><td>8</td><td>105</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">35</td><td>202313141300157</td><td class="teaching-grade-table__summary-sticky-name">刘兰香</td><td>E</td><td>E9</td><td>85</td><td>97</td><td>96</td><td>31</td><td>90</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">36</td><td>202313141300158</td><td class="teaching-grade-table__summary-sticky-name">李松凝</td><td>C</td><td>C12</td><td>66</td><td>84</td><td>94</td><td>22</td><td>91</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">37</td><td>202313141300159</td><td class="teaching-grade-table__summary-sticky-name">赵玲慧</td><td>E</td><td>E5</td><td>86</td><td>97</td><td>94</td><td>50</td><td>94</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">38</td><td>202313141300160</td><td class="teaching-grade-table__summary-sticky-name">刘丰铭</td><td>G</td><td>G13</td><td>84</td><td>97</td><td>95</td><td>62</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">39</td><td>202313141300161</td><td class="teaching-grade-table__summary-sticky-name">黄忠恒</td><td>G</td><td>G4</td><td>70</td><td>97</td><td>93</td><td>56</td><td>92</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">40</td><td>202313141300162</td><td class="teaching-grade-table__summary-sticky-name">陆佳</td><td>E</td><td>E6</td><td>77</td><td>84</td><td>93</td><td>64</td><td>90</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">41</td><td>202313141300163</td><td class="teaching-grade-table__summary-sticky-name">吕泽贵</td><td>C</td><td>C8</td><td>86</td><td>97</td><td>93</td><td>29</td><td>92</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">42</td><td>202313141300164</td><td class="teaching-grade-table__summary-sticky-name">徐秋燕</td><td>J</td><td>J8</td><td>80</td><td>84</td><td>93</td><td>27</td><td>90</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">43</td><td>202313141300165</td><td class="teaching-grade-table__summary-sticky-name">卢俊池</td><td>G</td><td>G2</td><td>85</td><td>97</td><td>95</td><td>61</td><td>90</td><td>100</td><td>83</td><td>0</td><td>83</td><td>42</td><td>37</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">44</td><td>202313141300166</td><td class="teaching-grade-table__summary-sticky-name">林秋娜</td><td>E</td><td>E11</td><td>80</td><td>97</td><td>93</td><td>37</td><td>93</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">45</td><td>202313141300167</td><td class="teaching-grade-table__summary-sticky-name">田诗婷</td><td>D</td><td>D11</td><td>75</td><td>84</td><td>95</td><td>32</td><td>90</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">46</td><td>202313141300168</td><td class="teaching-grade-table__summary-sticky-name">杨雨晨</td><td>J</td><td>J7</td><td>58</td><td>56</td><td>94</td><td>36</td><td>93</td><td>100</td><td>66</td><td>0</td><td>66</td><td>33</td><td>54</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">47</td><td>202313141300170</td><td class="teaching-grade-table__summary-sticky-name">罗荣祥</td><td>J</td><td>J11</td><td>66</td><td>97</td><td>93</td><td>54</td><td>95</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">48</td><td>202313141300171</td><td class="teaching-grade-table__summary-sticky-name">粟建杰</td><td>C</td><td>C13</td><td>66</td><td>83</td><td>94</td><td>38</td><td>95</td><td>100</td><td>72</td><td>0</td><td>72</td><td>36</td><td>48</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">49</td><td>202313141300172</td><td class="teaching-grade-table__summary-sticky-name">李玲玲</td><td>E</td><td>E4</td><td>85</td><td>97</td><td>94</td><td>60</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">50</td><td>202313141300173</td><td class="teaching-grade-table__summary-sticky-name">覃诗奕</td><td>J</td><td>J5</td><td>67</td><td>97</td><td>94</td><td>78</td><td>95</td><td>100</td><td>81</td><td>0</td><td>81</td><td>40</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">51</td><td>202313141300174</td><td class="teaching-grade-table__summary-sticky-name">盛鹏</td><td>J</td><td>J10</td><td>85</td><td>97</td><td>93</td><td>62</td><td>94</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">52</td><td>202313141300175</td><td class="teaching-grade-table__summary-sticky-name">曾诗婷</td><td>J</td><td>J6</td><td>67</td><td>97</td><td>94</td><td>37</td><td>94</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">53</td><td>202313141300176</td><td class="teaching-grade-table__summary-sticky-name">欧海玲</td><td>D</td><td>D12</td><td>70</td><td>84</td><td>95</td><td>42</td><td>93</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">54</td><td>202313141300177</td><td class="teaching-grade-table__summary-sticky-name">罗雅方</td><td>E</td><td>E12</td><td>75</td><td>97</td><td>95</td><td>47</td><td>93</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">55</td><td>202313141300178</td><td class="teaching-grade-table__summary-sticky-name">覃双豪</td><td>J</td><td>J12</td><td>67</td><td>97</td><td>94</td><td>54</td><td>94</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">56</td><td>202313141300179</td><td class="teaching-grade-table__summary-sticky-name">黄惠炀</td><td>J</td><td>J9</td><td>71</td><td>97</td><td>92</td><td>12</td><td>95</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">57</td><td>202313141300180</td><td class="teaching-grade-table__summary-sticky-name">陈勇烨</td><td>G</td><td>G10</td><td>85</td><td>97</td><td>92</td><td>48</td><td>92</td><td>100</td><td>81</td><td>2</td><td>85</td><td>42</td><td>35</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">58</td><td>202313141300181</td><td class="teaching-grade-table__summary-sticky-name">邓灼林</td><td>J</td><td>J13</td><td>0</td><td>14</td><td>0</td><td>67</td><td>94</td><td>100</td><td>38</td><td>0</td><td>38</td><td>19</td><td>82</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">59</td><td>202313141300182</td><td class="teaching-grade-table__summary-sticky-name">廖利成</td><td>G</td><td>G3</td><td>61</td><td>97</td><td>94</td><td>39</td><td>90</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">60</td><td>202313141300183</td><td class="teaching-grade-table__summary-sticky-name">韦慧灵</td><td>J</td><td>J4</td><td>58</td><td>97</td><td>94</td><td>51</td><td>95</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">61</td><td>202313141300184</td><td class="teaching-grade-table__summary-sticky-name">李志强</td><td>G</td><td>G1</td><td>81</td><td>97</td><td>94</td><td>47</td><td>95</td><td>100</td><td>80</td><td>4</td><td>88</td><td>44</td><td>32</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">62</td><td>202313141300185</td><td class="teaching-grade-table__summary-sticky-name">黄彩婷</td><td>J</td><td>J2</td><td>76</td><td>97</td><td>94</td><td>40</td><td>94</td><td>100</td><td>77</td><td>2</td><td>81</td><td>40</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">63</td><td>202313141300186</td><td class="teaching-grade-table__summary-sticky-name">朱桂珍</td><td>E</td><td>E10</td><td>86</td><td>97</td><td>96</td><td>45</td><td>93</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">64</td><td>202313141300187</td><td class="teaching-grade-table__summary-sticky-name">李发海</td><td>G</td><td>G9</td><td>76</td><td>97</td><td>94</td><td>54</td><td>94</td><td>100</td><td>79</td><td>0</td><td>79</td><td>40</td><td>41</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">65</td><td>202313141300188</td><td class="teaching-grade-table__summary-sticky-name">钟豨娟</td><td>E</td><td>E13</td><td>71</td><td>84</td><td>93</td><td>50</td><td>94</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">66</td><td>202313141300189</td><td class="teaching-grade-table__summary-sticky-name">覃豪</td><td>G</td><td>G6</td><td>57</td><td>97</td><td>94</td><td>40</td><td>92</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">67</td><td>202313141300190</td><td class="teaching-grade-table__summary-sticky-name">何婧雯</td><td>J</td><td>J3</td><td>77</td><td>97</td><td>95</td><td>43</td><td>90</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">68</td><td>202313141300191</td><td class="teaching-grade-table__summary-sticky-name">莫林军</td><td>G</td><td>G7</td><td>80</td><td>70</td><td>93</td><td>52</td><td>95</td><td>100</td><td>79</td><td>0</td><td>79</td><td>40</td><td>41</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">69</td><td>202313141300192</td><td class="teaching-grade-table__summary-sticky-name">陈苏颖</td><td>E</td><td>E1</td><td>81</td><td>84</td><td>93</td><td>56</td><td>91</td><td>100</td><td>80</td><td>0</td><td>80</td><td>40</td><td>40</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">70</td><td>202313141300193</td><td class="teaching-grade-table__summary-sticky-name">张万鹏</td><td>G</td><td>G11</td><td>39</td><td>84</td><td>95</td><td>47</td><td>90</td><td>100</td><td>62</td><td>0</td><td>62</td><td>31</td><td>58</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">71</td><td>202313141300194</td><td class="teaching-grade-table__summary-sticky-name">孟祥坤</td><td>C</td><td>C11</td><td>79</td><td>83</td><td>95</td><td>38</td><td>95</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">72</td><td>202313141300195</td><td class="teaching-grade-table__summary-sticky-name">卜双浩</td><td>C</td><td>C10</td><td>58</td><td>84</td><td>93</td><td>36</td><td>95</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">73</td><td>202313141300196</td><td class="teaching-grade-table__summary-sticky-name">刘婵</td><td>E</td><td>E14</td><td>67</td><td>56</td><td>61</td><td>44</td><td>95</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">74</td><td>202313141300197</td><td class="teaching-grade-table__summary-sticky-name">姚心蕊</td><td>E</td><td>E3</td><td>85</td><td>84</td><td>94</td><td>41</td><td>95</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">75</td><td>202313141300198</td><td class="teaching-grade-table__summary-sticky-name">陆辉华</td><td>G</td><td>G12</td><td>62</td><td>97</td><td>93</td><td>60</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">76</td><td>202313141300199</td><td class="teaching-grade-table__summary-sticky-name">宋宇晨</td><td>J</td><td>J1</td><td>49</td><td>83</td><td>94</td><td>36</td><td>92</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">77</td><td>202313141300200</td><td class="teaching-grade-table__summary-sticky-name">李佳尧</td><td>E</td><td>E2</td><td>91</td><td>97</td><td>94</td><td>78</td><td>92</td><td>100</td><td>90</td><td>2</td><td>94</td><td>47</td><td>26</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">78</td><td>202313141300202</td><td class="teaching-grade-table__summary-sticky-name">黄肖静</td><td>E</td><td>E8</td><td>75</td><td>84</td><td>94</td><td>49</td><td>95</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">79</td><td>202313141300203</td><td class="teaching-grade-table__summary-sticky-name">吴树悠</td><td>C</td><td>C9</td><td>76</td><td>97</td><td>94</td><td>53</td><td>90</td><td>100</td><td>78</td><td>0</td><td>78</td><td>39</td><td>42</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">80</td><td>202313141300204</td><td class="teaching-grade-table__summary-sticky-name">钟昊铭</td><td>G</td><td>G8</td><td>76</td><td>97</td><td>94</td><td>50</td><td>90</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">81</td><td>202313141500377</td><td class="teaching-grade-table__summary-sticky-name">李光华</td><td>J</td><td>J14</td><td>67</td><td>97</td><td>95</td><td>53</td><td>93</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">82</td><td>202313141300205</td><td class="teaching-grade-table__summary-sticky-name">凌雅奎</td><td>H</td><td>H3</td><td>76</td><td>97</td><td>95</td><td>31</td><td>95</td><td>100</td><td>75</td><td>0</td><td>75</td><td>37</td><td>45</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">83</td><td>202313141300206</td><td class="teaching-grade-table__summary-sticky-name">蔡艾彤</td><td>F</td><td>F10</td><td>77</td><td>83</td><td>94</td><td>43</td><td>92</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">84</td><td>202313141300207</td><td class="teaching-grade-table__summary-sticky-name">何慧颖</td><td>H</td><td>H11</td><td>63</td><td>84</td><td>94</td><td>62</td><td>94</td><td>100</td><td>75</td><td>2</td><td>79</td><td>39</td><td>41</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">85</td><td>202313141300208</td><td class="teaching-grade-table__summary-sticky-name">唐阳州</td><td>F</td><td>F11</td><td>49</td><td>69</td><td>93</td><td>42</td><td>94</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">86</td><td>202313141300209</td><td class="teaching-grade-table__summary-sticky-name">莫钧友</td><td>F</td><td>F7</td><td>53</td><td>97</td><td>93</td><td>48</td><td>93</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">87</td><td>202313141300210</td><td class="teaching-grade-table__summary-sticky-name">谢福轩</td><td>C</td><td>C4</td><td>85</td><td>97</td><td>94</td><td>37</td><td>94</td><td>100</td><td>79</td><td>2</td><td>83</td><td>42</td><td>37</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">88</td><td>202313141300211</td><td class="teaching-grade-table__summary-sticky-name">李思欣</td><td>H</td><td>H1</td><td>85</td><td>97</td><td>94</td><td>43</td><td>91</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">89</td><td>202313141300212</td><td class="teaching-grade-table__summary-sticky-name">戚锦东</td><td>C</td><td>C6</td><td>88</td><td>97</td><td>94</td><td>54</td><td>95</td><td>100</td><td>84</td><td>0</td><td>84</td><td>42</td><td>36</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">90</td><td>202313141300213</td><td class="teaching-grade-table__summary-sticky-name">陆丽庄</td><td>D</td><td>D3</td><td>65</td><td>84</td><td>94</td><td>16</td><td>94</td><td>100</td><td>67</td><td>0</td><td>67</td><td>33</td><td>53</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">91</td><td>202313141300214</td><td class="teaching-grade-table__summary-sticky-name">覃健</td><td>I</td><td>I2</td><td>61</td><td>97</td><td>94</td><td>41</td><td>90</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">92</td><td>202313141300215</td><td class="teaching-grade-table__summary-sticky-name">梁寿林</td><td>F</td><td>F9</td><td>72</td><td>97</td><td>94</td><td>32</td><td>95</td><td>100</td><td>73</td><td>2</td><td>77</td><td>39</td><td>43</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">93</td><td>202313141300216</td><td class="teaching-grade-table__summary-sticky-name">徐耀前</td><td>I</td><td>I7</td><td>61</td><td>97</td><td>93</td><td>32</td><td>92</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">94</td><td>202313141300217</td><td class="teaching-grade-table__summary-sticky-name">邹海龙</td><td>F</td><td>F3</td><td>72</td><td>97</td><td>95</td><td>35</td><td>90</td><td>100</td><td>73</td><td>2</td><td>77</td><td>39</td><td>43</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">95</td><td>202313141300218</td><td class="teaching-grade-table__summary-sticky-name">欧晓玲</td><td>H</td><td>H6</td><td>71</td><td>97</td><td>94</td><td>46</td><td>91</td><td>100</td><td>75</td><td>0</td><td>75</td><td>38</td><td>45</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">96</td><td>202313141300219</td><td class="teaching-grade-table__summary-sticky-name">唐春</td><td>D</td><td>D4</td><td>56</td><td>97</td><td>94</td><td>40</td><td>94</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">97</td><td>202313141300220</td><td class="teaching-grade-table__summary-sticky-name">江雨凤</td><td>D</td><td>D10</td><td>80</td><td>97</td><td>94</td><td>46</td><td>95</td><td>100</td><td>79</td><td>4</td><td>87</td><td>44</td><td>33</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">98</td><td>202313141300221</td><td class="teaching-grade-table__summary-sticky-name">张继源</td><td>I</td><td>I1</td><td>75</td><td>97</td><td>95</td><td>46</td><td>94</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">99</td><td>202313141300222</td><td class="teaching-grade-table__summary-sticky-name">罗茜芡</td><td>H</td><td>H5</td><td>62</td><td>56</td><td>94</td><td>38</td><td>94</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">100</td><td>202313141300223</td><td class="teaching-grade-table__summary-sticky-name">黄文龙</td><td>F</td><td>F1</td><td>86</td><td>97</td><td>93</td><td>34</td><td>91</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">101</td><td>202313141300224</td><td class="teaching-grade-table__summary-sticky-name">韦晓楠</td><td>H</td><td>H13</td><td>58</td><td>56</td><td>95</td><td>54</td><td>90</td><td>100</td><td>69</td><td>2</td><td>73</td><td>37</td><td>47</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">102</td><td>202313141300225</td><td class="teaching-grade-table__summary-sticky-name">陆佳怡</td><td>H</td><td>H12</td><td>80</td><td>97</td><td>92</td><td>41</td><td>95</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">103</td><td>202313141300226</td><td class="teaching-grade-table__summary-sticky-name">王亚敏</td><td>D</td><td>D2</td><td>70</td><td>97</td><td>94</td><td>45</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">104</td><td>202313141300227</td><td class="teaching-grade-table__summary-sticky-name">韦富宏</td><td>F</td><td>F5</td><td>73</td><td>83</td><td>95</td><td>34</td><td>91</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">105</td><td>202313141300228</td><td class="teaching-grade-table__summary-sticky-name">谢蕙鸿</td><td>C</td><td>C3</td><td>80</td><td>97</td><td>94</td><td>37</td><td>92</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">106</td><td>202313141300229</td><td class="teaching-grade-table__summary-sticky-name">李聪</td><td>C</td><td>C1</td><td>90</td><td>97</td><td>94</td><td>69</td><td>92</td><td>100</td><td>87</td><td>4</td><td>95</td><td>48</td><td>25</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">107</td><td>202313141300230</td><td class="teaching-grade-table__summary-sticky-name">刘世源</td><td>C</td><td>C7</td><td>79</td><td>70</td><td>93</td><td>44</td><td>93</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">108</td><td>202313141300231</td><td class="teaching-grade-table__summary-sticky-name">陈万芊</td><td>H</td><td>H7</td><td>77</td><td>83</td><td>95</td><td>54</td><td>91</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">109</td><td>202313141300232</td><td class="teaching-grade-table__summary-sticky-name">郭耀康</td><td>I</td><td>I6</td><td>65</td><td>97</td><td>93</td><td>67</td><td>93</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">110</td><td>202313141300233</td><td class="teaching-grade-table__summary-sticky-name">莫祖胜</td><td>I</td><td>I5</td><td>75</td><td>97</td><td>93</td><td>50</td><td>91</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">111</td><td>202313141300234</td><td class="teaching-grade-table__summary-sticky-name">谢晓芸</td><td>D</td><td>D5</td><td>70</td><td>84</td><td>93</td><td>29</td><td>91</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">112</td><td>202313141300235</td><td class="teaching-grade-table__summary-sticky-name">潘林娇</td><td>D</td><td>D7</td><td>61</td><td>84</td><td>94</td><td>24</td><td>94</td><td>100</td><td>67</td><td>2</td><td>71</td><td>35</td><td>49</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">113</td><td>202313141300236</td><td class="teaching-grade-table__summary-sticky-name">周泽莲</td><td>D</td><td>D9</td><td>79</td><td>97</td><td>94</td><td>46</td><td>94</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">114</td><td>202313141300237</td><td class="teaching-grade-table__summary-sticky-name">古丽柯孜·居麦</td><td>H</td><td>H10</td><td>58</td><td>97</td><td>94</td><td>30</td><td>90</td><td>100</td><td>66</td><td>0</td><td>66</td><td>33</td><td>54</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">115</td><td>202313141300238</td><td class="teaching-grade-table__summary-sticky-name">黄施涛</td><td>F</td><td>F6</td><td>63</td><td>97</td><td>94</td><td>31</td><td>92</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">116</td><td>202313141300239</td><td class="teaching-grade-table__summary-sticky-name">敖浩</td><td>F</td><td>F8</td><td>86</td><td>83</td><td>94</td><td>44</td><td>94</td><td>100</td><td>81</td><td>0</td><td>81</td><td>40</td><td>39</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">117</td><td>202313141300240</td><td class="teaching-grade-table__summary-sticky-name">梁书僮</td><td>F</td><td>F4</td><td>82</td><td>84</td><td>94</td><td>43</td><td>92</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">118</td><td>202313141300241</td><td class="teaching-grade-table__summary-sticky-name">陈治先</td><td>C</td><td>C2</td><td>92</td><td>69</td><td>94</td><td>62</td><td>94</td><td>100</td><td>86</td><td>0</td><td>86</td><td>43</td><td>34</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">119</td><td>202313141300242</td><td class="teaching-grade-table__summary-sticky-name">杨宗霖</td><td>F</td><td>F2</td><td>67</td><td>84</td><td>96</td><td>38</td><td>90</td><td>100</td><td>71</td><td>2</td><td>75</td><td>38</td><td>45</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">120</td><td>202313141300243</td><td class="teaching-grade-table__summary-sticky-name">陆禹辰</td><td>F</td><td>F12</td><td>64</td><td>97</td><td>94</td><td>56</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">121</td><td>202313141300244</td><td class="teaching-grade-table__summary-sticky-name">吴荣琦</td><td>I</td><td>I4</td><td>56</td><td>56</td><td>95</td><td>29</td><td>92</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">122</td><td>202313141300245</td><td class="teaching-grade-table__summary-sticky-name">何耀杰</td><td>C</td><td>C5</td><td>66</td><td>97</td><td>94</td><td>23</td><td>90</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">123</td><td>202313141300246</td><td class="teaching-grade-table__summary-sticky-name">何健清</td><td>D</td><td>D1</td><td>75</td><td>97</td><td>95</td><td>28</td><td>94</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">124</td><td>202313141300247</td><td class="teaching-grade-table__summary-sticky-name">罗仕芳</td><td>D</td><td>D6</td><td>65</td><td>97</td><td>93</td><td>29</td><td>91</td><td>100</td><td>69</td><td>0</td><td>69</td><td>35</td><td>51</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">125</td><td>202313141300248</td><td class="teaching-grade-table__summary-sticky-name">潘朵拉</td><td>D</td><td>D8</td><td>56</td><td>97</td><td>95</td><td>21</td><td>91</td><td>100</td><td>64</td><td>2</td><td>68</td><td>34</td><td>52</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">126</td><td>202313141300249</td><td class="teaching-grade-table__summary-sticky-name">何柯林</td><td>H</td><td>H4</td><td>80</td><td>97</td><td>94</td><td>34</td><td>91</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">127</td><td>202313141300250</td><td class="teaching-grade-table__summary-sticky-name">欧阳斯淇</td><td>H</td><td>H8</td><td>62</td><td>97</td><td>94</td><td>51</td><td>93</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">128</td><td>202313141300251</td><td class="teaching-grade-table__summary-sticky-name">陈丹</td><td>H</td><td>H2</td><td>67</td><td>97</td><td>92</td><td>40</td><td>93</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">129</td><td>202313141300252</td><td class="teaching-grade-table__summary-sticky-name">王丽婷</td><td>H</td><td>H9</td><td>85</td><td>97</td><td>94</td><td>37</td><td>91</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">130</td><td>202313141300253</td><td class="teaching-grade-table__summary-sticky-name">黄仕锦</td><td>I</td><td>I11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>120</td>
+      </tr>
+      <tr>
+        <td class="teaching-grade-table__summary-sticky-number">131</td><td>202313141300254</td><td class="teaching-grade-table__summary-sticky-name">熊茂焜</td><td>I</td><td>I3</td><td>74</td><td>97</td><td>94</td><td>51</td><td>93</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<details class="teaching-grade-table-details">
+  <summary>View detailed assessment components</summary>
+  <div class="teaching-grade-table-wrapper" role="region" aria-label="Communication Principles detailed assessment table" tabindex="0">
+    <table class="teaching-grade-table teaching-grade-table--detail">
+      <caption><span class="teaching-grade-table__note">Detailed assessment components. Scores are displayed as rounded integers; the original precision is retained in the <a href="/files/communication-principles-grades.csv">CSV source</a>.</span></caption>
+      <thead>
+        <tr>
+          <th rowspan="3" class="teaching-grade-table__identity">序号</th><th rowspan="3" class="teaching-grade-table__identity">学号</th><th rowspan="3" class="teaching-grade-table__identity">姓名</th><th rowspan="3" class="teaching-grade-table__identity">分组</th><th rowspan="3" class="teaching-grade-table__identity">编号</th><th colspan="15">Pre（75%）</th><th colspan="9">作业 (5%)</th><th colspan="4">实验 (10%)</th><th rowspan="3">段考<br>（20%）</th><th rowspan="3">大作业<br>（20%）</th><th rowspan="3">考勤<br>(5%)</th><th rowspan="3">平时总分<br>（占期末50%）</th><th rowspan="3">加分</th><th rowspan="3">加分后的平时总分</th><th rowspan="3">折算成期末的总分</th><th rowspan="3">期末考多少分才不挂科</th>
+        </tr>
+        <tr>
+          <th>讲述<br>(25%)</th><th>最佳<br>讲述</th><th>同评<br>(25%)</th><th colspan="11">提问（50%）</th><th>总</th><th colspan="9">作业明细</th><th colspan="4">实验明细</th>
+        </tr>
+        <tr>
+          <th></th><th></th><th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>∑</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>∑</th><th>1</th><th>2</th><th>3</th><th>∑</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="teaching-grade-table__identity">1</td><td class="teaching-grade-table__identity">202313141300005</td><td class="teaching-grade-table__identity">李永健</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A8</td><td>92</td><td>0</td><td>85</td><td>94</td><td>91</td><td>92</td><td>91</td><td>84</td><td>95</td><td>96</td><td>90</td><td>97</td><td>98</td><td>93</td><td>91</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>92</td><td>93</td><td>30</td><td>95</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">2</td><td class="teaching-grade-table__identity">202313141300008</td><td class="teaching-grade-table__identity">廖瑞隆</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B1</td><td>92</td><td>100</td><td>94</td><td>95</td><td>91</td><td>96</td><td>96</td><td>85</td><td>97</td><td>100</td><td>0</td><td>92</td><td>0</td><td>75</td><td>84</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>95</td><td>94</td><td>95</td><td>95</td><td>33</td><td>91</td><td>100</td><td>77</td><td>4</td><td>85</td><td>43</td><td>35</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">3</td><td class="teaching-grade-table__identity">202313141300011</td><td class="teaching-grade-table__identity">赖冬冬</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B10</td><td>92</td><td>0</td><td>94</td><td>95</td><td>91</td><td>90</td><td>91</td><td>89</td><td>0</td><td>0</td><td>94</td><td>89</td><td>95</td><td>73</td><td>83</td><td>97</td><td>0</td><td>0</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>56</td><td>95</td><td>93</td><td>93</td><td>94</td><td>26</td><td>90</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">4</td><td class="teaching-grade-table__identity">202313141300024</td><td class="teaching-grade-table__identity">周桂宇</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B5</td><td>90</td><td>0</td><td>94</td><td>0</td><td>88</td><td>85</td><td>91</td><td>89</td><td>92</td><td>0</td><td>89</td><td>0</td><td>92</td><td>63</td><td>77</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>93</td><td>93</td><td>23</td><td>94</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">5</td><td class="teaching-grade-table__identity">202313141300028</td><td class="teaching-grade-table__identity">李德深</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B7</td><td>86</td><td>0</td><td>94</td><td>0</td><td>93</td><td>93</td><td>91</td><td>83</td><td>92</td><td>0</td><td>0</td><td>0</td><td>97</td><td>55</td><td>72</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>96</td><td>94</td><td>95</td><td>20</td><td>95</td><td>100</td><td>71</td><td>2</td><td>75</td><td>38</td><td>45</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">6</td><td class="teaching-grade-table__identity">202313141300031</td><td class="teaching-grade-table__identity">梁海洁</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A6</td><td>95</td><td>0</td><td>85</td><td>92</td><td>94</td><td>0</td><td>0</td><td>86</td><td>0</td><td>96</td><td>0</td><td>0</td><td>0</td><td>37</td><td>63</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>95</td><td>94</td><td>50</td><td>92</td><td>100</td><td>73</td><td>0</td><td>73</td><td>37</td><td>47</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">7</td><td class="teaching-grade-table__identity">202313141300039</td><td class="teaching-grade-table__identity">梁婉仪</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B8</td><td>90</td><td>0</td><td>94</td><td>95</td><td>90</td><td>92</td><td>90</td><td>82</td><td>90</td><td>100</td><td>91</td><td>91</td><td>98</td><td>92</td><td>92</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>95</td><td>92</td><td>94</td><td>58</td><td>95</td><td>100</td><td>87</td><td>2</td><td>91</td><td>45</td><td>29</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">8</td><td class="teaching-grade-table__identity">202313141300040</td><td class="teaching-grade-table__identity">綦若同</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I8</td><td>90</td><td>100</td><td>80</td><td>85</td><td>90</td><td>0</td><td>95</td><td>0</td><td>92</td><td>98</td><td>98</td><td>97</td><td>91</td><td>75</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>93</td><td>94</td><td>74</td><td>93</td><td>100</td><td>85</td><td>4</td><td>93</td><td>46</td><td>27</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">9</td><td class="teaching-grade-table__identity">202313141300043</td><td class="teaching-grade-table__identity">葛定康</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B4</td><td>90</td><td>0</td><td>94</td><td>95</td><td>91</td><td>92</td><td>92</td><td>82</td><td>93</td><td>0</td><td>91</td><td>0</td><td>0</td><td>64</td><td>78</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>93</td><td>92</td><td>93</td><td>36</td><td>90</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">10</td><td class="teaching-grade-table__identity">202313141300044</td><td class="teaching-grade-table__identity">罗志杰</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B3</td><td>93</td><td>0</td><td>94</td><td>92</td><td>89</td><td>0</td><td>0</td><td>0</td><td>95</td><td>0</td><td>0</td><td>0</td><td>0</td><td>28</td><td>61</td><td>97</td><td>0</td><td>0</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>56</td><td>95</td><td>94</td><td>96</td><td>95</td><td>57</td><td>90</td><td>100</td><td>71</td><td>0</td><td>71</td><td>35</td><td>49</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">11</td><td class="teaching-grade-table__identity">202313141300046</td><td class="teaching-grade-table__identity">奚佳贤</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B9</td><td>91</td><td>0</td><td>94</td><td>92</td><td>91</td><td>90</td><td>92</td><td>84</td><td>93</td><td>0</td><td>89</td><td>91</td><td>90</td><td>81</td><td>87</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>95</td><td>93</td><td>94</td><td>65</td><td>94</td><td>100</td><td>86</td><td>0</td><td>86</td><td>43</td><td>34</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">12</td><td class="teaching-grade-table__identity">202313141300054</td><td class="teaching-grade-table__identity">黄瑶</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A13</td><td>94</td><td>0</td><td>85</td><td>93</td><td>96</td><td>100</td><td>96</td><td>86</td><td>98</td><td>0</td><td>89</td><td>93</td><td>91</td><td>84</td><td>87</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>96</td><td>94</td><td>48</td><td>95</td><td>100</td><td>83</td><td>2</td><td>87</td><td>43</td><td>33</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">13</td><td class="teaching-grade-table__identity">202313141300058</td><td class="teaching-grade-table__identity">肖淑仪</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B11</td><td>93</td><td>0</td><td>94</td><td>96</td><td>91</td><td>97</td><td>93</td><td>87</td><td>93</td><td>98</td><td>93</td><td>93</td><td>92</td><td>93</td><td>93</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>93</td><td>95</td><td>94</td><td>44</td><td>95</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">14</td><td class="teaching-grade-table__identity">202313141300062</td><td class="teaching-grade-table__identity">陈锡满</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A7</td><td>90</td><td>0</td><td>85</td><td>95</td><td>91</td><td>90</td><td>94</td><td>83</td><td>92</td><td>96</td><td>92</td><td>98</td><td>97</td><td>93</td><td>90</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>92</td><td>93</td><td>41</td><td>92</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">15</td><td class="teaching-grade-table__identity">202313141300065</td><td class="teaching-grade-table__identity">李铭辉</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A5</td><td>92</td><td>0</td><td>85</td><td>93</td><td>92</td><td>92</td><td>92</td><td>0</td><td>92</td><td>96</td><td>92</td><td>97</td><td>89</td><td>84</td><td>86</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>92</td><td>93</td><td>93</td><td>62</td><td>92</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">16</td><td class="teaching-grade-table__identity">202313141300069</td><td class="teaching-grade-table__identity">许雨晴</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B13</td><td>93</td><td>0</td><td>94</td><td>95</td><td>91</td><td>90</td><td>92</td><td>85</td><td>92</td><td>98</td><td>91</td><td>94</td><td>93</td><td>92</td><td>93</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>94</td><td>93</td><td>54</td><td>94</td><td>100</td><td>86</td><td>2</td><td>90</td><td>45</td><td>30</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">17</td><td class="teaching-grade-table__identity">202313141300072</td><td class="teaching-grade-table__identity">叶娟</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B12</td><td>93</td><td>0</td><td>94</td><td>95</td><td>91</td><td>90</td><td>92</td><td>85</td><td>92</td><td>98</td><td>93</td><td>94</td><td>98</td><td>93</td><td>93</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>0</td><td>98</td><td>83</td><td>93</td><td>92</td><td>96</td><td>94</td><td>49</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">18</td><td class="teaching-grade-table__identity">202313141300079</td><td class="teaching-grade-table__identity">梁得桂</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B6</td><td>93</td><td>0</td><td>94</td><td>91</td><td>91</td><td>90</td><td>92</td><td>0</td><td>88</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>69</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>94</td><td>92</td><td>94</td><td>32</td><td>94</td><td>100</td><td>72</td><td>0</td><td>72</td><td>36</td><td>48</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">19</td><td class="teaching-grade-table__identity">202313141300083</td><td class="teaching-grade-table__identity">韦信明</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A3</td><td>90</td><td>0</td><td>85</td><td>93</td><td>92</td><td>95</td><td>95</td><td>0</td><td>94</td><td>96</td><td>0</td><td>0</td><td>0</td><td>56</td><td>72</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>94</td><td>92</td><td>93</td><td>61</td><td>90</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">20</td><td class="teaching-grade-table__identity">202313141300102</td><td class="teaching-grade-table__identity">黄焕梅</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B14</td><td>92</td><td>0</td><td>94</td><td>93</td><td>91</td><td>93</td><td>91</td><td>85</td><td>96</td><td>94</td><td>98</td><td>97</td><td>92</td><td>93</td><td>93</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>94</td><td>95</td><td>95</td><td>53</td><td>92</td><td>100</td><td>86</td><td>2</td><td>90</td><td>45</td><td>30</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">21</td><td class="teaching-grade-table__identity">202313141300105</td><td class="teaching-grade-table__identity">韦钟宝</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A4</td><td>93</td><td>0</td><td>85</td><td>92</td><td>93</td><td>92</td><td>92</td><td>85</td><td>95</td><td>100</td><td>92</td><td>97</td><td>93</td><td>93</td><td>91</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>83</td><td>95</td><td>92</td><td>96</td><td>94</td><td>38</td><td>90</td><td>100</td><td>81</td><td>2</td><td>85</td><td>42</td><td>35</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">22</td><td class="teaching-grade-table__identity">202313141300110</td><td class="teaching-grade-table__identity">董馨</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I9</td><td>90</td><td>0</td><td>80</td><td>84</td><td>91</td><td>93</td><td>91</td><td>82</td><td>91</td><td>0</td><td>93</td><td>0</td><td>98</td><td>72</td><td>79</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>92</td><td>93</td><td>60</td><td>94</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">23</td><td class="teaching-grade-table__identity">202313141300119</td><td class="teaching-grade-table__identity">叶俣彤</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A11</td><td>94</td><td>0</td><td>85</td><td>92</td><td>0</td><td>93</td><td>94</td><td>86</td><td>88</td><td>0</td><td>90</td><td>91</td><td>0</td><td>63</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>93</td><td>93</td><td>53</td><td>90</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">24</td><td class="teaching-grade-table__identity">202313141300129</td><td class="teaching-grade-table__identity">苏庆玉</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A12</td><td>93</td><td>0</td><td>85</td><td>0</td><td>91</td><td>91</td><td>91</td><td>84</td><td>91</td><td>0</td><td>89</td><td>100</td><td>0</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>93</td><td>94</td><td>41</td><td>90</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">25</td><td class="teaching-grade-table__identity">202313141300130</td><td class="teaching-grade-table__identity">卢松燕</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A10</td><td>93</td><td>0</td><td>85</td><td>92</td><td>88</td><td>0</td><td>95</td><td>85</td><td>92</td><td>100</td><td>93</td><td>92</td><td>90</td><td>83</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>96</td><td>94</td><td>43</td><td>90</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">26</td><td class="teaching-grade-table__identity">202313141300131</td><td class="teaching-grade-table__identity">黄震</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A1</td><td>94</td><td>100</td><td>85</td><td>0</td><td>96</td><td>93</td><td>98</td><td>98</td><td>97</td><td>0</td><td>92</td><td>0</td><td>90</td><td>66</td><td>78</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>96</td><td>92</td><td>94</td><td>55</td><td>91</td><td>100</td><td>80</td><td>4</td><td>88</td><td>44</td><td>32</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">27</td><td class="teaching-grade-table__identity">202313141300141</td><td class="teaching-grade-table__identity">黄华标</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A9</td><td>94</td><td>0</td><td>85</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>0</td><td>98</td><td>0</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>56</td><td>92</td><td>96</td><td>92</td><td>93</td><td>20</td><td>91</td><td>100</td><td>57</td><td>0</td><td>57</td><td>29</td><td>63</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">28</td><td class="teaching-grade-table__identity">202313141300142</td><td class="teaching-grade-table__identity">吴福恒</td><td class="teaching-grade-table__identity">A</td><td class="teaching-grade-table__identity">A2</td><td>95</td><td>0</td><td>85</td><td>95</td><td>91</td><td>91</td><td>0</td><td>82</td><td>100</td><td>95</td><td>89</td><td>94</td><td>89</td><td>83</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>92</td><td>93</td><td>50</td><td>91</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">29</td><td class="teaching-grade-table__identity">202313141300143</td><td class="teaching-grade-table__identity">晏波</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I10</td><td>90</td><td>0</td><td>80</td><td>86</td><td>0</td><td>93</td><td>91</td><td>0</td><td>94</td><td>0</td><td>89</td><td>0</td><td>92</td><td>55</td><td>70</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>95</td><td>96</td><td>96</td><td>38</td><td>90</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">30</td><td class="teaching-grade-table__identity">202313141300169</td><td class="teaching-grade-table__identity">黄云龙</td><td class="teaching-grade-table__identity">B</td><td class="teaching-grade-table__identity">B2</td><td>93</td><td>0</td><td>94</td><td>0</td><td>93</td><td>0</td><td>0</td><td>89</td><td>0</td><td>0</td><td>0</td><td>0</td><td>97</td><td>28</td><td>61</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>83</td><td>94</td><td>95</td><td>92</td><td>94</td><td>20</td><td>95</td><td>100</td><td>66</td><td>2</td><td>70</td><td>35</td><td>50</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">31</td><td class="teaching-grade-table__identity">202313140500213</td><td class="teaching-grade-table__identity">黄露淇</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D13</td><td>90</td><td>0</td><td>79</td><td>92</td><td>91</td><td>92</td><td>92</td><td>0</td><td>93</td><td>100</td><td>93</td><td>97</td><td>97</td><td>85</td><td>85</td><td>0</td><td>98</td><td>98</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>95</td><td>93</td><td>94</td><td>51</td><td>93</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">32</td><td class="teaching-grade-table__identity">202313141300154</td><td class="teaching-grade-table__identity">贲廖银</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G5</td><td>92</td><td>0</td><td>83</td><td>91</td><td>91</td><td>92</td><td>0</td><td>0</td><td>0</td><td>0</td><td>94</td><td>0</td><td>92</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>95</td><td>94</td><td>55</td><td>94</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">33</td><td class="teaching-grade-table__identity">202313141300155</td><td class="teaching-grade-table__identity">周子莉</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E7</td><td>90</td><td>0</td><td>83</td><td>93</td><td>91</td><td>91</td><td>91</td><td>0</td><td>94</td><td>0</td><td>90</td><td>97</td><td>0</td><td>65</td><td>76</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>92</td><td>94</td><td>93</td><td>59</td><td>92</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">34</td><td class="teaching-grade-table__identity">202313141300156</td><td class="teaching-grade-table__identity">颜文博</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I12</td><td>90</td><td>0</td><td>80</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>96</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>96</td><td>95</td><td>96</td><td>96</td><td>0</td><td>0</td><td>100</td><td>15</td><td>0</td><td>15</td><td>8</td><td>105</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">35</td><td class="teaching-grade-table__identity">202313141300157</td><td class="teaching-grade-table__identity">刘兰香</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E9</td><td>91</td><td>0</td><td>83</td><td>95</td><td>90</td><td>91</td><td>90</td><td>83</td><td>93</td><td>0</td><td>88</td><td>97</td><td>97</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>96</td><td>95</td><td>96</td><td>31</td><td>90</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">36</td><td class="teaching-grade-table__identity">202313141300158</td><td class="teaching-grade-table__identity">李松凝</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C12</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>92</td><td>83</td><td>92</td><td>0</td><td>0</td><td>97</td><td>94</td><td>46</td><td>66</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>94</td><td>94</td><td>94</td><td>22</td><td>91</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">37</td><td class="teaching-grade-table__identity">202313141300159</td><td class="teaching-grade-table__identity">赵玲慧</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E5</td><td>94</td><td>0</td><td>83</td><td>88</td><td>96</td><td>92</td><td>91</td><td>85</td><td>95</td><td>96</td><td>88</td><td>0</td><td>97</td><td>83</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>96</td><td>93</td><td>94</td><td>50</td><td>94</td><td>100</td><td>82</td><td>2</td><td>86</td><td>43</td><td>34</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">38</td><td class="teaching-grade-table__identity">202313141300160</td><td class="teaching-grade-table__identity">刘丰铭</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G13</td><td>91</td><td>0</td><td>83</td><td>83</td><td>91</td><td>91</td><td>93</td><td>87</td><td>92</td><td>94</td><td>0</td><td>90</td><td>90</td><td>81</td><td>84</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>95</td><td>96</td><td>95</td><td>62</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">39</td><td class="teaching-grade-table__identity">202313141300161</td><td class="teaching-grade-table__identity">黄忠恒</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G4</td><td>90</td><td>0</td><td>83</td><td>85</td><td>91</td><td>0</td><td>91</td><td>83</td><td>0</td><td>0</td><td>93</td><td>0</td><td>90</td><td>53</td><td>70</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>92</td><td>93</td><td>56</td><td>92</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">40</td><td class="teaching-grade-table__identity">202313141300162</td><td class="teaching-grade-table__identity">陆佳</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E6</td><td>94</td><td>0</td><td>83</td><td>92</td><td>91</td><td>93</td><td>90</td><td>97</td><td>95</td><td>0</td><td>89</td><td>0</td><td>0</td><td>65</td><td>77</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>95</td><td>93</td><td>92</td><td>93</td><td>64</td><td>90</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">41</td><td class="teaching-grade-table__identity">202313141300163</td><td class="teaching-grade-table__identity">吕泽贵</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C8</td><td>91</td><td>0</td><td>83</td><td>0</td><td>93</td><td>90</td><td>93</td><td>96</td><td>94</td><td>94</td><td>94</td><td>97</td><td>95</td><td>85</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>92</td><td>93</td><td>29</td><td>92</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">42</td><td class="teaching-grade-table__identity">202313141300164</td><td class="teaching-grade-table__identity">徐秋燕</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J8</td><td>93</td><td>0</td><td>83</td><td>85</td><td>91</td><td>91</td><td>90</td><td>87</td><td>95</td><td>0</td><td>89</td><td>91</td><td>0</td><td>72</td><td>80</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>0</td><td>84</td><td>93</td><td>93</td><td>92</td><td>93</td><td>27</td><td>90</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">43</td><td class="teaching-grade-table__identity">202313141300165</td><td class="teaching-grade-table__identity">卢俊池</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G2</td><td>91</td><td>0</td><td>83</td><td>90</td><td>94</td><td>92</td><td>90</td><td>88</td><td>89</td><td>96</td><td>93</td><td>0</td><td>93</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>93</td><td>96</td><td>95</td><td>61</td><td>90</td><td>100</td><td>83</td><td>0</td><td>83</td><td>42</td><td>37</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">44</td><td class="teaching-grade-table__identity">202313141300166</td><td class="teaching-grade-table__identity">林秋娜</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E11</td><td>91</td><td>0</td><td>83</td><td>85</td><td>92</td><td>92</td><td>92</td><td>82</td><td>95</td><td>0</td><td>92</td><td>0</td><td>97</td><td>73</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>93</td><td>94</td><td>93</td><td>37</td><td>93</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">45</td><td class="teaching-grade-table__identity">202313141300167</td><td class="teaching-grade-table__identity">田诗婷</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D11</td><td>91</td><td>0</td><td>79</td><td>90</td><td>91</td><td>92</td><td>93</td><td>95</td><td>90</td><td>0</td><td>91</td><td>0</td><td>0</td><td>64</td><td>75</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>96</td><td>92</td><td>95</td><td>32</td><td>90</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">46</td><td class="teaching-grade-table__identity">202313141300168</td><td class="teaching-grade-table__identity">杨雨晨</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J7</td><td>93</td><td>0</td><td>83</td><td>0</td><td>90</td><td>0</td><td>95</td><td>87</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>58</td><td>0</td><td>0</td><td>96</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>56</td><td>96</td><td>92</td><td>94</td><td>94</td><td>36</td><td>93</td><td>100</td><td>66</td><td>0</td><td>66</td><td>33</td><td>54</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">47</td><td class="teaching-grade-table__identity">202313141300170</td><td class="teaching-grade-table__identity">罗荣祥</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J11</td><td>93</td><td>0</td><td>83</td><td>86</td><td>0</td><td>96</td><td>91</td><td>84</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>45</td><td>66</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>92</td><td>93</td><td>93</td><td>54</td><td>95</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">48</td><td class="teaching-grade-table__identity">202313141300171</td><td class="teaching-grade-table__identity">粟建杰</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C13</td><td>91</td><td>0</td><td>83</td><td>83</td><td>91</td><td>91</td><td>95</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>95</td><td>46</td><td>66</td><td>97</td><td>98</td><td>96</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>83</td><td>92</td><td>96</td><td>95</td><td>94</td><td>38</td><td>95</td><td>100</td><td>72</td><td>0</td><td>72</td><td>36</td><td>48</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">49</td><td class="teaching-grade-table__identity">202313141300172</td><td class="teaching-grade-table__identity">李玲玲</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E4</td><td>93</td><td>0</td><td>83</td><td>85</td><td>92</td><td>93</td><td>92</td><td>89</td><td>95</td><td>0</td><td>89</td><td>94</td><td>93</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>93</td><td>96</td><td>94</td><td>60</td><td>93</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">50</td><td class="teaching-grade-table__identity">202313141300173</td><td class="teaching-grade-table__identity">覃诗奕</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J5</td><td>93</td><td>0</td><td>83</td><td>0</td><td>0</td><td>93</td><td>0</td><td>89</td><td>94</td><td>0</td><td>90</td><td>0</td><td>93</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>96</td><td>94</td><td>78</td><td>95</td><td>100</td><td>81</td><td>0</td><td>81</td><td>40</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">51</td><td class="teaching-grade-table__identity">202313141300174</td><td class="teaching-grade-table__identity">盛鹏</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J10</td><td>93</td><td>0</td><td>83</td><td>85</td><td>91</td><td>97</td><td>92</td><td>0</td><td>95</td><td>95</td><td>88</td><td>90</td><td>92</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>92</td><td>92</td><td>93</td><td>62</td><td>94</td><td>100</td><td>84</td><td>2</td><td>88</td><td>44</td><td>32</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">52</td><td class="teaching-grade-table__identity">202313141300175</td><td class="teaching-grade-table__identity">曾诗婷</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J6</td><td>93</td><td>100</td><td>83</td><td>93</td><td>91</td><td>91</td><td>94</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>93</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>95</td><td>94</td><td>37</td><td>94</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">53</td><td class="teaching-grade-table__identity">202313141300176</td><td class="teaching-grade-table__identity">欧海玲</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D12</td><td>90</td><td>0</td><td>79</td><td>0</td><td>91</td><td>0</td><td>93</td><td>84</td><td>100</td><td>0</td><td>91</td><td>0</td><td>90</td><td>55</td><td>70</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>92</td><td>96</td><td>95</td><td>42</td><td>93</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">54</td><td class="teaching-grade-table__identity">202313141300177</td><td class="teaching-grade-table__identity">罗雅方</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E12</td><td>90</td><td>100</td><td>83</td><td>90</td><td>91</td><td>92</td><td>90</td><td>85</td><td>95</td><td>0</td><td>88</td><td>0</td><td>0</td><td>63</td><td>75</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>95</td><td>95</td><td>95</td><td>47</td><td>93</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">55</td><td class="teaching-grade-table__identity">202313141300178</td><td class="teaching-grade-table__identity">覃双豪</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J12</td><td>93</td><td>0</td><td>83</td><td>89</td><td>91</td><td>0</td><td>0</td><td>0</td><td>90</td><td>0</td><td>93</td><td>0</td><td>92</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>94</td><td>93</td><td>94</td><td>54</td><td>94</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">56</td><td class="teaching-grade-table__identity">202313141300179</td><td class="teaching-grade-table__identity">黄惠炀</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J9</td><td>93</td><td>0</td><td>83</td><td>93</td><td>91</td><td>92</td><td>90</td><td>88</td><td>0</td><td>0</td><td>90</td><td>0</td><td>0</td><td>54</td><td>71</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>92</td><td>92</td><td>92</td><td>12</td><td>95</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">57</td><td class="teaching-grade-table__identity">202313141300180</td><td class="teaching-grade-table__identity">陈勇烨</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G10</td><td>92</td><td>0</td><td>83</td><td>92</td><td>91</td><td>91</td><td>92</td><td>82</td><td>92</td><td>0</td><td>93</td><td>89</td><td>97</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>92</td><td>92</td><td>48</td><td>92</td><td>100</td><td>81</td><td>2</td><td>85</td><td>42</td><td>35</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">58</td><td class="teaching-grade-table__identity">202313141300181</td><td class="teaching-grade-table__identity">邓灼林</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J13</td><td>93</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>97</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>14</td><td>0</td><td>0</td><td>0</td><td>0</td><td>67</td><td>94</td><td>100</td><td>38</td><td>0</td><td>38</td><td>19</td><td>82</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">59</td><td class="teaching-grade-table__identity">202313141300182</td><td class="teaching-grade-table__identity">廖利成</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G3</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>92</td><td>85</td><td>88</td><td>0</td><td>91</td><td>0</td><td>0</td><td>36</td><td>61</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>95</td><td>94</td><td>39</td><td>90</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">60</td><td class="teaching-grade-table__identity">202313141300183</td><td class="teaching-grade-table__identity">韦慧灵</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J4</td><td>93</td><td>0</td><td>83</td><td>0</td><td>0</td><td>94</td><td>0</td><td>0</td><td>0</td><td>93</td><td>0</td><td>0</td><td>97</td><td>28</td><td>58</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>96</td><td>94</td><td>94</td><td>51</td><td>95</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">61</td><td class="teaching-grade-table__identity">202313141300184</td><td class="teaching-grade-table__identity">李志强</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G1</td><td>90</td><td>100</td><td>83</td><td>97</td><td>94</td><td>94</td><td>92</td><td>95</td><td>100</td><td>98</td><td>91</td><td>0</td><td>0</td><td>76</td><td>81</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>96</td><td>92</td><td>94</td><td>47</td><td>95</td><td>100</td><td>80</td><td>4</td><td>88</td><td>44</td><td>32</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">62</td><td class="teaching-grade-table__identity">202313141300185</td><td class="teaching-grade-table__identity">黄彩婷</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J2</td><td>93</td><td>0</td><td>83</td><td>89</td><td>91</td><td>91</td><td>92</td><td>88</td><td>93</td><td>0</td><td>0</td><td>98</td><td>0</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>93</td><td>94</td><td>94</td><td>40</td><td>94</td><td>100</td><td>77</td><td>2</td><td>81</td><td>40</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">63</td><td class="teaching-grade-table__identity">202313141300186</td><td class="teaching-grade-table__identity">朱桂珍</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E10</td><td>94</td><td>0</td><td>83</td><td>0</td><td>91</td><td>92</td><td>92</td><td>86</td><td>95</td><td>94</td><td>93</td><td>90</td><td>97</td><td>83</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>96</td><td>96</td><td>96</td><td>45</td><td>93</td><td>100</td><td>81</td><td>2</td><td>85</td><td>43</td><td>35</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">64</td><td class="teaching-grade-table__identity">202313141300187</td><td class="teaching-grade-table__identity">李发海</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G9</td><td>91</td><td>0</td><td>83</td><td>91</td><td>91</td><td>0</td><td>91</td><td>0</td><td>91</td><td>0</td><td>93</td><td>93</td><td>93</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>92</td><td>93</td><td>94</td><td>54</td><td>94</td><td>100</td><td>79</td><td>0</td><td>79</td><td>40</td><td>41</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">65</td><td class="teaching-grade-table__identity">202313141300188</td><td class="teaching-grade-table__identity">钟豨娟</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E13</td><td>90</td><td>0</td><td>83</td><td>90</td><td>91</td><td>91</td><td>96</td><td>93</td><td>95</td><td>0</td><td>0</td><td>0</td><td>0</td><td>56</td><td>71</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>95</td><td>92</td><td>93</td><td>50</td><td>94</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">66</td><td class="teaching-grade-table__identity">202313141300189</td><td class="teaching-grade-table__identity">覃豪</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G6</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>94</td><td>0</td><td>0</td><td>93</td><td>0</td><td>91</td><td>28</td><td>57</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>93</td><td>94</td><td>40</td><td>92</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">67</td><td class="teaching-grade-table__identity">202313141300190</td><td class="teaching-grade-table__identity">何婧雯</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J3</td><td>93</td><td>0</td><td>83</td><td>96</td><td>93</td><td>93</td><td>94</td><td>0</td><td>94</td><td>0</td><td>89</td><td>93</td><td>0</td><td>65</td><td>77</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>95</td><td>95</td><td>95</td><td>43</td><td>90</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">68</td><td class="teaching-grade-table__identity">202313141300191</td><td class="teaching-grade-table__identity">莫林军</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G7</td><td>92</td><td>0</td><td>83</td><td>90</td><td>91</td><td>92</td><td>93</td><td>81</td><td>90</td><td>0</td><td>93</td><td>0</td><td>92</td><td>72</td><td>80</td><td>97</td><td>98</td><td>0</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>70</td><td>93</td><td>92</td><td>93</td><td>93</td><td>52</td><td>95</td><td>100</td><td>79</td><td>0</td><td>79</td><td>40</td><td>41</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">69</td><td class="teaching-grade-table__identity">202313141300192</td><td class="teaching-grade-table__identity">陈苏颖</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E1</td><td>94</td><td>0</td><td>83</td><td>85</td><td>92</td><td>90</td><td>91</td><td>95</td><td>95</td><td>0</td><td>90</td><td>92</td><td>0</td><td>73</td><td>81</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>92</td><td>92</td><td>95</td><td>93</td><td>56</td><td>91</td><td>100</td><td>80</td><td>0</td><td>80</td><td>40</td><td>40</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">70</td><td class="teaching-grade-table__identity">202313141300193</td><td class="teaching-grade-table__identity">张万鹏</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G11</td><td>0</td><td>0</td><td>83</td><td>0</td><td>92</td><td>0</td><td>0</td><td>82</td><td>0</td><td>0</td><td>93</td><td>0</td><td>93</td><td>36</td><td>39</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>95</td><td>95</td><td>95</td><td>47</td><td>90</td><td>100</td><td>62</td><td>0</td><td>62</td><td>31</td><td>58</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">71</td><td class="teaching-grade-table__identity">202313141300194</td><td class="teaching-grade-table__identity">孟祥坤</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C11</td><td>91</td><td>0</td><td>83</td><td>86</td><td>88</td><td>0</td><td>91</td><td>84</td><td>91</td><td>94</td><td>88</td><td>0</td><td>95</td><td>72</td><td>79</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>83</td><td>94</td><td>96</td><td>95</td><td>95</td><td>38</td><td>95</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">72</td><td class="teaching-grade-table__identity">202313141300195</td><td class="teaching-grade-table__identity">卜双浩</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C10</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>91</td><td>0</td><td>0</td><td>92</td><td>98</td><td>28</td><td>58</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>95</td><td>92</td><td>93</td><td>36</td><td>95</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">73</td><td class="teaching-grade-table__identity">202313141300196</td><td class="teaching-grade-table__identity">刘婵</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E14</td><td>91</td><td>0</td><td>83</td><td>0</td><td>91</td><td>91</td><td>0</td><td>94</td><td>95</td><td>0</td><td>92</td><td>0</td><td>0</td><td>46</td><td>67</td><td>97</td><td>0</td><td>0</td><td>0</td><td>98</td><td>97</td><td>98</td><td>98</td><td>56</td><td>92</td><td>92</td><td>0</td><td>61</td><td>44</td><td>95</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">74</td><td class="teaching-grade-table__identity">202313141300197</td><td class="teaching-grade-table__identity">姚心蕊</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E3</td><td>91</td><td>0</td><td>83</td><td>83</td><td>91</td><td>95</td><td>90</td><td>96</td><td>93</td><td>0</td><td>92</td><td>97</td><td>90</td><td>83</td><td>85</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>93</td><td>94</td><td>94</td><td>41</td><td>95</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">75</td><td class="teaching-grade-table__identity">202313141300198</td><td class="teaching-grade-table__identity">陆辉华</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G12</td><td>90</td><td>0</td><td>83</td><td>90</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>93</td><td>94</td><td>90</td><td>37</td><td>62</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>92</td><td>93</td><td>60</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">76</td><td class="teaching-grade-table__identity">202313141300199</td><td class="teaching-grade-table__identity">宋宇晨</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J1</td><td>93</td><td>0</td><td>83</td><td>0</td><td>0</td><td>92</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>49</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>0</td><td>98</td><td>83</td><td>92</td><td>95</td><td>95</td><td>94</td><td>36</td><td>92</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">77</td><td class="teaching-grade-table__identity">202313141300200</td><td class="teaching-grade-table__identity">李佳尧</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E2</td><td>93</td><td>0</td><td>83</td><td>87</td><td>92</td><td>94</td><td>94</td><td>87</td><td>95</td><td>95</td><td>98</td><td>93</td><td>97</td><td>93</td><td>91</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>94</td><td>93</td><td>94</td><td>78</td><td>92</td><td>100</td><td>90</td><td>2</td><td>94</td><td>47</td><td>26</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">78</td><td class="teaching-grade-table__identity">202313141300202</td><td class="teaching-grade-table__identity">黄肖静</td><td class="teaching-grade-table__identity">E</td><td class="teaching-grade-table__identity">E8</td><td>90</td><td>0</td><td>83</td><td>85</td><td>91</td><td>90</td><td>90</td><td>96</td><td>94</td><td>0</td><td>93</td><td>0</td><td>0</td><td>64</td><td>75</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>0</td><td>84</td><td>95</td><td>94</td><td>93</td><td>94</td><td>49</td><td>95</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">79</td><td class="teaching-grade-table__identity">202313141300203</td><td class="teaching-grade-table__identity">吴树悠</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C9</td><td>91</td><td>0</td><td>83</td><td>93</td><td>91</td><td>90</td><td>92</td><td>95</td><td>94</td><td>0</td><td>0</td><td>0</td><td>93</td><td>65</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>96</td><td>94</td><td>94</td><td>53</td><td>90</td><td>100</td><td>78</td><td>0</td><td>78</td><td>39</td><td>42</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">80</td><td class="teaching-grade-table__identity">202313141300204</td><td class="teaching-grade-table__identity">钟昊铭</td><td class="teaching-grade-table__identity">G</td><td class="teaching-grade-table__identity">G8</td><td>91</td><td>0</td><td>83</td><td>90</td><td>91</td><td>0</td><td>92</td><td>82</td><td>95</td><td>0</td><td>93</td><td>0</td><td>97</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>95</td><td>95</td><td>94</td><td>50</td><td>90</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">81</td><td class="teaching-grade-table__identity">202313141500377</td><td class="teaching-grade-table__identity">李光华</td><td class="teaching-grade-table__identity">J</td><td class="teaching-grade-table__identity">J14</td><td>93</td><td></td><td>83</td><td>0</td><td>0</td><td>93</td><td>92</td><td>89</td><td>97</td><td>0</td><td>0</td><td>97</td><td>0</td><td>47</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>95</td><td>94</td><td>95</td><td>53</td><td>93</td><td>100</td><td>76</td><td>2</td><td>80</td><td>40</td><td>40</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">82</td><td class="teaching-grade-table__identity">202313141300205</td><td class="teaching-grade-table__identity">凌雅奎</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H3</td><td>92</td><td>0</td><td>83</td><td>93</td><td>91</td><td>90</td><td>93</td><td>0</td><td>91</td><td>0</td><td>89</td><td>95</td><td>0</td><td>64</td><td>76</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>96</td><td>96</td><td>95</td><td>31</td><td>95</td><td>100</td><td>75</td><td>0</td><td>75</td><td>37</td><td>45</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">83</td><td class="teaching-grade-table__identity">202313141300206</td><td class="teaching-grade-table__identity">蔡艾彤</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F10</td><td>94</td><td>0</td><td>85</td><td>90</td><td>94</td><td>90</td><td>92</td><td>0</td><td>92</td><td>0</td><td>89</td><td>0</td><td>89</td><td>64</td><td>77</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>0</td><td>98</td><td>0</td><td>83</td><td>96</td><td>92</td><td>95</td><td>94</td><td>43</td><td>92</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">84</td><td class="teaching-grade-table__identity">202313141300207</td><td class="teaching-grade-table__identity">何慧颖</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H11</td><td>92</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>93</td><td>0</td><td>0</td><td>0</td><td>98</td><td>95</td><td>97</td><td>38</td><td>63</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>95</td><td>92</td><td>96</td><td>94</td><td>62</td><td>94</td><td>100</td><td>75</td><td>2</td><td>79</td><td>39</td><td>41</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">85</td><td class="teaching-grade-table__identity">202313141300208</td><td class="teaching-grade-table__identity">唐阳州</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F11</td><td>91</td><td>0</td><td>85</td><td>0</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>9</td><td>49</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>0</td><td>98</td><td>98</td><td>69</td><td>92</td><td>95</td><td>93</td><td>93</td><td>42</td><td>94</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">86</td><td class="teaching-grade-table__identity">202313141300209</td><td class="teaching-grade-table__identity">莫钧友</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F7</td><td>91</td><td>0</td><td>85</td><td>88</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>18</td><td>53</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>92</td><td>94</td><td>93</td><td>48</td><td>93</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">87</td><td class="teaching-grade-table__identity">202313141300210</td><td class="teaching-grade-table__identity">谢福轩</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C4</td><td>91</td><td>0</td><td>83</td><td>94</td><td>89</td><td>90</td><td>92</td><td>86</td><td>89</td><td>98</td><td>92</td><td>0</td><td>95</td><td>82</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>93</td><td>94</td><td>94</td><td>37</td><td>94</td><td>100</td><td>79</td><td>2</td><td>83</td><td>42</td><td>37</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">88</td><td class="teaching-grade-table__identity">202313141300211</td><td class="teaching-grade-table__identity">李思欣</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H1</td><td>92</td><td>0</td><td>83</td><td>92</td><td>0</td><td>90</td><td>93</td><td>81</td><td>95</td><td>98</td><td>89</td><td>93</td><td>97</td><td>83</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>94</td><td>92</td><td>94</td><td>43</td><td>91</td><td>100</td><td>80</td><td>2</td><td>84</td><td>42</td><td>36</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">89</td><td class="teaching-grade-table__identity">202313141300212</td><td class="teaching-grade-table__identity">戚锦东</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C6</td><td>91</td><td>0</td><td>83</td><td>85</td><td>91</td><td>91</td><td>90</td><td>85</td><td>92</td><td>92</td><td>88</td><td>90</td><td>95</td><td>90</td><td>88</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>95</td><td>92</td><td>94</td><td>54</td><td>95</td><td>100</td><td>84</td><td>0</td><td>84</td><td>42</td><td>36</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">90</td><td class="teaching-grade-table__identity">202313141300213</td><td class="teaching-grade-table__identity">陆丽庄</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D3</td><td>91</td><td>0</td><td>79</td><td>0</td><td>0</td><td>86</td><td>93</td><td>0</td><td>93</td><td>0</td><td>92</td><td>90</td><td>0</td><td>45</td><td>65</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>93</td><td>96</td><td>92</td><td>94</td><td>16</td><td>94</td><td>100</td><td>67</td><td>0</td><td>67</td><td>33</td><td>53</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">91</td><td class="teaching-grade-table__identity">202313141300214</td><td class="teaching-grade-table__identity">覃健</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I2</td><td>90</td><td>0</td><td>80</td><td>0</td><td>91</td><td>92</td><td>91</td><td>0</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>36</td><td>61</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>94</td><td>92</td><td>94</td><td>41</td><td>90</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">92</td><td class="teaching-grade-table__identity">202313141300215</td><td class="teaching-grade-table__identity">梁寿林</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F9</td><td>92</td><td>0</td><td>85</td><td>86</td><td>91</td><td>100</td><td>92</td><td>84</td><td>93</td><td>0</td><td>0</td><td>0</td><td>0</td><td>55</td><td>72</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>93</td><td>95</td><td>94</td><td>32</td><td>95</td><td>100</td><td>73</td><td>2</td><td>77</td><td>39</td><td>43</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">93</td><td class="teaching-grade-table__identity">202313141300216</td><td class="teaching-grade-table__identity">徐耀前</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I7</td><td>90</td><td>0</td><td>80</td><td>0</td><td>91</td><td>94</td><td>91</td><td>0</td><td>0</td><td>0</td><td>93</td><td>0</td><td>0</td><td>37</td><td>61</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>95</td><td>92</td><td>93</td><td>32</td><td>92</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">94</td><td class="teaching-grade-table__identity">202313141300217</td><td class="teaching-grade-table__identity">邹海龙</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F3</td><td>93</td><td>0</td><td>85</td><td>93</td><td>93</td><td>88</td><td>92</td><td>0</td><td>92</td><td>0</td><td>0</td><td>92</td><td>0</td><td>55</td><td>72</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>96</td><td>96</td><td>95</td><td>35</td><td>90</td><td>100</td><td>73</td><td>2</td><td>77</td><td>39</td><td>43</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">95</td><td class="teaching-grade-table__identity">202313141300218</td><td class="teaching-grade-table__identity">欧晓玲</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H6</td><td>92</td><td>0</td><td>83</td><td>0</td><td>0</td><td>91</td><td>94</td><td>85</td><td>0</td><td>0</td><td>95</td><td>95</td><td>90</td><td>55</td><td>71</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>95</td><td>93</td><td>94</td><td>46</td><td>91</td><td>100</td><td>75</td><td>0</td><td>75</td><td>38</td><td>45</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">96</td><td class="teaching-grade-table__identity">202313141300219</td><td class="teaching-grade-table__identity">唐春</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D4</td><td>90</td><td>0</td><td>79</td><td>90</td><td>0</td><td>90</td><td>93</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>27</td><td>56</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>96</td><td>94</td><td>94</td><td>40</td><td>94</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">97</td><td class="teaching-grade-table__identity">202313141300220</td><td class="teaching-grade-table__identity">江雨凤</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D10</td><td>91</td><td>100</td><td>79</td><td>86</td><td>91</td><td>0</td><td>94</td><td>0</td><td>95</td><td>93</td><td>91</td><td>97</td><td>97</td><td>74</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>93</td><td>93</td><td>94</td><td>46</td><td>95</td><td>100</td><td>79</td><td>4</td><td>87</td><td>44</td><td>33</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">98</td><td class="teaching-grade-table__identity">202313141300221</td><td class="teaching-grade-table__identity">张继源</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I1</td><td>92</td><td>0</td><td>80</td><td>0</td><td>91</td><td>93</td><td>96</td><td>83</td><td>0</td><td>94</td><td>90</td><td>0</td><td>98</td><td>64</td><td>75</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>92</td><td>96</td><td>95</td><td>46</td><td>94</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">99</td><td class="teaching-grade-table__identity">202313141300222</td><td class="teaching-grade-table__identity">罗茜芡</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H5</td><td>92</td><td>0</td><td>83</td><td>0</td><td>0</td><td>0</td><td>0</td><td>88</td><td>92</td><td>0</td><td>0</td><td>93</td><td>93</td><td>37</td><td>62</td><td>97</td><td>0</td><td>0</td><td>0</td><td>98</td><td>97</td><td>98</td><td>0</td><td>56</td><td>96</td><td>92</td><td>95</td><td>94</td><td>38</td><td>94</td><td>100</td><td>68</td><td>2</td><td>72</td><td>36</td><td>48</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">100</td><td class="teaching-grade-table__identity">202313141300223</td><td class="teaching-grade-table__identity">黄文龙</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F1</td><td>93</td><td>0</td><td>85</td><td>93</td><td>92</td><td>92</td><td>96</td><td>0</td><td>85</td><td>100</td><td>93</td><td>92</td><td>95</td><td>84</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>92</td><td>93</td><td>93</td><td>34</td><td>91</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">101</td><td class="teaching-grade-table__identity">202313141300224</td><td class="teaching-grade-table__identity">韦晓楠</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H13</td><td>92</td><td>100</td><td>83</td><td>0</td><td>91</td><td>0</td><td>0</td><td>0</td><td>92</td><td>0</td><td>0</td><td>93</td><td>0</td><td>28</td><td>58</td><td>0</td><td>98</td><td>0</td><td>97</td><td>98</td><td>0</td><td>98</td><td>98</td><td>56</td><td>95</td><td>96</td><td>93</td><td>95</td><td>54</td><td>90</td><td>100</td><td>69</td><td>2</td><td>73</td><td>37</td><td>47</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">102</td><td class="teaching-grade-table__identity">202313141300225</td><td class="teaching-grade-table__identity">陆佳怡</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H12</td><td>92</td><td>0</td><td>83</td><td>0</td><td>90</td><td>91</td><td>92</td><td>83</td><td>97</td><td>0</td><td>88</td><td>92</td><td>90</td><td>72</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>92</td><td>93</td><td>92</td><td>41</td><td>95</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">103</td><td class="teaching-grade-table__identity">202313141300226</td><td class="teaching-grade-table__identity">王亚敏</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D2</td><td>90</td><td>0</td><td>79</td><td>0</td><td>0</td><td>92</td><td>92</td><td>87</td><td>93</td><td>0</td><td>0</td><td>93</td><td>92</td><td>55</td><td>70</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>94</td><td>95</td><td>94</td><td>45</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">104</td><td class="teaching-grade-table__identity">202313141300227</td><td class="teaching-grade-table__identity">韦富宏</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F5</td><td>94</td><td>0</td><td>85</td><td>0</td><td>93</td><td>92</td><td>93</td><td>0</td><td>95</td><td>94</td><td>91</td><td>0</td><td>0</td><td>56</td><td>73</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>98</td><td>98</td><td>83</td><td>94</td><td>96</td><td>95</td><td>95</td><td>34</td><td>91</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">105</td><td class="teaching-grade-table__identity">202313141300228</td><td class="teaching-grade-table__identity">谢蕙鸿</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C3</td><td>91</td><td>0</td><td>83</td><td>90</td><td>96</td><td>90</td><td>90</td><td>91</td><td>0</td><td>98</td><td>88</td><td>0</td><td>95</td><td>74</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>93</td><td>93</td><td>94</td><td>37</td><td>92</td><td>100</td><td>77</td><td>2</td><td>81</td><td>41</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">106</td><td class="teaching-grade-table__identity">202313141300229</td><td class="teaching-grade-table__identity">李聪</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C1</td><td>91</td><td>100</td><td>83</td><td>93</td><td>91</td><td>91</td><td>95</td><td>87</td><td>95</td><td>100</td><td>89</td><td>92</td><td>95</td><td>93</td><td>90</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>96</td><td>93</td><td>94</td><td>69</td><td>92</td><td>100</td><td>87</td><td>4</td><td>95</td><td>48</td><td>25</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">107</td><td class="teaching-grade-table__identity">202313141300230</td><td class="teaching-grade-table__identity">刘世源</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C7</td><td>91</td><td>0</td><td>83</td><td>82</td><td>91</td><td>91</td><td>92</td><td>83</td><td>92</td><td>0</td><td>92</td><td>0</td><td>94</td><td>72</td><td>79</td><td>97</td><td>0</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>70</td><td>92</td><td>93</td><td>94</td><td>93</td><td>44</td><td>93</td><td>100</td><td>77</td><td>0</td><td>77</td><td>38</td><td>43</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">108</td><td class="teaching-grade-table__identity">202313141300231</td><td class="teaching-grade-table__identity">陈万芊</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H7</td><td>92</td><td>0</td><td>83</td><td>93</td><td>0</td><td>96</td><td>92</td><td>0</td><td>93</td><td>0</td><td>90</td><td>95</td><td>97</td><td>66</td><td>77</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>0</td><td>98</td><td>98</td><td>83</td><td>94</td><td>96</td><td>94</td><td>95</td><td>54</td><td>91</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">109</td><td class="teaching-grade-table__identity">202313141300232</td><td class="teaching-grade-table__identity">郭耀康</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I6</td><td>90</td><td>0</td><td>80</td><td>0</td><td>0</td><td>93</td><td>93</td><td>81</td><td>90</td><td>0</td><td>92</td><td>0</td><td>0</td><td>45</td><td>65</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>94</td><td>92</td><td>93</td><td>67</td><td>93</td><td>100</td><td>77</td><td>0</td><td>77</td><td>39</td><td>43</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">110</td><td class="teaching-grade-table__identity">202313141300233</td><td class="teaching-grade-table__identity">莫祖胜</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I5</td><td>90</td><td>0</td><td>80</td><td>92</td><td>91</td><td>93</td><td>96</td><td>0</td><td>0</td><td>100</td><td>89</td><td>0</td><td>97</td><td>66</td><td>75</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>92</td><td>95</td><td>93</td><td>50</td><td>91</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">111</td><td class="teaching-grade-table__identity">202313141300234</td><td class="teaching-grade-table__identity">谢晓芸</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D5</td><td>90</td><td>0</td><td>79</td><td>95</td><td>89</td><td>90</td><td>93</td><td>0</td><td>93</td><td>0</td><td>0</td><td>0</td><td>92</td><td>55</td><td>70</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>95</td><td>93</td><td>92</td><td>93</td><td>29</td><td>91</td><td>100</td><td>70</td><td>0</td><td>70</td><td>35</td><td>50</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">112</td><td class="teaching-grade-table__identity">202313141300235</td><td class="teaching-grade-table__identity">潘林娇</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D7</td><td>91</td><td>0</td><td>79</td><td>93</td><td>0</td><td>96</td><td>93</td><td>0</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>37</td><td>61</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>92</td><td>94</td><td>96</td><td>94</td><td>24</td><td>94</td><td>100</td><td>67</td><td>2</td><td>71</td><td>35</td><td>49</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">113</td><td class="teaching-grade-table__identity">202313141300236</td><td class="teaching-grade-table__identity">周泽莲</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D9</td><td>90</td><td>0</td><td>79</td><td>96</td><td>88</td><td>91</td><td>92</td><td>0</td><td>95</td><td>0</td><td>93</td><td>97</td><td>89</td><td>74</td><td>79</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>96</td><td>94</td><td>46</td><td>94</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">114</td><td class="teaching-grade-table__identity">202313141300237</td><td class="teaching-grade-table__identity">古丽柯孜·居麦</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H10</td><td>92</td><td>0</td><td>83</td><td>0</td><td>93</td><td>0</td><td>0</td><td>0</td><td>91</td><td>0</td><td>0</td><td>95</td><td>0</td><td>28</td><td>58</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>95</td><td>94</td><td>30</td><td>90</td><td>100</td><td>66</td><td>0</td><td>66</td><td>33</td><td>54</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">115</td><td class="teaching-grade-table__identity">202313141300238</td><td class="teaching-grade-table__identity">黄施涛</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F6</td><td>94</td><td>0</td><td>85</td><td>84</td><td>94</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>90</td><td>36</td><td>63</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>93</td><td>96</td><td>94</td><td>31</td><td>92</td><td>100</td><td>69</td><td>0</td><td>69</td><td>34</td><td>51</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">116</td><td class="teaching-grade-table__identity">202313141300239</td><td class="teaching-grade-table__identity">敖浩</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F8</td><td>97</td><td>100</td><td>85</td><td>0</td><td>93</td><td>92</td><td>92</td><td>81</td><td>93</td><td>94</td><td>89</td><td>89</td><td>92</td><td>82</td><td>86</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>0</td><td>98</td><td>83</td><td>96</td><td>93</td><td>94</td><td>94</td><td>44</td><td>94</td><td>100</td><td>81</td><td>0</td><td>81</td><td>40</td><td>39</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">117</td><td class="teaching-grade-table__identity">202313141300240</td><td class="teaching-grade-table__identity">梁书僮</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F4</td><td>94</td><td>0</td><td>85</td><td>90</td><td>92</td><td>91</td><td>91</td><td>0</td><td>93</td><td>0</td><td>88</td><td>94</td><td>97</td><td>74</td><td>82</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>94</td><td>93</td><td>94</td><td>94</td><td>43</td><td>92</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">118</td><td class="teaching-grade-table__identity">202313141300241</td><td class="teaching-grade-table__identity">陈治先</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C2</td><td>91</td><td>0</td><td>83</td><td>93</td><td>96</td><td>95</td><td>91</td><td>95</td><td>93</td><td>0</td><td>0</td><td>0</td><td>95</td><td>66</td><td>92</td><td>97</td><td>98</td><td>96</td><td>97</td><td>0</td><td>97</td><td>0</td><td>98</td><td>69</td><td>94</td><td>95</td><td>93</td><td>94</td><td>62</td><td>94</td><td>100</td><td>86</td><td>0</td><td>86</td><td>43</td><td>34</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">119</td><td class="teaching-grade-table__identity">202313141300242</td><td class="teaching-grade-table__identity">杨宗霖</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F2</td><td>91</td><td>0</td><td>85</td><td>88</td><td>92</td><td>86</td><td>91</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>97</td><td>45</td><td>67</td><td>97</td><td>98</td><td>0</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>84</td><td>96</td><td>95</td><td>96</td><td>96</td><td>38</td><td>90</td><td>100</td><td>71</td><td>2</td><td>75</td><td>38</td><td>45</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">120</td><td class="teaching-grade-table__identity">202313141300243</td><td class="teaching-grade-table__identity">陆禹辰</td><td class="teaching-grade-table__identity">F</td><td class="teaching-grade-table__identity">F12</td><td>94</td><td>0</td><td>85</td><td>85</td><td>93</td><td>0</td><td>92</td><td>0</td><td>90</td><td>0</td><td>0</td><td>0</td><td>0</td><td>39</td><td>64</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>94</td><td>94</td><td>56</td><td>91</td><td>100</td><td>74</td><td>0</td><td>74</td><td>37</td><td>46</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">121</td><td class="teaching-grade-table__identity">202313141300244</td><td class="teaching-grade-table__identity">吴荣琦</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I4</td><td>90</td><td>0</td><td>80</td><td>95</td><td>0</td><td>93</td><td>0</td><td>0</td><td>92</td><td>0</td><td>0</td><td>0</td><td>0</td><td>28</td><td>56</td><td>97</td><td>0</td><td>96</td><td>0</td><td>98</td><td>0</td><td>98</td><td>0</td><td>56</td><td>96</td><td>94</td><td>95</td><td>95</td><td>29</td><td>92</td><td>100</td><td>64</td><td>0</td><td>64</td><td>32</td><td>56</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">122</td><td class="teaching-grade-table__identity">202313141300245</td><td class="teaching-grade-table__identity">何耀杰</td><td class="teaching-grade-table__identity">C</td><td class="teaching-grade-table__identity">C5</td><td>91</td><td>0</td><td>83</td><td>0</td><td>0</td><td>90</td><td>93</td><td>0</td><td>0</td><td>93</td><td>88</td><td>0</td><td>93</td><td>46</td><td>66</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>96</td><td>93</td><td>94</td><td>23</td><td>90</td><td>100</td><td>68</td><td>0</td><td>68</td><td>34</td><td>52</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">123</td><td class="teaching-grade-table__identity">202313141300246</td><td class="teaching-grade-table__identity">何健清</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D1</td><td>91</td><td>0</td><td>79</td><td>92</td><td>91</td><td>91</td><td>93</td><td>0</td><td>94</td><td>0</td><td>88</td><td>0</td><td>97</td><td>65</td><td>75</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>96</td><td>92</td><td>96</td><td>95</td><td>28</td><td>94</td><td>100</td><td>74</td><td>2</td><td>78</td><td>39</td><td>42</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">124</td><td class="teaching-grade-table__identity">202313141300247</td><td class="teaching-grade-table__identity">罗仕芳</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D6</td><td>90</td><td>0</td><td>79</td><td>0</td><td>91</td><td>93</td><td>93</td><td>0</td><td>91</td><td>0</td><td>0</td><td>90</td><td>0</td><td>46</td><td>65</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>92</td><td>95</td><td>93</td><td>29</td><td>91</td><td>100</td><td>69</td><td>0</td><td>69</td><td>35</td><td>51</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">125</td><td class="teaching-grade-table__identity">202313141300248</td><td class="teaching-grade-table__identity">潘朵拉</td><td class="teaching-grade-table__identity">D</td><td class="teaching-grade-table__identity">D8</td><td>90</td><td>0</td><td>79</td><td>0</td><td>88</td><td>0</td><td>93</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>97</td><td>28</td><td>56</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>95</td><td>96</td><td>95</td><td>21</td><td>91</td><td>100</td><td>64</td><td>2</td><td>68</td><td>34</td><td>52</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">126</td><td class="teaching-grade-table__identity">202313141300249</td><td class="teaching-grade-table__identity">何柯林</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H4</td><td>92</td><td>0</td><td>83</td><td>91</td><td>90</td><td>90</td><td>90</td><td>86</td><td>90</td><td>94</td><td>0</td><td>95</td><td>0</td><td>73</td><td>80</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>95</td><td>92</td><td>96</td><td>94</td><td>34</td><td>91</td><td>100</td><td>76</td><td>0</td><td>76</td><td>38</td><td>44</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">127</td><td class="teaching-grade-table__identity">202313141300250</td><td class="teaching-grade-table__identity">欧阳斯淇</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H8</td><td>92</td><td>0</td><td>83</td><td>0</td><td>90</td><td>93</td><td>0</td><td>0</td><td>90</td><td>0</td><td>0</td><td>94</td><td>0</td><td>37</td><td>62</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>93</td><td>94</td><td>96</td><td>94</td><td>51</td><td>93</td><td>100</td><td>73</td><td>0</td><td>73</td><td>36</td><td>47</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">128</td><td class="teaching-grade-table__identity">202313141300251</td><td class="teaching-grade-table__identity">陈丹</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H2</td><td>92</td><td>0</td><td>83</td><td>0</td><td>88</td><td>0</td><td>90</td><td>0</td><td>96</td><td>0</td><td>92</td><td>95</td><td>0</td><td>46</td><td>67</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>93</td><td>92</td><td>92</td><td>40</td><td>93</td><td>100</td><td>72</td><td>2</td><td>76</td><td>38</td><td>44</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">129</td><td class="teaching-grade-table__identity">202313141300252</td><td class="teaching-grade-table__identity">王丽婷</td><td class="teaching-grade-table__identity">H</td><td class="teaching-grade-table__identity">H9</td><td>92</td><td>0</td><td>83</td><td>0</td><td>91</td><td>93</td><td>93</td><td>87</td><td>90</td><td>94</td><td>93</td><td>94</td><td>94</td><td>83</td><td>85</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>92</td><td>94</td><td>95</td><td>94</td><td>37</td><td>91</td><td>100</td><td>79</td><td>2</td><td>83</td><td>41</td><td>37</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">130</td><td class="teaching-grade-table__identity">202313141300253</td><td class="teaching-grade-table__identity">黄仕锦</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>120</td>
+        </tr>
+        <tr>
+          <td class="teaching-grade-table__identity">131</td><td class="teaching-grade-table__identity">202313141300254</td><td class="teaching-grade-table__identity">熊茂焜</td><td class="teaching-grade-table__identity">I</td><td class="teaching-grade-table__identity">I3</td><td>90</td><td>0</td><td>80</td><td>0</td><td>92</td><td>94</td><td>91</td><td>82</td><td>96</td><td>0</td><td>92</td><td>0</td><td>93</td><td>64</td><td>74</td><td>97</td><td>98</td><td>96</td><td>97</td><td>98</td><td>97</td><td>98</td><td>98</td><td>97</td><td>94</td><td>93</td><td>94</td><td>94</td><td>51</td><td>93</td><td>100</td><td>78</td><td>2</td><td>82</td><td>41</td><td>38</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</details>
