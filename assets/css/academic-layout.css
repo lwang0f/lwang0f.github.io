@@ -279,10 +279,28 @@
   max-width: 720px;
 }
 
+.academic-article .research-figure--left {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.academic-article .research-figure--left img {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.academic-article .research-figure--tomography {
+  max-width: 344px;
+}
+
 @media (max-width: 700px) {
   .academic-article .research-figure {
     max-width: none;
     width: 100%;
+  }
+
+  .academic-article .research-figure--tomography {
+    max-width: 344px;
   }
 }
 

@@ -9,14 +9,14 @@ author_profile: true
 
 The ionosphere is the electrically charged part of the upper atmosphere. Extreme-ultraviolet and X-ray radiation from the Sun create free electrons, while solar-wind forcing, geomagnetic activity, and lower-atmosphere dynamics continually modify their density. Sudden stratospheric warming (SSW) is an especially clear example of vertical coupling: planetary-scale waves generated in the troposphere propagate into the stratosphere, rapidly raise polar-stratospheric temperatures, and alter the circulation that reaches the ionosphere. A study led by MIT Haystack Observatory found that a major SSW was followed by a strong nighttime electron-density depletion, forming a large ionospheric hole that extended from about 55 degrees S to 45 degrees N. The result is a dynamic interface between the Sun, near-Earth space, and the lower atmosphere rather than a static shell around Earth.
 
-<figure class="research-figure research-figure--ionosphere-hole">
+<figure class="research-figure research-figure--left research-figure--ionosphere-hole">
   <img src="/images/mit-ionosphere-hole.jpeg" alt="Green aurora over Earth observed from space" loading="lazy">
   <figcaption>Green aurora viewed from space over the nighttime atmosphere. The associated MIT study showed that sudden stratospheric warming can reduce nighttime ionospheric electron density for several days, producing a depletion that spans both hemispheres. Source: <a href="https://news.mit.edu/2018/ionosphere-hole-caused-sudden-stratospheric-warming-0806">MIT News study summary</a>. Credit: NASA/JPL.</figcaption>
 </figure>
 
 These changes matter because electron density alters the propagation of radio waves. It introduces delay, refraction, scintillation, and Faraday rotation in satellite-navigation, communication, radar, and remote-sensing signals. Navigation receivers therefore need an ionospheric correction, obtained from models or measurements, to convert signal travel time into an accurate position. A three-dimensional electron-density field is important because it distinguishes vertical layering from horizontal structures, supports propagation corrections, and reveals how disturbances evolve through the coupled Sun-Earth system.
 
-<figure class="research-figure research-figure--space-weather">
+<figure class="research-figure research-figure--left research-figure--space-weather">
   <img src="/images/nasa-space-weather-illustration.png" alt="NASA illustration of space weather effects on the ionosphere, satellites, GPS, and radio systems" loading="lazy">
   <figcaption>Examples of space-weather pathways affecting the ionosphere, satellites, GPS, and radio systems. Source: <a href="https://svs.gsfc.nasa.gov/vis/a000000/a004900/a004923/SpaceWeatherIllustration.pdf">NASA Space Weather Illustration</a>. Credit: NASA Goddard Space Flight Center, Scientific Visualization Studio.</figcaption>
 </figure>
@@ -25,9 +25,9 @@ Ionospheric tomography reconstructs this three-dimensional field from indirect o
 
 The inverse problem remains underdetermined because the available rays are sparse, unevenly distributed, and often limited in angle. Tomographic methods combine these measurements with physical or empirical models and regularization, balancing data fit against a physically plausible electron-density field. Independent observations and sensitivity tests are needed to distinguish features supported by measurements from structures introduced by the prior model. This is where estimation theory becomes practically meaningful: bounds and estimators must reflect the sampling limitations and physical variability of atmospheric observations.
 
-<figure class="research-figure research-figure--tomography">
+<figure class="research-figure research-figure--left research-figure--tomography">
   <img src="/images/ionospheric-tomography-reconstruction.png" alt="Three-dimensional reconstruction of ionospheric electron density across latitude, longitude, and altitude" loading="lazy">
-  <figcaption>Example three-dimensional reconstruction of ionospheric electron density. Source: <a href="/research/#J6">J6</a>. Credit: adapted from C. Wang et al., J6.</figcaption>
+  <figcaption>Example three-dimensional reconstruction of ionospheric electron density, adapted from C. Wang et al. (2024), <a href="/research/#J6">[J6]</a>.</figcaption>
 </figure>
 
 ## Related publications
