@@ -361,14 +361,13 @@
 }
 
 .home-news-list {
-  list-style: none;
+  list-style: disc;
   margin: 0;
-  padding: 0;
+  padding-left: 1.35em;
 }
 
 .home-news-item {
   margin: 0 0 28px;
-  padding: 0;
 }
 
 .home-news-item:last-child {
