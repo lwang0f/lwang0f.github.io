@@ -4,6 +4,7 @@ collection: teaching
 permalink: /teaching/2026-fall-communication-principles
 date: 2026-09-01
 show_teaching_meta: false
+teaching_meta: "周一、周二，第1-3节，学友楼105"
 ---
 
 <section class="course-overview">
@@ -98,8 +99,8 @@ show_teaching_meta: false
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 15 周</th>
-          <td>第 13 章 同步原理</td>
-          <td>载波同步、位同步与群同步</td>
+          <td>第 10 章 模拟信号的数字化</td>
+          <td><span class="course-schedule__code">K109-K117</span>抽样、量化、PCM 与时分复用</td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 16 周</th>
@@ -136,6 +137,8 @@ show_teaching_meta: false
       <div class="course-resource__links">
         <a class="course-resource__link" href="/files/communication-principles/slideChp1.pdf">课件</a>
         <a class="course-resource__link" href="/files/communication-principles/handoutChpt1.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
 
@@ -144,6 +147,8 @@ show_teaching_meta: false
       <div class="course-resource__links">
         <a class="course-resource__link" href="/files/communication-principles/slideChp2.pdf">课件</a>
         <a class="course-resource__link" href="/files/communication-principles/handoutChpt2.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
 
@@ -152,6 +157,8 @@ show_teaching_meta: false
       <div class="course-resource__links">
         <a class="course-resource__link" href="/files/communication-principles/slideChp3.pdf">课件</a>
         <a class="course-resource__link" href="/files/communication-principles/handoutChpt3.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
 
@@ -160,6 +167,8 @@ show_teaching_meta: false
       <div class="course-resource__links">
         <a class="course-resource__link" href="/files/communication-principles/slideChp4.pdf">课件</a>
         <a class="course-resource__link" href="/files/communication-principles/handoutChpt4.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
 
@@ -168,6 +177,8 @@ show_teaching_meta: false
       <div class="course-resource__links">
         <a class="course-resource__link" href="/files/communication-principles/slideChp5.pdf">课件</a>
         <a class="course-resource__link" href="/files/communication-principles/handoutChpt5.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
 
@@ -176,6 +187,8 @@ show_teaching_meta: false
       <div class="course-resource__links">
         <a class="course-resource__link" href="/files/communication-principles/slideChp6.pdf">课件</a>
         <a class="course-resource__link" href="/files/communication-principles/handoutChpt6.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
 
@@ -184,6 +197,8 @@ show_teaching_meta: false
       <div class="course-resource__links">
         <a class="course-resource__link" href="/files/communication-principles/slideChp7.pdf">课件</a>
         <a class="course-resource__link" href="/files/communication-principles/handoutChpt7.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
 
@@ -192,13 +207,18 @@ show_teaching_meta: false
       <div class="course-resource__links">
         <a class="course-resource__link" href="/files/communication-principles/slideChp8.pdf">课件</a>
         <a class="course-resource__link" href="/files/communication-principles/handoutChpt8.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
 
     <article class="course-resource">
-      <h3>第 13 章 <span>同步原理</span></h3>
+      <h3>第 10 章 <span>模拟信号的数字化</span></h3>
       <div class="course-resource__links">
-        <a class="course-resource__link" href="/files/communication-principles/slideChp13.pptx">课件</a>
+        <a class="course-resource__link" href="/files/communication-principles/slideChp10.pdf">课件</a>
+        <a class="course-resource__link" href="/files/communication-principles/handoutChpt10.pdf">讲义</a>
+        <span class="course-resource__pending">批注</span>
+        <span class="course-resource__pending">板书</span>
       </div>
     </article>
   </div>

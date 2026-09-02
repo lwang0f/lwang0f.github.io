@@ -17,6 +17,6 @@ author_profile: true
 
 **Hongpan An (安洪盼)**: M.S., Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, 2026.
 
-**Qiyin Lao (劳琪茵)**: B.S., 2026. Received the First Prize for an Outstanding Undergraduate Thesis at the university level.
+**Qiyin Lao (劳琪茵)**: Outstanding Undergraduate Thesis, currently in 深圳市星途创新科技有限公司.
 
 **Yihao Pan (潘毅豪)**: M.S., Hong Kong Baptist University, 2026.

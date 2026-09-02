@@ -485,6 +485,18 @@
   text-decoration: none;
 }
 
+.course-resource__pending {
+  align-items: center;
+  background: #f5f6f5;
+  border: 1px solid #d1d7d4;
+  border-radius: 3px;
+  color: #697278;
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 1;
+  padding: 8px 12px;
+}
+
 .home-introduction > h1 {
   border-bottom: 3px solid #9fa3a2;
   color: #52739a;

@@ -13,7 +13,9 @@ layout: default
     {% if page.modified %}
       <p class="page__date"><time datetime="{{ page.modified | date: "%Y-%m-%d" }}">Updated {{ page.modified | date: "%B %d, %Y" }}</time></p>
     {% endif %}
-    {% if page.collection == 'teaching' %}
+    {% if page.collection == 'teaching' and page.teaching_meta %}
+      <p class="page__meta">{{ page.teaching_meta }}</p>
+    {% elsif page.collection == 'teaching' %}
       <p class="page__meta">{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
     {% elsif page.venue and page.date %}
       <p class="page__meta">Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
