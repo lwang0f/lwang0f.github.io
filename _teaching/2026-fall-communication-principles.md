@@ -18,8 +18,117 @@ show_teaching_meta: false
   </ul>
 </section>
 
+<section class="course-schedule" aria-labelledby="course-schedule-title">
+  <h2 id="course-schedule-title">课程计划</h2>
+  <div class="course-schedule__table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">周</th>
+          <th scope="col">内容</th>
+          <th scope="col">知识点</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 1 周</th>
+          <td>课程导入；第 1 章 绪论</td>
+          <td><span class="course-schedule__code">K001-K009</span>通信系统、信息度量与性能指标</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 2 周</th>
+          <td>第 2 章 确知信号</td>
+          <td><span class="course-schedule__code">K010-K019</span>频域分析、谱密度与相关函数</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 3 周</th>
+          <td>第 3 章 随机过程</td>
+          <td><span class="course-schedule__code">K020-K033</span>平稳、高斯与窄带随机过程；噪声</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 4 周</th>
+          <td>第 4 章 信道</td>
+          <td><span class="course-schedule__code">K034-K049</span>信道模型、传输失真、噪声与信道容量</td>
+        </tr>
+        <tr>
+          <td colspan="3" class="course-schedule__assessment">周末进行第一次阶段考试（1 小时闭卷 + 1 小时讲解）</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 6 周</th>
+          <td>第 5 章 模拟调制：线性调制</td>
+          <td><span class="course-schedule__code">K050-K059</span>AM、DSB、SSB、VSB 与解调</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 7 周</th>
+          <td>第 5 章 模拟调制：角度调制</td>
+          <td><span class="course-schedule__code">K060-K069</span>FM、PM、抗噪声性能与频分复用</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 8 周</th>
+          <td>第 6 章 数字基带传输</td>
+          <td><span class="course-schedule__code">K070-K076</span>基带信号、码型、频谱与码间串扰</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 9 周</th>
+          <td>第 6 章 数字基带传输</td>
+          <td><span class="course-schedule__code">K077-K082</span>奈奎斯特准则、抗噪声性能与眼图</td>
+        </tr>
+        <tr>
+          <td colspan="3" class="course-schedule__assessment">周末进行第二次阶段考试（1 小时闭卷 + 1 小时讲解）</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 11 周</th>
+          <td>第 7 章 数字带通传输</td>
+          <td><span class="course-schedule__code">K083-K089</span>二进制数字调制与解调</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 12 周</th>
+          <td>第 7 章 数字带通传输</td>
+          <td><span class="course-schedule__code">K090-K096</span>抗噪声性能、系统比较与多进制调制</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 13 周</th>
+          <td>第 8 章 新型数字带通调制</td>
+          <td><span class="course-schedule__code">K097-K102</span>正交振幅调制与星座映射</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 14 周</th>
+          <td>第 8 章 新型数字带通调制</td>
+          <td><span class="course-schedule__code">K103-K108</span>MSK、GMSK 与 OFDM</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 15 周</th>
+          <td>第 13 章 同步原理</td>
+          <td>载波同步、位同步与群同步</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 16 周</th>
+          <td>实验：模拟调制与解调</td>
+          <td>AM、FM 系统搭建、波形与频谱观测</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 17 周</th>
+          <td>实验：数字基带与数字调制</td>
+          <td>AMI/HDB3、ASK/BPSK 的实现与观测</td>
+        </tr>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 18 周</th>
+          <td>实验与课程复习</td>
+          <td>QPSK、OQPSK、16QAM/64QAM；课程总结</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
 <section class="course-resources" aria-labelledby="course-resources-title">
   <h2 id="course-resources-title">课程资源</h2>
+
+  <nav class="course-resource-tools" aria-label="课程常用链接">
+    <a href="https://docs.qq.com/doc/DRFdMUWZYUGJMaVpa?right_flag=2" target="_blank" rel="noopener noreferrer">分组及分工安排</a>
+    <a href="https://docs.qq.com/sheet/DRG5uV2VIRHJxcVVL?tab=BB08J2" target="_blank" rel="noopener noreferrer">平时成绩总表</a>
+    <a href="https://docs.qq.com/sheet/DRFZVbGdGemtMTW9C?tab=r3wqxv" target="_blank" rel="noopener noreferrer">课程提问</a>
+  </nav>
 
   <div class="course-resource-list">
     <article class="course-resource">

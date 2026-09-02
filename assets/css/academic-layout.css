@@ -330,9 +330,103 @@
   max-width: 820px;
 }
 
+.course-schedule {
+  margin-top: 34px;
+  max-width: 920px;
+}
+
+.course-schedule__table-wrap {
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid #cfd5d2;
+  overflow-x: auto;
+}
+
+.academic-article .course-schedule table {
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  min-width: 720px;
+  width: 100%;
+}
+
+.course-schedule th,
+.course-schedule td {
+  border-bottom: 1px solid #dfe4e1;
+  padding: 12px 14px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.course-schedule thead th {
+  background: #eef2f0;
+  color: #263e57;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.course-schedule thead th:first-child,
+.course-schedule__week {
+  text-align: center;
+  white-space: nowrap;
+  width: 86px;
+}
+
+.course-schedule tbody tr:last-child th,
+.course-schedule tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.course-schedule__week {
+  background: #fafbfa;
+  color: #263e57;
+  font-weight: 700;
+}
+
+.course-schedule__code {
+  color: #4b6278;
+  display: block;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.25;
+  margin-bottom: 4px;
+}
+
+.course-schedule__assessment {
+  background: #eef3f5;
+  color: #263e57;
+  font-weight: 700;
+  padding: 14px;
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
 .course-resources {
   margin-top: 34px;
   max-width: 860px;
+}
+
+.course-resource-tools {
+  border-bottom: 1px solid #d9dcda;
+  border-top: 1px solid #c9cbc7;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 22px;
+  margin: 0 0 22px;
+}
+
+.academic-article .course-resource-tools a {
+  color: #2d4e70;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 11px 0;
+  text-decoration: none;
+}
+
+.academic-article .course-resource-tools a:hover,
+.academic-article .course-resource-tools a:focus {
+  color: #52739a;
+  text-decoration: underline;
 }
 
 .course-resource-list {
@@ -771,6 +865,24 @@
     gap: 10px;
     grid-template-columns: 1fr;
     padding: 14px 0;
+  }
+
+  .course-schedule {
+    margin-top: 28px;
+  }
+
+  .academic-article .course-schedule table {
+    font-size: 14px;
+    min-width: 660px;
+  }
+
+  .course-schedule th,
+  .course-schedule td {
+    padding: 10px 12px;
+  }
+
+  .course-resource-tools {
+    gap: 0 16px;
   }
 
   .academic-article .course-resource h3 {
