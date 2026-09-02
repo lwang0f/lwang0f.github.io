@@ -19,4 +19,4 @@ The connection with applications is essential. Wind-field sensing and ionospheri
 
 ## Related publications
 
-[J1](/research/#J1), [J3](/research/#J3), [C1](/research/#C1), [C2](/research/#C2), [C3](/research/#C3), [C4](/research/#C4)
+[J1](/research/#J1), [J2](/research/#J2), [C1](/research/#C1), [C2](/research/#C2), [C3](/research/#C3), [C4](/research/#C4)
