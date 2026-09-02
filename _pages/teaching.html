@@ -7,6 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<nav class="teaching-course-index" aria-label="课程列表">
+  <a href="{{ base_path }}/teaching/2026-fall-communication-principles">
+    <span>2026 年秋季</span>
+    <strong>通信原理</strong>
+  </a>
+</nav>
