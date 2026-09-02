@@ -13,6 +13,8 @@ author_profile: true
 
 **Yang Zhang (张杨)**: M.S., 2025. Recognized as an Outstanding Graduate of Guangxi Minzu University.
 
+**De Huang (黄德)**: M.S., Guangzhou University, 2024.
+
 ## B.S. Student Thesis & Training Supervised
 
 **Hongpan An (安洪盼)**: M.S., Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, 2026.
