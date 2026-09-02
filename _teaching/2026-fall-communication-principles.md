@@ -4,19 +4,32 @@ collection: teaching
 permalink: /teaching/2026-fall-communication-principles
 date: 2026-09-01
 show_teaching_meta: false
-teaching_meta: "周一、周二，第1-3节，学友楼105"
+teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：王黎明、罗丽平"
 ---
 
 <section class="course-overview">
   <h2>课程简介</h2>
   <p>《通信原理》是电子信息类专业的重要基础课程，介绍信息如何在通信系统中传输，以及如何减小噪声和失真。课程内容包括信号与噪声、调制与解调、数字通信、信道编码和通信系统性能分析。</p>
 
-  <h3>教学工具</h3>
+  <h3 class="course-overview__tools-title">教学工具</h3>
+  <p class="course-overview__tools-intro">课程所使用的教学工具如下。</p>
   <ul class="course-overview__tools">
-    <li><a href="https://docs.qq.com/doc/DRFdMUWZYUGJMaVpa?right_flag=2" target="_blank" rel="noopener noreferrer">分组及分工安排</a></li>
-    <li><a href="https://docs.qq.com/sheet/DRG5uV2VIRHJxcVVL?tab=BB08J2" target="_blank" rel="noopener noreferrer">平时成绩总表</a></li>
-    <li><a href="https://docs.qq.com/sheet/DRFZVbGdGemtMTW9C?tab=r3wqxv" target="_blank" rel="noopener noreferrer">课程提问</a></li>
-    <li>作业及实验报告提交至学习通</li>
+    <li>
+      <a href="https://docs.qq.com/doc/DRFdMUWZYUGJMaVpa?right_flag=2" target="_blank" rel="noopener noreferrer">分组及工作安排</a>
+      <span class="course-tool-description">用于课堂 Pre 与实验分组。各组负责的内容将提前一周公布，请及时查看任务并准备 Pre；如遇困难，请联系任课教师预约线下讨论。</span>
+    </li>
+    <li>
+      <a href="https://docs.qq.com/sheet/DRG5uV2VIRHJxcVVL?tab=BB08J2" target="_blank" rel="noopener noreferrer">平时成绩总表</a>
+      <span class="course-tool-description">用于跟踪平时成绩，每周 Pre 结束后更新。请及时查看，如有错漏请联系任课教师修改。</span>
+    </li>
+    <li>
+      <a href="https://docs.qq.com/sheet/DRFZVbGdGemtMTW9C?tab=r3wqxv" target="_blank" rel="noopener noreferrer">课程提问</a>
+      <span class="course-tool-description">对课堂内容、课件、讲义、Pre 或其他课程学习内容有疑问，可在表格中提问，由当周负责 Pre 的小组解答；如小组解答遇到困难，请及时与任课教师讨论。</span>
+    </li>
+    <li>
+      <span class="course-tool-label">学习通</span>
+      <span class="course-tool-description">提交章节作业、大作业及实验报告，并完成课程考勤。</span>
+    </li>
   </ul>
 
   <h2>课程目标</h2>

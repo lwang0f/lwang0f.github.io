@@ -335,7 +335,31 @@
 }
 
 .course-overview__tools li {
-  margin-top: 4px;
+  margin-top: 10px;
+}
+
+.academic-article .course-overview__tools-title {
+  font-size: 16px;
+  margin: 18px 0 5px;
+}
+
+.course-overview__tools-intro {
+  color: #4b555c;
+  margin-bottom: 8px !important;
+}
+
+.course-overview__tools li > a,
+.course-tool-label {
+  display: block;
+  font-weight: 700;
+}
+
+.course-tool-description {
+  color: #4b555c;
+  display: block;
+  font-size: 15px;
+  line-height: 1.45;
+  margin-top: 2px;
 }
 
 .course-schedule {
