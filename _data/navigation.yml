@@ -2,7 +2,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "教学"
+  - title: "Teaching"
     url: /teaching/
   - title: "Research"
     url: /research/
