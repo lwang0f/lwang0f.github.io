@@ -7,7 +7,7 @@ author_profile: true
 
 ## Graduate Students Supervised
 
-**Yuan Li (李媛)**: Ph.D., University of Science and Technology of China, 2026. Published a paper in <em>China Communications</em>.
+**Yuan Li (李媛)**: Ph.D., University of Science and Technology of China, 2026.
 
 **Zhanzhuo Zou (邹展卓)**: Ph.D., North China Electric Power University, 2026.
 
