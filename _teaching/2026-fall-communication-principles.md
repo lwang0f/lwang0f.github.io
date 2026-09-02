@@ -30,12 +30,6 @@ teaching_meta: "周一、周二，第1-3节，学友楼105"
   <h2 id="course-schedule-title">课程计划与资源</h2>
   <div class="course-schedule__table-wrap">
     <table>
-      <colgroup>
-        <col class="course-schedule__column-week">
-        <col class="course-schedule__column-content">
-        <col class="course-schedule__column-knowledge">
-        <col class="course-schedule__column-resources">
-      </colgroup>
       <thead>
         <tr>
           <th scope="col">周</th>

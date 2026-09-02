@@ -380,19 +380,19 @@
   white-space: nowrap;
 }
 
-.course-schedule__column--week {
+.course-schedule thead th:nth-child(1) {
   width: 10%;
 }
 
-.course-schedule__column--content {
+.course-schedule thead th:nth-child(2) {
   width: 31%;
 }
 
-.course-schedule__column--knowledge {
+.course-schedule thead th:nth-child(3) {
   width: 16%;
 }
 
-.course-schedule__column--resources {
+.course-schedule thead th:nth-child(4) {
   width: 43%;
 }
 
