@@ -33,7 +33,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105"
     <table>
       <thead>
         <tr>
-          <th scope="col">周</th>
+          <th scope="col">周次</th>
           <th scope="col">内容</th>
           <th scope="col">课程资源</th>
         </tr>
@@ -64,7 +64,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105"
           </td>
         </tr>
         <tr class="course-schedule__assessment-row">
-          <td colspan="3" class="course-schedule__assessment">第 3 周周末：第 1 次阶段考试（1 小时闭卷 + 1 小时讲解）</td>
+          <td colspan="3" class="course-schedule__assessment">第 3 周周末：第 1 次阶段考试（30 分钟闭卷 + 1 小时讲解）</td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 4 周</th>
@@ -98,7 +98,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105"
           </td>
         </tr>
         <tr class="course-schedule__assessment-row">
-          <td colspan="3" class="course-schedule__assessment">第 7 周周末：第 2 次阶段考试（1 小时闭卷 + 1 小时讲解）</td>
+          <td colspan="3" class="course-schedule__assessment">第 7 周周末：第 2 次阶段考试（30 分钟闭卷 + 1 小时讲解）</td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 8 周</th>
@@ -124,7 +124,10 @@ teaching_meta: "周一、周二，第1-3节，学友楼105"
           </td>
         </tr>
         <tr class="course-schedule__assessment-row">
-          <td colspan="3" class="course-schedule__assessment">第 10 周周末：第 3 次阶段考试（1 小时闭卷 + 1 小时讲解）</td>
+          <td colspan="3" class="course-schedule__assessment">第 10 周周末：第 3 次阶段考试（30 分钟闭卷 + 1 小时讲解）</td>
+        </tr>
+        <tr class="course-schedule__assessment-row">
+          <td colspan="3" class="course-schedule__assessment">第 16 周周末：考前总复习（复习材料 + 2 小时精讲）</td>
         </tr>
       </tbody>
     </table>

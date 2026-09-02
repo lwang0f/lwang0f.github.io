@@ -403,12 +403,18 @@
   background: #fafbfa;
   color: #263e57;
   font-weight: 700;
+  vertical-align: middle !important;
 }
 
 .course-schedule__content span {
+  box-sizing: border-box;
   display: block;
-  min-height: 44px;
-  padding: 8px 0;
+  height: 44px;
+  padding: 7px 0;
+}
+
+.course-schedule__content span + span {
+  margin-top: 5px;
 }
 
 .course-schedule__assessment {
@@ -417,18 +423,26 @@
   font-weight: 700;
   padding: 13px 14px;
   text-align: center !important;
+  transition: background-color 160ms ease, box-shadow 160ms ease;
   vertical-align: middle !important;
+}
+
+.course-schedule__assessment-row:hover .course-schedule__assessment {
+  background: #eaf1f2;
+  box-shadow: inset 3px 0 0 #52739a;
 }
 
 .course-schedule__resources {
-  vertical-align: middle !important;
+  text-align: left;
+  vertical-align: top !important;
 }
 
 .course-schedule__resource-group {
+  box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
-  min-height: 44px;
+  height: 44px;
   padding: 7px 0;
 }
 
