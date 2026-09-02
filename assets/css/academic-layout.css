@@ -407,10 +407,13 @@
 }
 
 .course-schedule__content span {
+  align-items: center;
   box-sizing: border-box;
-  display: block;
+  display: flex;
   height: 44px;
-  padding: 7px 0;
+  line-height: 1.35;
+  padding: 0 4px;
+  text-align: left;
 }
 
 .course-schedule__content span + span {
@@ -438,12 +441,13 @@
 }
 
 .course-schedule__resource-group {
+  align-items: center;
   box-sizing: border-box;
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
   height: 44px;
-  padding: 7px 0;
+  padding: 0 4px;
 }
 
 .course-schedule__resource-group + .course-schedule__resource-group {
