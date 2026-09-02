@@ -11,9 +11,7 @@ author_profile: true
 
 **Zhanzhuo Zou (邹展卓)**: Ph.D., North China Electric Power University, 2026.
 
-**Yang Zhang (张杨)**: M.S., 2025. Recognized as an Outstanding Graduate of Guangxi Minzu University.
-
-**De Huang (黄德)**: M.S., Guangzhou University, 2024.
+**Yang Zhang (张杨)**: Ph.D., Hainan University, 2025.
 
 ## B.S. Student Thesis & Training Supervised
 
@@ -22,3 +20,5 @@ author_profile: true
 **Qiyin Lao (劳琪茵)**: Outstanding Undergraduate Thesis, currently in 深圳市星途创新科技有限公司.
 
 **Yihao Pan (潘毅豪)**: M.S., Hong Kong Baptist University, 2026.
+
+**De Huang (黄德)**: M.S., Guangzhou University, 2024.
