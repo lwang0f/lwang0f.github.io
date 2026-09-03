@@ -462,12 +462,13 @@
 
 .course-tool--grade-sheet.is-linked-highlight,
 .course-tool--linked.is-linked-highlight {
-  background: #eaf1f2;
+  background-color: #f0f1f0;
+  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 2px, transparent 2px, transparent 7px);
 }
 
 .course-tool--grade-sheet.is-linked-highlight::before,
 .course-tool--linked.is-linked-highlight::before {
-  background: #2f6f91;
+  background: #4b555c;
   bottom: 4px;
   content: "";
   left: -9px;
@@ -619,8 +620,9 @@
 }
 
 .course-assessment__tool-link.is-linked-highlight {
-  background: #eaf1f2;
-  border-bottom-color: #2f6f91;
+  background-color: #f0f1f0;
+  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 2px, transparent 2px, transparent 7px);
+  border-bottom-color: #4b555c;
 }
 
 @keyframes course-assessment-panel-in {
@@ -738,8 +740,9 @@
 }
 
 .course-schedule__assessment-row.is-linked-highlight .course-schedule__assessment {
-  background: #eaf1f2;
-  box-shadow: inset 3px 0 0 #52739a;
+  background-color: #f0f1f0;
+  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 2px, transparent 2px, transparent 7px);
+  box-shadow: inset 3px 0 0 #4b555c;
 }
 
 .course-schedule__resources {

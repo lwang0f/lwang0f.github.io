@@ -41,7 +41,7 @@
     link.classList.add("is-linked-highlight");
     target.classList.add("is-linked-highlight");
 
-    toolHighlightTimer = window.setTimeout(clearToolHighlight, 6000);
+    toolHighlightTimer = window.setTimeout(clearToolHighlight, 3000);
   }
 
   trigger.addEventListener("click", function () {

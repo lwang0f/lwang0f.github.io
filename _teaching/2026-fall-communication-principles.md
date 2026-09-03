@@ -91,7 +91,7 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
   </ul>
 </section>
 
-<script defer src="{{ '/assets/js/course-assessment.js?v=20260903-8' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-assessment.js?v=20260903-12' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
