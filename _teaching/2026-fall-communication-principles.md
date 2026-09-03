@@ -29,15 +29,15 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
       <h3 class="course-assessment__panel-title" id="course-assessment-regular-title"><span>平时成绩 50%</span>的构成<span class="course-assessment__panel-reference">（详见<a class="course-assessment__tool-link" href="#course-grade-sheet" data-course-tool-target="course-grade-sheet">平时成绩总表</a>）</span></h3>
       <div class="course-assessment__items" aria-label="平时成绩构成">
         <details class="course-assessment__item">
-          <summary><span>Pre 及讨论</span><strong>50%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
+          <summary><span>Pre（小组主讲）及讨论</span><strong>50%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
           <div class="course-assessment__item-content course-assessment__pre-discussion">
             <section class="course-assessment__instruction" aria-labelledby="course-assessment-pre-title">
-              <h4 id="course-assessment-pre-title">Pre</h4>
+              <h4 id="course-assessment-pre-title">Pre（小组主讲）</h4>
               <ul>
                 <li><strong>时间与形式：</strong>每周二第 3 节课进行，由小组主讲并接受台下同学提问。</li>
                 <li><strong>准备：</strong>具体安排见<a class="course-assessment__tool-link" href="#course-group-work" data-course-tool-target="course-group-work">分组及工作安排</a>。主讲小组按任务分工讨论、共同准备一份 PPT；遇到困难可与任课教师预约线下讨论。</li>
                 <li><strong>课堂参与：</strong>当天随机抽取或指定成员上台主讲，其余组员负责回答台下同学的问题。</li>
-                <li><strong>评分与激励：</strong>主讲小组成绩由教师评分和学生评分共同构成。学生评分及主讲小组完成 Pre 后的团队合作互评均通过<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>完成；学生评分也可作为考勤依据。课堂提问同学中评选 1 至 3 名最佳提问人；主讲及回答同学中评选 1 名最佳主讲人。获评同学期末总评各加 2 分，可叠加。</li>
+                <li><strong>评分与激励：</strong>主讲小组成绩由教师评分和学生评分共同构成。学生评分及主讲小组完成 Pre 后的团队合作互评均通过<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>完成，具体规则以学习通说明为准；学生评分也可作为考勤依据。课堂提问同学中评选 1 至 3 名最佳提问人；主讲及回答同学中评选 1 名最佳主讲人。获评同学期末总评各加 2 分，可叠加。</li>
               </ul>
             </section>
             <section class="course-assessment__instruction" aria-labelledby="course-assessment-discussion-title">
@@ -45,18 +45,18 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
               <ul>
                 <li><strong>登记问题：</strong>对当周授课内容有疑问时，请在<a class="course-assessment__tool-link" href="#course-question-doc" data-course-tool-target="course-question-doc">课程提问</a>文档中登记。</li>
                 <li><strong>小组答疑：</strong>由当周主讲小组分工讨论并回答问题；无法解决的问题，请与任课教师预约线下答疑。</li>
-                <li><strong>激励：</strong>讨论环节评选 10 名最佳提问人和 4 名最佳回答者（对应 4 位最佳讲述人），获评同学期末总评各加 2 分，可叠加。</li>
+                <li><strong>激励：</strong>讨论环节评选 10 名最佳提问人和 4 名最佳回答者；最佳回答者与当周已评出的最佳讲述人不重复。获评同学期末总评各加 2 分，可叠加。</li>
               </ul>
             </section>
           </div>
         </details>
         <details class="course-assessment__item">
           <summary><span>阶段考试</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">三次阶段性考试，详见<a class="course-assessment__tool-link" href="#course-schedule-assessment-1" data-course-tool-target="course-schedule-assessment-1">课程计划</a>。</div>
+          <div class="course-assessment__item-content">共 3 次，安排在第 3、第 7、第 10 周周末，详见<a class="course-assessment__tool-link" href="#course-schedule-assessment-1" data-course-tool-target="course-schedule-assessment-1">课程计划</a>。</div>
         </details>
         <details class="course-assessment__item">
           <summary><span>大作业</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">第一周在<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>布置，按小组分工完成，须在第 17 周前提交。</div>
+          <div class="course-assessment__item-content">大作业于第 1 周在<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>发布，按小组分工完成，并于第 17 周前通过学习通提交。</div>
         </details>
         <details class="course-assessment__item">
           <summary><span>作业</span><strong>5%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
@@ -71,23 +71,22 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
   </section>
 
   <h2>教学工具</h2>
-  <p class="course-overview__tools-intro">课程所使用的教学工具如下。</p>
   <ul class="course-overview__tools">
     <li class="course-tool--linked" id="course-group-work">
       <a href="https://docs.qq.com/doc/DRFdMUWZYUGJMaVpa?right_flag=2" target="_blank" rel="noopener noreferrer">分组及工作安排</a>
-      <span class="course-tool-description">用于课堂 Pre 与实验分组。各组负责的内容将提前一周公布，请及时查看任务并准备 Pre；如遇困难，请联系任课教师预约线下讨论。</span>
+      <span class="course-tool-description">用于查看课堂 Pre 与实验分组及每周任务安排。</span>
     </li>
     <li class="course-tool--grade-sheet" id="course-grade-sheet">
       <a href="https://docs.qq.com/sheet/DRG5uV2VIRHJxcVVL?tab=BB08J2" target="_blank" rel="noopener noreferrer">平时成绩总表</a>
-      <span class="course-tool-description">用于跟踪平时成绩，每周 Pre 结束后更新。请及时查看，如有错漏请联系任课教师修改。</span>
+      <span class="course-tool-description">用于查看每周更新的平时成绩；如有错漏，请联系任课教师修改。</span>
     </li>
     <li class="course-tool--linked" id="course-question-doc">
       <a href="https://docs.qq.com/sheet/DRFZVbGdGemtMTW9C?tab=r3wqxv" target="_blank" rel="noopener noreferrer">课程提问</a>
-      <span class="course-tool-description">对课堂内容、课件、讲义、Pre 或其他课程学习内容有疑问，可在表格中提问，由当周负责 Pre 的小组解答；如小组解答遇到困难，请及时与任课教师讨论。</span>
+      <span class="course-tool-description">用于登记课程问题，并查看当周主讲小组的答复。</span>
     </li>
     <li class="course-tool--linked" id="course-chaoxing">
       <span class="course-tool-label">学习通</span>
-      <span class="course-tool-description">提交章节作业、大作业及实验报告，完成 Pre 评分、主讲小组完成 Pre 后的团队合作互评及课程考勤。</span>
+      <span class="course-tool-description">用于提交章节作业、大作业及实验报告，并完成 Pre 评分、团队合作互评和课程考勤；具体规则以学习通说明为准。</span>
     </li>
   </ul>
 </section>
@@ -192,6 +191,9 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
         </tr>
         <tr class="course-schedule__assessment-row">
           <td colspan="3" class="course-schedule__assessment">第 10 周周末：第 3 次阶段考试（30 分钟闭卷 + 1 小时讲解）</td>
+        </tr>
+        <tr class="course-schedule__assessment-row">
+          <td colspan="3" class="course-schedule__assessment">第 11 至 15 周：大作业推进与期末复习</td>
         </tr>
         <tr class="course-schedule__assessment-row">
           <td colspan="3" class="course-schedule__assessment">第 16 周周末：考前总复习（复习材料 + 2 小时精讲）</td>
