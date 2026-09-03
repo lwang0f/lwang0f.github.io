@@ -408,6 +408,7 @@
 .course-assessment__formula span {
   color: #2d4e70;
   font-size: 16px;
+  font-weight: 700;
 }
 
 .course-assessment__formula strong {
@@ -426,26 +427,19 @@
   align-items: baseline;
   background: transparent;
   border: 0;
-  border-bottom: 2px solid transparent;
   color: #2d4e70;
   cursor: pointer;
   display: inline-flex;
   font: inherit;
   gap: 8px;
   margin: 0;
-  padding: 2px 1px;
+  padding: 0;
   text-align: left;
-  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+  transition: background-color 160ms ease, color 160ms ease;
 }
 
-.course-assessment__grade-trigger:hover {
-  border-bottom-color: #7b9aa8;
-}
-
-.course-assessment__grade-trigger.is-active,
-.course-assessment__grade-trigger.is-linked-highlight {
+.course-assessment__grade-trigger.is-active {
   background: #eaf1f2;
-  border-bottom-color: #2f6f91;
   color: #263e57;
 }
 

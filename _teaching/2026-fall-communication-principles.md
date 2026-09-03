@@ -9,7 +9,7 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
 
 <section class="course-overview">
   <h2>课程简介及目标</h2>
-  <p>《通信原理》是电子信息类专业的重要基础课程，介绍信息在通信系统中的表示、传输与接收过程。课程内容包括信号与噪声、调制与解调、数字通信、信道编码和通信系统性能分析。本课程的目标如下：</p>
+  <p>《通信原理》是电子信息类专业的重要基础课程，介绍信息在通信系统中的表示、传输与接收过程。课程内容包括信号与噪声、调制与解调、数字通信和通信系统性能分析。本课程的目标如下：</p>
 
   <ul>
     <li>理解通信系统的基本组成和工作原理。</li>
@@ -37,7 +37,7 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
                 <li><strong>时间与形式：</strong>每周二第 3 节课进行，由小组主讲并接受台下同学提问。</li>
                 <li><strong>准备：</strong>具体安排见<a class="course-assessment__tool-link" href="#course-group-work" data-course-tool-target="course-group-work">分组及工作安排</a>。主讲小组按任务分工讨论、共同准备一份 PPT；遇到困难可与任课教师预约线下讨论。</li>
                 <li><strong>课堂参与：</strong>当天随机抽取或指定成员上台主讲，其余组员负责回答台下同学的问题。</li>
-                <li><strong>评分与激励：</strong>主讲小组成绩由教师评分和学生评分共同构成。学生评分及主讲小组完成 Pre 后的团队合作互评均通过<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>完成，具体规则以学习通说明为准；学生评分也可作为考勤依据。课堂提问同学中评选 1 至 3 名最佳提问人；主讲及回答同学中评选 1 名最佳主讲人。获评同学期末总评各加 2 分，可叠加。</li>
+                <li><strong>评分与激励：</strong>主讲小组成绩由教师评分和学生评分共同构成。学生评分及主讲小组完成 Pre 后的团队合作互评均通过<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>完成，具体规则以学习通说明为准；学生评分也可作为考勤依据。课堂提问同学中评选 1 至 3 名最佳提问人；主讲及回答同学中评选 1 名最佳讲述人。获评同学期末总评各加 2 分，可叠加。</li>
               </ul>
             </section>
             <section class="course-assessment__instruction" aria-labelledby="course-assessment-discussion-title">
@@ -52,7 +52,7 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
         </details>
         <details class="course-assessment__item">
           <summary><span>阶段考试</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">共 3 次，安排在第 3、第 7、第 10 周周末，详见<a class="course-assessment__tool-link" href="#course-schedule-assessment-1" data-course-tool-target="course-schedule-assessment-1">课程计划</a>。</div>
+          <div class="course-assessment__item-content">共 3 次，分别安排在<a class="course-assessment__tool-link" href="#course-schedule-assessment-1" data-course-tool-target="course-schedule-assessment-1">第 3 周</a>、<a class="course-assessment__tool-link" href="#course-schedule-assessment-2" data-course-tool-target="course-schedule-assessment-2">第 7 周</a>和<a class="course-assessment__tool-link" href="#course-schedule-assessment-3" data-course-tool-target="course-schedule-assessment-3">第 10 周</a>周末。</div>
         </details>
         <details class="course-assessment__item">
           <summary><span>大作业</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
@@ -86,12 +86,12 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
     </li>
     <li class="course-tool--linked" id="course-chaoxing">
       <span class="course-tool-label">学习通</span>
-      <span class="course-tool-description">用于提交章节作业、大作业及实验报告，并完成 Pre 评分、团队合作互评和课程考勤；具体规则以学习通说明为准。</span>
+      <span class="course-tool-description">用于提交章节作业和大作业，并完成 Pre 评分、团队合作互评和课程考勤；具体规则以学习通说明为准。</span>
     </li>
   </ul>
 </section>
 
-<script defer src="{{ '/assets/js/course-assessment.js?v=20260903-12' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-assessment.js?v=20260903-13' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
@@ -163,7 +163,7 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp7.pdf">课件</a><a href="/files/communication-principles/handoutChpt7.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
-        <tr class="course-schedule__assessment-row">
+        <tr class="course-schedule__assessment-row" id="course-schedule-assessment-2">
           <td colspan="3" class="course-schedule__assessment">第 7 周周末：第 2 次阶段考试（30 分钟闭卷 + 1 小时讲解）</td>
         </tr>
         <tr>
@@ -189,11 +189,13 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp10.pdf">课件</a><a href="/files/communication-principles/handoutChpt10.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
-        <tr class="course-schedule__assessment-row">
+        <tr class="course-schedule__assessment-row" id="course-schedule-assessment-3">
           <td colspan="3" class="course-schedule__assessment">第 10 周周末：第 3 次阶段考试（30 分钟闭卷 + 1 小时讲解）</td>
         </tr>
-        <tr class="course-schedule__assessment-row">
-          <td colspan="3" class="course-schedule__assessment">第 11 至 15 周：大作业推进与期末复习</td>
+        <tr>
+          <th scope="row" class="course-schedule__week">第 11 至 15 周</th>
+          <td class="course-schedule__content"><span>大作业推进与自主复习</span></td>
+          <td class="course-schedule__resources"></td>
         </tr>
         <tr class="course-schedule__assessment-row">
           <td colspan="3" class="course-schedule__assessment">第 16 周周末：考前总复习（复习材料 + 2 小时精讲）</td>
