@@ -28,10 +28,10 @@ redirect_from:
 <section class="home-updates" aria-labelledby="admissions-title">
   <h2 id="admissions-title">Admissions</h2>
   <h3>Master's Students</h3>
-  <p>One master's student is normally admitted each year. Strong candidates combine sound preparation in mathematics and English with self-directed research habits and a clear intention to pursue doctoral study. Prospective applicants are welcome to inquire by email.</p>
+  <p>One master's student is normally admitted each year. Strong candidates combine sound preparation in mathematics and English with self-directed research habits and a clear intention to pursue doctoral study.</p>
 
   <h3>Undergraduate Students</h3>
-  <p>Up to two undergraduate students are selected each year for one to two years of structured research training. Applicants should have placed among the top three in cumulative final-examination scores across Advanced Mathematics, Linear Algebra, Probability and Statistics, and Signals and Systems, and should be interested in mathematical derivation and theoretical research. Prospective applicants are welcome to inquire by email.</p>
+  <p>Up to two undergraduate students are selected each year for one to two years of structured research training. Applicants should have placed among the top three in cumulative final-examination scores across Advanced Mathematics, Linear Algebra, Probability and Statistics, and Signals and Systems, and should be interested in mathematical derivation and theoretical research.</p>
 </section>
 
 <section class="home-updates" aria-labelledby="news-title">
@@ -39,7 +39,7 @@ redirect_from:
   <h3><time datetime="2025-08">August 2025</time></h3>
   <ul class="home-news-list">
     <li class="home-news-item">
-      <p class="home-news-item__text">Yuan Li (李媛, 2026 M.S.) published a paper in <em>China Communications</em>. The paper presents statistical information on the channel characteristics of meteor-burst communications in Yunnan Province. For more information, please see <a href="/research/#J8"><strong>J8</strong></a>.</p>
+      <p class="home-news-item__text">Yuan Li's (李媛, 2026 M.S.) journal paper in <em>China Communications</em> is <a href="https://ieeexplore.ieee.org/abstract/document/11665499" target="_blank" rel="noopener noreferrer">online</a>.</p>
       <figure class="home-news-photo">
         <img src="{{ base_path }}/images/yuan-li-china-communications-statistics.png" alt="Statistical distributions of meteor-burst communication channel characteristics in Yunnan Province" loading="lazy">
       </figure>
