@@ -371,10 +371,6 @@
   margin-top: 2px;
 }
 
-.course-assessment {
-  border: 1px solid #d2d8d4;
-}
-
 .course-assessment__summary {
   align-items: center;
   background: #f5f7f6;
@@ -538,6 +534,7 @@
   gap: 8px;
   list-style: none;
   padding: 11px 14px;
+  transition: background-color 160ms ease, box-shadow 160ms ease;
 }
 
 .course-assessment__item summary::-webkit-details-marker {
@@ -545,8 +542,10 @@
 }
 
 .course-assessment__item summary:hover,
-.course-assessment__item[open] summary {
-  background: #eef3f3;
+.course-assessment__item[open] summary,
+.course-assessment__item summary:focus-visible {
+  background: #eaf1f2;
+  box-shadow: inset 3px 0 0 #52739a;
 }
 
 .course-assessment__item summary:focus-visible {
@@ -640,13 +639,6 @@
   .course-assessment__panel {
     animation: none;
   }
-}
-
-.course-assessment__note {
-  color: #4b555c;
-  font-size: 16px !important;
-  line-height: 1.5;
-  margin: 12px 0 0 !important;
 }
 
 .course-schedule {

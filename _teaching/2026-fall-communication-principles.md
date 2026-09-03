@@ -67,7 +67,6 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
           <div class="course-assessment__item-content">设置 15 次考勤，在<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>完成。</div>
         </details>
       </div>
-      <p class="course-assessment__note">其中，Pre 及讨论部分按主讲小组 50%、其余同学考勤 50% 计入。</p>
     </section>
   </section>
 
