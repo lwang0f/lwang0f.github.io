@@ -3,12 +3,13 @@
 
   var trigger = document.querySelector(".course-assessment__grade-trigger");
   var gradeSheet = document.getElementById("course-grade-sheet");
-  var assessmentDetails = document.querySelector(".course-assessment__breakdown-details");
+  var finalTrigger = document.querySelector(".course-assessment__final-trigger");
+  var regularPanel = document.getElementById("course-assessment-regular");
+  var finalPanel = document.getElementById("course-assessment-final");
   var assessmentItems = document.querySelectorAll(".course-assessment__item");
-  var assessmentDescription = document.getElementById("course-assessment-description");
   var highlightTimer;
 
-  if (!trigger || !gradeSheet || !assessmentDescription) {
+  if (!trigger || !finalTrigger || !gradeSheet || !regularPanel || !finalPanel) {
     return;
   }
 
@@ -16,7 +17,6 @@
     window.clearTimeout(highlightTimer);
     trigger.classList.toggle("is-linked-highlight", active);
     gradeSheet.classList.toggle("is-linked-highlight", active);
-    trigger.setAttribute("aria-pressed", String(active));
 
     if (active) {
       highlightTimer = window.setTimeout(function () {
@@ -25,32 +25,45 @@
     }
   }
 
-  trigger.addEventListener("click", function () {
-    if (assessmentDetails) {
-      assessmentDetails.open = true;
-    }
+  function setActivePanel(panel) {
+    var regularIsActive = panel === regularPanel && regularPanel.hidden;
+    var finalIsActive = panel === finalPanel && finalPanel.hidden;
 
-    setHighlight(!trigger.classList.contains("is-linked-highlight"));
+    regularPanel.hidden = !regularIsActive;
+    finalPanel.hidden = !finalIsActive;
+    trigger.classList.toggle("is-active", regularIsActive);
+    finalTrigger.classList.toggle("is-active", finalIsActive);
+    trigger.setAttribute("aria-expanded", String(regularIsActive));
+    finalTrigger.setAttribute("aria-expanded", String(finalIsActive));
+  }
+
+  trigger.addEventListener("click", function () {
+    setActivePanel(regularPanel);
+    setHighlight(true);
   });
 
-  document.addEventListener("click", function (event) {
-    if (!trigger.contains(event.target) && !gradeSheet.contains(event.target)) {
-      setHighlight(false);
-    }
+  finalTrigger.addEventListener("click", function () {
+    setActivePanel(finalPanel);
   });
 
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
+      setActivePanel(null);
       setHighlight(false);
     }
   });
 
   Array.prototype.forEach.call(assessmentItems, function (item) {
-    function showDescription() {
-      assessmentDescription.textContent = item.getAttribute("data-assessment-description") || "NA";
-    }
+    item.addEventListener("toggle", function () {
+      if (!item.open) {
+        return;
+      }
 
-    item.addEventListener("mouseenter", showDescription);
-    item.addEventListener("focus", showDescription);
+      Array.prototype.forEach.call(assessmentItems, function (otherItem) {
+        if (otherItem !== item) {
+          otherItem.open = false;
+        }
+      });
+    });
   });
 }());

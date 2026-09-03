@@ -427,17 +427,37 @@
   transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
 }
 
-.course-assessment__grade-trigger:hover {
+.course-assessment__final-trigger {
+  align-items: baseline;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: #2d4e70;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  gap: 8px;
+  margin: 0;
+  padding: 2px 1px;
+  text-align: left;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.course-assessment__grade-trigger:hover,
+.course-assessment__final-trigger:hover {
   border-bottom-color: #7b9aa8;
 }
 
+.course-assessment__grade-trigger.is-active,
+.course-assessment__final-trigger.is-active,
 .course-assessment__grade-trigger.is-linked-highlight {
   background: #eaf1f2;
   border-bottom-color: #2f6f91;
   color: #263e57;
 }
 
-.course-assessment__grade-trigger:focus-visible {
+.course-assessment__grade-trigger:focus-visible,
+.course-assessment__final-trigger:focus-visible {
   outline: 2px solid #7b9aa8;
   outline-offset: 2px;
 }
@@ -461,7 +481,13 @@
   width: 3px;
 }
 
-.course-assessment__breakdown-title {
+.course-assessment__panel {
+  animation: course-assessment-panel-in 180ms ease-out;
+  border-top: 1px solid #d2d8d4;
+  padding: 16px;
+}
+
+.course-assessment__panel-title {
   color: #2d4e70;
   display: flex;
   font-size: 17px;
@@ -469,34 +495,8 @@
   margin: 0;
 }
 
-.course-assessment__breakdown-title > span {
+.course-assessment__panel-title > span {
   color: #2f6f91;
-}
-
-.course-assessment__breakdown-details {
-  border-top: 1px solid #d2d8d4;
-}
-
-.course-assessment__breakdown-summary {
-  align-items: center;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  padding: 16px;
-}
-
-.course-assessment__breakdown-summary::-webkit-details-marker {
-  display: none;
-}
-
-.course-assessment__breakdown-summary:hover {
-  background: #f7f9f8;
-}
-
-.course-assessment__breakdown-summary:focus-visible {
-  outline: 2px solid #7b9aa8;
-  outline-offset: -2px;
 }
 
 .course-assessment__toggle {
@@ -511,123 +511,94 @@
   content: "+";
 }
 
-.course-assessment__breakdown-details[open] .course-assessment__toggle::before {
+.course-assessment__item[open] .course-assessment__toggle::before {
   content: "-";
 }
 
-.course-assessment__breakdown-section {
-  padding: 0 16px 16px;
-}
-
-.course-assessment__breakdown {
-  border-collapse: collapse;
-  border-spacing: 0;
-  border: 0;
-  display: table;
-  margin: 0;
-  padding: 0;
-  table-layout: fixed;
-  width: 100%;
-}
-
-.course-assessment__breakdown th,
-.course-assessment__breakdown td {
-  border-bottom: 1px solid #dfe4e1;
-  border-right: 0;
-  padding: 0;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.course-assessment__breakdown th {
-  width: 46%;
-}
-
-.course-assessment__breakdown td {
-  border-bottom: 0;
-}
-
-.course-assessment__breakdown tr:last-child th {
-  border-bottom: 0;
-}
-
 .course-assessment__item {
-  align-items: center;
-  appearance: none;
   background: #f7f9f8;
-  border: 0;
-  border-bottom: 1px solid transparent;
   color: #4b555c;
-  cursor: pointer;
-  display: flex;
-  font: inherit;
-  justify-content: space-between;
   line-height: 1.35;
   margin: 0;
+}
+
+.course-assessment__item + .course-assessment__item {
+  border-top: 1px solid #dfe4e1;
+}
+
+.course-assessment__item summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  list-style: none;
   padding: 11px 14px;
-  text-align: left;
-  transition: background-color 160ms ease, box-shadow 160ms ease;
-  width: 100%;
 }
 
-.course-assessment__item--50 {
-  background: #dce9ed;
+.course-assessment__item summary::-webkit-details-marker {
+  display: none;
 }
 
-.course-assessment__item--20 {
-  background: #e7eff0;
+.course-assessment__item summary:hover,
+.course-assessment__item[open] summary {
+  background: #eef3f3;
 }
 
-.course-assessment__item--5 {
-  background: #f2f6f5;
-}
-
-.course-assessment__item:hover,
-.course-assessment__item:focus-visible {
-  box-shadow: inset 0 -2px 0 #2f6f91;
-}
-
-.course-assessment__item:focus-visible {
+.course-assessment__item summary:focus-visible {
   outline: 2px solid #7b9aa8;
   outline-offset: -2px;
 }
 
-.course-assessment__item span {
+.course-assessment__item summary span:first-child {
   font-size: 14px;
 }
 
-.course-assessment__item strong {
+.course-assessment__item summary strong {
   color: #2d4e70;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1;
 }
 
-.course-assessment__description-cell {
-  background: #f7f9f8;
-  color: #4b555c;
-  padding: 16px 18px !important;
+.course-assessment__item .course-assessment__toggle {
+  margin-left: auto;
 }
 
-.course-assessment__description-label {
-  color: #2d4e70;
-  display: block;
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 7px;
-}
-
-.course-assessment__description-cell p {
+.course-assessment__item-content,
+.course-assessment__placeholder {
+  background: #ffffff;
   color: #4b555c;
   font-size: 15px !important;
   line-height: 1.5;
-  margin: 0 !important;
+  padding: 10px 14px 12px;
+}
+
+.course-assessment__placeholder {
+  margin: 12px 0 0 !important;
+}
+
+@keyframes course-assessment-panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .course-assessment__panel {
+    animation: none;
+  }
 }
 
 .course-assessment__note {
   color: #4b555c;
   font-size: 15px !important;
   line-height: 1.5;
-  margin: 0 !important;
+  margin: 12px 0 0 !important;
 }
 
 .course-schedule {
@@ -1223,12 +1194,8 @@
     gap: 6px;
   }
 
-  .course-assessment__breakdown-summary {
+  .course-assessment__panel {
     padding: 14px 12px;
-  }
-
-  .course-assessment__breakdown-section {
-    padding: 0 12px 14px;
   }
 
   .course-assessment__formula {
@@ -1236,6 +1203,10 @@
   }
 
   .course-assessment__grade-trigger {
+    gap: 6px;
+  }
+
+  .course-assessment__final-trigger {
     gap: 6px;
   }
 
@@ -1247,12 +1218,8 @@
     font-size: 23px;
   }
 
-  .course-assessment__breakdown th {
-    width: 46%;
-  }
-
-  .course-assessment__description-cell {
-    padding: 14px 12px !important;
+  .course-assessment__item summary {
+    padding: 11px 12px;
   }
 
   .academic-article .course-schedule table {
