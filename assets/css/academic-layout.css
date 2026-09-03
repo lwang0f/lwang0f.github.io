@@ -466,16 +466,57 @@
   display: flex;
   font-size: 17px;
   gap: 8px;
-  margin: 0 0 10px;
+  margin: 0;
 }
 
-.course-assessment__breakdown-title span {
+.course-assessment__breakdown-title > span {
   color: #2f6f91;
 }
 
-.course-assessment__breakdown-section {
+.course-assessment__breakdown-details {
   border-top: 1px solid #d2d8d4;
+}
+
+.course-assessment__breakdown-summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
   padding: 16px;
+}
+
+.course-assessment__breakdown-summary::-webkit-details-marker {
+  display: none;
+}
+
+.course-assessment__breakdown-summary:hover {
+  background: #f7f9f8;
+}
+
+.course-assessment__breakdown-summary:focus-visible {
+  outline: 2px solid #7b9aa8;
+  outline-offset: -2px;
+}
+
+.course-assessment__toggle {
+  color: #52739a;
+  flex: 0 0 auto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.course-assessment__toggle::before {
+  content: "+";
+}
+
+.course-assessment__breakdown-details[open] .course-assessment__toggle::before {
+  content: "-";
+}
+
+.course-assessment__breakdown-section {
+  padding: 0 16px 16px;
 }
 
 .course-assessment__breakdown {
@@ -1182,8 +1223,12 @@
     gap: 6px;
   }
 
-  .course-assessment__breakdown-section {
+  .course-assessment__breakdown-summary {
     padding: 14px 12px;
+  }
+
+  .course-assessment__breakdown-section {
+    padding: 0 12px 14px;
   }
 
   .course-assessment__formula {

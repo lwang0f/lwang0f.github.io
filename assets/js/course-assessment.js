@@ -3,6 +3,7 @@
 
   var trigger = document.querySelector(".course-assessment__grade-trigger");
   var gradeSheet = document.getElementById("course-grade-sheet");
+  var assessmentDetails = document.querySelector(".course-assessment__breakdown-details");
   var assessmentItems = document.querySelectorAll(".course-assessment__item");
   var assessmentDescription = document.getElementById("course-assessment-description");
   var highlightTimer;
@@ -25,6 +26,10 @@
   }
 
   trigger.addEventListener("click", function () {
+    if (assessmentDetails) {
+      assessmentDetails.open = true;
+    }
+
     setHighlight(!trigger.classList.contains("is-linked-highlight"));
   });
 

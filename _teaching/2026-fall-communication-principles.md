@@ -26,30 +26,32 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
         <button class="course-assessment__grade-trigger" type="button" aria-controls="course-grade-sheet" aria-label="平时成绩 50%，突出显示对应的平时成绩总表" aria-pressed="false"><span>平时成绩</span><strong>50%</strong></button><b>+</b><span>期末成绩</span><strong>50%</strong>
       </div>
     </div>
-    <div class="course-assessment__breakdown-section">
-      <h3 class="course-assessment__breakdown-title"><span>平时成绩 50%</span>的构成</h3>
-      <table class="course-assessment__breakdown" aria-label="平时成绩构成">
-        <tbody>
-          <tr>
-            <th scope="row"><button class="course-assessment__item course-assessment__item--50" type="button" data-assessment-description="NA"><span>Pre 及讨论</span><strong>50%</strong></button></th>
-            <td class="course-assessment__description-cell" rowspan="5"><span class="course-assessment__description-label">说明</span><p id="course-assessment-description" aria-live="polite">NA</p></td>
-          </tr>
-          <tr>
-            <th scope="row"><button class="course-assessment__item course-assessment__item--5" type="button" data-assessment-description="NA"><span>作业</span><strong>5%</strong></button></th>
-          </tr>
-          <tr>
-            <th scope="row"><button class="course-assessment__item course-assessment__item--20" type="button" data-assessment-description="NA"><span>阶段考试</span><strong>20%</strong></button></th>
-          </tr>
-          <tr>
-            <th scope="row"><button class="course-assessment__item course-assessment__item--20" type="button" data-assessment-description="NA"><span>大作业</span><strong>20%</strong></button></th>
-          </tr>
-          <tr>
-            <th scope="row"><button class="course-assessment__item course-assessment__item--5" type="button" data-assessment-description="NA"><span>考勤</span><strong>5%</strong></button></th>
-          </tr>
-        </tbody>
-      </table>
-      <p class="course-assessment__note">其中，Pre 及讨论部分按主讲小组 50%、其余同学考勤 50% 计入。</p>
-    </div>
+    <details class="course-assessment__breakdown-details" open>
+      <summary class="course-assessment__breakdown-summary"><span class="course-assessment__breakdown-title"><span>平时成绩 50%</span>的构成</span><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
+      <div class="course-assessment__breakdown-section">
+        <table class="course-assessment__breakdown" aria-label="平时成绩构成">
+          <tbody>
+            <tr>
+              <th scope="row"><button class="course-assessment__item course-assessment__item--50" type="button" data-assessment-description="NA"><span>Pre 及讨论</span><strong>50%</strong></button></th>
+              <td class="course-assessment__description-cell" rowspan="5"><span class="course-assessment__description-label">说明</span><p id="course-assessment-description" aria-live="polite">NA</p></td>
+            </tr>
+            <tr>
+              <th scope="row"><button class="course-assessment__item course-assessment__item--5" type="button" data-assessment-description="NA"><span>作业</span><strong>5%</strong></button></th>
+            </tr>
+            <tr>
+              <th scope="row"><button class="course-assessment__item course-assessment__item--20" type="button" data-assessment-description="NA"><span>阶段考试</span><strong>20%</strong></button></th>
+            </tr>
+            <tr>
+              <th scope="row"><button class="course-assessment__item course-assessment__item--20" type="button" data-assessment-description="NA"><span>大作业</span><strong>20%</strong></button></th>
+            </tr>
+            <tr>
+              <th scope="row"><button class="course-assessment__item course-assessment__item--5" type="button" data-assessment-description="NA"><span>考勤</span><strong>5%</strong></button></th>
+            </tr>
+          </tbody>
+        </table>
+        <p class="course-assessment__note">其中，Pre 及讨论部分按主讲小组 50%、其余同学考勤 50% 计入。</p>
+      </div>
+    </details>
   </section>
 
   <h2>教学工具</h2>
