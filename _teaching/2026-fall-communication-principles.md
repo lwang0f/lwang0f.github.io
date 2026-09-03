@@ -109,24 +109,24 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
           <th scope="row" class="course-schedule__week">第 1 周</th>
           <td class="course-schedule__content"><span>第 1 章 绪论</span><span>第 2 章 确知信号</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp1.pdf">课件</a><a href="/files/communication-principles/handoutChpt1.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp2.pdf">课件</a><a href="/files/communication-principles/handoutChpt2.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt1.pdf">讲义</a><a href="/files/communication-principles/slideChp1.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt2.pdf">讲义</a><a href="/files/communication-principles/slideChp2.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 2 周</th>
           <td class="course-schedule__content"><span>第 2 章 确知信号</span><span>第 3 章 随机过程</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp2.pdf">课件</a><a href="/files/communication-principles/handoutChpt2.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp3.pdf">课件</a><a href="/files/communication-principles/handoutChpt3.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt2.pdf">讲义</a><a href="/files/communication-principles/slideChp2.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt3.pdf">讲义</a><a href="/files/communication-principles/slideChp3.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 3 周</th>
           <td class="course-schedule__content"><span>第 3 章 随机过程</span><span>第 4 章 信道</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp3.pdf">课件</a><a href="/files/communication-principles/handoutChpt3.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp4.pdf">课件</a><a href="/files/communication-principles/handoutChpt4.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt3.pdf">讲义</a><a href="/files/communication-principles/slideChp3.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt4.pdf">讲义</a><a href="/files/communication-principles/slideChp4.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-1">
@@ -136,31 +136,31 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
           <th scope="row" class="course-schedule__week">第 4 周</th>
           <td class="course-schedule__content"><span>第 4 章 信道</span><span>第 5 章 模拟调制系统</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp4.pdf">课件</a><a href="/files/communication-principles/handoutChpt4.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp5.pdf">课件</a><a href="/files/communication-principles/handoutChpt5.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt4.pdf">讲义</a><a href="/files/communication-principles/slideChp4.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt5.pdf">讲义</a><a href="/files/communication-principles/slideChp5.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 5 周</th>
           <td class="course-schedule__content"><span>第 5 章 模拟调制系统</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp5.pdf">课件</a><a href="/files/communication-principles/handoutChpt5.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt5.pdf">讲义</a><a href="/files/communication-principles/slideChp5.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 6 周</th>
           <td class="course-schedule__content"><span>第 5 章 模拟调制系统</span><span>第 6 章 数字基带传输</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp5.pdf">课件</a><a href="/files/communication-principles/handoutChpt5.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp6.pdf">课件</a><a href="/files/communication-principles/handoutChpt6.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt5.pdf">讲义</a><a href="/files/communication-principles/slideChp5.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt6.pdf">讲义</a><a href="/files/communication-principles/slideChp6.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 7 周</th>
           <td class="course-schedule__content"><span>第 6 章 数字基带传输</span><span>第 7 章 数字带通传输</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp6.pdf">课件</a><a href="/files/communication-principles/handoutChpt6.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp7.pdf">课件</a><a href="/files/communication-principles/handoutChpt7.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt6.pdf">讲义</a><a href="/files/communication-principles/slideChp6.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt7.pdf">讲义</a><a href="/files/communication-principles/slideChp7.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-2">
@@ -170,23 +170,23 @@ teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节�
           <th scope="row" class="course-schedule__week">第 8 周</th>
           <td class="course-schedule__content"><span>第 7 章 数字带通传输</span><span>第 8 章 新型数字带通调制</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp7.pdf">课件</a><a href="/files/communication-principles/handoutChpt7.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp8.pdf">课件</a><a href="/files/communication-principles/handoutChpt8.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt7.pdf">讲义</a><a href="/files/communication-principles/slideChp7.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt8.pdf">讲义</a><a href="/files/communication-principles/slideChp8.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 9 周</th>
           <td class="course-schedule__content"><span>第 8 章 新型数字带通调制</span><span>第 10 章 信源编码</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp8.pdf">课件</a><a href="/files/communication-principles/handoutChpt8.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp10.pdf">课件</a><a href="/files/communication-principles/handoutChpt10.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt8.pdf">讲义</a><a href="/files/communication-principles/slideChp8.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt10.pdf">讲义</a><a href="/files/communication-principles/slideChp10.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__week">第 10 周</th>
           <td class="course-schedule__content"><span>第 10 章 信源编码</span></td>
           <td class="course-schedule__resources">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp10.pdf">课件</a><a href="/files/communication-principles/handoutChpt10.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt10.pdf">讲义</a><a href="/files/communication-principles/slideChp10.pdf">课件</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-3">
