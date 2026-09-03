@@ -457,7 +457,7 @@
 .course-tool--grade-sheet.is-linked-highlight,
 .course-tool--linked.is-linked-highlight {
   background-color: #f0f1f0;
-  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 2px, transparent 2px, transparent 7px);
+  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 1px, transparent 1px, transparent 4px);
 }
 
 .course-tool--grade-sheet.is-linked-highlight::before,
@@ -615,7 +615,7 @@
 
 .course-assessment__tool-link.is-linked-highlight {
   background-color: #f0f1f0;
-  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 2px, transparent 2px, transparent 7px);
+  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 1px, transparent 1px, transparent 4px);
   border-bottom-color: #4b555c;
 }
 
@@ -735,7 +735,7 @@
 
 .course-schedule__assessment-row.is-linked-highlight .course-schedule__assessment {
   background-color: #f0f1f0;
-  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 2px, transparent 2px, transparent 7px);
+  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 1px, transparent 1px, transparent 4px);
   box-shadow: inset 3px 0 0 #4b555c;
 }
 
