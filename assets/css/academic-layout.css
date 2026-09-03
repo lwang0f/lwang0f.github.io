@@ -331,6 +331,11 @@
   max-width: 920px;
 }
 
+.course-overview > p,
+.course-overview > ul > li {
+  font-size: 16px;
+}
+
 .course-overview__tools {
   margin-bottom: 22px !important;
 }
