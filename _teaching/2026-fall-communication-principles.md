@@ -22,21 +22,16 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
   <div class="course-assessment__summary" aria-label="课程成绩构成">
     <span class="course-assessment__summary-label">课程成绩</span>
     <div class="course-assessment__formula">
-      <div class="course-assessment__formula-item">
-        <span>平时成绩</span><strong>50%</strong>
-        <a class="course-assessment__grade-link" href="https://docs.qq.com/sheet/DRG5uV2VIRHJxcVVL?tab=BB08J2" target="_blank" rel="noopener noreferrer">查看平时成绩总表 <span aria-hidden="true">&gt;</span></a>
-      </div>
-      <b>+</b>
-      <div class="course-assessment__formula-item"><span>期末成绩</span><strong>50%</strong></div>
+      <span>平时成绩</span><strong>50%</strong><b>+</b><span>期末成绩</span><strong>50%</strong>
     </div>
   </div>
   <h3 class="course-assessment__breakdown-title">平时成绩构成（占课程成绩 50%）</h3>
   <div class="course-assessment__breakdown" aria-label="平时成绩构成">
-    <button type="button" class="course-assessment__component" aria-describedby="assessment-pre-note"><span>Pre 及讨论</span><strong>50%</strong><i aria-hidden="true">i</i><span id="assessment-pre-note" class="course-assessment__tooltip" role="tooltip">NA</span></button>
-    <button type="button" class="course-assessment__component" aria-describedby="assessment-homework-note"><span>作业</span><strong>5%</strong><i aria-hidden="true">i</i><span id="assessment-homework-note" class="course-assessment__tooltip" role="tooltip">NA</span></button>
-    <button type="button" class="course-assessment__component" aria-describedby="assessment-exam-note"><span>阶段考试</span><strong>20%</strong><i aria-hidden="true">i</i><span id="assessment-exam-note" class="course-assessment__tooltip" role="tooltip">NA</span></button>
-    <button type="button" class="course-assessment__component" aria-describedby="assessment-project-note"><span>大作业</span><strong>20%</strong><i aria-hidden="true">i</i><span id="assessment-project-note" class="course-assessment__tooltip" role="tooltip">NA</span></button>
-    <button type="button" class="course-assessment__component" aria-describedby="assessment-attendance-note"><span>考勤</span><strong>5%</strong><i aria-hidden="true">i</i><span id="assessment-attendance-note" class="course-assessment__tooltip" role="tooltip">NA</span></button>
+    <div><span>Pre 及讨论</span><strong>50%</strong></div>
+    <div><span>作业</span><strong>5%</strong></div>
+    <div><span>阶段考试</span><strong>20%</strong></div>
+    <div><span>大作业</span><strong>20%</strong></div>
+    <div><span>考勤</span><strong>5%</strong></div>
   </div>
   <p class="course-assessment__note">其中，Pre 及讨论部分按主讲小组 50%、其余同学考勤 50% 计入。</p>
 
