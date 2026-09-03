@@ -21,4 +21,12 @@ author_profile: true
 
 **Yihao Pan (潘毅豪)**: M.S., Hong Kong Baptist University, 2026.
 
-**De Huang (黄德)**: M.S., Guangzhou University, 2024.
+**De Huang (黄德)**: M.S., Guangzhou University, 2025.
+
+**Yan Tan (檀颜)**: currently in 钦州市通信技术保密中心, 2025.
+
+**Xiuzhen He (何秀珍)**: currently in 钦州市浦北县政府, 2025.
+
+**Limei Qin (覃丽媚)**: currently in 河池市委员会, 2025.
+
+**Liwen Lu (陆丽雯)**: currently in 建行广西分行, 2025.
