@@ -446,16 +446,19 @@
   outline-offset: 2px;
 }
 
-.course-tool--grade-sheet {
+.course-tool--grade-sheet,
+.course-tool--linked {
   position: relative;
   transition: background-color 160ms ease;
 }
 
-.course-tool--grade-sheet.is-linked-highlight {
+.course-tool--grade-sheet.is-linked-highlight,
+.course-tool--linked.is-linked-highlight {
   background: #eaf1f2;
 }
 
-.course-tool--grade-sheet.is-linked-highlight::before {
+.course-tool--grade-sheet.is-linked-highlight::before,
+.course-tool--linked.is-linked-highlight::before {
   background: #2f6f91;
   bottom: 4px;
   content: "";
@@ -553,6 +556,54 @@
   font-size: 16px !important;
   line-height: 1.5;
   padding: 10px 14px 12px;
+}
+
+.course-assessment__instruction + .course-assessment__instruction {
+  border-top: 1px solid #dfe4e1;
+  margin-top: 12px;
+  padding-top: 12px;
+}
+
+.course-assessment__instruction h4 {
+  color: #2d4e70;
+  font-size: 16px;
+  margin: 0;
+}
+
+.course-assessment__instruction ul {
+  margin: 6px 0 0;
+  padding-left: 1.35em;
+}
+
+.course-assessment__instruction li {
+  margin: 5px 0;
+}
+
+.course-assessment__instruction li::marker {
+  color: #52739a;
+}
+
+.course-assessment__instruction strong {
+  color: #2d4e70;
+  font-weight: 700;
+}
+
+.course-assessment__tool-link {
+  border-bottom: 1px solid #7b9aa8;
+  color: #2d4e70;
+  font-weight: 700;
+  margin: 0 2px;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.course-assessment__tool-link:hover {
+  border-bottom-color: #2f6f91;
+}
+
+.course-assessment__tool-link.is-linked-highlight {
+  background: #eaf1f2;
+  border-bottom-color: #2f6f91;
 }
 
 @keyframes course-assessment-panel-in {

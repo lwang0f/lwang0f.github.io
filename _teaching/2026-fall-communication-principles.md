@@ -31,7 +31,25 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
       <div class="course-assessment__items" aria-label="平时成绩构成">
         <details class="course-assessment__item">
           <summary><span>Pre 及讨论</span><strong>50%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">NA</div>
+          <div class="course-assessment__item-content course-assessment__pre-discussion">
+            <section class="course-assessment__instruction" aria-labelledby="course-assessment-pre-title">
+              <h4 id="course-assessment-pre-title">Pre</h4>
+              <ul>
+                <li><strong>时间与形式：</strong>每周二第 3 节课进行，由小组主讲并接受台下同学提问。</li>
+                <li><strong>准备：</strong>具体安排见<a class="course-assessment__tool-link" href="#course-group-work" data-course-tool-target="course-group-work">分组及工作安排</a>。主讲小组按任务分工讨论、共同准备一份 PPT；遇到困难可与任课教师预约线下讨论。</li>
+                <li><strong>课堂参与：</strong>当天随机抽取或指定成员上台主讲，其余组员负责回答台下同学的问题。</li>
+                <li><strong>评分与激励：</strong>主讲小组成绩由教师评分和学生评分共同构成，学生评分通过学习通完成，也可作为考勤依据。课堂提问同学中评选 1 至 3 名最佳提问人；主讲及回答同学中评选 1 名最佳主讲人。获评同学期末总评各加 2 分，可叠加。</li>
+              </ul>
+            </section>
+            <section class="course-assessment__instruction" aria-labelledby="course-assessment-discussion-title">
+              <h4 id="course-assessment-discussion-title">讨论</h4>
+              <ul>
+                <li><strong>登记问题：</strong>对当周授课内容有疑问时，请在<a class="course-assessment__tool-link" href="#course-question-doc" data-course-tool-target="course-question-doc">课程提问</a>文档中登记。</li>
+                <li><strong>小组答疑：</strong>由当周主讲小组分工讨论并回答问题；无法解决的问题，请与任课教师预约线下答疑。</li>
+                <li><strong>激励：</strong>讨论环节评选 10 名最佳提问人和 4 名最佳回答者（对应 4 位最佳讲述人），获评同学期末总评各加 2 分，可叠加。</li>
+              </ul>
+            </section>
+          </div>
         </details>
         <details class="course-assessment__item">
           <summary><span>阶段考试</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
@@ -57,7 +75,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
   <h2>教学工具</h2>
   <p class="course-overview__tools-intro">课程所使用的教学工具如下。</p>
   <ul class="course-overview__tools">
-    <li>
+    <li class="course-tool--linked" id="course-group-work">
       <a href="https://docs.qq.com/doc/DRFdMUWZYUGJMaVpa?right_flag=2" target="_blank" rel="noopener noreferrer">分组及工作安排</a>
       <span class="course-tool-description">用于课堂 Pre 与实验分组。各组负责的内容将提前一周公布，请及时查看任务并准备 Pre；如遇困难，请联系任课教师预约线下讨论。</span>
     </li>
@@ -65,7 +83,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
       <a href="https://docs.qq.com/sheet/DRG5uV2VIRHJxcVVL?tab=BB08J2" target="_blank" rel="noopener noreferrer">平时成绩总表</a>
       <span class="course-tool-description">用于跟踪平时成绩，每周 Pre 结束后更新。请及时查看，如有错漏请联系任课教师修改。</span>
     </li>
-    <li>
+    <li class="course-tool--linked" id="course-question-doc">
       <a href="https://docs.qq.com/sheet/DRFZVbGdGemtMTW9C?tab=r3wqxv" target="_blank" rel="noopener noreferrer">课程提问</a>
       <span class="course-tool-description">对课堂内容、课件、讲义、Pre 或其他课程学习内容有疑问，可在表格中提问，由当周负责 Pre 的小组解答；如小组解答遇到困难，请及时与任课教师讨论。</span>
     </li>
@@ -76,7 +94,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
   </ul>
 </section>
 
-<script defer src="{{ '/assets/js/course-assessment.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-assessment.js?v=20260903-6' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
