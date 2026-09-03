@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/2026-fall-communication-principles
 date: 2026-09-01
 show_teaching_meta: false
-teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：王黎明、罗丽平"
+teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节，学友楼105<br />任课教师：王黎明、罗丽平</span>'
 ---
 
 <section class="course-overview">
@@ -22,11 +22,11 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
     <div class="course-assessment__summary">
       <span class="course-assessment__summary-heading"><span class="course-assessment__summary-label">课程成绩</span><b class="course-assessment__equals">=</b></span>
       <div class="course-assessment__formula">
-        <button class="course-assessment__grade-trigger" type="button" aria-controls="course-assessment-regular" aria-expanded="false" aria-label="平时成绩 50%，展开构成并突出显示对应的平时成绩总表"><span>平时成绩</span><strong>50%</strong></button><b>+</b><span>期末成绩</span><strong>50%</strong>
+        <button class="course-assessment__grade-trigger" type="button" aria-controls="course-assessment-regular" aria-expanded="false" aria-label="平时成绩 50%，展开构成"><span>平时成绩</span><strong>50%</strong></button><b>+</b><span>期末成绩</span><strong>50%</strong>
       </div>
     </div>
     <section class="course-assessment__panel" id="course-assessment-regular" aria-labelledby="course-assessment-regular-title" hidden>
-      <h3 class="course-assessment__panel-title" id="course-assessment-regular-title"><span>平时成绩 50%</span>的构成</h3>
+      <h3 class="course-assessment__panel-title" id="course-assessment-regular-title"><span>平时成绩 50%</span>的构成<span class="course-assessment__panel-reference">（详见<a class="course-assessment__tool-link" href="#course-grade-sheet" data-course-tool-target="course-grade-sheet">平时成绩总表</a>）</span></h3>
       <div class="course-assessment__items" aria-label="平时成绩构成">
         <details class="course-assessment__item">
           <summary><span>Pre 及讨论</span><strong>50%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
@@ -37,7 +37,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
                 <li><strong>时间与形式：</strong>每周二第 3 节课进行，由小组主讲并接受台下同学提问。</li>
                 <li><strong>准备：</strong>具体安排见<a class="course-assessment__tool-link" href="#course-group-work" data-course-tool-target="course-group-work">分组及工作安排</a>。主讲小组按任务分工讨论、共同准备一份 PPT；遇到困难可与任课教师预约线下讨论。</li>
                 <li><strong>课堂参与：</strong>当天随机抽取或指定成员上台主讲，其余组员负责回答台下同学的问题。</li>
-                <li><strong>评分与激励：</strong>主讲小组成绩由教师评分和学生评分共同构成，学生评分通过学习通完成，也可作为考勤依据。课堂提问同学中评选 1 至 3 名最佳提问人；主讲及回答同学中评选 1 名最佳主讲人。获评同学期末总评各加 2 分，可叠加。</li>
+                <li><strong>评分与激励：</strong>主讲小组成绩由教师评分和学生评分共同构成。学生评分及主讲小组完成 Pre 后的团队合作互评均通过<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>完成；学生评分也可作为考勤依据。课堂提问同学中评选 1 至 3 名最佳提问人；主讲及回答同学中评选 1 名最佳主讲人。获评同学期末总评各加 2 分，可叠加。</li>
               </ul>
             </section>
             <section class="course-assessment__instruction" aria-labelledby="course-assessment-discussion-title">
@@ -52,19 +52,19 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
         </details>
         <details class="course-assessment__item">
           <summary><span>阶段考试</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">NA</div>
+          <div class="course-assessment__item-content">三次阶段性考试，详见<a class="course-assessment__tool-link" href="#course-schedule-assessment-1" data-course-tool-target="course-schedule-assessment-1">课程计划</a>。</div>
         </details>
         <details class="course-assessment__item">
           <summary><span>大作业</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">NA</div>
+          <div class="course-assessment__item-content">第一周在<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>布置，按小组分工完成，须在第 17 周前提交。</div>
         </details>
         <details class="course-assessment__item">
           <summary><span>作业</span><strong>5%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">NA</div>
+          <div class="course-assessment__item-content">每章结束后完成一次章节作业，提交至<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>。</div>
         </details>
         <details class="course-assessment__item">
           <summary><span>考勤</span><strong>5%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">NA</div>
+          <div class="course-assessment__item-content">设置 15 次考勤，在<a class="course-assessment__tool-link" href="#course-chaoxing" data-course-tool-target="course-chaoxing">学习通</a>完成。</div>
         </details>
       </div>
       <p class="course-assessment__note">其中，Pre 及讨论部分按主讲小组 50%、其余同学考勤 50% 计入。</p>
@@ -86,14 +86,14 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
       <a href="https://docs.qq.com/sheet/DRFZVbGdGemtMTW9C?tab=r3wqxv" target="_blank" rel="noopener noreferrer">课程提问</a>
       <span class="course-tool-description">对课堂内容、课件、讲义、Pre 或其他课程学习内容有疑问，可在表格中提问，由当周负责 Pre 的小组解答；如小组解答遇到困难，请及时与任课教师讨论。</span>
     </li>
-    <li>
+    <li class="course-tool--linked" id="course-chaoxing">
       <span class="course-tool-label">学习通</span>
-      <span class="course-tool-description">提交章节作业、大作业及实验报告，并完成课程考勤。</span>
+      <span class="course-tool-description">提交章节作业、大作业及实验报告，完成 Pre 评分、主讲小组完成 Pre 后的团队合作互评及课程考勤。</span>
     </li>
   </ul>
 </section>
 
-<script defer src="{{ '/assets/js/course-assessment.js?v=20260903-6' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-assessment.js?v=20260903-8' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
@@ -131,7 +131,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/slideChp4.pdf">课件</a><a href="/files/communication-principles/handoutChpt4.pdf">讲义</a><span class="course-schedule__pending">批注</span><span class="course-schedule__pending">板书</span></div>
           </td>
         </tr>
-        <tr class="course-schedule__assessment-row">
+        <tr class="course-schedule__assessment-row" id="course-schedule-assessment-1">
           <td colspan="3" class="course-schedule__assessment">第 3 周周末：第 1 次阶段考试（30 分钟闭卷 + 1 小时讲解）</td>
         </tr>
         <tr>

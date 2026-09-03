@@ -224,6 +224,13 @@
   margin: -15px 0 20px;
 }
 
+.academic-article .page__meta .course-teaching-meta {
+  color: #4b555c;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .academic-article .archive__item {
   border-bottom: 1px solid #d2d4d0;
   margin: 0;
@@ -483,12 +490,18 @@
   color: #2d4e70;
   display: flex;
   font-size: 16px;
+  flex-wrap: wrap;
   gap: 8px;
   margin: 0;
 }
 
-.course-assessment__panel-title > span {
+.course-assessment__panel-title > span:first-child {
   color: #2f6f91;
+}
+
+.course-assessment__panel-reference {
+  color: #4b555c;
+  white-space: nowrap;
 }
 
 .course-assessment__toggle {
@@ -728,6 +741,11 @@
 }
 
 .course-schedule__assessment-row:hover .course-schedule__assessment {
+  background: #eaf1f2;
+  box-shadow: inset 3px 0 0 #52739a;
+}
+
+.course-schedule__assessment-row.is-linked-highlight .course-schedule__assessment {
   background: #eaf1f2;
   box-shadow: inset 3px 0 0 #52739a;
 }
