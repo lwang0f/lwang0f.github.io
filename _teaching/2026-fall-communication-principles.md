@@ -22,7 +22,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
   <div class="course-assessment__summary" aria-label="课程成绩构成">
     <span class="course-assessment__summary-label">课程成绩</span>
     <div class="course-assessment__formula">
-      <span>平时成绩</span><strong>50%</strong><b>+</b><span>期末成绩</span><strong>50%</strong>
+      <button class="course-assessment__grade-trigger" type="button" aria-controls="course-grade-sheet" aria-label="平时成绩 50%，突出显示对应的平时成绩总表" aria-pressed="false"><span>平时成绩</span><strong>50%</strong></button><b>+</b><span>期末成绩</span><strong>50%</strong>
     </div>
   </div>
   <h3 class="course-assessment__breakdown-title">平时成绩构成（占课程成绩 50%）</h3>
@@ -42,7 +42,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
       <a href="https://docs.qq.com/doc/DRFdMUWZYUGJMaVpa?right_flag=2" target="_blank" rel="noopener noreferrer">分组及工作安排</a>
       <span class="course-tool-description">用于课堂 Pre 与实验分组。各组负责的内容将提前一周公布，请及时查看任务并准备 Pre；如遇困难，请联系任课教师预约线下讨论。</span>
     </li>
-    <li>
+    <li class="course-tool--grade-sheet" id="course-grade-sheet">
       <a href="https://docs.qq.com/sheet/DRG5uV2VIRHJxcVVL?tab=BB08J2" target="_blank" rel="noopener noreferrer">平时成绩总表</a>
       <span class="course-tool-description">用于跟踪平时成绩，每周 Pre 结束后更新。请及时查看，如有错漏请联系任课教师修改。</span>
     </li>
@@ -56,6 +56,8 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
     </li>
   </ul>
 </section>
+
+<script defer src="{{ '/assets/js/course-assessment.js' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>

@@ -396,6 +396,54 @@
   font-weight: 400;
 }
 
+.course-assessment__grade-trigger {
+  align-items: baseline;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  color: #2d4e70;
+  cursor: pointer;
+  display: inline-flex;
+  font: inherit;
+  gap: 8px;
+  margin: 0;
+  padding: 2px 1px;
+  text-align: left;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.course-assessment__grade-trigger:hover,
+.course-assessment__grade-trigger:focus-visible,
+.course-assessment__grade-trigger.is-linked-highlight {
+  background: #eaf1f2;
+  border-bottom-color: #2f6f91;
+  color: #263e57;
+}
+
+.course-assessment__grade-trigger:focus-visible {
+  outline: 2px solid #7b9aa8;
+  outline-offset: 2px;
+}
+
+.course-tool--grade-sheet {
+  position: relative;
+  transition: background-color 160ms ease;
+}
+
+.course-tool--grade-sheet.is-linked-highlight {
+  background: #eaf1f2;
+}
+
+.course-tool--grade-sheet.is-linked-highlight::before {
+  background: #2f6f91;
+  bottom: 4px;
+  content: "";
+  left: -9px;
+  position: absolute;
+  top: 4px;
+  width: 3px;
+}
+
 .course-assessment__breakdown-title {
   color: #2d4e70;
   font-size: 17px;
@@ -1032,6 +1080,10 @@
   }
 
   .course-assessment__formula {
+    gap: 6px;
+  }
+
+  .course-assessment__grade-trigger {
     gap: 6px;
   }
 
