@@ -482,13 +482,13 @@
   padding: 16px;
 }
 
-.course-assessment__panel-title {
+.academic-article .course-assessment__panel-title {
   color: #2d4e70;
   display: flex;
   font-size: 16px;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 0;
+  margin: 0 0 10px;
 }
 
 .course-assessment__panel-title > span:first-child {
