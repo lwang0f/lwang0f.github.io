@@ -326,8 +326,9 @@
   min-width: 42px;
 }
 
-.course-overview {
-  max-width: 820px;
+.course-overview,
+.course-schedule {
+  max-width: 920px;
 }
 
 .course-overview__tools {
@@ -346,13 +347,14 @@
 .course-overview__tools li > a,
 .course-tool-label {
   display: block;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .course-tool-description {
   color: #4b555c;
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.45;
   margin-top: 2px;
 }
@@ -377,13 +379,14 @@
 
 .course-assessment__summary-label {
   color: #263e57;
+  font-size: 16px;
   font-weight: 700;
   white-space: nowrap;
 }
 
 .course-assessment__equals {
   color: #697278;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -396,12 +399,12 @@
 
 .course-assessment__formula span {
   color: #2d4e70;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .course-assessment__formula strong {
   color: #2f6f91;
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1;
 }
 
@@ -427,37 +430,18 @@
   transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
 }
 
-.course-assessment__final-trigger {
-  align-items: baseline;
-  background: transparent;
-  border: 0;
-  border-bottom: 2px solid transparent;
-  color: #2d4e70;
-  cursor: pointer;
-  display: inline-flex;
-  font: inherit;
-  gap: 8px;
-  margin: 0;
-  padding: 2px 1px;
-  text-align: left;
-  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
-}
-
-.course-assessment__grade-trigger:hover,
-.course-assessment__final-trigger:hover {
+.course-assessment__grade-trigger:hover {
   border-bottom-color: #7b9aa8;
 }
 
 .course-assessment__grade-trigger.is-active,
-.course-assessment__final-trigger.is-active,
 .course-assessment__grade-trigger.is-linked-highlight {
   background: #eaf1f2;
   border-bottom-color: #2f6f91;
   color: #263e57;
 }
 
-.course-assessment__grade-trigger:focus-visible,
-.course-assessment__final-trigger:focus-visible {
+.course-assessment__grade-trigger:focus-visible {
   outline: 2px solid #7b9aa8;
   outline-offset: 2px;
 }
@@ -490,7 +474,7 @@
 .course-assessment__panel-title {
   color: #2d4e70;
   display: flex;
-  font-size: 17px;
+  font-size: 16px;
   gap: 8px;
   margin: 0;
 }
@@ -502,7 +486,7 @@
 .course-assessment__toggle {
   color: #52739a;
   flex: 0 0 auto;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1;
 }
@@ -550,12 +534,12 @@
 }
 
 .course-assessment__item summary span:first-child {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .course-assessment__item summary strong {
   color: #2d4e70;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1;
 }
 
@@ -563,17 +547,12 @@
   margin-left: auto;
 }
 
-.course-assessment__item-content,
-.course-assessment__placeholder {
+.course-assessment__item-content {
   background: #ffffff;
   color: #4b555c;
-  font-size: 15px !important;
+  font-size: 16px !important;
   line-height: 1.5;
   padding: 10px 14px 12px;
-}
-
-.course-assessment__placeholder {
-  margin: 12px 0 0 !important;
 }
 
 @keyframes course-assessment-panel-in {
@@ -596,14 +575,13 @@
 
 .course-assessment__note {
   color: #4b555c;
-  font-size: 15px !important;
+  font-size: 16px !important;
   line-height: 1.5;
   margin: 12px 0 0 !important;
 }
 
 .course-schedule {
   margin-top: 34px;
-  max-width: 920px;
 }
 
 .course-schedule__table-wrap {
@@ -1206,16 +1184,8 @@
     gap: 6px;
   }
 
-  .course-assessment__final-trigger {
-    gap: 6px;
-  }
-
-  .course-assessment__formula span {
-    font-size: 16px;
-  }
-
   .course-assessment__formula strong {
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .course-assessment__item summary {

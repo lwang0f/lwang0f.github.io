@@ -23,7 +23,7 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
     <div class="course-assessment__summary">
       <span class="course-assessment__summary-heading"><span class="course-assessment__summary-label">课程成绩</span><b class="course-assessment__equals">=</b></span>
       <div class="course-assessment__formula">
-        <button class="course-assessment__grade-trigger" type="button" aria-controls="course-assessment-regular" aria-expanded="false" aria-label="平时成绩 50%，展开构成并突出显示对应的平时成绩总表"><span>平时成绩</span><strong>50%</strong></button><b>+</b><button class="course-assessment__final-trigger" type="button" aria-controls="course-assessment-final" aria-expanded="false" aria-label="期末成绩 50%，展开构成"><span>期末成绩</span><strong>50%</strong></button>
+        <button class="course-assessment__grade-trigger" type="button" aria-controls="course-assessment-regular" aria-expanded="false" aria-label="平时成绩 50%，展开构成并突出显示对应的平时成绩总表"><span>平时成绩</span><strong>50%</strong></button><b>+</b><span>期末成绩</span><strong>50%</strong>
       </div>
     </div>
     <section class="course-assessment__panel" id="course-assessment-regular" aria-labelledby="course-assessment-regular-title" hidden>
@@ -51,10 +51,6 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
         </details>
       </div>
       <p class="course-assessment__note">其中，Pre 及讨论部分按主讲小组 50%、其余同学考勤 50% 计入。</p>
-    </section>
-    <section class="course-assessment__panel" id="course-assessment-final" aria-labelledby="course-assessment-final-title" hidden>
-      <h3 class="course-assessment__panel-title" id="course-assessment-final-title"><span>期末成绩 50%</span>的构成</h3>
-      <p class="course-assessment__placeholder">构成</p>
     </section>
   </section>
 

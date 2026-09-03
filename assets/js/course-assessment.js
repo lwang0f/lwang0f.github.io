@@ -3,13 +3,11 @@
 
   var trigger = document.querySelector(".course-assessment__grade-trigger");
   var gradeSheet = document.getElementById("course-grade-sheet");
-  var finalTrigger = document.querySelector(".course-assessment__final-trigger");
   var regularPanel = document.getElementById("course-assessment-regular");
-  var finalPanel = document.getElementById("course-assessment-final");
   var assessmentItems = document.querySelectorAll(".course-assessment__item");
   var highlightTimer;
 
-  if (!trigger || !finalTrigger || !gradeSheet || !regularPanel || !finalPanel) {
+  if (!trigger || !gradeSheet || !regularPanel) {
     return;
   }
 
@@ -25,30 +23,20 @@
     }
   }
 
-  function setActivePanel(panel) {
-    var regularIsActive = panel === regularPanel && regularPanel.hidden;
-    var finalIsActive = panel === finalPanel && finalPanel.hidden;
-
-    regularPanel.hidden = !regularIsActive;
-    finalPanel.hidden = !finalIsActive;
-    trigger.classList.toggle("is-active", regularIsActive);
-    finalTrigger.classList.toggle("is-active", finalIsActive);
-    trigger.setAttribute("aria-expanded", String(regularIsActive));
-    finalTrigger.setAttribute("aria-expanded", String(finalIsActive));
+  function setRegularPanel(open) {
+    regularPanel.hidden = !open;
+    trigger.classList.toggle("is-active", open);
+    trigger.setAttribute("aria-expanded", String(open));
   }
 
   trigger.addEventListener("click", function () {
-    setActivePanel(regularPanel);
+    setRegularPanel(regularPanel.hidden);
     setHighlight(true);
-  });
-
-  finalTrigger.addEventListener("click", function () {
-    setActivePanel(finalPanel);
   });
 
   document.addEventListener("keydown", function (event) {
     if (event.key === "Escape") {
-      setActivePanel(null);
+      setRegularPanel(false);
       setHighlight(false);
     }
   });
