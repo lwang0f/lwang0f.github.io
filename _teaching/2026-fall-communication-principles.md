@@ -11,7 +11,33 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
   <h2>课程简介</h2>
   <p>《通信原理》是电子信息类专业的重要基础课程，介绍信息如何在通信系统中传输，以及如何减小噪声和失真。课程内容包括信号与噪声、调制与解调、数字通信、信道编码和通信系统性能分析。</p>
 
-  <h3 class="course-overview__tools-title">教学工具</h3>
+  <h2>课程目标</h2>
+  <ul>
+    <li>理解通信系统的基本组成和工作原理。</li>
+    <li>掌握常用的调制、解调和数字通信方法。</li>
+    <li>能够进行基础的公式推导和通信系统性能分析。</li>
+  </ul>
+
+  <h2>课程考核</h2>
+  <div class="course-assessment__summary" aria-label="课程成绩构成">
+    <span class="course-assessment__summary-label">课程成绩</span>
+    <div class="course-assessment__formula">
+      <span>平时成绩</span><strong>50%</strong><b>+</b><span>期末成绩</span><strong>50%</strong>
+    </div>
+  </div>
+  <details class="course-assessment__details">
+    <summary>平时成绩构成（占课程成绩 50%）</summary>
+    <div class="course-assessment__breakdown">
+      <div><span>Pre 及讨论</span><strong>50%</strong></div>
+      <div><span>作业</span><strong>5%</strong></div>
+      <div><span>阶段考试</span><strong>20%</strong></div>
+      <div><span>大作业</span><strong>20%</strong></div>
+      <div><span>考勤</span><strong>5%</strong></div>
+    </div>
+    <p class="course-assessment__note">其中，Pre 及讨论部分按主讲小组 50%、其余同学考勤 50% 计入。</p>
+  </details>
+
+  <h2>教学工具</h2>
   <p class="course-overview__tools-intro">课程所使用的教学工具如下。</p>
   <ul class="course-overview__tools">
     <li>
@@ -30,13 +56,6 @@ teaching_meta: "周一、周二，第1-3节，学友楼105<br />任课教师：�
       <span class="course-tool-label">学习通</span>
       <span class="course-tool-description">提交章节作业、大作业及实验报告，并完成课程考勤。</span>
     </li>
-  </ul>
-
-  <h2>课程目标</h2>
-  <ul>
-    <li>理解通信系统的基本组成和工作原理。</li>
-    <li>掌握常用的调制、解调和数字通信方法。</li>
-    <li>能够进行基础的公式推导和通信系统性能分析。</li>
   </ul>
 </section>
 
