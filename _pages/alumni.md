@@ -23,6 +23,10 @@ author_profile: true
 
 **De Huang (黄德)**: M.S., Guangzhou University, 2025.
 
+**Jincheng Zhang (张锦城)**: currently in 深圳聚飞光电, 2025.
+
+**Bingguang Chen (陈炳光)**: currently in 南宁太阳纸业, 2025.
+
 **Yan Tan (檀颜)**: currently in 钦州市通信技术保密中心, 2025.
 
 **Xiuzhen He (何秀珍)**: currently in 钦州市浦北县政府, 2025.
