@@ -34,3 +34,5 @@ author_profile: true
 **Limei Qin (覃丽媚)**: currently in 河池市委员会, 2025.
 
 **Liwen Lu (陆丽雯)**: currently in 建行广西分行, 2025.
+
+**Zhanglong Xu (许章龙)**: currently in molex Zhuhai, 2024.
