@@ -39,7 +39,7 @@ redirect_from:
   <h3><time datetime="2025-08">August 2025</time></h3>
   <ul class="home-news-list">
     <li class="home-news-item">
-      <p class="home-news-item__text">Yuan Li's (李媛, 2026 M.S.) journal paper in <em>China Communications</em> is <a href="https://ieeexplore.ieee.org/abstract/document/11665499" target="_blank" rel="noopener noreferrer">online</a>.</p>
+      <p class="home-news-item__text">Yuan Li's (李媛, 2026 M.Eng.) journal paper in <em>China Communications</em> is <a href="https://ieeexplore.ieee.org/abstract/document/11665499" target="_blank" rel="noopener noreferrer">online</a>.</p>
       <figure class="home-news-photo">
         <img src="{{ base_path }}/images/yuan-li-china-communications-statistics.png" alt="Statistical distributions of meteor-burst communication channel characteristics in Yunnan Province" loading="lazy">
       </figure>
@@ -49,35 +49,35 @@ redirect_from:
   <h3><time datetime="2026-07">July 2026</time></h3>
   <ul class="home-news-list">
     <li class="home-news-item">
-      <p class="home-news-item__text">Yuan Li (李媛, 2026 M.S.) was admitted to the Ph.D. program at the University of Science and Technology of China.</p>
+      <p class="home-news-item__text">Yuan Li (李媛, 2026 M.Eng.) was admitted to the Ph.D. program at the University of Science and Technology of China.</p>
       <figure class="home-news-photo">
         <img src="{{ base_path }}/images/yuan-li-ustc-admission.jpg" alt="Doctoral admission notice from the University of Science and Technology of China" loading="lazy">
       </figure>
     </li>
     <li class="home-news-item">
-      <p class="home-news-item__text">Zhanzhuo Zou (邹展卓, 2026 M.S.) was admitted to the Ph.D. program at North China Electric Power University.</p>
+      <p class="home-news-item__text">Zhanzhuo Zou (邹展卓, 2026 M.Eng.) was admitted to the Ph.D. program at North China Electric Power University.</p>
       <figure class="home-news-photo">
         <img src="{{ base_path }}/images/zhanzhuo-zou-ncepu-admission.jpg" alt="Doctoral admission notice from North China Electric Power University" loading="lazy">
       </figure>
     </li>
     <li class="home-news-item">
-      <p class="home-news-item__text">Hongpan An (安洪盼, 2026 B.S.) was admitted to the M.S. program at the Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, through recommendation-based admission.</p>
+      <p class="home-news-item__text">Hongpan An (安洪盼, 2026 B.Eng.) was admitted to the M.Eng. program at the Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, through recommendation-based admission.</p>
     </li>
     <li class="home-news-item">
-      <p class="home-news-item__text">Qiyin Lao (劳琪茵, 2026 B.S.) received the First Prize for an Outstanding Undergraduate Thesis at the university level.</p>
+      <p class="home-news-item__text">Qiyin Lao (劳琪茵, 2026 B.Eng.) received the First Prize for an Outstanding Undergraduate Thesis at the university level.</p>
       <figure class="home-news-photo">
         <img src="{{ base_path }}/images/qiyin-lao-thesis-award.png" alt="First-prize certificate for an outstanding undergraduate thesis" loading="lazy">
       </figure>
     </li>
     <li class="home-news-item">
-      <p class="home-news-item__text">Yihao Pan (潘毅豪, 2026 B.S.) was admitted to the M.S. program at Hong Kong Baptist University.</p>
+      <p class="home-news-item__text">Yihao Pan (潘毅豪, 2026 B.Eng.) was admitted to the M.Eng. program at Hong Kong Baptist University.</p>
     </li>
   </ul>
 
   <h3><time datetime="2025-07">July 2025</time></h3>
   <ul class="home-news-list">
     <li class="home-news-item">
-      <p class="home-news-item__text">Yang Zhang (张杨, 2025 M.S.) was recognized as an Outstanding Graduate of Guangxi Minzu University.</p>
+      <p class="home-news-item__text">Yang Zhang (张杨, 2025 M.Eng.) was recognized as an Outstanding Graduate of Guangxi Minzu University.</p>
       <figure class="home-news-photo">
         <img src="{{ base_path }}/images/yang-zhang-outstanding-graduate.jpg" alt="Outstanding Graduate certificate from Guangxi Minzu University" loading="lazy">
       </figure>

@@ -13,15 +13,15 @@ author_profile: true
 
 **Yang Zhang (张杨)**: Ph.D., Hainan University, 2025.
 
-## B.S. Student Training/Thesis  Supervised
+## B.Eng. Student Training/Thesis Supervised
 
-**Hongpan An (安洪盼)**: M.S., Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, 2026.
+**Hongpan An (安洪盼)**: M.Eng., Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, 2026.
 
 **Qiyin Lao (劳琪茵)**: Outstanding Undergraduate Thesis, currently in 深圳市星途创新科技有限公司.
 
-**Yihao Pan (潘毅豪)**: M.S., Hong Kong Baptist University, 2026.
+**Yihao Pan (潘毅豪)**: M.Eng., Hong Kong Baptist University, 2026.
 
-**De Huang (黄德)**: M.S., Guangzhou University, 2025.
+**De Huang (黄德)**: M.Eng., Guangzhou University, 2025.
 
 **Jincheng Zhang (张锦城)**: currently in 深圳聚飞光电, 2025.
 
