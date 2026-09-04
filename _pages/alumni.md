@@ -37,7 +37,7 @@ author_profile: true
 
 **Liwen Lu (蒋雨嘉, 2025 B.Eng.)**: Worked in 建行柳州分行, currently in 玉林经开委员会.
 
-**Zhanglong Xu (许章龙, 2024 B.Eng.)**: Currently in molex Zhuhai.
+**Zhanglong Xu (许章龙, 2024 B.Eng.)**: Currently in molex Zhuhai (Optical connector for AI).
 
 **Liqi Mo (莫礼琪, 2024 B.Eng.)**: Currently in 北海电信.
 
