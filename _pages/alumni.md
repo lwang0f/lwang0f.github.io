@@ -13,7 +13,7 @@ author_profile: true
 
 **Yang Zhang (张杨)**: Ph.D., Hainan University, 2025.
 
-## B.S. Student Thesis & Training Supervised
+## B.S. Student Training/Thesis  Supervised
 
 **Hongpan An (安洪盼)**: M.S., Changchun Institute of Optics, Fine Mechanics and Physics, Chinese Academy of Sciences, 2026.
 
