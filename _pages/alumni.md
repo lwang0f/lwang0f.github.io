@@ -25,7 +25,7 @@ author_profile: true
 
 **Qiyin Lao (劳琪茵, 2026 B.Eng.)**: Interned and worked in 深圳一昊能源(电源工程师), currently in 深圳市星途(电控工程师).
 
-**Qiyin Lao (黄世贤, 2026 B.Eng.)**: Interned in 北京北极火 (JAVA工程师), currently in yongyouFintech Beijing (JAVA engineer).
+**Shixian Huang (黄世贤, 2026 B.Eng.)**: Interned in 北京北极火 (JAVA工程师), currently in yongyouFintech Beijing (JAVA engineer).
 
 **Hao Lu (卢浩, 2026 B.Eng.)**: Currently in VIVO Dongguan (Quality control).
 
