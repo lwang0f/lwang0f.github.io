@@ -23,6 +23,8 @@ author_profile: true
 
 **De Huang (黄德, 2025 B.Eng.)**: Currently pursuing an M.Eng. at Guangzhou University.
 
+**Boren Ke (柯博仁, 2025 B.Eng.)**: Currently pursuing an M.Eng. at Shanghai Normal University.
+
 **Jincheng Zhang (张锦城, 2025 B.Eng.)**: Currently in 深圳聚飞光电.
 
 **Bingguang Chen (陈炳光, 2025 B.Eng.)**: Currently in 南宁太阳纸业.
