@@ -19,9 +19,12 @@ author_profile: true
 
 **Yihao Pan (潘毅豪, 2026 B.Eng.)**: Currently pursuing an M.Eng. at Hong Kong Baptist University.
 
-**Qiyin Lao (劳琪茵, 2026 B.Eng.)**: Interned and worked in 深圳一昊能源(电源工程师), currently in 深圳市星途(电控工程师).
+**Yihao Pan (陈文浩, 2026 B.Eng.)**: Currently pursuing an M.Eng. at Beijing Jiaotong University.
+
+**Zhirong Su (粟志荣, 2026 B.Eng.)**: Currently pursuing an M.Eng. at Hainan University.
 
 **Qiyin Lao (劳琪茵, 2026 B.Eng.)**: Interned and worked in 深圳一昊能源(电源工程师), currently in 深圳市星途(电控工程师).
+
 
 **Hao Lu (卢浩, 2026 B.Eng.)**: Currently in VIVO DongGuan (Quality control Eng.).
 
