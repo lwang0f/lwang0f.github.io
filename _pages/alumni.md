@@ -27,10 +27,22 @@ author_profile: true
 
 **Qiyin Lao (黄世贤, 2026 B.Eng.)**: Interned in 北京北极火 (JAVA工程师), currently in yongyouFintech Beijing (JAVA engineer).
 
-**Hao Lu (卢浩, 2026 B.Eng.)**: Currently in VIVO DongGuan (Quality control).
+**Hao Lu (卢浩, 2026 B.Eng.)**: Currently in VIVO Dongguan (Quality control).
+
+**Yujun Liu (刘俞均, 2026 B.Eng.)**: Currently in Guangxi Road and Bridge Engineering Group (Project Manager).
+
+**Yujun Liu (刘星慈, 2026 B.Eng.)**: Currently in Chongzuo Branch of China Mobile Communications (Government & Enterprise Client Service).
+
+**Yujun Liu (韦佳伶, 2026 B.Eng.)**: Currently in Wuzhou Branch of China Mobile Communications (Government & Enterprise Client Service).
 
 ### 2025
 **De Huang (黄德, 2025 B.Eng.)**: Currently pursuing an M.Eng. at Guangzhou University.
+
+**Peng Yang (杨鹏, 2025 B.Eng.)**: Currently pursuing an M.Eng. at Guangzhou 
+University.
+
+**Chenxi Zhou (周晨曦, 2025 B.Eng.)**: Currently pursuing an M.Eng. at Guangxi 
+University.
 
 **Boren Ke (柯博仁, 2025 B.Eng.)**: Currently pursuing an M.Eng. at Shanghai Normal University.
 
@@ -44,20 +56,22 @@ author_profile: true
 
 **Limei Qin (覃丽媚, 2025 B.Eng.)**: Currently in 河池市委员会.
 
-**Liwen Lu (陆丽雯, 2025 B.Eng.)**: Currently in 建行广西分行.
+**Liwen Lu (陆丽雯, 2025 B.Eng.)**: Currently in Yulin Branch of China Construction Bank (Accounting).
 
-**Liwen Lu (蒋雨嘉, 2025 B.Eng.)**: Worked in 建行柳州分行, currently in 玉林经开委员会.
+**Yulin Luo (罗宇林, 2025 B.Eng.)**: Currently in Yulin Branch of China Construction Bank (Customer manager).
+
+**Liwen Lu (蒋雨嘉, 2025 B.Eng.)**: Worked in Liuzhou Branch of China Construction Bank (Customer manager), currently in 玉林经开委员会.
 
 ### 2024 
 
 **Zhanglong Xu (许章龙, 2024 B.Eng.)**: Interned in Vanke (Intelligent Building Dev. Engineer), then worked in AKM Meadville Guangzhou (Optoelectronic encapsulation), currently in molex Zhuhai (Optical connector for AI).
 
-**Suchen He (何苏晨, 2024 B.Eng.)**: Interned in 南宁电信 (Sales) and 南宁西门子 (Hardware Engineer), currently in 建行柳州分行(科技岗).
+**Suchen He (何苏晨, 2024 B.Eng.)**: Interned in Nanning Branch of China Telecome (Sales) and Siemens Nanning (Hardware Engineer), currently in Liuzhou Branch of China Construction Bank (Technology Develoment).
 
 **Zuanning Luo (骆禤宁, 2024 B.Eng.)**: Currently pursuing an M.Eng. at Guangxi University.
 
 **Huilin Wang (王汇霖, 2024 B.Eng.)**: Currently pursuing an M.Eng. at the University of Glasgow.
 
-**Liqi Mo (莫礼琪, 2024 B.Eng.)**: Currently in 北海电信.
+**Liqi Mo (莫礼琪, 2024 B.Eng.)**: Currently in Beihai Branch of China Telecom.
 
 **Mingzhang Ling (凌明樟, 2024 B.Eng.)**: Currently in 宁明县委保密局.
