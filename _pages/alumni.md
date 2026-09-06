@@ -56,7 +56,7 @@ University.
 
 **Limei Qin (覃丽媚, 2025 B.Eng.)**: Currently in 河池市委员会.
 
-**Liwen Lu (陆丽雯, 2025 B.Eng.)**: Currently in Yulin Branch of China Construction Bank (Accounting).
+**Liwen Lu (陆丽雯, 2025 B.Eng.)**: Currently in Guangxi Branch of China Construction Bank (Accounting).
 
 **Yulin Luo (罗宇林, 2025 B.Eng.)**: Currently in Yulin Branch of China Construction Bank (Customer manager).
 
