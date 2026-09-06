@@ -25,8 +25,10 @@ author_profile: true
 
 **Qiyin Lao (劳琪茵, 2026 B.Eng.)**: Interned and worked in 深圳一昊能源(电源工程师), currently in 深圳市星途(电控工程师).
 
+**Qiyin Lao (黄世贤, 2026 B.Eng.)**: Interned in 北京北极火 (JAVA工程师), currently in yongyouFintech Beijing (JAVA engineer).
 
-**Hao Lu (卢浩, 2026 B.Eng.)**: Currently in VIVO DongGuan (Quality control Eng.).
+
+**Hao Lu (卢浩, 2026 B.Eng.)**: Currently in VIVO DongGuan (Quality control).
 
 ### 2025
 **De Huang (黄德, 2025 B.Eng.)**: Currently pursuing an M.Eng. at Guangzhou University.
@@ -35,7 +37,7 @@ author_profile: true
 
 **Jincheng Zhang (张锦城, 2025 B.Eng.)**: Currently in Shenzhen Jufei Optoelectronics (Optoelectronic encapsulation).
 
-**Bingguang Chen (陈炳光, 2025 B.Eng.)**: Currently in Nanning Sun Paper.
+**Bingguang Chen (陈炳光, 2025 B.Eng.)**: Currently in Nanning Sun Paper (Instrument Engineer).
 
 **Yan Tan (檀颜, 2025 B.Eng.)**: Currently in 钦州市通信技术保密中心.
 
@@ -49,9 +51,9 @@ author_profile: true
 
 ### 2024 
 
-**Zhanglong Xu (许章龙, 2024 B.Eng.)**: Interned in Vanke (Intelligent Building Dev. Eng.), then worked in AKM Meadville Guangzhou (Optoelectronic encapsulation), currently in molex Zhuhai (Optical connector for AI).
+**Zhanglong Xu (许章龙, 2024 B.Eng.)**: Interned in Vanke (Intelligent Building Dev. Engineer), then worked in AKM Meadville Guangzhou (Optoelectronic encapsulation), currently in molex Zhuhai (Optical connector for AI).
 
-**Suchen He (何苏晨, 2024 B.Eng.)**: Interned in 南宁电信 (Sales) and 南宁西门子 (Hardware Eng.), currently in 建行柳州分行（科技岗）.
+**Suchen He (何苏晨, 2024 B.Eng.)**: Interned in 南宁电信 (Sales) and 南宁西门子 (Hardware Engineer), currently in 建行柳州分行（科技岗）.
 
 **Zuanning Luo (骆禤宁, 2024 B.Eng.)**: Currently pursuing an M.Eng. at Guangxi University.
 
