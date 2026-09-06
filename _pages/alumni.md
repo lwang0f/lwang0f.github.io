@@ -27,7 +27,6 @@ author_profile: true
 
 **Qiyin Lao (黄世贤, 2026 B.Eng.)**: Interned in 北京北极火 (JAVA工程师), currently in yongyouFintech Beijing (JAVA engineer).
 
-
 **Hao Lu (卢浩, 2026 B.Eng.)**: Currently in VIVO DongGuan (Quality control).
 
 ### 2025
@@ -53,7 +52,7 @@ author_profile: true
 
 **Zhanglong Xu (许章龙, 2024 B.Eng.)**: Interned in Vanke (Intelligent Building Dev. Engineer), then worked in AKM Meadville Guangzhou (Optoelectronic encapsulation), currently in molex Zhuhai (Optical connector for AI).
 
-**Suchen He (何苏晨, 2024 B.Eng.)**: Interned in 南宁电信 (Sales) and 南宁西门子 (Hardware Engineer), currently in 建行柳州分行（科技岗）.
+**Suchen He (何苏晨, 2024 B.Eng.)**: Interned in 南宁电信 (Sales) and 南宁西门子 (Hardware Engineer), currently in 建行柳州分行(科技岗).
 
 **Zuanning Luo (骆禤宁, 2024 B.Eng.)**: Currently pursuing an M.Eng. at Guangxi University.
 
