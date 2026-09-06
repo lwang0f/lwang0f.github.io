@@ -37,10 +37,15 @@ author_profile: true
 
 **Liwen Lu (蒋雨嘉, 2025 B.Eng.)**: Worked in 建行柳州分行, currently in 玉林经开委员会.
 
-**Zhanglong Xu (许章龙, 2024 B.Eng.)**: Currently in molex Zhuhai (Optical connector for AI).
+**Zhanglong Xu (许章龙, 2024 B.Eng.)**: Interned in Vanke (Intelligent Building Dev. Eng.), then worked in AKM Meadville Guangzhou (Optoelectronic encapsulation), currently in molex Zhuhai (Optical connector for AI).
 
-**Liqi Mo (莫礼琪, 2024 B.Eng.)**: Currently in 北海电信.
+**Suchen He (何苏晨, 2024 B.Eng.)**: Interned in 南宁电信 and 南宁西门子, currently in 建行柳州分行（科技岗）.
+
+**Zuanning Luo (骆禤宁, 2024 B.Eng.)**: Currently pursuing an M.Eng. at Guangxi University.
 
 **Huilin Wang (王汇霖, 2024 B.Eng.)**: Currently pursuing an M.Eng. at the University of Glasgow.
 
-**Suchen He (何苏晨, 2024 B.Eng.)**: Interned in 南宁电信 and 南宁西门子, currently in 建行柳州分行（科技岗）.
+**Liqi Mo (莫礼琪, 2024 B.Eng.)**: Currently in 北海电信.
+
+
+**Mingzhang Ling (凌明樟, 2024 B.Eng.)**: Currently in 宁明县委保密局.
