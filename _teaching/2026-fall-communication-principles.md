@@ -4,7 +4,7 @@ collection: teaching
 permalink: /teaching/2026-fall-communication-principles
 date: 2026-09-01
 show_teaching_meta: false
-teaching_meta: '<span class="course-teaching-meta">周一、周二，第1-3节，学友楼105<br />任课教师：王黎明、罗丽平</span>'
+teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友楼102；周二，第1-3节，学友楼105<br />任课教师：王黎明、罗丽平</span>'
 ---
 
 <section class="course-overview">
