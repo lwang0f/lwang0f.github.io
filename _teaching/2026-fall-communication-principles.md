@@ -92,6 +92,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
 </section>
 
 <script defer src="{{ '/assets/js/course-assessment.js?v=20260903-13' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-schedule.js?v=20260908-1' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
@@ -114,128 +115,119 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
       </thead>
       <tbody>
         <tr>
-          <th rowspan="2" id="schedule-week-1" class="course-schedule__week">第 1 周</th>
-          <th scope="row" class="course-schedule__content" headers="schedule-week-1 schedule-content" id="schedule-chapter-1"><span>第 1 章 绪论</span></th>
-          <td class="course-schedule__resources" headers="schedule-resources schedule-chapter-1">
+          <th rowspan="2" id="schedule-week-1" class="course-schedule__week" data-weeks="1"><button type="button" class="course-schedule__week-trigger" data-week="1" aria-pressed="false">第 1 周</button></th>
+          <th rowspan="1" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-1" data-weeks="1" id="schedule-chapter-1"><span>第 1 章 绪论</span></th>
+          <td class="course-schedule__resources" data-weeks="1" headers="schedule-resources schedule-chapter-1">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt1.pdf">讲义</a><a href="/files/communication-principles/slideChp1.pdf">课件</a></div>
           </td>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--notes course-schedule__resources--shared" headers="schedule-resources schedule-week-1">
+          <td rowspan="2" data-weeks="1" class="course-schedule__resources course-schedule__resources--notes course-schedule__resources--shared" headers="schedule-resources schedule-week-1">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/notesWeek1.pdf" aria-label="第 1 周板书" title="第 1 周板书（第 1、2 章）">板书</a></div>
           </td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-1 schedule-content" id="schedule-chapter-2"><span>第 2 章 确知信号</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--shared" headers="schedule-resources schedule-chapter-2">
+          <th rowspan="2" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-1 schedule-week-2" data-weeks="1 2" id="schedule-chapter-2"><span>第 2 章 确知信号</span></th>
+          <td rowspan="2" class="course-schedule__resources" data-weeks="1 2" headers="schedule-resources schedule-chapter-2">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt2.pdf">讲义</a><a href="/files/communication-principles/slideChp2.pdf">课件</a></div>
           </td>
         </tr>
         <tr>
-          <th rowspan="2" id="schedule-week-2" class="course-schedule__week">第 2 周</th>
-          <th scope="row" class="course-schedule__content" headers="schedule-week-2 schedule-content"><span>第 2 章 确知信号</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th rowspan="2" id="schedule-week-2" class="course-schedule__week" data-weeks="2"><button type="button" class="course-schedule__week-trigger" data-week="2" aria-pressed="false">第 2 周</button></th>
+          <td rowspan="2" data-weeks="2" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-2 schedule-content" id="schedule-chapter-3"><span>第 3 章 随机过程</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--shared" headers="schedule-resources schedule-chapter-3">
+          <th rowspan="2" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-2 schedule-week-3" data-weeks="2 3" id="schedule-chapter-3"><span>第 3 章 随机过程</span></th>
+          <td rowspan="2" class="course-schedule__resources" data-weeks="2 3" headers="schedule-resources schedule-chapter-3">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt3.pdf">讲义</a><a href="/files/communication-principles/slideChp3.pdf">课件</a></div>
           </td>
         </tr>
         <tr>
-          <th rowspan="2" id="schedule-week-3" class="course-schedule__week">第 3 周</th>
-          <th scope="row" class="course-schedule__content" headers="schedule-week-3 schedule-content"><span>第 3 章 随机过程</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th rowspan="2" id="schedule-week-3" class="course-schedule__week" data-weeks="3"><button type="button" class="course-schedule__week-trigger" data-week="3" aria-pressed="false">第 3 周</button></th>
+          <td rowspan="2" data-weeks="3" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-3 schedule-content" id="schedule-chapter-4"><span>第 4 章 信道</span></th>
-          <td rowspan="3" class="course-schedule__resources course-schedule__resources--shared" headers="schedule-resources schedule-chapter-4">
+          <th rowspan="3" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-3 schedule-week-4" data-weeks="3 4" id="schedule-chapter-4"><span>第 4 章 信道</span></th>
+          <td rowspan="3" class="course-schedule__resources" data-weeks="3 4" headers="schedule-resources schedule-chapter-4">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt4.pdf">讲义</a><a href="/files/communication-principles/slideChp4.pdf">课件</a></div>
           </td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-1">
-          <td colspan="2" class="course-schedule__assessment"><span>第 3 周周末：第 1 次阶段考试</span><span>（30 分钟闭卷 + 1 小时讲解）</span></td>
+          <td class="course-schedule__assessment"><span>第 3 周周末</span><span>第 1 次阶段考试</span><span>30 分钟闭卷</span><span>+ 1 小时讲解</span></td>
           <td class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th rowspan="2" id="schedule-week-4" class="course-schedule__week">第 4 周</th>
-          <th scope="row" class="course-schedule__content" headers="schedule-week-4 schedule-content"><span>第 4 章 信道</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th rowspan="2" id="schedule-week-4" class="course-schedule__week" data-weeks="4"><button type="button" class="course-schedule__week-trigger" data-week="4" aria-pressed="false">第 4 周</button></th>
+          <td rowspan="2" data-weeks="4" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-4 schedule-content" id="schedule-chapter-5"><span>第 5 章 模拟调制系统</span></th>
-          <td rowspan="3" class="course-schedule__resources course-schedule__resources--shared" headers="schedule-resources schedule-chapter-5">
+          <th rowspan="3" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-4 schedule-week-5 schedule-week-6" data-weeks="4 5 6" id="schedule-chapter-5"><span>第 5 章 模拟调制系统</span></th>
+          <td rowspan="3" class="course-schedule__resources" data-weeks="4 5 6" headers="schedule-resources schedule-chapter-5">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt5.pdf">讲义</a><a href="/files/communication-principles/slideChp5.pdf">课件</a></div>
           </td>
         </tr>
         <tr>
-          <th scope="row" id="schedule-week-5" class="course-schedule__week">第 5 周</th>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-5 schedule-content"><span>第 5 章 模拟调制系统</span></th>
-          <td class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th scope="row" id="schedule-week-5" class="course-schedule__week" data-weeks="5"><button type="button" class="course-schedule__week-trigger" data-week="5" aria-pressed="false">第 5 周</button></th>
+          <td data-weeks="5" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th rowspan="2" id="schedule-week-6" class="course-schedule__week">第 6 周</th>
-          <th scope="row" class="course-schedule__content" headers="schedule-week-6 schedule-content"><span>第 5 章 模拟调制系统</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th rowspan="2" id="schedule-week-6" class="course-schedule__week" data-weeks="6"><button type="button" class="course-schedule__week-trigger" data-week="6" aria-pressed="false">第 6 周</button></th>
+          <td rowspan="2" data-weeks="6" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-6 schedule-content" id="schedule-chapter-6"><span>第 6 章 数字基带传输</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--shared" headers="schedule-resources schedule-chapter-6">
+          <th rowspan="2" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-6 schedule-week-7" data-weeks="6 7" id="schedule-chapter-6"><span>第 6 章 数字基带传输</span></th>
+          <td rowspan="2" class="course-schedule__resources" data-weeks="6 7" headers="schedule-resources schedule-chapter-6">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt6.pdf">讲义</a><a href="/files/communication-principles/slideChp6.pdf">课件</a></div>
           </td>
         </tr>
         <tr>
-          <th rowspan="2" id="schedule-week-7" class="course-schedule__week">第 7 周</th>
-          <th scope="row" class="course-schedule__content" headers="schedule-week-7 schedule-content"><span>第 6 章 数字基带传输</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th rowspan="2" id="schedule-week-7" class="course-schedule__week" data-weeks="7"><button type="button" class="course-schedule__week-trigger" data-week="7" aria-pressed="false">第 7 周</button></th>
+          <td rowspan="2" data-weeks="7" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-7 schedule-content" id="schedule-chapter-7"><span>第 7 章 数字带通传输</span></th>
-          <td rowspan="3" class="course-schedule__resources course-schedule__resources--shared" headers="schedule-resources schedule-chapter-7">
+          <th rowspan="3" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-7 schedule-week-8" data-weeks="7 8" id="schedule-chapter-7"><span>第 7 章 数字带通传输</span></th>
+          <td rowspan="3" class="course-schedule__resources" data-weeks="7 8" headers="schedule-resources schedule-chapter-7">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt7.pdf">讲义</a><a href="/files/communication-principles/slideChp7.pdf">课件</a></div>
           </td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-2">
-          <td colspan="2" class="course-schedule__assessment"><span>第 7 周周末：第 2 次阶段考试</span><span>（30 分钟闭卷 + 1 小时讲解）</span></td>
+          <td class="course-schedule__assessment"><span>第 7 周周末</span><span>第 2 次阶段考试</span><span>30 分钟闭卷</span><span>+ 1 小时讲解</span></td>
           <td class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th rowspan="2" id="schedule-week-8" class="course-schedule__week">第 8 周</th>
-          <th scope="row" class="course-schedule__content" headers="schedule-week-8 schedule-content"><span>第 7 章 数字带通传输</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th rowspan="2" id="schedule-week-8" class="course-schedule__week" data-weeks="8"><button type="button" class="course-schedule__week-trigger" data-week="8" aria-pressed="false">第 8 周</button></th>
+          <td rowspan="2" data-weeks="8" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-8 schedule-content" id="schedule-chapter-8"><span>第 8 章 新型数字带通调制</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--shared" headers="schedule-resources schedule-chapter-8">
+          <th rowspan="2" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-8 schedule-week-9" data-weeks="8 9" id="schedule-chapter-8"><span>第 8 章 新型数字带通调制</span></th>
+          <td rowspan="2" class="course-schedule__resources" data-weeks="8 9" headers="schedule-resources schedule-chapter-8">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt8.pdf">讲义</a><a href="/files/communication-principles/slideChp8.pdf">课件</a></div>
           </td>
         </tr>
         <tr>
-          <th rowspan="2" id="schedule-week-9" class="course-schedule__week">第 9 周</th>
-          <th scope="row" class="course-schedule__content" headers="schedule-week-9 schedule-content"><span>第 8 章 新型数字带通调制</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th rowspan="2" id="schedule-week-9" class="course-schedule__week" data-weeks="9"><button type="button" class="course-schedule__week-trigger" data-week="9" aria-pressed="false">第 9 周</button></th>
+          <td rowspan="2" data-weeks="9" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-9 schedule-content" id="schedule-chapter-10"><span>第 10 章 信源编码</span></th>
-          <td rowspan="2" class="course-schedule__resources course-schedule__resources--shared" headers="schedule-resources schedule-chapter-10">
+          <th rowspan="2" class="course-schedule__content course-schedule__chapter" headers="schedule-content schedule-week-9 schedule-week-10" data-weeks="9 10" id="schedule-chapter-10"><span>第 10 章 信源编码</span></th>
+          <td rowspan="2" class="course-schedule__resources" data-weeks="9 10" headers="schedule-resources schedule-chapter-10">
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt10.pdf">讲义</a><a href="/files/communication-principles/slideChp10.pdf">课件</a></div>
           </td>
         </tr>
         <tr>
-          <th scope="row" id="schedule-week-10" class="course-schedule__week">第 10 周</th>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end" headers="schedule-week-10 schedule-content"><span>第 10 章 信源编码</span></th>
-          <td class="course-schedule__resources course-schedule__resources--notes"></td>
+          <th scope="row" id="schedule-week-10" class="course-schedule__week" data-weeks="10"><button type="button" class="course-schedule__week-trigger" data-week="10" aria-pressed="false">第 10 周</button></th>
+          <td data-weeks="10" class="course-schedule__resources course-schedule__resources--notes"></td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-3">
-          <td colspan="2" class="course-schedule__assessment"><span>第 10 周周末：第 3 次阶段考试</span><span>（30 分钟闭卷 + 1 小时讲解）</span></td>
-          <td colspan="2" class="course-schedule__resources"></td>
+          <td class="course-schedule__assessment"><span>第 10 周周末</span><span>第 3 次阶段考试</span><span>30 分钟闭卷</span><span>+ 1 小时讲解</span></td>
+          <td colspan="3" class="course-schedule__resources"></td>
         </tr>
         <tr>
-          <th scope="row" class="course-schedule__week">第 11 至 15 周</th>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end"><span>大作业推进与自主复习</span></th>
+          <th scope="row" class="course-schedule__week" data-weeks="11-15"><button type="button" class="course-schedule__week-trigger" data-week="11-15" aria-pressed="false">第 11 至 15 周</button></th>
+          <th scope="row" class="course-schedule__content" data-weeks="11-15"><span>大作业推进与自主复习</span></th>
           <td colspan="2" class="course-schedule__resources"></td>
         </tr>
         <tr class="course-schedule__assessment-row">
-          <td colspan="2" class="course-schedule__assessment"><span>第 16 周周末：考前总复习</span><span>（复习材料 + 2 小时精讲）</span></td>
-          <td colspan="2" class="course-schedule__resources"></td>
+          <td class="course-schedule__assessment"><span>第 16 周周末</span><span>考前总复习</span><span>复习材料</span><span>+ 2 小时精讲</span></td>
+          <td colspan="3" class="course-schedule__resources"></td>
         </tr>
       </tbody>
     </table>
