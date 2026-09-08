@@ -36,7 +36,7 @@
       cell.classList.toggle("is-week-hovered", cell.getAttribute("data-week") === week);
     });
     Array.prototype.forEach.call(assessmentRows, function (row) {
-      row.classList.toggle("is-week-hovered", week !== null && row.getAttribute("data-week") === week);
+      row.classList.remove("is-week-hovered");
     });
   }
 
@@ -69,6 +69,9 @@
   });
 
   Array.prototype.forEach.call(weekCells, function (cell) {
+    if (cell.classList.contains("course-schedule__assessment-row")) {
+      return;
+    }
     cell.addEventListener("click", function (event) {
       if (cell.classList.contains("course-schedule__assessment-row")) {
         return;
