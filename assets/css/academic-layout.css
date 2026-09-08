@@ -653,7 +653,7 @@
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
-  min-width: 620px;
+  min-width: 0;
   table-layout: fixed;
   width: 100%;
 }
@@ -683,15 +683,19 @@
 }
 
 .course-schedule__week-column {
-  width: 128px;
+  width: 108px;
 }
 
 .course-schedule__chapter-column {
-  width: 148px;
+  width: 128px;
 }
 
 .course-schedule__notes-column {
-  width: 86px;
+  width: 96px;
+}
+
+.course-schedule__exam-column {
+  width: 156px;
 }
 
 .course-schedule__week {
@@ -831,6 +835,12 @@
   padding: 0;
 }
 
+.course-schedule__resources--exam-resources .course-schedule__resource-group {
+  gap: 8px;
+  justify-content: flex-start;
+  min-width: 122px;
+}
+
 .course-schedule tbody tr:not(.course-schedule__assessment-row) > th,
 .course-schedule tbody tr:not(.course-schedule__assessment-row) > td {
   transition: background-color 160ms ease, box-shadow 160ms ease;
@@ -841,7 +851,7 @@
   background-color: #f5f8f7;
 }
 
-.course-schedule [data-week].is-week-hovered {
+.course-schedule [data-week].is-week-hovered:not(.course-schedule__assessment-row) {
   background-color: #eaf1f2;
 }
 
@@ -928,11 +938,31 @@
   background-color: #eaf1f2;
 }
 
+.course-schedule__assessment-row.is-assessment-selected .course-schedule__assessment,
+.course-schedule__assessment-row.is-week-hovered .course-schedule__assessment {
+  background-color: #eaf1f2;
+  box-shadow: inset 3px 0 0 #52739a;
+}
+
 .course-schedule__assessment-row.is-assessment-selected .course-schedule__resources--exam-resources::before {
   background: linear-gradient(to bottom, transparent 0%, #52739a 18%, #52739a 82%, transparent 100%);
 }
 
 .course-schedule__assessment-row.is-assessment-selected .course-schedule__resource-placeholder {
+  background: #e4edf0;
+  border-color: #829aaa;
+  color: #263e57;
+}
+
+.course-schedule__assessment-row.is-week-hovered .course-schedule__resources--exam-resources {
+  background-color: #eaf1f2;
+}
+
+.course-schedule__assessment-row.is-week-hovered .course-schedule__resources--exam-resources::before {
+  background: linear-gradient(to bottom, transparent 0%, #52739a 18%, #52739a 82%, transparent 100%);
+}
+
+.course-schedule__assessment-row.is-week-hovered .course-schedule__resource-placeholder {
   background: #e4edf0;
   border-color: #829aaa;
   color: #263e57;

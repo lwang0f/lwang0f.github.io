@@ -7,12 +7,13 @@
   }
 
   var chapterCells = schedule.querySelectorAll("[data-chapter]");
-  var weekCells = schedule.querySelectorAll("[data-week]");
+  var weekCells = schedule.querySelectorAll("[data-week]") || [];
   var assessmentRows = schedule.querySelectorAll(".course-schedule__assessment-row[id]") || [];
   var selectedChapter = null;
   var hoveredChapter = null;
   var hoveredWeek = null;
   var focusedWeek = null;
+  var selectedWeek = null;
 
   function selectChapter(chapter) {
     selectedChapter = chapter;
@@ -27,9 +28,15 @@
   }
 
   function highlightWeek() {
-    var week = hoveredWeek || focusedWeek;
+    var week = hoveredWeek || focusedWeek || selectedWeek;
     Array.prototype.forEach.call(weekCells, function (cell) {
+      if (cell.classList.contains("course-schedule__assessment-row")) {
+        return;
+      }
       cell.classList.toggle("is-week-hovered", cell.getAttribute("data-week") === week);
+    });
+    Array.prototype.forEach.call(assessmentRows, function (row) {
+      row.classList.toggle("is-week-hovered", week !== null && row.getAttribute("data-week") === week);
     });
   }
 
@@ -62,6 +69,16 @@
   });
 
   Array.prototype.forEach.call(weekCells, function (cell) {
+    cell.addEventListener("click", function (event) {
+      if (cell.classList.contains("course-schedule__assessment-row")) {
+        return;
+      }
+      if (event && event.target && event.target.closest && event.target.closest("a")) {
+        return;
+      }
+      selectedWeek = selectedWeek === cell.getAttribute("data-week") ? null : cell.getAttribute("data-week");
+      highlightWeek();
+    });
     cell.addEventListener("pointerenter", function (event) {
       if (event.pointerType === "touch") {
         return;
