@@ -241,7 +241,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <td class="course-schedule__resources course-schedule__resources--notes"></td>
           <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">试卷</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
         </tr>
-        <tr class="course-schedule__late-weeks-row">
+        <tr class="course-schedule__assessment-row course-schedule__late-weeks-row">
           <th scope="row" class="course-schedule__week">第 11 至 15 周</th>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end course-schedule__two-line-content"><span>大作业推进</span><span>自主复习</span></th>
           <td colspan="3" class="course-schedule__resources course-schedule__resources--full-span"></td>
