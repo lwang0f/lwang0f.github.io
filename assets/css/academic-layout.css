@@ -938,6 +938,12 @@
   background-color: #eaf1f2;
 }
 
+.course-schedule__assessment-row.is-assessment-hovered .course-schedule__assessment,
+.course-schedule__assessment-row.is-assessment-hovered .course-schedule__resources--exam-resources {
+  background-color: #eaf1f2;
+  box-shadow: inset 3px 0 0 #52739a;
+}
+
 .course-schedule__assessment-row.is-assessment-selected .course-schedule__assessment,
 .course-schedule__assessment-row.is-week-hovered .course-schedule__assessment {
   background-color: #eaf1f2;
@@ -949,6 +955,16 @@
 }
 
 .course-schedule__assessment-row.is-assessment-selected .course-schedule__resource-placeholder {
+  background: #e4edf0;
+  border-color: #829aaa;
+  color: #263e57;
+}
+
+.course-schedule__assessment-row.is-assessment-hovered .course-schedule__resources--exam-resources::before {
+  background: linear-gradient(to bottom, transparent 0%, #52739a 18%, #52739a 82%, transparent 100%);
+}
+
+.course-schedule__assessment-row.is-assessment-hovered .course-schedule__resource-placeholder {
   background: #e4edf0;
   border-color: #829aaa;
   color: #263e57;
