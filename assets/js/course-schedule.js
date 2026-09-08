@@ -8,6 +8,7 @@
 
   var chapterCells = schedule.querySelectorAll("[data-chapter]");
   var weekCells = schedule.querySelectorAll("[data-week]");
+  var assessmentRows = schedule.querySelectorAll(".course-schedule__assessment-row[id]") || [];
   var selectedChapter = null;
   var hoveredChapter = null;
   var hoveredWeek = null;
@@ -81,6 +82,15 @@
         focusedWeek = null;
         highlightWeek();
       }
+    });
+  });
+
+  Array.prototype.forEach.call(assessmentRows, function (row) {
+    row.addEventListener("click", function (event) {
+      if (event && event.target && event.target.closest && event.target.closest("a")) {
+        return;
+      }
+      row.classList.toggle("is-assessment-selected");
     });
   });
 

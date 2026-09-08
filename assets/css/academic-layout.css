@@ -909,6 +909,35 @@
   width: 50px;
 }
 
+.course-schedule__resources--exam-resources {
+  padding-left: 28px !important;
+}
+
+.course-schedule__resources--exam-resources::before {
+  background: linear-gradient(to bottom, transparent 0%, #cbd5cf 18%, #cbd5cf 82%, transparent 100%);
+  bottom: 4px;
+  content: "";
+  left: 12px;
+  pointer-events: none;
+  position: absolute;
+  top: 4px;
+  width: 1px;
+}
+
+.course-schedule__assessment-row.is-assessment-selected .course-schedule__resources--exam-resources {
+  background-color: #eaf1f2;
+}
+
+.course-schedule__assessment-row.is-assessment-selected .course-schedule__resources--exam-resources::before {
+  background: linear-gradient(to bottom, transparent 0%, #52739a 18%, #52739a 82%, transparent 100%);
+}
+
+.course-schedule__assessment-row.is-assessment-selected .course-schedule__resource-placeholder {
+  background: #e4edf0;
+  border-color: #829aaa;
+  color: #263e57;
+}
+
 .academic-article .course-schedule__resource-group a:hover,
 .academic-article .course-schedule__resource-group a:focus {
   background: #eef3f5;
