@@ -652,7 +652,7 @@
   font-size: 16px;
   line-height: 1.4;
   margin: 0;
-  min-width: 680px;
+  min-width: 620px;
   table-layout: fixed;
   width: 100%;
 }
@@ -681,15 +681,15 @@
 }
 
 .course-schedule thead th:nth-child(1) {
-  width: 14%;
+  width: 128px;
 }
 
 .course-schedule thead th:nth-child(2) {
-  width: 27%;
+  width: auto;
 }
 
 .course-schedule thead th:nth-child(3) {
-  width: 59%;
+  width: 234px;
 }
 
 .course-schedule tbody tr:last-child th,
@@ -758,8 +758,18 @@
   margin-top: 5px;
 }
 
+.course-schedule__weekly-resources {
+  align-items: center;
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: max-content max-content;
+}
+
 .course-schedule__resource-group--week-notes {
-  justify-content: center;
+  align-self: stretch;
+  border-left: 1px solid #dfe4e1;
+  height: auto;
+  padding: 0 0 0 16px;
 }
 
 .course-schedule tbody tr:not(.course-schedule__assessment-row) > th,
@@ -787,13 +797,17 @@
   border-radius: 2px;
   color: #2d4e70;
   display: inline-flex;
+  flex-shrink: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
   font-weight: 700;
   line-height: 1;
-  min-height: 30px;
+  height: 32px;
+  justify-content: center;
   padding: 7px 11px;
   text-decoration: none;
+  white-space: nowrap;
+  width: 50px;
 }
 
 .academic-article .course-schedule__resource-group a:hover,
@@ -1254,7 +1268,7 @@
 
   .academic-article .course-schedule table {
     font-size: 16px;
-    min-width: 680px;
+    min-width: 620px;
   }
 
   .course-schedule th,
