@@ -647,7 +647,8 @@
 }
 
 .academic-article .course-schedule table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   border: 0;
   font-size: 16px;
   line-height: 1.4;
@@ -659,15 +660,16 @@
 
 .course-schedule th,
 .course-schedule td {
-  border-bottom: 1px solid #dfe4e1;
-  border-right: 0;
-  padding: 11px 12px;
+  border: 0;
+  padding: 8px 12px;
+  position: relative;
   text-align: left;
   vertical-align: top;
 }
 
 .course-schedule thead th {
   background: #f2f4f3;
+  border-bottom: 1px solid #cfd5d2;
   border-top: 1px solid #cfd5d2;
   color: #263e57;
   font-weight: 700;
@@ -680,28 +682,28 @@
   white-space: nowrap;
 }
 
-.course-schedule thead th:nth-child(1) {
+.course-schedule__week-column {
   width: 128px;
 }
 
-.course-schedule thead th:nth-child(2) {
-  width: auto;
+.course-schedule__chapter-column {
+  width: 148px;
 }
 
-.course-schedule thead th:nth-child(3) {
-  width: 234px;
-}
-
-.course-schedule tbody tr:last-child th,
-.course-schedule tbody tr:last-child td {
-  border-bottom: 0;
+.course-schedule__notes-column {
+  width: 86px;
 }
 
 .course-schedule__week {
   background: #fafbfa;
+  border-bottom: 1px solid #dfe4e1 !important;
   color: #263e57;
   font-weight: 700;
   vertical-align: middle !important;
+}
+
+.course-schedule__content {
+  font-weight: 400;
 }
 
 .course-schedule__content span {
@@ -714,18 +716,30 @@
   text-align: left;
 }
 
-.course-schedule__content span + span {
-  margin-top: 5px;
+.course-schedule__content--week-end {
+  background-image: linear-gradient(to right, #dfe4e1 55%, transparent 100%);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
 }
 
-.course-schedule__assessment {
+.course-schedule .course-schedule__assessment {
   background: #fafbfa;
   color: #263e57;
   font-weight: 700;
-  padding: 13px 14px;
-  text-align: center !important;
+  padding: 13px 12px;
+  text-align: left;
   transition: background-color 160ms ease, box-shadow 160ms ease;
   vertical-align: middle !important;
+}
+
+.course-schedule__assessment span {
+  display: block;
+}
+
+.course-schedule__assessment span + span {
+  font-weight: 400;
+  margin-top: 4px;
 }
 
 .course-schedule__assessment-row:hover .course-schedule__assessment {
@@ -740,36 +754,39 @@
 }
 
 .course-schedule__resources {
+  padding-left: 28px !important;
   text-align: left;
-  vertical-align: top !important;
+  vertical-align: middle !important;
+}
+
+.course-schedule__resources--notes {
+  padding-left: 20px !important;
+}
+
+/* Resource spans follow chapters or weeks independently of the timeline rules. */
+.course-schedule__resources--shared::before {
+  background: #cbd5cf;
+  bottom: 10px;
+  content: "";
+  left: 12px;
+  pointer-events: none;
+  position: absolute;
+  top: 10px;
+  width: 1px;
+}
+
+.course-schedule__resources--notes::before {
+  left: 4px;
 }
 
 .course-schedule__resource-group {
   align-items: center;
   box-sizing: border-box;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 7px;
   height: 44px;
-  padding: 0 4px;
-}
-
-.course-schedule__resource-group + .course-schedule__resource-group {
-  margin-top: 5px;
-}
-
-.course-schedule__weekly-resources {
-  align-items: center;
-  column-gap: 16px;
-  display: grid;
-  grid-template-columns: max-content max-content;
-}
-
-.course-schedule__resource-group--week-notes {
-  align-self: stretch;
-  border-left: 1px solid #dfe4e1;
-  height: auto;
-  padding: 0 0 0 16px;
+  padding: 0;
 }
 
 .course-schedule tbody tr:not(.course-schedule__assessment-row) > th,
@@ -777,16 +794,14 @@
   transition: background-color 160ms ease, box-shadow 160ms ease;
 }
 
-.course-schedule tbody tr:not(.course-schedule__assessment-row):hover > th,
-.course-schedule tbody tr:not(.course-schedule__assessment-row):hover > td,
-.course-schedule tbody tr:not(.course-schedule__assessment-row):focus-within > th,
-.course-schedule tbody tr:not(.course-schedule__assessment-row):focus-within > td {
-  background: #f5f8f7;
+.course-schedule__content:hover,
+.course-schedule__resources:focus-within {
+  background-color: #f5f8f7;
 }
 
 .course-schedule tbody tr:not(.course-schedule__assessment-row):hover .course-schedule__week,
 .course-schedule tbody tr:not(.course-schedule__assessment-row):focus-within .course-schedule__week {
-  background: #eaf1f2;
+  background-color: #eaf1f2;
   box-shadow: inset 3px 0 0 #52739a;
 }
 
@@ -1273,7 +1288,7 @@
 
   .course-schedule th,
   .course-schedule td {
-    padding: 10px 12px;
+    padding: 8px 12px;
   }
 
   .academic-article .teaching-course-index a {
