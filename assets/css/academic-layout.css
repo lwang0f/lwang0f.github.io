@@ -758,6 +758,65 @@
   margin-top: 5px;
 }
 
+.course-schedule__resource-grid {
+  display: grid;
+  gap: 5px 12px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-rows: 44px 44px;
+}
+
+.course-schedule__resource-grid .course-schedule__resource-group + .course-schedule__resource-group {
+  margin-top: 0;
+}
+
+.course-schedule__resource-grid > .course-schedule__resource-group:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.course-schedule__resource-grid > .course-schedule__resource-group:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.course-schedule__resource-group--released {
+  color: #697278;
+}
+
+.course-schedule__released {
+  color: #697278;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.academic-article .course-schedule__week-notes {
+  align-items: center;
+  background: #eef3f5;
+  border: 1px solid #9ca9b3;
+  border-radius: 2px;
+  color: #2d4e70;
+  display: inline-flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 30px;
+  padding: 8px 11px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.academic-article .course-schedule__week-notes:hover,
+.academic-article .course-schedule__week-notes:focus {
+  background: #dfeaec;
+  border-color: #52739a;
+  color: #263e57;
+  text-decoration: none;
+}
+
 .course-schedule tbody tr:not(.course-schedule__assessment-row) > th,
 .course-schedule tbody tr:not(.course-schedule__assessment-row) > td {
   transition: background-color 160ms ease, box-shadow 160ms ease;
@@ -776,8 +835,7 @@
   box-shadow: inset 3px 0 0 #52739a;
 }
 
-.academic-article .course-schedule__resource-group a,
-.course-schedule__pending {
+.academic-article .course-schedule__resource-group a {
   align-items: center;
   background: #ffffff;
   border: 1px solid #9ca9b3;
@@ -799,12 +857,6 @@
   border-color: #52739a;
   color: #263e57;
   text-decoration: none;
-}
-
-.course-schedule__pending {
-  background: #f5f6f5;
-  border-color: #d1d7d4;
-  color: #697278;
 }
 
 .teaching-course-index {
