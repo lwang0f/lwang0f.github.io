@@ -7,9 +7,9 @@
   }
 
   var chapterCells = schedule.querySelectorAll("[data-chapter]");
-  var chapterTitles = schedule.querySelectorAll(".course-schedule__content[data-chapter]");
   var weekCells = schedule.querySelectorAll("[data-week]");
   var selectedChapter = null;
+  var hoveredChapter = null;
   var hoveredWeek = null;
   var focusedWeek = null;
 
@@ -32,10 +32,31 @@
     });
   }
 
-  Array.prototype.forEach.call(chapterTitles, function (cell) {
-    cell.addEventListener("click", function () {
+  function highlightChapter() {
+    Array.prototype.forEach.call(chapterCells, function (cell) {
+      cell.classList.toggle("is-chapter-hovered", hoveredChapter !== null && cell.getAttribute("data-chapter") === hoveredChapter);
+    });
+  }
+
+  Array.prototype.forEach.call(chapterCells, function (cell) {
+    cell.addEventListener("click", function (event) {
+      // Keep resource links working without changing the chapter selection.
+      if (event && event.target && event.target.closest && event.target.closest("a")) {
+        return;
+      }
       var chapter = cell.getAttribute("data-chapter");
       selectChapter(selectedChapter === chapter ? null : chapter);
+    });
+    cell.addEventListener("pointerenter", function (event) {
+      if (event.pointerType === "touch") {
+        return;
+      }
+      hoveredChapter = cell.getAttribute("data-chapter");
+      highlightChapter();
+    });
+    cell.addEventListener("pointerleave", function () {
+      hoveredChapter = null;
+      highlightChapter();
     });
   });
 

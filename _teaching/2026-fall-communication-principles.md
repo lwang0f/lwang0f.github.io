@@ -92,7 +92,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
 </section>
 
 <script defer src="{{ '/assets/js/course-assessment.js?v=20260903-13' | relative_url }}"></script>
-<script defer src="{{ '/assets/js/course-schedule.js?v=20260908-2' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-schedule.js?v=20260908-5' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
@@ -133,7 +133,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th rowspan="2" id="schedule-week-2" class="course-schedule__week" data-week="2">第 2 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="2" headers="schedule-week-2 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 2 章 确知信号</button></th>
-          <td rowspan="2" data-week="2" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td rowspan="2" data-week="2" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="3" headers="schedule-week-2 schedule-content" id="schedule-chapter-3"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 3 章 随机过程</button></th>
@@ -144,7 +144,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th rowspan="2" id="schedule-week-3" class="course-schedule__week" data-week="3">第 3 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="3" headers="schedule-week-3 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 3 章 随机过程</button></th>
-          <td rowspan="2" data-week="3" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td rowspan="2" data-week="3" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="4" headers="schedule-week-3 schedule-content" id="schedule-chapter-4"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 4 章 信道</button></th>
@@ -159,7 +159,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th rowspan="2" id="schedule-week-4" class="course-schedule__week" data-week="4">第 4 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="4" headers="schedule-week-4 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 4 章 信道</button></th>
-          <td rowspan="2" data-week="4" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td rowspan="2" data-week="4" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="5" headers="schedule-week-4 schedule-content" id="schedule-chapter-5"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 5 章 模拟调制系统</button></th>
@@ -170,12 +170,12 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th scope="row" id="schedule-week-5" class="course-schedule__week" data-week="5">第 5 周</th>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="5" headers="schedule-week-5 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 5 章 模拟调制系统</button></th>
-          <td data-week="5" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td data-week="5" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr>
           <th rowspan="2" id="schedule-week-6" class="course-schedule__week" data-week="6">第 6 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="5" headers="schedule-week-6 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 5 章 模拟调制系统</button></th>
-          <td rowspan="2" data-week="6" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td rowspan="2" data-week="6" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="6" headers="schedule-week-6 schedule-content" id="schedule-chapter-6"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 6 章 数字基带传输</button></th>
@@ -186,7 +186,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th rowspan="2" id="schedule-week-7" class="course-schedule__week" data-week="7">第 7 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="6" headers="schedule-week-7 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 6 章 数字基带传输</button></th>
-          <td rowspan="2" data-week="7" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td rowspan="2" data-week="7" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="7" headers="schedule-week-7 schedule-content" id="schedule-chapter-7"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 7 章 数字带通传输</button></th>
@@ -201,7 +201,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th rowspan="2" id="schedule-week-8" class="course-schedule__week" data-week="8">第 8 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="7" headers="schedule-week-8 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 7 章 数字带通传输</button></th>
-          <td rowspan="2" data-week="8" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td rowspan="2" data-week="8" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="8" headers="schedule-week-8 schedule-content" id="schedule-chapter-8"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 8 章 新型数字带通调制</button></th>
@@ -212,7 +212,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th rowspan="2" id="schedule-week-9" class="course-schedule__week" data-week="9">第 9 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="8" headers="schedule-week-9 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 8 章 新型数字带通调制</button></th>
-          <td rowspan="2" data-week="9" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td rowspan="2" data-week="9" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="10" headers="schedule-week-9 schedule-content" id="schedule-chapter-10"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 10 章 信源编码</button></th>
@@ -223,7 +223,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th scope="row" id="schedule-week-10" class="course-schedule__week" data-week="10">第 10 周</th>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="10" headers="schedule-week-10 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 10 章 信源编码</button></th>
-          <td data-week="10" class="course-schedule__resources course-schedule__resources--notes"></td>
+          <td data-week="10" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-3">
           <td colspan="2" class="course-schedule__assessment"><span>第 10 周周末：第 3 次阶段考试</span><span>（30 分钟闭卷 + 1 小时讲解）</span></td>
