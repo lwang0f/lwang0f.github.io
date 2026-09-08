@@ -710,6 +710,25 @@
   font-weight: 400;
 }
 
+.course-schedule__assessment-content {
+  font-weight: 400 !important;
+  vertical-align: top !important;
+}
+
+.course-schedule td.course-schedule__assessment-content > span,
+.course-schedule th.course-schedule__two-line-content > span {
+  align-items: initial;
+  display: block;
+  height: auto;
+  line-height: 1.35;
+  padding: 0 4px;
+}
+
+.course-schedule td.course-schedule__assessment-content > span + span,
+.course-schedule th.course-schedule__two-line-content > span + span {
+  margin-top: 4px;
+}
+
 .course-schedule__content span,
 .course-schedule__chapter-trigger {
   align-items: center;
@@ -803,10 +822,27 @@
 }
 
 .course-schedule__resources--full-span {
+  background-color: #ffffff;
   background-image: linear-gradient(to right, #dfe4e1 55%, transparent 100%);
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: 100% 1px;
+}
+
+.course-schedule__assessment-row .course-schedule__resources--full-span,
+.course-schedule__assessment-row .course-schedule__resources--empty,
+.course-schedule__assessment-row .course-schedule__resources--notes {
+  background-color: #fafbfa;
+}
+
+.course-schedule__assessment-row.is-assessment-hovered .course-schedule__resources--empty,
+.course-schedule__assessment-row.is-assessment-hovered .course-schedule__resources--notes {
+  background-color: #eaf1f2;
+}
+
+.course-schedule__assessment-row.is-assessment-selected .course-schedule__resources--empty,
+.course-schedule__assessment-row.is-assessment-selected .course-schedule__resources--notes {
+  background-color: #eaf1f2;
 }
 
 /* Resource spans follow chapters or weeks independently of the timeline rules. */
@@ -928,6 +964,27 @@
   line-height: 1;
   padding: 7px 11px;
   width: 50px;
+}
+
+.course-schedule__resource-placeholder--wide {
+  width: 76px;
+}
+
+.course-schedule__assessment-row.is-assessment-hovered > .course-schedule__week,
+.course-schedule__assessment-row.is-assessment-hovered > .course-schedule__assessment-content,
+.course-schedule__assessment-row.is-assessment-hovered > .course-schedule__resources {
+  background-color: #eaf1f2;
+}
+
+.course-schedule__assessment-row--extended-divider > :not(:last-child),
+.course-schedule__late-weeks-row > *,
+.course-schedule__final-review-row > * {
+  box-shadow: inset 0 -1px 0 #dfe4e1;
+}
+
+.course-schedule__assessment-row--extended-divider.is-assessment-hovered > .course-schedule__week,
+.course-schedule__final-review-row.is-assessment-hovered > .course-schedule__week {
+  box-shadow: inset 3px 0 0 #52739a, inset 0 -1px 0 #dfe4e1;
 }
 
 .course-schedule__resources--exam-resources {

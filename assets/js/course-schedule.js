@@ -8,7 +8,7 @@
 
   var chapterCells = schedule.querySelectorAll("[data-chapter]");
   var weekCells = schedule.querySelectorAll("[data-week]") || [];
-  var assessmentRows = schedule.querySelectorAll(".course-schedule__assessment-row[id]") || [];
+  var assessmentRows = schedule.querySelectorAll(".course-schedule__assessment-row") || [];
   var hoveredChapter = null;
   var hoveredWeek = null;
   var focusedWeek = null;
