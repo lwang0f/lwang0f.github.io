@@ -704,11 +704,6 @@
 
 .course-schedule__content {
   font-weight: 400;
-  vertical-align: middle !important;
-}
-
-.course-schedule tbody tr:not(.course-schedule__assessment-row) {
-  height: 56px;
 }
 
 .course-schedule__content span {
@@ -717,31 +712,15 @@
   display: flex;
   height: 44px;
   line-height: 1.35;
-  padding: 0 12px;
+  padding: 0 4px;
   text-align: left;
 }
 
-.course-schedule__week-trigger {
-  background: transparent;
-  border: 0;
-  border-radius: 0;
-  color: inherit;
-  cursor: pointer;
-  display: block;
-  font: inherit;
-  min-height: 36px;
-  padding: 4px 0;
-  text-align: left;
-  width: 100%;
-}
-
-.course-schedule__week-trigger:hover {
-  text-decoration: underline;
-}
-
-.course-schedule__week-trigger:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 3px;
+.course-schedule__content--week-end {
+  background-image: linear-gradient(to right, #dfe4e1 55%, transparent 100%);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
 }
 
 .course-schedule .course-schedule__assessment {
@@ -763,10 +742,6 @@
   margin-top: 4px;
 }
 
-.course-schedule__assessment span:nth-child(2) {
-  font-weight: 700;
-}
-
 .course-schedule__assessment-row:hover .course-schedule__assessment {
   background: #eaf1f2;
   box-shadow: inset 3px 0 0 #52739a;
@@ -785,12 +760,10 @@
 }
 
 .course-schedule__resources--notes {
-  border-bottom: 1px solid #dfe4e1 !important;
   padding-left: 20px !important;
 }
 
 /* Resource spans follow chapters or weeks independently of the timeline rules. */
-.course-schedule__chapter[rowspan]:not([rowspan="1"])::before,
 .course-schedule__resources--shared::before {
   background: #cbd5cf;
   bottom: 10px;
@@ -800,10 +773,6 @@
   position: absolute;
   top: 10px;
   width: 1px;
-}
-
-.course-schedule__chapter::before {
-  left: 8px !important;
 }
 
 .course-schedule__resources--notes::before {
@@ -830,18 +799,10 @@
   background-color: #f5f8f7;
 }
 
-.course-schedule [data-weeks].is-week-selected {
-  background-color: #eaf2ef;
-}
-
-.course-schedule .course-schedule__week.is-week-selected {
-  background-color: #2d4e70;
-  color: #ffffff;
-}
-
-.course-schedule__chapter.is-week-selected::before,
-.course-schedule__resources--shared.is-week-selected::before {
-  background-color: #52739a;
+.course-schedule tbody tr:not(.course-schedule__assessment-row):hover .course-schedule__week,
+.course-schedule tbody tr:not(.course-schedule__assessment-row):focus-within .course-schedule__week {
+  background-color: #eaf1f2;
+  box-shadow: inset 3px 0 0 #52739a;
 }
 
 .academic-article .course-schedule__resource-group a {
