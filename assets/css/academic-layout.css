@@ -644,6 +644,7 @@
 .course-schedule__table-wrap {
   -webkit-overflow-scrolling: touch;
   overflow-x: auto;
+  overflow-y: hidden;
   position: relative;
 }
 
