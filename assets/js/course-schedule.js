@@ -240,7 +240,7 @@
       return;
     }
     window.clearTimeout(touchFeedbackTimer);
-    touchFeedbackTimer = window.setTimeout(clearTouchFeedback, 560);
+    touchFeedbackTimer = window.setTimeout(clearTouchFeedback, 5000);
     touchTracking = null;
   }
 
