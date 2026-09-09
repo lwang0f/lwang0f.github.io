@@ -642,9 +642,7 @@
 }
 
 .course-schedule__table-wrap {
-  -webkit-overflow-scrolling: touch;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: visible;
   position: relative;
 }
 
@@ -1613,6 +1611,12 @@
 }
 
 @media screen and (max-width: 760px) {
+  .course-schedule__table-wrap {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
   .academic-shell {
     display: block;
   }
