@@ -70,7 +70,7 @@
     return match ? match[1] : null;
   }
 
-  function frameHoveredGroup(cells, activeClass, prefix, horizontalRange, revealTimelineText) {
+  function frameHoveredGroup(cells, activeClass, prefix, horizontalRange, revealTimelineText, includeAssessmentTimeline) {
     clearGroupFrame(cells, prefix);
 
     var activeCells = Array.prototype.filter.call(cells, function (cell) {
@@ -98,7 +98,7 @@
         var rect = cell.getBoundingClientRect();
         var belongsToAssessment = cell.closest(".course-schedule__assessment-row");
         var overlapsVertically = rect.top < maxBottom - 1 && rect.bottom > minTop + 1;
-        if (!belongsToAssessment && overlapsVertically) {
+        if (overlapsVertically && (!belongsToAssessment || includeAssessmentTimeline)) {
           cell.classList.add("is-course-group-visible");
         }
       });
@@ -128,7 +128,7 @@
     frameHoveredGroup(weekCells, "is-week-hovered", "week", week ? {
       left: edges.weekLeft,
       right: hoveredWeekSource === "notes" ? edges.notesRight : edges.contentRight
-    } : null, hoveredWeekSource !== "notes");
+    } : null, true);
   }
 
   function highlightChapter() {
@@ -219,7 +219,7 @@
         frameHoveredGroup(row.cells, "is-assessment-hovered", "assessment", {
           left: edges.weekLeft,
           right: enteredFromResources ? edges.examRight : edges.contentRight
-        });
+        }, enteredFromResources, enteredFromResources);
       });
     });
     row.addEventListener("pointerleave", function () {
