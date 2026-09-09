@@ -8,6 +8,7 @@
   var toolHighlightTimer;
   var highlightedToolLink;
   var highlightedToolTarget;
+  var highlightDuration = 500;
 
   if (!trigger || !regularPanel) {
     return;
@@ -41,7 +42,7 @@
     link.classList.add("is-linked-highlight");
     target.classList.add("is-linked-highlight");
 
-    toolHighlightTimer = window.setTimeout(clearToolHighlight, 1500);
+    toolHighlightTimer = window.setTimeout(clearToolHighlight, highlightDuration);
   }
 
   trigger.addEventListener("click", function () {
@@ -78,7 +79,10 @@
       }
 
       event.preventDefault();
-      target.scrollIntoView({ behavior: "smooth", block: "center" });
+      target.scrollIntoView({
+        behavior: target.classList.contains("course-schedule__assessment-row") ? "auto" : "smooth",
+        block: "center"
+      });
       setToolHighlight(link, target);
     });
   });

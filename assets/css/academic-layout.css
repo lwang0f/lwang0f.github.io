@@ -805,10 +805,15 @@
   box-shadow: inset 3px 0 0 #52739a;
 }
 
-.course-schedule__assessment-row.is-linked-highlight .course-schedule__assessment {
-  background-color: #f0f1f0;
-  background-image: repeating-linear-gradient(-45deg, rgba(75, 85, 92, 0.26) 0, rgba(75, 85, 92, 0.26) 1px, transparent 1px, transparent 4px);
-  box-shadow: inset 3px 0 0 #4b555c;
+.course-schedule__assessment-row.is-linked-highlight > .course-schedule__week,
+.course-schedule__assessment-row.is-linked-highlight > .course-schedule__assessment-content {
+  background-color: #eaf1f2;
+  background-image: none;
+  color: #263e57;
+}
+
+.course-schedule__assessment-row.is-linked-highlight > .course-schedule__week {
+  box-shadow: inset 3px 0 0 #52739a;
 }
 
 .course-schedule__resources {
