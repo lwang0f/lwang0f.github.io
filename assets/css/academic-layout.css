@@ -642,6 +642,7 @@
 }
 
 .course-schedule__table-wrap {
+  -webkit-tap-highlight-color: transparent;
   overflow: visible;
   position: relative;
 }
