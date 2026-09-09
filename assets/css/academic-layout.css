@@ -428,7 +428,7 @@
   background: transparent;
   border: 0;
   color: #2d4e70;
-  cursor: pointer;
+  cursor: default;
   display: inline-flex;
   font: inherit;
   gap: 8px;

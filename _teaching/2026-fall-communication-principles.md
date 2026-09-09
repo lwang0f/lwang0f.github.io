@@ -91,8 +91,8 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
   </ul>
 </section>
 
-<script defer src="{{ '/assets/js/course-assessment.js?v=20260909-14' | relative_url }}"></script>
-<script defer src="{{ '/assets/js/course-schedule.js?v=20260909-6' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-assessment.js?v=20260909-15' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-schedule.js?v=20260909-8' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
@@ -124,7 +124,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
             <div class="course-schedule__resource-group"><a href="/files/communication-principles/handoutChpt1.pdf">讲义</a><a href="/files/communication-principles/slideChp1.pdf">课件</a></div>
           </td>
           <td rowspan="2" data-week="1" class="course-schedule__resources course-schedule__resources--notes course-schedule__resources--shared" headers="schedule-resources schedule-week-1">
-            <div class="course-schedule__resource-group"><a href="/files/communication-principles/notesWeek1.pdf" aria-label="第 1 周板书" title="第 1 周板书（第 1、2 章）">板书</a></div>
+            <div class="course-schedule__resource-group"><a href="/files/communication-principles/notesWeek1.pdf" aria-label="第 1 周板书">板书</a></div>
           </td>
         </tr>
         <tr>

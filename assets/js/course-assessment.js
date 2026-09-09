@@ -9,6 +9,7 @@
   var highlightedToolLink;
   var highlightedToolTarget;
   var highlightDuration = 500;
+  var scheduleHoverLockDuration = highlightDuration + 1000;
 
   if (!trigger || !regularPanel) {
     return;
@@ -79,6 +80,11 @@
       }
 
       event.preventDefault();
+      if (target.classList.contains("course-schedule__assessment-row")) {
+        document.dispatchEvent(new CustomEvent("course-schedule-hover-lock", {
+          detail: { duration: scheduleHoverLockDuration }
+        }));
+      }
       target.scrollIntoView({
         behavior: target.classList.contains("course-schedule__assessment-row") ? "auto" : "smooth",
         block: "center"

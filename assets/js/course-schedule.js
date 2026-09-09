@@ -16,6 +16,7 @@
   var hoveredWeek = null;
   var hoveredWeekSource = null;
   var focusedWeek = null;
+  var hoverLockTimer;
 
   groupOverlay.className = "course-schedule__group-overlay";
   groupOverlay.setAttribute("aria-hidden", "true");
@@ -68,6 +69,31 @@
     var headers = cell.getAttribute("headers") || "";
     var match = headers.match(/schedule-week-(\d+)/);
     return match ? match[1] : null;
+  }
+
+  function isHoverLocked() {
+    return schedule.classList.contains("is-link-transition");
+  }
+
+  function clearScheduleHover() {
+    hoveredChapter = null;
+    hoveredChapterSource = null;
+    hoveredWeek = null;
+    hoveredWeekSource = null;
+    focusedWeek = null;
+    Array.prototype.forEach.call(chapterCells, function (cell) {
+      cell.classList.remove("is-chapter-hovered");
+    });
+    Array.prototype.forEach.call(weekCells, function (cell) {
+      cell.classList.remove("is-week-hovered");
+    });
+    Array.prototype.forEach.call(assessmentRows, function (row) {
+      row.classList.remove("is-assessment-hovered");
+      Array.prototype.forEach.call(row.cells, function (cell) {
+        cell.classList.remove("is-assessment-hovered");
+      });
+    });
+    clearGroupFrame([], "link");
   }
 
   function frameHoveredGroup(cells, activeClass, prefix, horizontalRange, revealTimelineText, includeAssessmentTimeline) {
@@ -146,7 +172,7 @@
 
   Array.prototype.forEach.call(chapterCells, function (cell) {
     cell.addEventListener("pointerenter", function (event) {
-      if (event.pointerType === "touch") {
+      if (event.pointerType === "touch" || isHoverLocked()) {
         return;
       }
       if (cell.classList.contains("course-schedule__content")) {
@@ -160,6 +186,9 @@
       }
     });
     cell.addEventListener("pointerleave", function () {
+      if (isHoverLocked()) {
+        return;
+      }
       if (cell.classList.contains("course-schedule__content")) {
         hoveredWeek = null;
         hoveredWeekSource = null;
@@ -177,7 +206,7 @@
       return;
     }
     cell.addEventListener("pointerenter", function (event) {
-      if (event.pointerType === "touch") {
+      if (event.pointerType === "touch" || isHoverLocked()) {
         return;
       }
       hoveredWeek = cell.getAttribute("data-week");
@@ -185,15 +214,24 @@
       highlightWeek();
     });
     cell.addEventListener("pointerleave", function () {
+      if (isHoverLocked()) {
+        return;
+      }
       hoveredWeek = null;
       hoveredWeekSource = null;
       highlightWeek();
     });
     cell.addEventListener("focusin", function () {
+      if (isHoverLocked()) {
+        return;
+      }
       focusedWeek = cell.getAttribute("data-week");
       highlightWeek();
     });
     cell.addEventListener("focusout", function (event) {
+      if (isHoverLocked()) {
+        return;
+      }
       if (!cell.contains(event.relatedTarget)) {
         focusedWeek = null;
         highlightWeek();
@@ -204,7 +242,7 @@
   Array.prototype.forEach.call(assessmentRows, function (row) {
     Array.prototype.forEach.call(row.cells, function (hoveredCell) {
       hoveredCell.addEventListener("pointerenter", function (event) {
-        if (event.pointerType === "touch") {
+        if (event.pointerType === "touch" || isHoverLocked()) {
           return;
         }
 
@@ -223,12 +261,25 @@
       });
     });
     row.addEventListener("pointerleave", function () {
+      if (isHoverLocked()) {
+        return;
+      }
       row.classList.remove("is-assessment-hovered");
       Array.prototype.forEach.call(row.cells, function (cell) {
         cell.classList.remove("is-assessment-hovered");
       });
       frameHoveredGroup(row.cells, "is-assessment-hovered", "assessment");
     });
+  });
+
+  document.addEventListener("course-schedule-hover-lock", function (event) {
+    var duration = event.detail && event.detail.duration ? event.detail.duration : 1500;
+    window.clearTimeout(hoverLockTimer);
+    schedule.classList.add("is-link-transition");
+    clearScheduleHover();
+    hoverLockTimer = window.setTimeout(function () {
+      schedule.classList.remove("is-link-transition");
+    }, duration);
   });
 
 }());
