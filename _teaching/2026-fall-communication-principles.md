@@ -92,7 +92,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
 </section>
 
 <script defer src="{{ '/assets/js/course-assessment.js?v=20260903-13' | relative_url }}"></script>
-<script defer src="{{ '/assets/js/course-schedule.js?v=20260908-6' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-schedule.js?v=20260909-5' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
@@ -156,10 +156,9 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           </td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-1" data-week="3">
-          <th scope="row" class="course-schedule__week">第 3 周周末</th>
+          <th scope="row" class="course-schedule__week">第 3 周末</th>
           <td class="course-schedule__content course-schedule__content--week-end course-schedule__assessment-content"><span>第 1 次阶段考试</span><span>（30 分钟闭卷 + 1 小时讲解）</span></td>
           <td class="course-schedule__resources course-schedule__resources--empty"></td>
-          <td class="course-schedule__resources course-schedule__resources--notes"></td>
           <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">试卷</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
         </tr>
         <tr>
@@ -201,10 +200,9 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           </td>
         </tr>
         <tr class="course-schedule__assessment-row" id="course-schedule-assessment-2" data-week="7">
-          <th scope="row" class="course-schedule__week">第 7 周周末</th>
+          <th scope="row" class="course-schedule__week">第 7 周末</th>
           <td class="course-schedule__content course-schedule__content--week-end course-schedule__assessment-content"><span>第 2 次阶段考试</span><span>（30 分钟闭卷 + 1 小时讲解）</span></td>
           <td class="course-schedule__resources course-schedule__resources--empty"></td>
-          <td class="course-schedule__resources course-schedule__resources--notes"></td>
           <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">试卷</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
         </tr>
         <tr>
@@ -235,15 +233,15 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <td data-week="10" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
         </tr>
         <tr class="course-schedule__assessment-row course-schedule__assessment-row--extended-divider" id="course-schedule-assessment-3" data-week="10">
-          <th scope="row" class="course-schedule__week">第 10 周周末</th>
+          <th scope="row" class="course-schedule__week">第 10 周末</th>
           <td class="course-schedule__content course-schedule__content--week-end course-schedule__assessment-content"><span>第 3 次阶段考试</span><span>（30 分钟闭卷 + 1 小时讲解）</span></td>
           <td class="course-schedule__resources course-schedule__resources--empty"></td>
           <td class="course-schedule__resources course-schedule__resources--notes"></td>
           <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">试卷</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
         </tr>
         <tr class="course-schedule__assessment-row course-schedule__late-weeks-row">
-          <th scope="row" class="course-schedule__week">第 11 至 15 周</th>
-          <th scope="row" class="course-schedule__content course-schedule__content--week-end course-schedule__two-line-content"><span>大作业推进</span><span>自主复习</span></th>
+          <th scope="row" class="course-schedule__week">11 至 15 周</th>
+          <th scope="row" class="course-schedule__content course-schedule__content--week-end course-schedule__assessment-content course-schedule__two-line-content"><span>大作业推进</span><span>自主复习</span></th>
           <td colspan="3" class="course-schedule__resources course-schedule__resources--full-span"></td>
         </tr>
         <tr class="course-schedule__assessment-row course-schedule__final-review-row">
@@ -251,7 +249,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <td class="course-schedule__content course-schedule__assessment-content"><span>考前总复习</span><span>（2 小时精讲）</span></td>
           <td class="course-schedule__resources course-schedule__resources--empty"></td>
           <td class="course-schedule__resources course-schedule__resources--notes"></td>
-          <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder course-schedule__resource-placeholder--wide">复习材料</span></div></td>
+          <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder course-schedule__resource-placeholder--wide">复习资料</span></div></td>
         </tr>
       </tbody>
     </table>
