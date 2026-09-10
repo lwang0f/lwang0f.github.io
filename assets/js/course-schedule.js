@@ -271,8 +271,8 @@
         highlightChapter();
       }
     });
-    cell.addEventListener("pointerleave", function () {
-      if (isHoverLocked()) {
+    cell.addEventListener("pointerleave", function (event) {
+      if (event.pointerType === "touch" || isHoverLocked()) {
         return;
       }
       if (cell.classList.contains("course-schedule__content")) {
@@ -299,8 +299,8 @@
       hoveredWeekSource = cell.classList.contains("course-schedule__resources--notes") ? "notes" : "week";
       highlightWeek();
     });
-    cell.addEventListener("pointerleave", function () {
-      if (isHoverLocked()) {
+    cell.addEventListener("pointerleave", function (event) {
+      if (event.pointerType === "touch" || isHoverLocked()) {
         return;
       }
       hoveredWeek = null;
@@ -334,8 +334,8 @@
         highlightAssessment(row, hoveredCell);
       });
     });
-    row.addEventListener("pointerleave", function () {
-      if (isHoverLocked()) {
+    row.addEventListener("pointerleave", function (event) {
+      if (event.pointerType === "touch" || isHoverLocked()) {
         return;
       }
       row.classList.remove("is-assessment-hovered");
@@ -368,7 +368,7 @@
       }
     });
     document.addEventListener("pointerdown", function (event) {
-      if (event.pointerType === "touch" && !schedule.contains(event.target)) {
+      if (event.pointerType === "touch" && !tableWrap.contains(event.target)) {
         clearTouchFeedback();
       }
     });
@@ -393,7 +393,7 @@
     });
     tableWrap.addEventListener("touchcancel", clearTouchFeedback);
     document.addEventListener("touchstart", function (event) {
-      if (!schedule.contains(event.target)) {
+      if (!tableWrap.contains(event.target)) {
         clearTouchFeedback();
       }
     }, { passive: true });
