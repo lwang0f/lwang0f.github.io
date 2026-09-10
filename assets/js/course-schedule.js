@@ -17,7 +17,6 @@
   var hoveredWeekSource = null;
   var focusedWeek = null;
   var hoverLockTimer;
-  var touchFeedbackTimer;
   var touchTracking = null;
 
   groupOverlay.className = "course-schedule__group-overlay";
@@ -225,22 +224,11 @@
   }
 
   function clearTouchFeedback() {
-    window.clearTimeout(touchFeedbackTimer);
-    touchFeedbackTimer = null;
     touchTracking = null;
     clearScheduleHover();
   }
 
   function finishTouchFeedback() {
-    if (!touchTracking) {
-      return;
-    }
-    if (touchTracking.moved) {
-      touchTracking = null;
-      return;
-    }
-    window.clearTimeout(touchFeedbackTimer);
-    touchFeedbackTimer = window.setTimeout(clearTouchFeedback, 5000);
     touchTracking = null;
   }
 
@@ -249,8 +237,6 @@
     if (!cell || isHoverLocked()) {
       return;
     }
-    window.clearTimeout(touchFeedbackTimer);
-    touchFeedbackTimer = null;
     touchTracking = {
       identifier: identifier,
       moved: false,
@@ -381,6 +367,11 @@
         clearTouchFeedback();
       }
     });
+    document.addEventListener("pointerdown", function (event) {
+      if (event.pointerType === "touch" && !schedule.contains(event.target)) {
+        clearTouchFeedback();
+      }
+    });
   } else {
     tableWrap.addEventListener("touchstart", function (event) {
       var touch = event.changedTouches[0];
@@ -401,6 +392,11 @@
       }
     });
     tableWrap.addEventListener("touchcancel", clearTouchFeedback);
+    document.addEventListener("touchstart", function (event) {
+      if (!schedule.contains(event.target)) {
+        clearTouchFeedback();
+      }
+    }, { passive: true });
   }
 
   document.addEventListener("course-schedule-hover-lock", function (event) {
