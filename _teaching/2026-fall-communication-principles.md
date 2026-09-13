@@ -136,7 +136,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr>
           <th rowspan="2" id="schedule-week-2" class="course-schedule__week" data-week="2">第 2 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="2" headers="schedule-week-2 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 2 章 确知信号</button></th>
-          <td rowspan="2" data-week="2" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
+          <td rowspan="2" data-week="2" class="course-schedule__resources course-schedule__resources--notes course-schedule__resources--shared"><div class="course-schedule__resource-group"><a href="/files/communication-principles/notesWeek2.pdf" aria-label="第 2 周板书">板书</a></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="3" headers="schedule-week-2 schedule-content" id="schedule-chapter-3"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 3 章 随机过程</button></th>
