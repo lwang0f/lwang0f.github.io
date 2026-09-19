@@ -997,13 +997,6 @@
   width: 50px;
 }
 
-/* Downloadable Pre resources retain the visual weight of exam placeholders. */
-.academic-article .course-schedule__resource-group a.course-schedule__resource-link--exam {
-  background: #ffffff;
-  border-color: #b9c4ca;
-  color: #536876;
-}
-
 .course-schedule__resource-placeholder--wide {
   width: 76px;
 }
@@ -1274,6 +1267,16 @@
   opacity: 1;
 }
 
+.course-schedule.is-resource-entry-focus-mode .course-schedule__resource-domain-overlay {
+  background: #eaf1f2;
+  box-shadow: none;
+}
+
+.course-schedule.is-resource-entry-focus-mode .course-schedule__group-overlay {
+  background: #eaf1f2;
+  box-shadow: none;
+}
+
 .course-schedule__cross-seam {
   background: #eaf1f2;
   box-sizing: border-box;
@@ -1340,6 +1343,48 @@
   background-color: transparent !important;
   background-image: none !important;
   box-shadow: none !important;
+}
+
+/* The active resource rests on a raised key within its existing week and domain highlight. */
+.course-schedule.is-resource-entry-focus-mode .course-schedule__resources:not(.is-resource-entry-focused) .course-schedule__resource-group {
+  visibility: hidden;
+}
+
+.course-schedule.is-resource-entry-focus-mode .course-schedule__resources::before {
+  opacity: 0;
+}
+
+.course-schedule .course-schedule__resources.is-resource-entry-focused {
+  background-color: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  position: relative;
+  transform: none;
+  transition: background-color 160ms ease;
+  z-index: 4;
+}
+
+.course-schedule .course-schedule__resources.is-resource-entry-focused::after {
+  background: #dce8ed;
+  border-radius: 8px;
+  bottom: 10%;
+  box-shadow: 0 10px 17px -12px rgba(38, 62, 87, 0.56), 0 2px 5px -3px rgba(38, 62, 87, 0.28);
+  content: "";
+  left: 10%;
+  pointer-events: none;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  transition: background-color 160ms ease, box-shadow 160ms ease;
+  z-index: 0;
+}
+
+.course-schedule .course-schedule__resources.is-resource-entry-focused .course-schedule__resource-group {
+  background: transparent;
+  box-shadow: none;
+  position: relative;
+  transform: none;
+  z-index: 1;
 }
 
 .academic-article .course-schedule__resource-group a:hover,

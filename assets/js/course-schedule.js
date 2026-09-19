@@ -51,10 +51,18 @@
     }
 
     var wrapRect = tableWrap.getBoundingClientRect();
-    crossSeam.style.left = (left - wrapRect.left + tableWrap.scrollLeft) + "px";
-    crossSeam.style.top = (top - wrapRect.top + tableWrap.scrollTop) + "px";
-    crossSeam.style.width = (right - left) + "px";
-    crossSeam.style.height = (bottom - top) + "px";
+    if (schedule.classList.contains("is-resource-entry-focus-mode")) {
+      // Keep the union's outer outline while erasing only its internal join.
+      crossSeam.style.left = (domainRect.left - wrapRect.left + tableWrap.scrollLeft - 1) + "px";
+      crossSeam.style.top = (top - wrapRect.top + tableWrap.scrollTop + 2) + "px";
+      crossSeam.style.width = "4px";
+      crossSeam.style.height = Math.max(0, bottom - top - 4) + "px";
+    } else {
+      crossSeam.style.left = (left - wrapRect.left + tableWrap.scrollLeft) + "px";
+      crossSeam.style.top = (top - wrapRect.top + tableWrap.scrollTop) + "px";
+      crossSeam.style.width = (right - left) + "px";
+      crossSeam.style.height = (bottom - top) + "px";
+    }
     crossSeam.classList.add("is-visible");
   }
 
@@ -121,16 +129,28 @@
       !cell.textContent.trim();
   }
 
+  function isInteractiveResourceCell(cell) {
+    return cell.classList.contains("course-schedule__resources") &&
+      !isEmptyResourceCell(cell);
+  }
+
+  function isAfterTheoryTimeline(cell) {
+    return Boolean(cell.closest(".course-schedule__late-weeks-row, .course-schedule__final-review-row"));
+  }
+
   function getResourceDomain(cell) {
     if (!cell) {
       return null;
     }
     var explicitDomain = cell.getAttribute("data-resource-domain");
     if (explicitDomain) {
-      return explicitDomain;
+      return explicitDomain === "theory" && isAfterTheoryTimeline(cell) ? null : explicitDomain;
     }
     if (cell.classList.contains("course-schedule__resources--exam-resources")) {
       return "examples";
+    }
+    if (isAfterTheoryTimeline(cell)) {
+      return null;
     }
     return cell.classList.contains("course-schedule__resources") ? "theory" : null;
   }
@@ -180,6 +200,22 @@
     return schedule.classList.contains("is-link-transition");
   }
 
+  function clearResourceEntryFocus() {
+    schedule.classList.remove("is-resource-entry-focus-mode");
+    Array.prototype.forEach.call(schedule.querySelectorAll(".is-resource-entry-focused"), function (cell) {
+      cell.classList.remove("is-resource-entry-focused");
+    });
+  }
+
+  function focusResourceEntry(cell) {
+    if (!isInteractiveResourceCell(cell)) {
+      return;
+    }
+    clearResourceEntryFocus();
+    schedule.classList.add("is-resource-entry-focus-mode");
+    cell.classList.add("is-resource-entry-focused");
+  }
+
   function clearScheduleHover() {
     hoveredChapter = null;
     hoveredChapterSource = null;
@@ -199,6 +235,7 @@
         cell.classList.remove("is-assessment-hovered");
       });
     });
+    clearResourceEntryFocus();
     clearResourceDomainHover();
     clearGroupFrame([], "link");
   }
@@ -248,6 +285,7 @@
   function highlightWeek() {
     var week = hoveredWeek || focusedWeek;
     var edges = getColumnEdges();
+    var resourceFocus = schedule.classList.contains("is-resource-entry-focus-mode");
     Array.prototype.forEach.call(weekCells, function (cell) {
       if (cell.classList.contains("course-schedule__assessment-row")) {
         return;
@@ -256,9 +294,10 @@
       var isWeekCell = cell.classList.contains("course-schedule__week");
       var isNotesCell = cell.classList.contains("course-schedule__resources--notes");
       var isExamCell = cell.classList.contains("course-schedule__resources--exam-resources");
-      var includeCell = isWeekCell ||
+      var includeCell = isWeekCell || (!resourceFocus && (
         (hoveredWeekSource === "notes" && isNotesCell) ||
-        (hoveredWeekSource === "exam" && isExamCell);
+        (hoveredWeekSource === "exam" && isExamCell)
+      ));
       cell.classList.toggle("is-week-hovered", matchesWeek && includeCell);
       cell.classList.toggle("is-week-resource-suppressed", matchesWeek && hoveredWeekSource === "exam" && isNotesCell);
     });
@@ -267,35 +306,37 @@
     });
     frameHoveredGroup(weekCells, "is-week-hovered", "week", week ? {
       left: edges.weekLeft,
-      right: hoveredWeekSource === "exam" ? edges.examRight : (hoveredWeekSource === "notes" ? edges.notesRight : edges.contentRight)
+      right: resourceFocus ? (getResourceDomain(schedule.querySelector(".is-resource-entry-focused")) === "examples" ? edges.examRight : edges.notesRight) : (hoveredWeekSource === "exam" ? edges.examRight : (hoveredWeekSource === "notes" ? edges.notesRight : edges.contentRight))
     } : null, true);
   }
 
   function highlightChapter() {
     var edges = getColumnEdges();
+    var resourceFocus = schedule.classList.contains("is-resource-entry-focus-mode");
     Array.prototype.forEach.call(chapterCells, function (cell) {
       var matchesChapter = hoveredChapter !== null && cell.getAttribute("data-chapter") === hoveredChapter;
-      var includeCell = hoveredChapterSource === "resource" || cell.classList.contains("course-schedule__content");
+      var includeCell = cell.classList.contains("course-schedule__content") || (!resourceFocus && hoveredChapterSource === "resource");
       cell.classList.toggle("is-chapter-hovered", matchesChapter && includeCell);
     });
     frameHoveredGroup(chapterCells, "is-chapter-hovered", "chapter", hoveredChapter !== null ? {
       left: hoveredChapterSource === "resource" ? edges.contentLeft : edges.weekLeft,
-      right: hoveredChapterSource === "resource" ? edges.chapterRight : edges.contentRight
+      right: resourceFocus ? (getResourceDomain(schedule.querySelector(".is-resource-entry-focused")) === "examples" ? edges.examRight : edges.notesRight) : (hoveredChapterSource === "resource" ? edges.chapterRight : edges.contentRight)
     } : null, hoveredChapterSource === "content");
   }
 
   function highlightAssessment(row, sourceCell) {
     var edges = getColumnEdges();
     var enteredFromResources = sourceCell.classList.contains("course-schedule__resources");
+    var resourceFocus = schedule.classList.contains("is-resource-entry-focus-mode");
     row.classList.add("is-assessment-hovered");
     Array.prototype.forEach.call(row.cells, function (cell) {
       var isTimelineCell = cell.classList.contains("course-schedule__week") || cell.classList.contains("course-schedule__assessment-content");
       var isResourceEntryCell = cell.classList.contains("course-schedule__week") || cell.classList.contains("course-schedule__resources");
-      cell.classList.toggle("is-assessment-hovered", enteredFromResources ? isResourceEntryCell : isTimelineCell);
+      cell.classList.toggle("is-assessment-hovered", enteredFromResources && !resourceFocus ? isResourceEntryCell : isTimelineCell);
     });
     frameHoveredGroup(row.cells, "is-assessment-hovered", "assessment", {
       left: edges.weekLeft,
-      right: enteredFromResources ? edges.examRight : edges.contentRight
+      right: resourceFocus ? (getResourceDomain(schedule.querySelector(".is-resource-entry-focused")) === "examples" ? edges.examRight : edges.notesRight) : (enteredFromResources ? edges.examRight : edges.contentRight)
     }, enteredFromResources, enteredFromResources);
   }
 
@@ -320,6 +361,9 @@
     var resourceDomain = getResourceDomain(cell);
 
     clearScheduleHover();
+    if (isInteractiveResourceCell(cell)) {
+      focusResourceEntry(cell);
+    }
     if (resourceDomain) {
       highlightResourceDomain(resourceDomain);
     }
@@ -356,13 +400,29 @@
       if (event.pointerType === "touch" || isHoverLocked()) {
         return;
       }
+      if (isInteractiveResourceCell(element)) {
+        focusResourceEntry(element);
+      }
       highlightResourceDomain(getResourceDomain(element));
     });
     element.addEventListener("pointerleave", function (event) {
       if (event.pointerType === "touch" || isHoverLocked()) {
         return;
       }
+      if (isInteractiveResourceCell(element)) {
+        clearResourceEntryFocus();
+      }
       clearResourceDomainHover();
+    });
+    element.addEventListener("focusin", function (event) {
+      if (!isHoverLocked()) {
+        focusResourceEntry(element);
+      }
+    });
+    element.addEventListener("focusout", function (event) {
+      if (!isHoverLocked() && !element.contains(event.relatedTarget)) {
+        clearResourceEntryFocus();
+      }
     });
   });
 
