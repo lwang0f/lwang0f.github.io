@@ -688,15 +688,15 @@
 }
 
 .course-schedule__chapter-column {
-  width: 154px;
+  width: 122px;
 }
 
 .course-schedule__notes-column {
-  width: 154px;
+  width: 122px;
 }
 
 .course-schedule__exam-column {
-  width: 154px;
+  width: 122px;
 }
 
 .course-schedule__week {
@@ -883,15 +883,17 @@
   box-sizing: border-box;
   display: flex;
   flex-wrap: nowrap;
-  gap: 7px;
-  height: 44px;
+  flex-direction: column;
+  gap: 6px;
+  height: auto;
+  justify-content: center;
+  min-height: 44px;
   padding: 0;
 }
 
 .course-schedule__resources--exam-resources .course-schedule__resource-group {
-  gap: 8px;
-  justify-content: flex-start;
-  min-width: 122px;
+  gap: 6px;
+  min-width: 0;
 }
 
 .course-schedule tbody tr:not(.course-schedule__assessment-row) > th,
