@@ -92,7 +92,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
 </section>
 
 <script defer src="{{ '/assets/js/course-assessment.js?v=20260909-15' | relative_url }}"></script>
-<script defer src="{{ '/assets/js/course-schedule.js?v=20260910-3' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-schedule.js?v=20260919-1' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
@@ -137,6 +137,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th rowspan="2" id="schedule-week-2" class="course-schedule__week" data-week="2">第 2 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="2" headers="schedule-week-2 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 2 章 确知信号</button></th>
           <td rowspan="2" data-week="2" class="course-schedule__resources course-schedule__resources--notes course-schedule__resources--shared"><div class="course-schedule__resource-group"><a href="/files/communication-principles/notesWeek2.pdf" aria-label="第 2 周板书">板书</a></div></td>
+          <td rowspan="2" data-week="2" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared" headers="schedule-resources schedule-week-2"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek2.pdf" aria-label="第 2 周 Pre">Pre</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreSolutionWeek2.pdf" aria-label="第 2 周 Pre 答案">答案</a></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="3" headers="schedule-week-2 schedule-content" id="schedule-chapter-3"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 3 章 随机过程</button></th>

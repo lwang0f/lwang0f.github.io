@@ -72,6 +72,13 @@
     return match ? match[1] : null;
   }
 
+  function getWeekHoverSource(cell) {
+    if (cell.classList.contains("course-schedule__resources--exam-resources")) {
+      return "exam";
+    }
+    return cell.classList.contains("course-schedule__resources--notes") ? "notes" : "week";
+  }
+
   function isHoverLocked() {
     return schedule.classList.contains("is-link-transition");
   }
@@ -146,7 +153,7 @@
         return;
       }
       var matchesWeek = cell.getAttribute("data-week") === week;
-      var includeCell = hoveredWeekSource === "notes" || cell.classList.contains("course-schedule__week");
+      var includeCell = hoveredWeekSource === "notes" || hoveredWeekSource === "exam" || cell.classList.contains("course-schedule__week");
       cell.classList.toggle("is-week-hovered", matchesWeek && includeCell);
     });
     Array.prototype.forEach.call(assessmentRows, function (row) {
@@ -154,7 +161,7 @@
     });
     frameHoveredGroup(weekCells, "is-week-hovered", "week", week ? {
       left: edges.weekLeft,
-      right: hoveredWeekSource === "notes" ? edges.notesRight : edges.contentRight
+      right: hoveredWeekSource === "exam" ? edges.examRight : (hoveredWeekSource === "notes" ? edges.notesRight : edges.contentRight)
     } : null, true);
   }
 
@@ -218,7 +225,7 @@
 
     if (cell.hasAttribute("data-week")) {
       hoveredWeek = cell.getAttribute("data-week");
-      hoveredWeekSource = cell.classList.contains("course-schedule__resources--notes") ? "notes" : "week";
+      hoveredWeekSource = getWeekHoverSource(cell);
       highlightWeek();
     }
   }
@@ -296,7 +303,7 @@
         return;
       }
       hoveredWeek = cell.getAttribute("data-week");
-      hoveredWeekSource = cell.classList.contains("course-schedule__resources--notes") ? "notes" : "week";
+      hoveredWeekSource = getWeekHoverSource(cell);
       highlightWeek();
     });
     cell.addEventListener("pointerleave", function (event) {

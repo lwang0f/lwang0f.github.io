@@ -972,6 +972,13 @@
   width: 50px;
 }
 
+/* Downloadable Pre resources retain the visual weight of exam placeholders. */
+.academic-article .course-schedule__resource-group a.course-schedule__resource-link--exam {
+  background: #ffffff;
+  border-color: #b9c4ca;
+  color: #536876;
+}
+
 .course-schedule__resource-placeholder--wide {
   width: 76px;
 }
