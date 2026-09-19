@@ -92,7 +92,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
 </section>
 
 <script defer src="{{ '/assets/js/course-assessment.js?v=20260909-15' | relative_url }}"></script>
-<script defer src="{{ '/assets/js/course-schedule.js?v=20260919-1' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/course-schedule.js?v=20260919-5' | relative_url }}"></script>
 
 <section class="course-schedule" aria-labelledby="course-schedule-title">
   <h2 id="course-schedule-title">课程计划</h2>
@@ -111,9 +111,13 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
       </colgroup>
       <thead>
         <tr>
-          <th scope="col" id="schedule-week">周次</th>
-          <th scope="col" id="schedule-content">内容</th>
+          <th scope="col" rowspan="2" id="schedule-week">周次</th>
+          <th scope="col" rowspan="2" id="schedule-content">内容</th>
           <th scope="colgroup" colspan="3" id="schedule-resources">课程资源</th>
+        </tr>
+        <tr class="course-schedule__resource-domain-row">
+          <th scope="colgroup" colspan="2" id="schedule-theory" data-resource-domain="theory">理论</th>
+          <th scope="col" id="schedule-examples" data-resource-domain="examples">例题</th>
         </tr>
       </thead>
       <tbody>
@@ -243,7 +247,8 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         <tr class="course-schedule__assessment-row course-schedule__late-weeks-row">
           <th scope="row" class="course-schedule__week">11 至 15 周</th>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end course-schedule__assessment-content course-schedule__two-line-content"><span>大作业推进</span><span>自主复习</span></th>
-          <td colspan="3" class="course-schedule__resources course-schedule__resources--full-span"></td>
+          <td colspan="2" class="course-schedule__resources course-schedule__resources--full-span" data-resource-domain="theory"></td>
+          <td class="course-schedule__resources course-schedule__resources--full-span" data-resource-domain="examples"></td>
         </tr>
         <tr class="course-schedule__assessment-row course-schedule__final-review-row">
           <th scope="row" class="course-schedule__week">第 16 周</th>

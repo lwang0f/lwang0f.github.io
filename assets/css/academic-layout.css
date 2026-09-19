@@ -673,8 +673,31 @@
   border-bottom: 1px solid #cfd5d2;
   border-top: 1px solid #cfd5d2;
   color: #263e57;
+  font-size: 16px;
   font-weight: 700;
+  letter-spacing: 0;
   vertical-align: middle;
+}
+
+.course-schedule thead tr:first-child > #schedule-resources {
+  border-bottom: 0;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.course-schedule thead .course-schedule__resource-domain-row th {
+  background: #f2f4f3;
+  border-top-color: #dde2df;
+  color: #40566b;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 7px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.course-schedule thead #schedule-theory {
+  box-shadow: inset -1px 0 0 #d9dfdc;
 }
 
 .course-schedule thead th:first-child,
@@ -1218,7 +1241,7 @@
 }
 
 .course-schedule__group-overlay {
-  background: #eaf1f2;
+  background: rgba(234, 241, 242, 0.88);
   border: 2px solid rgba(82, 115, 154, 0.52);
   border-radius: 9px;
   box-shadow: 0 3px 12px rgba(38, 62, 87, 0.2);
@@ -1232,6 +1255,65 @@
 
 .course-schedule__group-overlay.is-visible {
   opacity: 1;
+}
+
+.course-schedule__resource-domain-overlay {
+  background: rgba(234, 241, 242, 0.5);
+  border: 2px solid rgba(82, 115, 154, 0.52);
+  border-radius: 9px;
+  box-shadow: 0 3px 12px rgba(38, 62, 87, 0.16);
+  box-sizing: border-box;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 140ms ease;
+  z-index: 2;
+}
+
+.course-schedule__resource-domain-overlay.is-visible {
+  opacity: 1;
+}
+
+.course-schedule__cross-seam {
+  background: #eaf1f2;
+  box-sizing: border-box;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 120ms ease;
+  z-index: 2;
+}
+
+.course-schedule__cross-seam.is-visible {
+  opacity: 1;
+}
+
+.course-schedule .is-resource-domain-hovered {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: inherit;
+  position: relative;
+  z-index: 3;
+}
+
+.course-schedule .is-resource-domain-hovered::before {
+  display: none !important;
+}
+
+.course-schedule .is-week-resource-suppressed::before {
+  display: none !important;
+}
+
+.course-schedule .is-week-resource-suppressed > * {
+  visibility: hidden;
+}
+
+.course-schedule thead .is-resource-domain-hovered {
+  color: #263e57;
+}
+
+.course-schedule thead #schedule-theory.is-resource-domain-hovered {
+  box-shadow: none;
 }
 
 .course-schedule [data-chapter].is-chapter-hovered,

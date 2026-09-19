@@ -9,8 +9,11 @@
   var chapterCells = schedule.querySelectorAll("[data-chapter]");
   var weekCells = schedule.querySelectorAll("[data-week]") || [];
   var assessmentRows = schedule.querySelectorAll(".course-schedule__assessment-row") || [];
+  var resourceDomainElements = schedule.querySelectorAll("[data-resource-domain], .course-schedule__resources");
   var tableWrap = schedule.querySelector(".course-schedule__table-wrap");
   var groupOverlay = document.createElement("div");
+  var resourceDomainOverlay = document.createElement("div");
+  var crossSeam = document.createElement("div");
   var hoveredChapter = null;
   var hoveredChapterSource = null;
   var hoveredWeek = null;
@@ -22,6 +25,38 @@
   groupOverlay.className = "course-schedule__group-overlay";
   groupOverlay.setAttribute("aria-hidden", "true");
   tableWrap.appendChild(groupOverlay);
+  resourceDomainOverlay.className = "course-schedule__resource-domain-overlay";
+  resourceDomainOverlay.setAttribute("aria-hidden", "true");
+  tableWrap.appendChild(resourceDomainOverlay);
+  crossSeam.className = "course-schedule__cross-seam";
+  crossSeam.setAttribute("aria-hidden", "true");
+  tableWrap.appendChild(crossSeam);
+
+  function updateCrossSeam() {
+    if (!groupOverlay.classList.contains("is-visible") || !resourceDomainOverlay.classList.contains("is-visible")) {
+      crossSeam.classList.remove("is-visible");
+      return;
+    }
+
+    var groupRect = groupOverlay.getBoundingClientRect();
+    var domainRect = resourceDomainOverlay.getBoundingClientRect();
+    var left = Math.max(groupRect.left, domainRect.left);
+    var top = Math.max(groupRect.top, domainRect.top);
+    var right = Math.min(groupRect.right, domainRect.right);
+    var bottom = Math.min(groupRect.bottom, domainRect.bottom);
+
+    if (right <= left || bottom <= top) {
+      crossSeam.classList.remove("is-visible");
+      return;
+    }
+
+    var wrapRect = tableWrap.getBoundingClientRect();
+    crossSeam.style.left = (left - wrapRect.left + tableWrap.scrollLeft) + "px";
+    crossSeam.style.top = (top - wrapRect.top + tableWrap.scrollTop) + "px";
+    crossSeam.style.width = (right - left) + "px";
+    crossSeam.style.height = (bottom - top) + "px";
+    crossSeam.classList.add("is-visible");
+  }
 
   function clearGroupFrame(cells, prefix) {
     var allCells = schedule.querySelectorAll("tbody th, tbody td");
@@ -47,6 +82,7 @@
       );
     });
     groupOverlay.classList.remove("is-visible");
+    updateCrossSeam();
   }
 
   function getColumnEdges() {
@@ -79,6 +115,67 @@
     return cell.classList.contains("course-schedule__resources--notes") ? "notes" : "week";
   }
 
+  function isEmptyResourceCell(cell) {
+    return cell.classList.contains("course-schedule__resources") &&
+      !cell.querySelector(".course-schedule__resource-group") &&
+      !cell.textContent.trim();
+  }
+
+  function getResourceDomain(cell) {
+    if (!cell) {
+      return null;
+    }
+    var explicitDomain = cell.getAttribute("data-resource-domain");
+    if (explicitDomain) {
+      return explicitDomain;
+    }
+    if (cell.classList.contains("course-schedule__resources--exam-resources")) {
+      return "examples";
+    }
+    return cell.classList.contains("course-schedule__resources") ? "theory" : null;
+  }
+
+  function highlightResourceDomain(domain) {
+    var activeElements = [];
+    Array.prototype.forEach.call(resourceDomainElements, function (element) {
+      var isActive = Boolean(domain) && getResourceDomain(element) === domain;
+      element.classList.toggle("is-resource-domain-hovered", isActive);
+      if (isActive) {
+        activeElements.push(element);
+      }
+    });
+
+    if (!activeElements.length) {
+      resourceDomainOverlay.classList.remove("is-visible");
+      updateCrossSeam();
+      return;
+    }
+
+    var rects = activeElements.map(function (element) {
+      return { element: element, rect: element.getBoundingClientRect() };
+    });
+    var minTop = Math.min.apply(null, rects.map(function (item) { return item.rect.top; }));
+    var maxBottom = Math.max.apply(null, rects.map(function (item) { return item.rect.bottom; }));
+    var minLeft = Math.min.apply(null, rects.map(function (item) { return item.rect.left; }));
+    var maxRight = Math.max.apply(null, rects.map(function (item) { return item.rect.right; }));
+
+    var wrapRect = tableWrap.getBoundingClientRect();
+    resourceDomainOverlay.style.left = (minLeft - wrapRect.left + tableWrap.scrollLeft) + "px";
+    resourceDomainOverlay.style.top = (minTop - wrapRect.top + tableWrap.scrollTop) + "px";
+    resourceDomainOverlay.style.width = (maxRight - minLeft) + "px";
+    resourceDomainOverlay.style.height = (maxBottom - minTop) + "px";
+    resourceDomainOverlay.classList.add("is-visible");
+    updateCrossSeam();
+  }
+
+  function clearResourceDomainHover() {
+    Array.prototype.forEach.call(resourceDomainElements, function (element) {
+      element.classList.remove("is-resource-domain-hovered");
+    });
+    resourceDomainOverlay.classList.remove("is-visible");
+    updateCrossSeam();
+  }
+
   function isHoverLocked() {
     return schedule.classList.contains("is-link-transition");
   }
@@ -94,6 +191,7 @@
     });
     Array.prototype.forEach.call(weekCells, function (cell) {
       cell.classList.remove("is-week-hovered");
+      cell.classList.remove("is-week-resource-suppressed");
     });
     Array.prototype.forEach.call(assessmentRows, function (row) {
       row.classList.remove("is-assessment-hovered");
@@ -101,6 +199,7 @@
         cell.classList.remove("is-assessment-hovered");
       });
     });
+    clearResourceDomainHover();
     clearGroupFrame([], "link");
   }
 
@@ -143,6 +242,7 @@
     groupOverlay.style.width = (maxRight - minLeft) + "px";
     groupOverlay.style.height = (maxBottom - minTop) + "px";
     groupOverlay.classList.add("is-visible");
+    updateCrossSeam();
   }
 
   function highlightWeek() {
@@ -153,8 +253,14 @@
         return;
       }
       var matchesWeek = cell.getAttribute("data-week") === week;
-      var includeCell = hoveredWeekSource === "notes" || hoveredWeekSource === "exam" || cell.classList.contains("course-schedule__week");
+      var isWeekCell = cell.classList.contains("course-schedule__week");
+      var isNotesCell = cell.classList.contains("course-schedule__resources--notes");
+      var isExamCell = cell.classList.contains("course-schedule__resources--exam-resources");
+      var includeCell = isWeekCell ||
+        (hoveredWeekSource === "notes" && isNotesCell) ||
+        (hoveredWeekSource === "exam" && isExamCell);
       cell.classList.toggle("is-week-hovered", matchesWeek && includeCell);
+      cell.classList.toggle("is-week-resource-suppressed", matchesWeek && hoveredWeekSource === "exam" && isNotesCell);
     });
     Array.prototype.forEach.call(assessmentRows, function (row) {
       row.classList.remove("is-week-hovered");
@@ -193,6 +299,14 @@
     }, enteredFromResources, enteredFromResources);
   }
 
+  function clearAssessmentHighlight(row) {
+    row.classList.remove("is-assessment-hovered");
+    Array.prototype.forEach.call(row.cells, function (cell) {
+      cell.classList.remove("is-assessment-hovered");
+    });
+    frameHoveredGroup(row.cells, "is-assessment-hovered", "assessment");
+  }
+
   function getScheduleCell(target) {
     if (!target || target.nodeType !== 1) {
       return null;
@@ -203,8 +317,15 @@
 
   function showTouchFeedback(cell) {
     var assessmentRow = cell.closest(".course-schedule__assessment-row");
+    var resourceDomain = getResourceDomain(cell);
 
     clearScheduleHover();
+    if (resourceDomain) {
+      highlightResourceDomain(resourceDomain);
+    }
+    if (isEmptyResourceCell(cell)) {
+      return;
+    }
     if (assessmentRow) {
       highlightAssessment(assessmentRow, cell);
       return;
@@ -229,6 +350,21 @@
       highlightWeek();
     }
   }
+
+  Array.prototype.forEach.call(resourceDomainElements, function (element) {
+    element.addEventListener("pointerenter", function (event) {
+      if (event.pointerType === "touch" || isHoverLocked()) {
+        return;
+      }
+      highlightResourceDomain(getResourceDomain(element));
+    });
+    element.addEventListener("pointerleave", function (event) {
+      if (event.pointerType === "touch" || isHoverLocked()) {
+        return;
+      }
+      clearResourceDomainHover();
+    });
+  });
 
   function clearTouchFeedback() {
     touchTracking = null;
@@ -338,6 +474,10 @@
         if (event.pointerType === "touch" || isHoverLocked()) {
           return;
         }
+        if (isEmptyResourceCell(hoveredCell)) {
+          clearAssessmentHighlight(row);
+          return;
+        }
         highlightAssessment(row, hoveredCell);
       });
     });
@@ -345,11 +485,7 @@
       if (event.pointerType === "touch" || isHoverLocked()) {
         return;
       }
-      row.classList.remove("is-assessment-hovered");
-      Array.prototype.forEach.call(row.cells, function (cell) {
-        cell.classList.remove("is-assessment-hovered");
-      });
-      frameHoveredGroup(row.cells, "is-assessment-hovered", "assessment");
+      clearAssessmentHighlight(row);
     });
   });
 
