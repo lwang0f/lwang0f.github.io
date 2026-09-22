@@ -153,7 +153,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th rowspan="2" id="schedule-week-3" class="course-schedule__week" data-week="3">第 3 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="3" headers="schedule-week-3 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 3 章 随机过程</button></th>
           <td rowspan="2" data-week="3" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
-          <td rowspan="2" data-week="3" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">Pre</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
+          <td rowspan="2" data-week="3" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek3.pdf" aria-label="第 3 周 Pre">Pre</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreSolutionWeek3.pdf" aria-label="第 3 周 Pre 答案">答案</a></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="4" headers="schedule-week-3 schedule-content" id="schedule-chapter-4"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 4 章 信道</button></th>
@@ -165,7 +165,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th scope="row" class="course-schedule__week">第 3 周末</th>
           <td class="course-schedule__content course-schedule__content--week-end course-schedule__assessment-content"><span>第 1 次阶段考试</span><span>（1小时开卷）</span></td>
           <td class="course-schedule__resources course-schedule__resources--empty"></td>
-          <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">试卷</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
+          <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/Exam1.pdf" aria-label="第 3 周末阶段考试试卷">试卷</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/Exam1Solution.pdf" aria-label="第 3 周末阶段考试答案">答案</a></div></td>
         </tr>
         <tr>
           <th rowspan="2" id="schedule-week-4" class="course-schedule__week" data-week="4">第 4 周</th>
