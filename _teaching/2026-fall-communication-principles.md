@@ -171,7 +171,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th rowspan="2" id="schedule-week-4" class="course-schedule__week" data-week="4">第 4 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="4" headers="schedule-week-4 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 4 章 信道</button></th>
           <td rowspan="2" data-week="4" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
-          <td rowspan="2" data-week="4" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">Pre</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
+          <td rowspan="2" data-week="4" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek4.pdf" aria-label="第 4 周 Pre">Pre</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreSolutionWeek4.pdf" aria-label="第 4 周 Pre 答案">答案</a></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="5" headers="schedule-week-4 schedule-content" id="schedule-chapter-5"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 5 章 模拟调制系统</button></th>
