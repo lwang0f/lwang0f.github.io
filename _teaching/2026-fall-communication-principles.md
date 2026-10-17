@@ -183,7 +183,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th scope="row" id="schedule-week-5" class="course-schedule__week" data-week="5">第 5 周</th>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="5" headers="schedule-week-5 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 5 章 模拟调制系统</button></th>
           <td data-week="5" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
-          <td data-week="5" class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek5.pdf" aria-label="第 5 周 Pre">Pre</a><span class="course-schedule__resource-placeholder">答案</span></div></td>
+          <td data-week="5" class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek5.pdf" aria-label="第 5 周 Pre">Pre</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreSolutionWeek5.pdf" aria-label="第 5 周 Pre 答案">答案</a></div></td>
         </tr>
         <tr>
           <th rowspan="2" id="schedule-week-6" class="course-schedule__week" data-week="6">第 6 周</th>
