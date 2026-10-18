@@ -36,6 +36,13 @@ redirect_from:
 
 <section class="home-updates" aria-labelledby="news-title">
   <h2 id="news-title">News</h2>
+  <h3><time datetime="2025-10">October 2025</time></h3>
+    <ul class="home-news-list">
+    <li class="home-news-item">
+      <p class="home-news-item__text">Mitigating Ill-Posedness in SAR Ionospheric Tomography Towards Multi-Satellite Collaboration, <em>IEEE Transactions on Geoscience and Remote Sensing</em>, is <a href="https://xplorestaging.ieee.org/document/11718875/" target="_blank" rel="noopener noreferrer">online</a>.</p>
+    </li>
+  </ul>
+
   <h3><time datetime="2025-08">August 2025</time></h3>
   <ul class="home-news-list">
     <li class="home-news-item">
