@@ -213,7 +213,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th scope="row" class="course-schedule__week">第 7 周末</th>
           <td class="course-schedule__content course-schedule__content--week-end course-schedule__assessment-content"><span>第 2 次阶段考试</span><span>（1小时开卷）</span></td>
           <td class="course-schedule__resources course-schedule__resources--empty"></td>
-          <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">试卷</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
+          <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/Exam2.pdf" aria-label="第 7 周末阶段考试试卷">试卷</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/Exam2Solution.pdf" aria-label="第 7 周末阶段考试答案">答案</a></div></td>
         </tr>
         <tr>
           <th rowspan="2" id="schedule-week-8" class="course-schedule__week" data-week="8">第 8 周</th>
