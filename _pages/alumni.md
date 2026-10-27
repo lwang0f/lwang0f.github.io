@@ -19,7 +19,7 @@ author_profile: true
 
 **Yihao Pan (潘毅豪, 2026 B.Eng.)**: Currently pursuing an M.Eng. at Hong Kong Baptist University.
 
-**Yihao Pan (陈文浩, 2026 B.Eng.)**: Currently pursuing an M.Eng. at Beijing Jiaotong University.
+**Wenhao Chen (陈文浩, 2026 B.Eng.)**: Currently pursuing an M.Eng. at Beijing Jiaotong University.
 
 **Zhirong Su (粟志荣, 2026 B.Eng.)**: Currently pursuing an M.Eng. at Hainan University.
 
@@ -31,9 +31,9 @@ author_profile: true
 
 **Yujun Liu (刘俞均, 2026 B.Eng.)**: Currently in Guangxi Road and Bridge Engineering Group (Project Manager).
 
-**Yujun Liu (刘星慈, 2026 B.Eng.)**: Currently in Chongzuo Branch of China Mobile Communications (Government & Enterprise Client Service).
+**Xinci Liu (刘星慈, 2026 B.Eng.)**: Currently in Chongzuo Branch of China Mobile Communications (Government & Enterprise Client Service).
 
-**Yujun Liu (韦佳伶, 2026 B.Eng.)**: Currently in Wuzhou Branch of China Mobile Communications (Government & Enterprise Client Service).
+**Jialing Wei (韦佳伶, 2026 B.Eng.)**: Currently in Wuzhou Branch of China Mobile Communications (Government & Enterprise Client Service).
 
 ### 2025
 **De Huang (黄德, 2025 B.Eng.)**: Currently pursuing an M.Eng. at Guangzhou University.
