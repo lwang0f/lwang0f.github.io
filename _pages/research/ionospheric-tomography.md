@@ -32,4 +32,4 @@ The inverse problem remains underdetermined because the available rays are spars
 
 ## Related publications
 
-[J3](/research/#J3), [J4](/research/#J4), [J5](/research/#J5), [J10](/research/#J10)
+[J11](/research/#J11), [J3](/research/#J3), [J4](/research/#J4), [J5](/research/#J5), [J10](/research/#J10)
