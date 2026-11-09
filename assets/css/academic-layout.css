@@ -1518,6 +1518,10 @@
   margin: 0;
 }
 
+.home-news-item__description {
+  margin-top: 0.45em;
+}
+
 .home-news-photo {
   margin: 12px 0 0;
   max-width: 340px;
