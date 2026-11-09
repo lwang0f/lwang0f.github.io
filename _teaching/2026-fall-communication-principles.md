@@ -219,7 +219,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th rowspan="2" id="schedule-week-8" class="course-schedule__week" data-week="8">第 8 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="7" headers="schedule-week-8 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 7 章 数字带通传输</button></th>
           <td rowspan="2" data-week="8" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
-          <td rowspan="2" data-week="8" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">Pre</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
+          <td rowspan="2" data-week="8" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek8.pdf" aria-label="第 8 周 Pre">Pre</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreSolutionWeek8.pdf" aria-label="第 8 周 Pre 答案">答案</a></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="8" headers="schedule-week-8 schedule-content" id="schedule-chapter-8"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 8 章 新型数字带通调制</button></th>
@@ -231,7 +231,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th rowspan="2" id="schedule-week-9" class="course-schedule__week" data-week="9">第 9 周</th>
           <th scope="row" class="course-schedule__content" data-chapter="8" headers="schedule-week-9 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 8 章 新型数字带通调制</button></th>
           <td rowspan="2" data-week="9" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
-          <td rowspan="2" data-week="9" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">Pre</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
+          <td rowspan="2" data-week="9" class="course-schedule__resources course-schedule__resources--exam-resources course-schedule__resources--shared"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek9.pdf" aria-label="第 9 周 Pre">Pre</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreSolutionWeek9.pdf" aria-label="第 9 周 Pre 答案">答案</a></div></td>
         </tr>
         <tr>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="10" headers="schedule-week-9 schedule-content" id="schedule-chapter-10"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 10 章 信源编码</button></th>
@@ -243,7 +243,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th scope="row" id="schedule-week-10" class="course-schedule__week" data-week="10">第 10 周</th>
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="10" headers="schedule-week-10 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 10 章 信源编码</button></th>
           <td data-week="10" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
-          <td data-week="10" class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">Pre</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
+          <td data-week="10" class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek10.pdf" aria-label="第 10 周 Pre">Pre</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreSolutionWeek10.pdf" aria-label="第 10 周 Pre 答案">答案</a></div></td>
         </tr>
         <tr class="course-schedule__assessment-row course-schedule__assessment-row--extended-divider" id="course-schedule-assessment-3" data-week="10">
           <th scope="row" class="course-schedule__week">第 10 周末</th>
