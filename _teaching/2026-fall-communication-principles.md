@@ -52,7 +52,7 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
         </details>
         <details class="course-assessment__item">
           <summary><span>阶段考试</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
-          <div class="course-assessment__item-content">共 3 次，分别安排在<a class="course-assessment__tool-link" href="#course-schedule-assessment-1" data-course-tool-target="course-schedule-assessment-1">第 3 周</a>、<a class="course-assessment__tool-link" href="#course-schedule-assessment-2" data-course-tool-target="course-schedule-assessment-2">第 7 周</a>和<a class="course-assessment__tool-link" href="#course-schedule-assessment-3" data-course-tool-target="course-schedule-assessment-3">第 10 周</a>周末。</div>
+          <div class="course-assessment__item-content">共 3 次，分别安排在<a class="course-assessment__tool-link" href="#course-schedule-assessment-1" data-course-tool-target="course-schedule-assessment-1">第 3 周</a>、<a class="course-assessment__tool-link" href="#course-schedule-assessment-2" data-course-tool-target="course-schedule-assessment-2">第 7 周</a>和第 10 周末。</div>
         </details>
         <details class="course-assessment__item">
           <summary><span>大作业</span><strong>20%</strong><span class="course-assessment__toggle" aria-hidden="true"></span></summary>
@@ -244,13 +244,6 @@ teaching_meta: '<span class="course-teaching-meta">周一，第1-3节，学友�
           <th scope="row" class="course-schedule__content course-schedule__content--week-end" data-chapter="10" headers="schedule-week-10 schedule-content"><button type="button" class="course-schedule__chapter-trigger" aria-pressed="false">第 10 章 信源编码</button></th>
           <td data-week="10" class="course-schedule__resources course-schedule__resources--notes"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">板书</span></div></td>
           <td data-week="10" class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreWeek10.pdf" aria-label="第 10 周 Pre">Pre</a><a class="course-schedule__resource-link--exam" href="/files/communication-principles/PreSolutionWeek10.pdf" aria-label="第 10 周 Pre 答案">答案</a></div></td>
-        </tr>
-        <tr class="course-schedule__assessment-row course-schedule__assessment-row--extended-divider" id="course-schedule-assessment-3" data-week="10">
-          <th scope="row" class="course-schedule__week">第 10 周末</th>
-          <td class="course-schedule__content course-schedule__content--week-end course-schedule__assessment-content"><span>第 3 次阶段考试</span><span>（1小时开卷）</span></td>
-          <td class="course-schedule__resources course-schedule__resources--empty"></td>
-          <td class="course-schedule__resources course-schedule__resources--notes"></td>
-          <td class="course-schedule__resources course-schedule__resources--exam-resources"><div class="course-schedule__resource-group"><span class="course-schedule__resource-placeholder">试卷</span><span class="course-schedule__resource-placeholder">答案</span></div></td>
         </tr>
         <tr class="course-schedule__assessment-row course-schedule__late-weeks-row">
           <th scope="row" class="course-schedule__week">11 至 15 周</th>
