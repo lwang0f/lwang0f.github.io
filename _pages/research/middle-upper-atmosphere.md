@@ -26,4 +26,4 @@ Signal-processing methods address this problem through median filtering, antenna
 
 ## Related publications
 
-[J6](/research/#J6), [J7](/research/#J7), [J8](/research/#J8), [J9](/research/#J9)
+[J12](/research/#J12), [J6](/research/#J6), [J7](/research/#J7), [J8](/research/#J8), [J9](/research/#J9)
