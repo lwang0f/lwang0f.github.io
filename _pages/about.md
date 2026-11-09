@@ -39,7 +39,7 @@ redirect_from:
   <h3><time datetime="2026-11">Nov 2026</time></h3>
   <ul class="home-news-list">
     <li class="home-news-item">
-      <p class="home-news-item__text"><a href="https://xplorestaging.ieee.org/document/11751681" target="_blank" rel="noopener noreferrer">Conditional Cramér–Rao Bound Analysis of Medium-Frequency Radar Horizontal Wind Retrieval and Comparison With Full Correlation Analysis</a>, <em>IEEE Transactions on Geoscience and Remote Sensing</em>, is online.</p>
+      <p class="home-news-item__text">Conditional Cramér–Rao Bound Analysis of Medium-Frequency Radar Horizontal Wind Retrieval and Comparison With Full Correlation Analysis, <em>IEEE Transactions on Geoscience and Remote Sensing</em>, is <a href="https://xplorestaging.ieee.org/document/11751681" target="_blank" rel="noopener noreferrer">online</a>.</p>
       <p class="home-news-item__text home-news-item__description">This study applies Fisher-information analysis to MF-radar wind retrieval and derives a closed-form conditional Cramér–Rao lower bound, establishing a quantitative benchmark for the lowest achievable retrieval uncertainty under its signal model.</p>
     </li>
   </ul>
